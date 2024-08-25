@@ -1,0 +1,194 @@
+/* TagCloud.css */
+
+.containercanvas {
+  background: url("../../../assests/BG.png") #1e3f5f;
+
+  background-size: 40% auto;
+  background-position: center;
+  padding: 0;
+}
+
+/* .tags {
+ 
+    background: url("../../../assests/globe.png") center center no-repeat;
+    object-fit: cover;
+    width: 50%;
+  } */
+
+.tags ul {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.tags li {
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.tags li:hover {
+  color: #008cba;
+}
+
+/* Different floating effects for each tag */
+.floating-tag-1 {
+  animation: float1 4s ease-in-out infinite;
+}
+
+.floating-tag-2 {
+  animation: float2 5s ease-in-out infinite;
+}
+
+.floating-tag-3 {
+  animation: float3 4.5s ease-in-out infinite;
+}
+
+.floating-tag-4 {
+  animation: float4 5.5s ease-in-out infinite;
+}
+
+.floating-tag-5 {
+  animation: float5 6s ease-in-out infinite;
+}
+
+/* Add more animations as needed for additional tags */
+
+/* Keyframes for different floating animations with more vertical movement */
+@keyframes float1 {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  25% {
+    transform: translateY(-30px) translateX(20px);
+  }
+  50% {
+    transform: translateY(0) translateX(40px);
+  }
+  75% {
+    transform: translateY(30px) translateX(-20px);
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
+
+@keyframes float2 {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  25% {
+    transform: translateY(40px) translateX(-20px);
+  }
+  50% {
+    transform: translateY(-20px) translateX(-10px);
+  }
+  75% {
+    transform: translateY(-40px) translateX(30px);
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
+
+@keyframes float3 {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  25% {
+    transform: translateY(-30px) translateX(-40px);
+  }
+  50% {
+    transform: translateY(40px) translateX(30px);
+  }
+  75% {
+    transform: translateY(-40px) translateX(-30px);
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
+
+@keyframes float4 {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  25% {
+    transform: translateY(30px) translateX(-20px);
+  }
+  50% {
+    transform: translateY(-40px) translateX(40px);
+  }
+  75% {
+    transform: translateY(40px) translateX(-30px);
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
+
+@keyframes float5 {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  25% {
+    transform: translateY(-40px) translateX(20px);
+  }
+  50% {
+    transform: translateY(30px) translateX(-30px);
+  }
+  75% {
+    transform: translateY(-30px) translateX(20px);
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
+@keyframes float6 {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  25% {
+    transform: translateY(-40px) translateX(20px);
+  }
+  50% {
+    transform: translateY(30px) translateX(-30px);
+  }
+  75% {
+    transform: translateY(-30px) translateX(20px);
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
+
+.details-box {
+  /* flex: 2;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  background: url(https://www.awzpact.com//images/vector.png) no-repeat bottom
+    #0b1e2c;
+  background-size: 100% 400px;
+  opacity: 0.8;
+}
+
+.details-content {
+  font-size: 1.2em;
+  line-height: 50px;
+  /* color: #333; */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.details-placeholder {
+  color: #aaa;
+}

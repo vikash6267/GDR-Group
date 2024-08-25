@@ -22,6 +22,8 @@ function App() {
       <NavbarMain />
       <Home />
       <Footer />
+
+
     </div>
   );
 }
