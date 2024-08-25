@@ -5,12 +5,13 @@ import Home from "./pages/Home";
 import Modal from "./components/core/Home/Modal";
 import SubNavbar from "./components/common/SubNavbar";
 import SubNav2 from "./components/common/SubNav2";
-
+import { Routes, Route } from "react-router-dom";
+import Contact from "./pages/Contact";
+import AboutHome from "./components/core/Home/AboutHome";
 function App() {
   const [showModal, setShowModal] = useState(true);
 
   useEffect(() => {
-    // Logic to show modal initially or based on a condition
     setShowModal(true);
   }, []);
 
@@ -24,10 +25,14 @@ function App() {
       <SubNavbar />
       <SubNav2 />
       <NavbarMain />
-      <Home />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<AboutHome />} />
+      </Routes>
+
       <Footer />
-
-
     </div>
   );
 }

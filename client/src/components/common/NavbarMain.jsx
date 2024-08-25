@@ -37,7 +37,7 @@ function NavbarMain() {
 
                 {/* Sublinks dropdown */}
                 {link.sublink && (
-                  <ul className="absolute left-0 mt-2 bg-gray-700 border rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-50">
+                  <ul className="absolute left-0 mt-2 bg-gray-700 border  rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
                     {link.sublink.map((sublink, index) => (
                       <li key={index} className="px-4 py-2 hover:bg-red-600">
                         <Link
