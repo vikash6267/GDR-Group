@@ -7,6 +7,8 @@ import { Fade } from "react-awesome-reveal";
 import CommanText from "../components/core/Home/CommanText";
 import TagCloudWithDetails from "../components/core/Home/CanvasRotation";
 import Gallery from "../components/core/Home/Gallery";
+import Project from "../components/core/Home/Project";
+import Process from "../components/core/Home/Process";
 
 function Home() {
   return (
@@ -17,9 +19,15 @@ function Home() {
         <AboutHome />
       </Fade>
       <Services />
-      <CommanText text={"This is dummy text"} />
+      <CommanText
+        text={
+          "If you want to join us and invest then you are welcome to GDR Group"
+        }
+      />
       <Company />
       <Gallery />
+      <Project />
+      <Process />
     </div>
   );
 }
