@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap");
 
 * {
   margin: 0;
@@ -13,7 +14,15 @@ html,
 body {
   overflow-x: hidden;
 }
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
 
-
-
-  
+.animate-scroll {
+  animation: scroll 25s linear infinite;
+}

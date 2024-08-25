@@ -9,7 +9,6 @@ const Modal = ({ onClose }) => {
           <AiOutlineClose size={24} />
         </button>
         <div className="text-center">
-          {/* Replace the src with your image or video URL */}
           <video
             src="your-video-url.mp4"
             controls
