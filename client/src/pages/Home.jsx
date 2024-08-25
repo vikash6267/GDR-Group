@@ -5,6 +5,8 @@ import Company from "../components/core/Home/Company";
 import Services from "../components/core/Home/Services";
 import { Fade } from "react-awesome-reveal";
 import CommanText from "../components/core/Home/CommanText";
+import CanvasRotation from "../components/core/Home/CanvasRotation";
+import Gallery from "../components/core/Home/Gallery";
 
 function Home() {
   return (
@@ -17,6 +19,7 @@ function Home() {
       <Services />
       <CommanText text={"This is dummy text"} />
       <Company />
+      <Gallery />
     </div>
   );
 }
