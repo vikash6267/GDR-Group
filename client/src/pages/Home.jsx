@@ -5,12 +5,13 @@ import Company from "../components/core/Home/Company";
 import Services from "../components/core/Home/Services";
 import { Fade } from "react-awesome-reveal";
 import CommanText from "../components/core/Home/CommanText";
+import TagCloudWithDetails from "../components/core/Home/CanvasRotation";
 
 function Home() {
   return (
     <div>
       <Slider />
-      <CanvasRotation />
+      <TagCloudWithDetails />
       <Fade>
         <AboutHome />
       </Fade>
