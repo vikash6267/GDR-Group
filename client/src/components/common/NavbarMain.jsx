@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaChevronDown, FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import logo from "../../assests/logos/gdrgruop.jpg";
 import { navlinks } from "../../data/navlink";
 
@@ -19,22 +20,32 @@ function NavbarMain() {
     <div className="w-screen h-[70px] shadow-md bg-gray-800 text-white">
       <div className="flex items-center justify-between w-11/12 mx-auto">
         {/* Desktop Menu */}
-        <div className="hidden md:flex lg:flex items-center space-x-8 justify-between w-full">
-          <img src={logo} alt="GDR Logo" className="h-16" />
+        <div className="hidden md:flex lg:flex items-center space-x-8 justify-center my-5 w-full">
+          <img src={logo} alt="GDR Logo" className="h-16 lg:hidden" />
           <ul className="flex space-x-8">
             {navlinks?.map((link) => (
               <li key={link.id} className="relative group">
-                <a href={link.path} className="text-lg font-semibold flex items-center">
+                <Link
+                  to={link.path}
+                  className="text-lg font-semibold flex items-center border-b-4 border-transparent hover:border-red-700 transition-all duration-300"
+                >
                   {link.title}
-                  {link.sublink && <FaChevronDown className="inline ml-1 transition-transform duration-200" />}
-                </a>
+                  {link.sublink && (
+                    <FaChevronDown className="inline ml-1 transition-transform duration-200" />
+                  )}
+                </Link>
 
                 {/* Sublinks dropdown */}
                 {link.sublink && (
                   <ul className="absolute left-0 mt-2 bg-gray-700 border rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-50">
                     {link.sublink.map((sublink, index) => (
-                      <li key={index} className="px-4 py-2 hover:bg-gray-600">
-                        <a href="#" className="text-white">{sublink}</a>
+                      <li key={index} className="px-4 py-2 hover:bg-red-600">
+                        <Link
+                          to="#"
+                          className="text-white border-transparent  transition-all duration-300"
+                        >
+                          {sublink}
+                        </Link>
                       </li>
                     ))}
                   </ul>
@@ -68,10 +79,10 @@ function NavbarMain() {
         <ul className="flex flex-col mt-4">
           {navlinks?.map((link) => (
             <li key={link.id} className="relative">
-              <a
-                href={link.path}
+              <Link
+                to={link.path}
                 onClick={() => link.sublink && handleLinkClick(link.id)}
-                className=" px-4 py-2 text-lg font-semibold flex items-center justify-between text-white hover:bg-gray-700 transition-colors duration-300"
+                className=" px-4 py-2 text-lg font-semibold flex items-center justify-between text-white border-b-2 border-transparent hover:border-red-500 transition-all duration-300"
               >
                 {link.title}
                 {link.sublink && (
@@ -81,14 +92,19 @@ function NavbarMain() {
                     }`}
                   />
                 )}
-              </a>
+              </Link>
 
               {/* Sublinks dropdown for mobile */}
               {link.sublink && activeMenu === link.id && (
                 <ul className="pl-4 bg-gray-600">
                   {link.sublink.map((sublink, index) => (
                     <li key={index} className="py-2 hover:bg-gray-500">
-                      <a href="#" className="text-white">{sublink}</a>
+                      <Link
+                        to="#"
+                        className="text-white border-b-2 border-transparent hover:border-red-500 transition-all duration-300"
+                      >
+                        {sublink}
+                      </Link>
                     </li>
                   ))}
                 </ul>

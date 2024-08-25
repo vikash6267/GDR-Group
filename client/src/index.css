@@ -26,3 +26,15 @@ body {
 .animate-scroll {
   animation: scroll 25s linear infinite;
 }
+.sub-navbar-container {
+  background-color: #f0f0f0; /* Replace with your desired background color */
+}
+
+.icon-container {
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.icon-container:hover {
+  transform: rotate(360deg);
+}
