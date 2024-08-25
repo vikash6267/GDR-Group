@@ -10,6 +10,7 @@ function Home() {
   return (
     <div>
       <Slider />
+      <CanvasRotation />
       <Fade>
         <AboutHome />
       </Fade>
