@@ -58,20 +58,20 @@ const SubNavbar = () => {
   return (
     <div className="sub-navbar-container border-b-2 border-black">
       <div className="main max-w-7xl mx-auto lg:flex lg:justify-between hidden p-5 border-b border-gray-400">
-        <div className="first text-black text-xl  border-gray-400 pr-2">
+        <div className="first text-black text-xl border-gray-400 pr-2">
           {formattedDate}
         </div>
-        <div className="second flex gap-4  border-gray-400 pl-2">
-          <div className="icon-container ">
+        <div className="second flex gap-4 border-gray-400 pl-2">
+          <div className="icon-container text-blue-600 hover:text-blue-800">
             <FaFacebook size={22} />
           </div>
-          <div className="icon-container">
+          <div className="icon-container text-pink-500 hover:text-pink-700">
             <FaInstagram size={22} />
           </div>
-          <div className="icon-container">
+          <div className="icon-container text-red-600 hover:text-red-800">
             <FaYoutube size={22} />
           </div>
-          <div className="icon-container">
+          <div className="icon-container text-blue-700 hover:text-blue-900">
             <FaLinkedin size={22} />
           </div>
         </div>
