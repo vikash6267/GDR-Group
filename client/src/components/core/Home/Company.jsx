@@ -8,17 +8,27 @@ const company = [
   {
     img: home,
     title: "RKS Homes",
-    desc: "This is the description for Home.",
-  },
-  {
-    img: milk,
-    title: "Ri Si Home Food",
-    desc: "This is the description for Milk.",
+    desc: "RKS Homes is a real estate company specializing in the sale of agricultural lands. We are committed to helping our clients find the perfect piece of land for their farming or ranching needs. Our team of real estate professionals has extensive knowledge of the local agricultural market and can provide valuable insights and guidance to help our clients make informed decisions.",
   },
   {
     img: food,
+    title: "Ri Si Home Food",
+    desc: "Ri Si Home Food is a company that specializes in selling a wide range of spices and dry food items for home cooking. Our aim is to provide our customers with high-quality products that will enhance the flavor of their dishes and make their cooking experience more enjoyable.",
+  },
+  {
+    img: milk,
     title: "SRS Foods",
-    desc: "This is the description for Food.",
+    desc: "SRS Cattle and Milk Food Company owns 2 brands – “Shree Ji 72” & “Shree Ji Milk Products“.is a manufacturer of milk products like milk, butter, clarified butter, cottage cheese, ice cream etc. The company was founded in the year 2018 and is headquartered in Bhopal, India..",
+  },
+  {
+    img: "https://5.imimg.com/data5/SELLER/Default/2023/3/DW/RJ/XB/37290892/monkey-hoist-or-mini-lift-500x500.jpeg",
+    title: "New RK Constructions",
+    desc: "New RK Constructions is a leading construction company that specializes in a wide range of civil works. We have extensive experience in delivering construction projects for both government and private bodies.",
+  },
+  {
+    img: "https://endura-steel.com/wp-content/uploads/2023/06/steel-facts.jpg",
+    title: "72 GDR Steel",
+    desc: "72 GDR Steel is a company that specializes in the production and distribution of high-quality steel products. The company’s main focus is on TMT iron rods, which are used in the construction industry for the reinforcement of concrete structures.",
   },
 ];
 
@@ -46,7 +56,7 @@ const Company = () => {
               key={index}
               className="relative card rounded-lg  cursor-pointer group shadow-xl shadow-pink-500 "
             >
-              <div className="h-full relative">
+              <div className="h-[55vh] relative">
                 <img
                   src={currElem.img}
                   alt={currElem.title}
@@ -57,7 +67,7 @@ const Company = () => {
                 </p>
               </div>
               <div className="absolute inset-0  top-48 flex bg-yellow-500 p-4 text-black opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100">
-                <p className="z-10 text-xl">{currElem.desc}</p>
+                <p className="z-10 text-sm">{currElem.desc}</p>
               </div>
             </div>
           ))}

@@ -1,23 +1,46 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
+import home from "../../../assests/home/h2.jpg";
 const services = [
   {
-    image: "https://5.imimg.com/data5/SELLER/Default/2023/3/DW/RJ/XB/37290892/monkey-hoist-or-mini-lift-500x500.jpeg",
-    title: "Service 1",
+    image:
+      "https://5.imimg.com/data5/SELLER/Default/2023/3/DW/RJ/XB/37290892/monkey-hoist-or-mini-lift-500x500.jpeg",
+    title: "New RK Constructor",
     subtitle: "Best Service Ever",
-    description: "This is a detailed description of Service 1.",
+    description:
+      "New RK Constructions is a leading construction company that specializes in a wide range of civil works. We have extensive experience in delivering construction projects for both government and private bodies",
+    link: "construction-home",
   },
   {
-    image: "https://5.imimg.com/data5/SELLER/Default/2022/7/HJ/RA/RN/26624004/whatsapp-image-2022-07-19-at-11-15-10-pm-500x500.jpeg",
-    title: "Service 2",
-    subtitle: "Excellent Support",
-    description: "This is a detailed description of Service 2.",
+    image: home,
+    title: "RKS Home",
+    subtitle: "Excellent Home ",
+    description:
+      "RKS Homes is a real estate company specializing in the sale of agricultural lands. We are committed to helping our clients find the perfect piece of land for their farming or ranching needs. Our team of real estate professionals has extensive knowledge of the local agricultural market and can provide valuable insights and guidance to help our clients make informed decisions.",
   },
   {
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZugvRDMgNs8RwtTwcGW0406zQ7hcFYVUtmg&s",
-    title: "Service 3",
-    subtitle: "Quality Assurance",
-    description: "This is a detailed description of Service 3.",
+    image:
+      "https://gdrgroup.in/wp-content/uploads/2022/12/Shree-Ji-225x300.png",
+    title: "SRK Food",
+    subtitle: "Bes Quality Assurance",
+    description:
+      "SRS Cattle and Milk Food Company owns 2 brands – “Shree Ji 72” & “Shree Ji Milk Products“.is a manufacturer of milk products like milk, butter, clarified butter, cottage cheese, ice cream etc. The company was founded in the year 2018 and is headquartered in Bhopal, India.",
+  },
+  {
+    image:
+      "https://5.imimg.com/data5/SELLER/Default/2022/7/HJ/RA/RN/26624004/whatsapp-image-2022-07-19-at-11-15-10-pm-500x500.jpeg",
+    title: "Ri Si Home Food",
+    subtitle: "Best Quality Assurance",
+    description:
+      "Ri Si Home Food is a company that specializes in selling a wide range of spices and dry food items for home cooking. Our aim is to provide our customers with high-quality products that will enhance the flavor of their dishes and make their cooking experience more enjoyable.",
+  },
+  {
+    image:
+      "https://gdrgroup.in/wp-content/uploads/2023/02/10-STAINLESS-STEEL-REBAR.webp",
+    title: "72 GDR Steel",
+    subtitle: " Quality Assurance",
+    description:
+      "72 GDR Steel is a company that specializes in the production and distribution of high-quality steel products. The company’s main focus is on TMT iron rods, which are used in the construction industry for the reinforcement of concrete structures.",
   },
 ];
 
@@ -57,13 +80,16 @@ const Services = () => {
               <p className="text-sm">{service.subtitle}</p>
             </div>
             {/* Hidden content */}
-            <div className="absolute inset-0 bg-white flex flex-col justify-center items-center text-center p-4 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out z-20">
+            <div className="absolute inset-0 bg-pink-500 flex flex-col justify-center items-center text-center p-4 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out z-20">
               <h2 className="text-xl font-bold">{service.title}</h2>
               <p className="text-sm">{service.subtitle}</p>
               <p className="mt-4 text-gray-800">{service.description}</p>
-              <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors duration-300">
+              <Link
+                to={service.link}
+                className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors duration-300"
+              >
                 Read More
-              </button>
+              </Link>
             </div>
           </div>
         ))}

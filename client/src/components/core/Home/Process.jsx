@@ -37,12 +37,12 @@ const Process = () => {
   ];
 
   return (
-    <div className="">
+    <div className="mb-5">
       <div
         className="relative bg-cover bg-center text-white"
         style={{ backgroundImage: `url('/path/to/your/background-image.jpg')` }}
       >
-        <div className="absolute inset-0 bg-black opacity-70"></div>
+        <div className="absolute inset-0 bg-[#18191b] "></div>
         <div className="relative z-10 container mx-auto py-16 text-center">
           <h2 className="text-4xl font-semibold mb-8">OUR PROCESS</h2>
           <div className="flex flex-col sm:flex-row justify-center space-y-6 sm:space-y-0 sm:space-x-6 relative">
