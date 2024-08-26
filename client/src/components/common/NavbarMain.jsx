@@ -17,7 +17,7 @@ function NavbarMain() {
   };
 
   return (
-    <div className="w-screen h-[70px] shadow-md bg-gray-800 text-white">
+    <div className="w-screen h-[70px] shadow-md bg-[#18191b] text-white">
       <div className="flex items-center justify-between w-11/12 mx-auto">
         {/* Desktop Menu */}
         <div className="hidden md:flex lg:flex items-center space-x-8 justify-center my-5 w-full">

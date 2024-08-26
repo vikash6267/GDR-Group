@@ -1,36 +1,61 @@
 import React, { useState } from "react";
-import logo from "../../../assests/logos/gdrgruop.jpg";
-
+import home1 from "../../../assests/home/h1.jpg";
+import home2 from "../../../assests/home/h2.jpg";
+import home3 from "../../../assests/home/h3.jpg";
+import home4 from "../../../assests/home/h4.jpg";
+import c5 from "../../../assests/constructor/c5.jpg";
+import c6 from "../../../assests/constructor/c6.jpg";
+import c7 from "../../../assests/constructor/c7.jpg";
+import c8 from "../../../assests/constructor/c8.jpg";
+import { Link } from "react-router-dom";
 const Project = () => {
   const tabs = [
-    { id: 1, name: "All Projects" },
-    { id: 2, name: "Commercial" },
-    { id: 3, name: "Hospitality" },
-    { id: 4, name: "Office" },
-    { id: 5, name: "Residential" },
+    { id: 1, name: "RK Constructor" },
+    { id: 2, name: "RKS Homes" },
+    { id: 3, name: "SRS Food" },
+    { id: 4, name: "Ri Si Home Food" },
+    { id: 5, name: "72 GDR Steel" },
   ];
 
   const projects = {
     1: [
-      { id: 1, name: "Project 1", src: logo },
-      { id: 2, name: "Project 2", src: logo },
-      { id: 3, name: "Project 3", src: logo },
+      {
+        id: 1,
+        name: "Infrastructure projects",
+        src: c5,
+        link: "construction-home",
+      },
+      {
+        id: 2,
+        name: "Commercial buildings",
+        src: c6,
+        link: "construction-home",
+      },
+      {
+        id: 3,
+        name: "Government facilities",
+        src: c7,
+        link: "construction-home",
+      },
+      { id: 4, name: "Industrial sites", src: c8, link: "construction-home" },
     ],
     2: [
-      { id: 4, name: "Commercial 1", src: logo },
-      { id: 5, name: "Commercial 2", src: logo },
+      { id: 4, name: "Commercial 1", src: home1 },
+      { id: 5, name: "Commercial 2", src: home2 },
+      { id: 6, name: "Commercial 3", src: home3 },
+      { id: 7, name: "Commercial 4", src: home4 },
     ],
     3: [
-      { id: 6, name: "Hospitality 1", src: logo },
-      { id: 7, name: "Hospitality 2", src: logo },
+      { id: 8, name: "Hospitality 1", src: "logo" },
+      { id: 9, name: "Hospitality 2", src: "logo" },
     ],
     4: [
-      { id: 8, name: "Office 1", src: logo },
-      { id: 9, name: "Office 2", src: logo },
+      { id: 10, name: "Office 1", src: "logo" },
+      { id: 11, name: "Office 2", src: "logo" },
     ],
     5: [
-      { id: 10, name: "Residential 1", src: logo },
-      { id: 11, name: "Residential 2", src: logo },
+      { id: 12, name: "Residential 1", src: "logo" },
+      { id: 13, name: "Residential 2", src: "logo" },
     ],
   };
 
@@ -43,23 +68,23 @@ const Project = () => {
       setTimeout(() => {
         setActiveTab(id);
         setIsTransitioning(false);
-      }, 300);
+      }, 300); // Match duration with CSS transition
     }
   };
 
   return (
-    <div className="my-10">
-      <div className="bg-gray-900">
+    <div className="mt-10">
+      <div className="bg-[#18191b] py-10">
         {/* Tabs */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div>
           <div className="flex flex-wrap space-x-4 border-b justify-center border-gray-700">
             {tabs.map((tab) => (
               <button
                 key={tab.id}
-                className={`text-white py-3 px-6 text-sm font-medium ${
+                className={`py-3 px-6 text-sm font-medium ${
                   activeTab === tab.id
-                    ? "border-b-2 bg-yellow-600 text-white"
-                    : "hover:text-white"
+                    ? "bg-yellow-600 text-white"
+                    : "text-white hover:text-yellow-400"
                 }`}
                 onClick={() => handleTabClick(tab.id)}
               >
@@ -69,28 +94,33 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+        <div className="py-5">
           <div
-            className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 transition-opacity duration-300 ${
+            className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  transition-opacity duration-300 ${
               isTransitioning ? "opacity-0" : "opacity-100"
             }`}
           >
-            {projects[activeTab].map((project) => (
-              <div key={project.id} className="relative overflow-hidden group">
-                <div className="w-full h-48">
-                  <img
-                    src={project.src}
-                    alt={project.name}
-                    className="w-full h-full object-cover transition-transform duration-500 ease-in-out transform group-hover:scale-110"
-                  />
-                </div>
+            {projects[activeTab]?.map((project) => (
+              <Link
+                to={project.link}
+                key={project.id}
+                className="relative overflow-hidden group"
+              >
+                <img
+                  src={project.src}
+                  alt={project.name}
+                  className="w-full h-80 object-cover transition-transform duration-500 ease-in-out transform group-hover:scale-110"
+                />
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-500 ease-in-out">
                   <span className="text-white text-lg">{project.name}</span>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
+        <br />
+        <br />
+        <br />
       </div>
     </div>
   );

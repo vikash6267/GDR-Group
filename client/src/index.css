@@ -14,18 +14,7 @@ html,
 body {
   overflow-x: hidden;
 }
-@keyframes scroll {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
 
-.animate-scroll {
-  animation: scroll 25s linear infinite;
-}
 .sub-navbar-container {
   background-color: #f0f0f0;
 }
@@ -114,5 +103,33 @@ body {
   z-index: -1;
 }
 
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
 
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
 
+.scroll-left .animate-scroll-left {
+  animation: scroll-left 20s linear infinite;
+}
+
+.scroll-right .animate-scroll-right {
+  animation: scroll-right 20s linear infinite;
+}
+.gradient-text {
+  background-image: linear-gradient(to right, #b3e11d, #e83598);
+  background-clip: text;
+  color: transparent;
+}

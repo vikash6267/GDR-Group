@@ -6,14 +6,14 @@ import Services from "../components/core/Home/Services";
 import { Fade } from "react-awesome-reveal";
 import CommanText from "../components/core/Home/CommanText";
 import TagCloudWithDetails from "../components/core/Home/CanvasRotation";
-import Gallery from "../components/core/Home/Gallery";
+// import Gallery from "../components/core/Home/Gallery";
 import Project from "../components/core/Home/Project";
 import Process from "../components/core/Home/Process";
 import SubNavbar from "../components/common/SubNavbar";
 import SubNav2 from "../components/common/SubNav2";
 import NavbarMain from "../components/common/NavbarMain";
 import Footer from "../components/common/Footer";
-import GetInTouch from "../components/core/Home/GetInTouch";
+// import GetInTouch from "../components/core/Home/GetInTouch";
 
 function Home() {
   return (
@@ -36,7 +36,7 @@ function Home() {
       {/* <Gallery /> */}
       <Project />
       <Process />
-      <GetInTouch />
+      {/* <GetInTouch /> */}
 
       <Footer />
     </div>

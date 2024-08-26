@@ -1,14 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { BsArrowRight } from "react-icons/bs";
-
+import video from "../../../assests/video.mp4";
 const AboutHome = () => {
   const aboutImage =
     "https://img.freepik.com/free-vector/building-house-structure-flat-design_23-2147561234.jpg?w=740&t=st=1724415492~exp=1724416092~hmac=81b1aaf43aa647ef069800026a0d4aa27bc01a873317423351151fa74ab8c3a0";
-  const videoUrl = "https://www.w3schools.com/html/mov_bbb.mp4"; // Replace with your video URL
+  const videoUrl = video; // Replace with your video URL
 
   return (
-    <div className="relative bg-gradient-to-r from-blue-50 to-gray-100 py-16 px-6 md:px-12">
+    <div className="relative bg-gradient-to-r py-16 px-6 md:px-12">
       <div className="container mx-auto flex flex-col lg:flex-row items-center">
         {/* Text Section */}
         <motion.div

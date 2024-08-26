@@ -14,30 +14,30 @@ const Process = () => {
       name: "MEET & AGREE",
       icon: <FaHandshake />,
       description:
-        "This is where we meet and discuss your requirements, goals, and vision.",
+        "New RK Constructions is a leading construction company that specializes in a wide range of civil works. We have extensive experience in delivering construction projects for both government and private bodies.",
     },
     {
       name: "IDEA & CONCEPT",
       icon: <FaLightbulb />,
       description:
-        "Here we brainstorm ideas and develop a concept that aligns with your vision.",
+        "New RK Constructions is a leading construction company that specializes in a wide range of civil works. We have extensive experience in delivering construction projects for both government and private bodies.",
     },
     {
       name: "DESIGN & CREATE",
       icon: <FaPaintBrush />,
       description:
-        "We move forward with the design and start creating the project.",
+        "New RK Constructions is a leading construction company that specializes in a wide range of civil works. We have extensive experience in delivering construction projects for both government and private bodies.",
     },
     {
       name: "BUILD & INSTALL",
       icon: <FaHammer />,
       description:
-        "Finally, we build and install the final product to your satisfaction.",
+        "New RK Constructions is a leading construction company that specializes in a wide range of civil works. We have extensive experience in delivering construction projects for both government and private bodies.",
     },
   ];
 
   return (
-    <div className="my-10">
+    <div className="">
       <div
         className="relative bg-cover bg-center text-white"
         style={{ backgroundImage: `url('/path/to/your/background-image.jpg')` }}
@@ -53,7 +53,7 @@ const Process = () => {
                     index === activeStep
                       ? "bg-transparent border-2 border-white"
                       : "bg-yellow-500 text-black"
-                  } font-bold rounded-full w-32 h-32 flex items-center justify-center text-lg cursor-pointer transition-all duration-300 ease-in-out`}
+                  } font-bold rounded-full w-40 h-40 p-3 flex items-center justify-center text-lg cursor-pointer transition-all duration-300 ease-in-out`}
                   onClick={() => setActiveStep(index)}
                 >
                   {step.name}
