@@ -99,8 +99,7 @@ const ConstructorContact = () => {
           </form>
         </div>
       </div>
-      <br />
-      <br />
+      <div className="mt-96"></div>
       <Footer />
     </div>
   );
