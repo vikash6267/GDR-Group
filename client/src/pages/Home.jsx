@@ -13,6 +13,7 @@ import SubNavbar from "../components/common/SubNavbar";
 import SubNav2 from "../components/common/SubNav2";
 import NavbarMain from "../components/common/NavbarMain";
 import Footer from "../components/common/Footer";
+import GetInTouch from "../components/core/Home/GetInTouch";
 
 function Home() {
   return (
@@ -32,9 +33,11 @@ function Home() {
         }
       />
       <Company />
-      <Gallery />
+      {/* <Gallery /> */}
       <Project />
       <Process />
+      <GetInTouch />
+
       <Footer />
     </div>
   );

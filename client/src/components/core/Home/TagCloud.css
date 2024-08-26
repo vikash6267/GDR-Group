@@ -1,7 +1,7 @@
 /* TagCloud.css */
 
 .containercanvas {
-  background: url("../../../assests/BG.png") #1e3f5f;
+  background: url("../../../assests/BG.png") #0b7dff;
 
   background-size: 40% auto;
   background-position: center;
@@ -50,6 +50,9 @@
 }
 
 .floating-tag-5 {
+  animation: float5 6s ease-in-out infinite;
+}
+.floating-tag-6 {
   animation: float5 6s ease-in-out infinite;
 }
 
