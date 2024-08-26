@@ -19,7 +19,7 @@ function Home() {
   return (
     <div>
       <SubNavbar />
-      <SubNav2 />
+      {/* <SubNav2 /> */}
       <NavbarMain />
       <Slider />
       <TagCloudWithDetails />

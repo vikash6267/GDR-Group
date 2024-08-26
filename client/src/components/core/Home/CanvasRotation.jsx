@@ -49,14 +49,14 @@ const TagCloudWithDetails = () => {
   const [selectedTag, setSelectedTag] = useState(tags[0]);
 
   return (
-    <div className="containercanvas my-10 grid lg:grid-cols-2 min-h-[80vh] grid-cols-1">
-      <div className="details-box font-bold lg:text-xl p-4 text-center text-wrap text-white min-h-[400px]">
+    <div className="containercanvas my-3 grid lg:grid-cols-2 min-h-[80vh] grid-cols-1">
+      <div className="details-box font-bold lg:text-lg p-4 text-center text-wrap text-white min-h-[400px]">
         {selectedTag ? (
           <div className="details-content flex justify-center flex-col items-center">
             <img
               src={selectedTag.image}
               alt="Tag Details"
-              className="details-image max-h-[300px] min-h-[300px]"
+              className="details-image max-h-[200px] min-h-[200px]"
             />
             <p>{selectedTag.details}</p>
           </div>

@@ -18,7 +18,7 @@ const company = [
   {
     img: milk,
     title: "SRS Foods",
-    desc: "SRS Cattle and Milk Food Company owns 2 brands – “Shree Ji 72” & “Shree Ji Milk Products“.is a manufacturer of milk products like milk, butter, clarified butter, cottage cheese, ice cream etc. The company was founded in the year 2018 and is headquartered in Bhopal, India..",
+    desc: "SRS Cattle and Milk Food Company owns 2 brands – “Shree Ji 72” & “Shree Ji Milk Products“.is a manufacturer of milk products like milk, butter, clarified butter, cottage cheese, ice cream etc. The company was founded in the year 2018 and is headquartered in Bhopal, India.",
   },
   {
     img: "https://5.imimg.com/data5/SELLER/Default/2023/3/DW/RJ/XB/37290892/monkey-hoist-or-mini-lift-500x500.jpeg",
@@ -30,13 +30,19 @@ const company = [
     title: "72 GDR Steel",
     desc: "72 GDR Steel is a company that specializes in the production and distribution of high-quality steel products. The company’s main focus is on TMT iron rods, which are used in the construction industry for the reinforcement of concrete structures.",
   },
+  {
+    id: 7,
+    img: "https://t3.ftcdn.net/jpg/07/34/77/60/360_F_734776078_Z94kwR6jm2w1HxmPeSjqJNJFqM4Mp3Nk.jpg",
+    title: "RRS Liquid Products",
+    desc: "Offers refreshing beverages including flavored water and energy drinks.",
+  },
 ];
 
 const Company = () => {
   return (
-    <div className="my-20">
-      <div className=" flex flex-col  w-full items-center">
-        <h3 className="  text-4xl font-fjalla text-[#33536B]">Our Companys</h3>
+    <div className="my-20 overflow-hidden">
+      <div className="flex flex-col w-full items-center">
+        <h3 className="text-4xl font-fjalla text-[#33536B]">Our Companies</h3>
         <div className="flex items-center w-[75px]">
           <div className="h-0.5 bg-[#e2571a]"></div>
           <div className="h-1 w-1 bg-[#e2571a] rounded-full mx-1"></div>
@@ -47,26 +53,25 @@ const Company = () => {
             style={{ backgroundColor: "#e2571a" }}
           ></div>
         </div>
-                  
       </div>
-      <div className="main grid lg:grid-cols-3 gap-4 p-5 max-w-7xl mx-auto">
+      <div className="grid lg:grid-cols-3 gap-4 p-5 max-w-7xl mx-auto">
         <Slide direction="left">
           {company.map((currElem, index) => (
             <div
               key={index}
-              className="relative card rounded-lg  cursor-pointer group shadow-xl shadow-pink-500 "
+              className="relative rounded-lg cursor-pointer group shadow-xl overflow-hidden"
             >
-              <div className="h-[55vh] relative">
+              <div className="relative h-[55vh] overflow-hidden">
                 <img
                   src={currElem.img}
                   alt={currElem.title}
-                  className="w-full h-full object-cover transition-transform duration-500 ease-in-out transform group-hover:translate-y-[-50%]"
+                  className="w-full h-full object-cover transition-transform duration-500 ease-in-out transform group-hover:scale-105"
                 />
-                <p className="absolute text-center bottom-0 left-0 w-full text-lg font-bold text-white bg-opacity-75 bg-gray-800 p-2 transition-opacity duration-500 ease-in-out group-hover:opacity-0">
+                <p className="absolute bottom-0 left-0 w-full text-lg font-bold text-white bg-opacity-75 bg-gray-800 p-2 transition-opacity duration-500 ease-in-out group-hover:opacity-0">
                   {currElem.title}
                 </p>
               </div>
-              <div className="absolute inset-0  top-48 flex bg-yellow-500 p-4 text-black opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100">
+              <div className="absolute inset-0 top-48 bg-yellow-500 p-4 text-black opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100">
                 <p className="z-10 text-sm">{currElem.desc}</p>
               </div>
             </div>

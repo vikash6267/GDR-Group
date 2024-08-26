@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import home from "../../../assests/home/h2.jpg";
+
 const services = [
   {
     image:
@@ -8,23 +9,25 @@ const services = [
     title: "New RK Constructor",
     subtitle: "Best Service Ever",
     description:
-      "New RK Constructions is a leading construction company that specializes in a wide range of civil works. We have extensive experience in delivering construction projects for both government and private bodies",
+      "Leading construction company specializing in civil works for both government and private bodies.",
     link: "construction-home",
   },
   {
     image: home,
     title: "RKS Home",
-    subtitle: "Excellent Home ",
+    subtitle: "Excellent Home",
     description:
-      "RKS Homes is a real estate company specializing in the sale of agricultural lands. We are committed to helping our clients find the perfect piece of land for their farming or ranching needs. Our team of real estate professionals has extensive knowledge of the local agricultural market and can provide valuable insights and guidance to help our clients make informed decisions.",
+      "Real estate company focusing on the sale of agricultural lands with expert guidance.",
+    link: "/real-estate",
   },
   {
     image:
       "https://gdrgroup.in/wp-content/uploads/2022/12/Shree-Ji-225x300.png",
     title: "SRK Food",
-    subtitle: "Bes Quality Assurance",
+    subtitle: "Best Quality Assurance",
     description:
-      "SRS Cattle and Milk Food Company owns 2 brands – “Shree Ji 72” & “Shree Ji Milk Products“.is a manufacturer of milk products like milk, butter, clarified butter, cottage cheese, ice cream etc. The company was founded in the year 2018 and is headquartered in Bhopal, India.",
+      "Manufacturer of milk products like butter, clarified butter, and ice cream.",
+    link: "/food-products",
   },
   {
     image:
@@ -32,15 +35,17 @@ const services = [
     title: "Ri Si Home Food",
     subtitle: "Best Quality Assurance",
     description:
-      "Ri Si Home Food is a company that specializes in selling a wide range of spices and dry food items for home cooking. Our aim is to provide our customers with high-quality products that will enhance the flavor of their dishes and make their cooking experience more enjoyable.",
+      "Specializes in selling high-quality spices and dry food items for home cooking.",
+    link: "/home-food",
   },
   {
     image:
       "https://gdrgroup.in/wp-content/uploads/2023/02/10-STAINLESS-STEEL-REBAR.webp",
     title: "72 GDR Steel",
-    subtitle: " Quality Assurance",
+    subtitle: "Quality Assurance",
     description:
-      "72 GDR Steel is a company that specializes in the production and distribution of high-quality steel products. The company’s main focus is on TMT iron rods, which are used in the construction industry for the reinforcement of concrete structures.",
+      "Specializes in TMT iron rods for the reinforcement of concrete structures.",
+    link: "/steel-products",
   },
 ];
 
@@ -80,9 +85,8 @@ const Services = () => {
               <p className="text-sm">{service.subtitle}</p>
             </div>
             {/* Hidden content */}
-            <div className="absolute inset-0 bg-pink-500 flex flex-col justify-center items-center text-center p-4 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out z-20">
+            <div className="absolute inset-0 bg-white flex flex-col justify-center items-center text-center p-4 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out z-20">
               <h2 className="text-xl font-bold">{service.title}</h2>
-              <p className="text-sm">{service.subtitle}</p>
               <p className="mt-4 text-gray-800">{service.description}</p>
               <Link
                 to={service.link}

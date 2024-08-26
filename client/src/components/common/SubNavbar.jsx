@@ -1,83 +1,58 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FiMapPin, FiPhone, FiMail } from "react-icons/fi";
 
-const SubNavbar = () => {
-  const currentDate = new Date();
-
-  // Array of weekday names
-  const daysOfWeek = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
-  ];
-
-  // Array of month names
-  const months = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December",
-  ];
-
-  // Get the day of the week, month, day of the month, and year
-  const dayOfWeek = daysOfWeek[currentDate.getDay()];
-  const month = months[currentDate.getMonth()];
-  const day = currentDate.getDate();
-  const year = currentDate.getFullYear();
-
-  // Function to get the ordinal suffix (st, nd, rd, th)
-  const getOrdinalSuffix = (day) => {
-    if (day > 3 && day < 21) return "th"; // Special case for 11th, 12th, 13th, etc.
-    switch (day % 10) {
-      case 1:
-        return "st";
-      case 2:
-        return "nd";
-      case 3:
-        return "rd";
-      default:
-        return "th";
-    }
-  };
-
-  const dayWithSuffix = `${day}${getOrdinalSuffix(day)}`;
-
-  const formattedDate = `${dayOfWeek}, ${month} ${dayWithSuffix}, ${year}`;
+const TopHeader = () => {
   return (
-    <div className="sub-navbar-container border-b-2 border-black">
-      <div className="main max-w-7xl mx-auto lg:flex lg:justify-between hidden p-5 border-b border-gray-400">
-        <div className="first text-black text-xl border-gray-400 pr-2">
-          {formattedDate}
+    <div className="bg-blue-500 text-white py-3">
+      <div className="max-w-7xl mx-auto flex justify-between items-center px-4">
+        <div className="flex flex-col md:flex-row md:items-center">
+          <div className="flex items-center mr-6">
+            <FiMapPin className="text-lg mr-2" />
+            <span className="font-semibold">Ratibad, Bhopal</span>
+          </div>
+          <div className="flex items-center mr-6">
+            <FiPhone className="text-lg mr-2" />
+            <span className="font-semibold">+919893730005</span>
+          </div>
+          <div className="flex items-center">
+            <FiMail className="text-lg mr-2" />
+            <span className="font-semibold">rkshomes30@gmail.com</span>
+          </div>
         </div>
-        <div className="second flex gap-4 border-gray-400 pl-2">
-          <div className="icon-container text-blue-600 hover:text-blue-800">
+        <div className="flex space-x-4 mt-2 md:mt-0">
+          <a
+            href="#"
+            className="text-white hover:text-gray-300"
+            aria-label="Facebook"
+          >
             <FaFacebook size={22} />
-          </div>
-          <div className="icon-container text-pink-500 hover:text-pink-700">
+          </a>
+          <a
+            href="#"
+            className="text-white hover:text-gray-300"
+            aria-label="Instagram"
+          >
             <FaInstagram size={22} />
-          </div>
-          <div className="icon-container text-red-600 hover:text-red-800">
+          </a>
+          <a
+            href="#"
+            className="text-white hover:text-gray-300"
+            aria-label="YouTube"
+          >
             <FaYoutube size={22} />
-          </div>
-          <div className="icon-container text-blue-700 hover:text-blue-900">
+          </a>
+          <a
+            href="#"
+            className="text-white hover:text-gray-300"
+            aria-label="LinkedIn"
+          >
             <FaLinkedin size={22} />
-          </div>
+          </a>
         </div>
       </div>
     </div>
   );
 };
 
-export default SubNavbar;
+export default TopHeader;

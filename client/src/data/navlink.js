@@ -7,12 +7,17 @@ export const navlinks = [
     },
     {
         id: 2,
-        title: "About",
+        title: "About Us",
         path: "/about"
     },
     {
+        id: 7,
+        title: "Services",
+        path: "/services"
+    },
+    {
         id: 6,
-        title: "Business",
+        title: "Our Companies",
         path: "#",
         sublink: [
             { name: "New RK Construction", path: "/construction-home" },
@@ -24,10 +29,22 @@ export const navlinks = [
     },
 
     {
+        id: 5,
+        title: "Gallery",
+        path: "/gallery"
+    },
+    {
+        id: 8,
+        title: "News",
+        path: "/news"
+    },
+   
+    {
         id: 3,
         title: "Contact",
         path: "/contact"
     },
+   
 
 ]
 export const constructionNavbar = [

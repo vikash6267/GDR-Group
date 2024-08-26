@@ -1,12 +1,28 @@
 /* TagCloud.css */
 
 .containercanvas {
-  background: url("../../../assests/BG.png") #0b7dff;
-
-  background-size: 40% auto;
-  background-position: center;
+  background: url("https://i.ytimg.com/vi/IEt-J7q7I_4/maxresdefault.jpg") no-repeat center center;
+  background-size: cover;
+  position: relative;
   padding: 0;
 }
+
+.containercanvas::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3); /* Adjust the opacity to make it darker or lighter */
+  z-index: 1;
+}
+
+.containercanvas > * {
+  position: relative;
+  z-index: 2;
+}
+
 
 /* .tags {
  
