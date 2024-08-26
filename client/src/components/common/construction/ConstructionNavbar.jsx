@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { FaChevronDown, FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import logo from "../../assests/logos/gdrgruop.jpg";
-import { navlinks } from "../../data/navlink";
+import logo from "../../../assests/logos/gdrgruop.jpg";
+import { constructionNavbar } from "../../../data/navlink";
 
-function NavbarMain() {
+function ConstructionNavbar() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeMenu, setActiveMenu] = useState(null);
 
@@ -23,7 +23,7 @@ function NavbarMain() {
         <div className="hidden md:flex lg:flex items-center space-x-8 justify-center my-5 w-full">
           <img src={logo} alt="GDR Logo" className="h-16 lg:hidden" />
           <ul className="flex space-x-8">
-            {navlinks?.map((link) => (
+            {constructionNavbar?.map((link) => (
               <li key={link.id} className="relative group">
                 <Link
                   to={link.path}
@@ -77,7 +77,7 @@ function NavbarMain() {
           </button>
         </div>
         <ul className="flex flex-col mt-4">
-          {navlinks?.map((link) => (
+          {constructionNavbar?.map((link) => (
             <li key={link.id} className="relative">
               <Link
                 to={link.path}
@@ -117,4 +117,4 @@ function NavbarMain() {
   );
 }
 
-export default NavbarMain;
+export default ConstructionNavbar;

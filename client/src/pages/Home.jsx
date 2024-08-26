@@ -9,10 +9,17 @@ import TagCloudWithDetails from "../components/core/Home/CanvasRotation";
 import Gallery from "../components/core/Home/Gallery";
 import Project from "../components/core/Home/Project";
 import Process from "../components/core/Home/Process";
+import SubNavbar from "../components/common/SubNavbar";
+import SubNav2 from "../components/common/SubNav2";
+import NavbarMain from "../components/common/NavbarMain";
+import Footer from "../components/common/Footer";
 
 function Home() {
   return (
     <div>
+      <SubNavbar />
+      <SubNav2 />
+      <NavbarMain />
       <Slider />
       <TagCloudWithDetails />
       <Fade>
@@ -28,6 +35,7 @@ function Home() {
       <Gallery />
       <Project />
       <Process />
+      <Footer />
     </div>
   );
 }

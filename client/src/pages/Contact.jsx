@@ -2,7 +2,10 @@ import React, { useState } from "react";
 import { FaChevronDown } from "react-icons/fa";
 import contact from "../assests/contact.jpg";
 import Modal from "../components/core/contact/Modal"; // Import the Modal component
-
+import SubNavbar from "../components/common/SubNavbar";
+import SubNav2 from "../components/common/SubNav2";
+import NavbarMain from "../components/common/NavbarMain";
+import Footer from "../components/common/Footer";
 const Contact = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -18,6 +21,9 @@ const Contact = () => {
 
   return (
     <div>
+      <SubNavbar />
+      <SubNav2 />
+      <NavbarMain />
       <div className="relative flex justify-center items-center">
         <img
           src={contact}
@@ -73,6 +79,7 @@ const Contact = () => {
         toggleModal={toggleModal}
         onSubmit={handleSubmit}
       />
+      <Footer />
     </div>
   );
 };
