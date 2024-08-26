@@ -65,7 +65,7 @@ const TagCloudWithDetails = () => {
               key={index}
               onMouseEnter={() => setSelectedTag(tag)}
             //   onMouseLeave={() => setSelectedTag(null)}
-              className={`floating-tag floating-tag-${index + 1} font-bold text-white`}
+              className={`floating-tag floating-tag-${index + 1} font-bold text-white text-3xl`}
             >
               {tag.name}
             </li>
