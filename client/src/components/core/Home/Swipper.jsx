@@ -31,7 +31,7 @@ const Slider = () => {
       text: "New RK Construction",
       description:
         "Top player in civil works with a focus on quality and safety.",
-      path: "/construction-home",
+      path: "/construction/home",
     },
     {
       id: 2,
@@ -40,7 +40,7 @@ const Slider = () => {
       text: "SRS Homes",
       description:
         "Expert in agricultural land sales with seamless financing options.",
-      path: "/homes",
+      path: "/srs-foods/home",
     },
     {
       id: 3,
@@ -48,7 +48,7 @@ const Slider = () => {
       text: "RKS Food",
       description:
         "High-quality dairy products with a focus on freshness and excellence.",
-      path: "/food",
+      path: "/rks-homes/home",
     },
     {
       id: 4,
@@ -56,7 +56,7 @@ const Slider = () => {
         "https://c4.wallpaperflare.com/wallpaper/441/38/477/pepper-carnation-spices-diversity-wallpaper-preview.jpg",
       text: "Ri Si Home Food",
       description: "Wide range of spices and dry foods for home cooking.",
-      path: "/ri-si-home-food-home",
+      path: "/ri-si-home-food-home/home",
     },
     {
       id: 5,
@@ -65,7 +65,7 @@ const Slider = () => {
       text: "72 GDR Steel",
       description:
         "Specializes in high-quality TMT iron rods and other steel products.",
-      path: "/steel",
+      path: "/72-gdr-steel/home",
     },
     {
       id: 6,
@@ -74,7 +74,7 @@ const Slider = () => {
       text: "R. R. S. Liquid Products",
       description:
         "Provides high-quality mineral water, ice cubes, and beverages.",
-      path: "/liquid-products",
+      path: "/liquid/home",
     },
     {
       id: 7,
