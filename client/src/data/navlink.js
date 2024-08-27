@@ -25,7 +25,7 @@ export const navlinks = [
             { name: "SRS Foods", path: "/srs-foods/home" },
             { name: "72 GDR Steel", path: "/72-gdr-steel/home" },
             { name: "R.R.S. Liquid Products", path: "/liquid/home" },
-            { name: "Ri Si Home Food", path: "/ri-si-home-food-home/home" },
+            { name: "Ri Si Home Food", path: "/ri-si-food/home" },
 
         ]
     },
@@ -81,7 +81,7 @@ export const constructionNavbar = [
             { name: "New RK Construction", path: "/construction/home" },
             { name: "RKS Homes", path: "/rks-homes/home" },
             { name: "SRS Foods", path: "/srs-foods/home" },
-            { name: "Ri Si Home Food", path: "/ri-si-home-food-home/home" },
+            { name: "Ri Si Home Food", path: "/ri-si-food/home" },
             { name: "72 GDR Steel", path: "/72-gdr-steel/home" },
             { name: "R.R.S. Liquid Products", path: "/liquid/home" }
         ]
@@ -115,7 +115,7 @@ export const milkNavbar = [
             { name: "New RK Construction", path: "/construction/home" },
             { name: "RKS Homes", path: "/rks-homes/home" },
             { name: "SRS Foods", path: "/srs-foods/home" },
-            { name: "Ri Si Home Food", path: "/ri-si-home-food-home/home" },
+            { name: "Ri Si Home Food", path: "/ri-si-food/home" },
             { name: "72 GDR Steel", path: "/72-gdr-steel/home" },
             { name: "R.R.S. Liquid Products", path: "/liquid/home" }
         ]
@@ -147,5 +147,20 @@ export const risiFoodNavbar = [
         title: "Contact",
         path: "/ri-si-food/contact"
     },
+    {
+        id: 6,
+        title: "Our Companies",
+        path: "#",
+        sublink: [
+            { name: "New RK Construction", path: "/construction/home" },
+            { name: "RKS Homes", path: "/rks-homes/home" },
+            { name: "SRS Foods", path: "/srs-foods/home" },
+            { name: "72 GDR Steel", path: "/72-gdr-steel/home" },
+            { name: "R.R.S. Liquid Products", path: "/liquid/home" },
+            { name: "Ri Si Home Food", path: "/ri-si-food/home" },
+
+        ]
+    },
+
 
 ]
