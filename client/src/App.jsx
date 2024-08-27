@@ -9,6 +9,8 @@ import ConstructorHome from "./pages/constructor/ConstructorHome";
 import ConstructorAbout from "./pages/constructor/ConstructorAbout";
 import ConstructorContact from "./pages/constructor/ConstructorContact";
 import Service from "./pages/Service";
+import RISIFoddHome from "./Routes/RISIFoddHome";
+import MilkProduct from "./Routes/MilkProduct";
 function App() {
   const [showModal, setShowModal] = useState(true);
 
@@ -32,6 +34,10 @@ function App() {
         <Route path="/construction-home" element={<ConstructorHome />} />
         <Route path="/construction-about" element={<ConstructorAbout />} />
         <Route path="/construction-contact" element={<ConstructorContact />} />
+
+
+        <Route path="/ri-si-food/*" element={<RISIFoddHome />} />
+        <Route path="/milk/*" element={<MilkProduct />} />
       </Routes>
     </div>
   );
