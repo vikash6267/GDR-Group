@@ -54,24 +54,24 @@ const Company = () => {
           ></div>
         </div>
       </div>
-      <div className="grid lg:grid-cols-3 gap-4 p-5 max-w-7xl mx-auto">
+      <div className="main grid lg:grid-cols-3 gap-4 p-5 max-w-7xl mx-auto">
         <Slide direction="left">
           {company.map((currElem, index) => (
             <div
               key={index}
-              className="relative rounded-lg cursor-pointer group shadow-xl overflow-hidden"
+              className="relative card rounded-lg  cursor-pointer group shadow-xl shadow-pink-500 h-96 "
             >
-              <div className="relative h-[55vh] overflow-hidden">
+              <div className="h-full relative">
                 <img
                   src={currElem.img}
                   alt={currElem.title}
-                  className="w-full h-full object-cover transition-transform duration-500 ease-in-out transform group-hover:scale-105"
+                  className="w-full h-full object-cover transition-transform duration-500 ease-in-out transform group-hover:translate-y-[-50%]"
                 />
-                <p className="absolute bottom-0 left-0 w-full text-lg font-bold text-white bg-opacity-75 bg-gray-800 p-2 transition-opacity duration-500 ease-in-out group-hover:opacity-0">
+                <p className="absolute text-center bottom-0 left-0 w-full text-lg font-bold text-white bg-opacity-75 bg-gray-800 p-2 transition-opacity duration-500 ease-in-out group-hover:opacity-0">
                   {currElem.title}
                 </p>
               </div>
-              <div className="absolute inset-0 top-48 bg-yellow-500 p-4 text-black opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100">
+              <div className="absolute inset-0  top-48 flex bg-yellow-500 p-4 text-black opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100">
                 <p className="z-10 text-sm">{currElem.desc}</p>
               </div>
             </div>
