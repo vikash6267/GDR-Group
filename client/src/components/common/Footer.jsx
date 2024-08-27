@@ -20,14 +20,11 @@ const Footer = () => {
             <h2 className="text-xl font-semibold mb-4">About Us</h2>
             <hr className="my-4" />
             <p>
-              Established in 2020, Tech Innovators is a prominent global
-              provider of cutting-edge software and hardware solutions.
-              Specializing in areas like Smart Home Technology, Digital Signage,
-              and IoT Devices, we cater to diverse industries including Retail,
-              Healthcare, and Education. With a strong presence in New York, San
-              Francisco, Los Angeles, and Chicago, we deliver tailored solutions
-              to businesses of all sizes, ensuring innovation and excellence in
-              every project.
+              GDR Group 72 is a group of companies that was established in 2005,
+              with a primary focus on the real estate, agricultural
+              construction, construction and manufacturing industries. Through
+              the years the company has expanded it’s operations, and has made
+              substantial contributions to these industries.
             </p>
             <div className="mt-4">
               <img
@@ -67,7 +64,10 @@ const Footer = () => {
             <h2 className="text-xl font-semibold mb-4">Contact Us</h2>
             <hr className="my-4" />
             <ul className="grid gap-3 list-disc ">
-              <li>Ratibad, Bhopal</li>
+              <li>
+                Janki Nagar, Neelkant Mahadev Mandir, Near Mashroom Factory
+                Ratibad Bhopal
+              </li>
             </ul>
             <ul className="grid my-3">
               <li>98937 30005</li>
