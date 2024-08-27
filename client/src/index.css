@@ -164,3 +164,91 @@ body {
 .hover\:pause-scroll:hover {
   animation-play-state: paused;
 }
+
+
+
+
+/* // moving*/
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-scroll-left {
+  animation: scroll-left var(--animation-duration) linear infinite;
+}
+
+.animate-scroll-right {
+  animation: scroll-right var(--animation-duration) linear infinite;
+}
+
+
+
+
+
+.testimonial-section {
+	text-align: center;
+	padding: 50px;
+	background-color: #f9f9f9;
+}
+
+.testimonials {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+.testimonial {
+	background: white;
+	border-radius: 10px;
+	padding: 20px;
+	max-width: 300px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial img {
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	object-fit: cover;
+	margin-bottom: 15px;
+}
+
+.testimonial h3 {
+	margin-top: 10px;
+	font-size: 1.2em;
+	color: #333;
+}
+
+.testimonial p {
+	font-size: 1em;
+	color: #666;
+}
+
+
+
+.animate-scroll {
+  animation: var(--animation-direction) var(--animation-duration) linear infinite;
+}
+
+.scroller {
+  --animation-direction: scroll-left;
+  --animation-duration: 20s;
+  overflow: hidden;
+  position: relative;
+}
