@@ -4,23 +4,25 @@ import { FiMapPin, FiPhone, FiMail } from "react-icons/fi";
 
 const TopHeader = () => {
   return (
-    <div className="bg-blue-500 text-white py-3">
-      <div className="max-w-7xl mx-auto flex justify-between items-center px-4">
-        <div className="flex flex-col md:flex-row md:items-center">
-          <div className="flex items-center mr-6">
-            <FiMapPin className="text-lg mr-2" />
-            <span className="font-semibold">Ratibad, Bhopal</span>
-          </div>
-          <div className="flex items-center mr-6">
-            <FiPhone className="text-lg mr-2" />
-            <span className="font-semibold">+919893730005</span>
-          </div>
-          <div className="flex items-center">
-            <FiMail className="text-lg mr-2" />
-            <span className="font-semibold">rkshomes30@gmail.com</span>
+    <div className="bg-gray-500 text-white py-3">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center px-4 space-y-2 md:space-y-0">
+        <div className="flex flex-col md:flex-row md:items-center space-y-2 md:space-y-0">
+          <div className="flex  justify-center md:justify-start items-center space-x-6">
+            <div className="flex items-center">
+              <FiMapPin className="text-lg mr-2" />
+              <span className="font-semibold"> Bhopal</span>
+            </div>
+            <div className="flex items-center">
+              <FiPhone className="text-lg mr-2" />
+              <span className="font-semibold">+919893730005</span>
+            </div>
+            <div className="flex items-center">
+              <FiMail className="text-lg mr-2" />
+              <span className="font-semibold">rkshomes30@gmail.com</span>
+            </div>
           </div>
         </div>
-        <div className="flex space-x-4 mt-2 md:mt-0">
+        <div className="flex space-x-4">
           <a
             href="#"
             className="text-white hover:text-gray-300"

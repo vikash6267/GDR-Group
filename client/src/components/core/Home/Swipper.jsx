@@ -147,9 +147,9 @@ const Slider = () => {
             </div>
             <animated.div
               style={textAnimation}
-              className="absolute left-4 top-1/2 transform -translate-y-1/2 p-6"
+              className="absolute left-8 top-1/3 flex justify-start flex-col transform -translate-y-1/2 p-6"
             >
-              <p className="text-white text-xl md:text-2xl lg:text-3xl font-bold text-left mb-4">
+              <p className="text-white text-xl md:text-2xl lg:text-7xl font-bold text-left mb-4">
                 {item.text}
               </p>
               <p className="text-white text-sm md:text-lg lg:text-xl text-left mb-4 hidden lg:block">
@@ -158,7 +158,7 @@ const Slider = () => {
               <Link
                 to={item.path}
                 className="block border-2 border-white text-center py-2 text-white text-sm md:text-lg lg:text-xl rounded-lg transition-transform transform hover:scale-105"
-                style={{ width: "200px", margin: "0 auto" }}
+                style={{ width: "200px" }}
               >
                 Learn More
               </Link>
