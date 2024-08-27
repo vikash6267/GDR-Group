@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import {
   Navigation,
   Pagination,
@@ -14,12 +14,14 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css/autoplay";
 import "swiper/css/effect-fade";
-import { useSpring, animated } from "@react-spring/web";
+import { motion, useAnimation } from "framer-motion";
 import image2 from "../../../assests/milk.jpg";
 import { Link } from "react-router-dom";
 
 const Slider = () => {
-  const [textVisible, setTextVisible] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const imageControls = useAnimation();
+  const textControls = useAnimation();
 
   const work = [
     {
@@ -85,21 +87,19 @@ const Slider = () => {
     },
   ];
 
-  const textAnimation = useSpring({
-    from: { opacity: 0, transform: "translateY(-100px) scale(1.2)" },
-    to: {
-      opacity: textVisible ? 1 : 0,
-      transform: textVisible
-        ? "translateY(0px) scale(1)"
-        : "translateY(100px) scale(1.2)",
-    },
-    config: { duration: 600 },
-  });
+  const imageAnimation = {
+    initial: { opacity: 0, scale: 1.1 },
+    animate: { opacity: 1, scale: 1 },
+    exit: { opacity: 0, scale: 1.1 },
+    transition: { duration: 0.5 },
+  };
 
-  useEffect(() => {
-    const timer = setTimeout(() => setTextVisible(true), 600);
-    return () => clearTimeout(timer);
-  }, []);
+  const textAnimation = {
+    initial: { opacity: 0, y: 50 },
+    animate: { opacity: 1, y: 0 },
+    exit: { opacity: 0, y: -50 },
+    transition: { duration: 0.5 },
+  };
 
   return (
     <div className="relative">
@@ -130,24 +130,34 @@ const Slider = () => {
             spaceBetween: 0,
           },
         }}
-        onSlideChange={() => {
-          setTextVisible(false);
-          setTimeout(() => setTextVisible(true), 600);
+        onSlideChange={({ activeIndex }) => {
+          setCurrentIndex(activeIndex);
+          imageControls.start("animate");
+          textControls.start("animate");
         }}
       >
-        {work.map((item) => (
+        {work.map((item, index) => (
           <SwiperSlide key={item.id} className="relative">
-            <div className="relative">
+            <motion.div
+              className="relative"
+              initial="initial"
+              animate={index === currentIndex ? "animate" : "exit"}
+              exit="exit"
+              variants={imageAnimation}
+            >
               <img
                 src={item.image}
                 alt={item.text}
                 className="w-full lg:h-[80vh] object-cover"
                 style={{ filter: "brightness(0.5)" }} // Darkens the image
               />
-            </div>
-            <animated.div
-              style={textAnimation}
+            </motion.div>
+            <motion.div
               className="absolute left-8 top-1/3 flex justify-start flex-col transform -translate-y-1/2 p-6"
+              initial="initial"
+              animate={index === currentIndex ? "animate" : "exit"}
+              exit="exit"
+              variants={textAnimation}
             >
               <p className="text-white text-xl md:text-2xl lg:text-7xl font-bold text-left mb-4">
                 {item.text}
@@ -162,7 +172,7 @@ const Slider = () => {
               >
                 Learn More
               </Link>
-            </animated.div>
+            </motion.div>
           </SwiperSlide>
         ))}
       </Swiper>

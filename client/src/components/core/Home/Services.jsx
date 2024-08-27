@@ -47,6 +47,16 @@ const services = [
       "Specializes in TMT iron rods for the reinforcement of concrete structures.",
     link: "/steel-products",
   },
+
+
+  {
+    id: 7,
+    image: "https://t3.ftcdn.net/jpg/07/34/77/60/360_F_734776078_Z94kwR6jm2w1HxmPeSjqJNJFqM4Mp3Nk.jpg",
+    title: "RRS Liquid Products",
+    description: "Offers refreshing beverages including flavored water and energy drinks.",
+    link: "/liquid-products",
+ 
+  },
 ];
 
 const Services = () => {

@@ -35,8 +35,7 @@ const HomeQuote = () => {
           <div className="text-center my-12">
             <iframe
               title="Provision Plus"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3662.0719225183857!2d85.30274428650819!3d23.3856152425284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e123eb58e8af%3A0xac020195aa2dcc08!2sSonora%20Engineering!5e0!3m2!1sen!2sin!4v1723014036811!5m2!1sen!2sin"
-             
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3662.0719225183857!2d85.30274428650819!3d23.3856152425284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e123eb58e8af%3A0xac020195aa2dcc08!2sSonora%20Engineering!5e0!3m2!1sen!2sin!4v1723014036811!5m2!1sen!2sin"
               // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d469402.70437816554!2d77.07623464395338!3d23.19906632038403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c428f8fd68fbd%3A0x2155716d572d4f8!2sBhopal%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1721991329276!5m2!1sen!2sin"
               className="w-full h-[70vh]"
               allowFullScreen=""
@@ -101,8 +100,14 @@ const HomeQuote = () => {
                 className="w-full px-3 py-3 border rounded"
               >
                 <option value="">Select Service</option>
-                <option value="digital-marketing">Digital Marketing</option>
-                <option value="web-development">Web Development</option>
+                <option value="new-rk-construction">New RK Construction</option>
+                <option value="rks-homes">RKS Homes</option>
+                <option value="srs-foods">SRS Foods</option>
+                <option value="ri-si-home-food">Ri Si Home Food</option>
+                <option value="72-gdr-steel">72 GDR Steel</option>
+                <option value="rrs-liquid-products">
+                  R. R. S. Liquid Products
+                </option>
               </select>
             </div>
             {isWebDevelopment && (

@@ -24,7 +24,8 @@ export const navlinks = [
             { name: "RKS Homes", path: "/rks-homes" },
             { name: "SRS Foods", path: "/srs-foods" },
             { name: "Ri Si Home Food", path: "/ri-si-home-food-home" },
-            { name: "72 GDR Steel", path: "/72-gdr-steel" }
+            { name: "72 GDR Steel", path: "/72-gdr-steel" },
+            { name: "R.R.S. Liquid Products", path: "/liquid" }
         ]
     },
 

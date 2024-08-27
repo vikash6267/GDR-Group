@@ -1,5 +1,3 @@
-/* TagCloud.css */
-
 .containercanvas {
   background: url("https://i.ytimg.com/vi/IEt-J7q7I_4/maxresdefault.jpg") no-repeat center center;
   background-size: cover;
@@ -23,14 +21,6 @@
   z-index: 2;
 }
 
-
-/* .tags {
- 
-    background: url("../../../assests/globe.png") center center no-repeat;
-    object-fit: cover;
-    width: 50%;
-  } */
-
 .tags ul {
   padding: 0;
   margin: 0;
@@ -42,10 +32,12 @@
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
+  animation-play-state: running; /* Ensure the animation is running by default */
 }
 
 .tags li:hover {
   color: #008cba;
+  animation-play-state: paused; /* Pause the animation on hover */
 }
 
 /* Different floating effects for each tag */
@@ -68,11 +60,10 @@
 .floating-tag-5 {
   animation: float5 6s ease-in-out infinite;
 }
-.floating-tag-6 {
-  animation: float5 6s ease-in-out infinite;
-}
 
-/* Add more animations as needed for additional tags */
+.floating-tag-6 {
+  animation: float6 6s ease-in-out infinite;
+}
 
 /* Keyframes for different floating animations with more vertical movement */
 @keyframes float1 {
@@ -164,6 +155,7 @@
     transform: translateY(0) translateX(0);
   }
 }
+
 @keyframes float6 {
   0% {
     transform: translateY(0) translateX(0);
@@ -183,20 +175,11 @@
 }
 
 .details-box {
-  /* flex: 2;
-    padding: 20px;
-    border-left: 1px solid #ccc;
-    display: flex;
-    align-items: center;
-    justify-content: center; */
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   position: relative;
-  background: url(https://www.awzpact.com//images/vector.png) no-repeat bottom
-    #0b1e2c;
+  background: url(https://www.awzpact.com//images/vector.png) no-repeat bottom #0b1e2c;
   background-size: 100% 400px;
   opacity: 0.8;
 }
@@ -204,7 +187,6 @@
 .details-content {
   font-size: 1.2em;
   line-height: 50px;
-  /* color: #333; */
   transition: opacity 0.3s ease-in-out;
 }
 
