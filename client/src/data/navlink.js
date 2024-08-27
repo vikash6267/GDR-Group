@@ -23,7 +23,7 @@ export const navlinks = [
             { name: "New RK Construction", path: "/construction-home" },
             { name: "RKS Homes", path: "/rks-homes" },
             { name: "SRS Foods", path: "/srs-foods" },
-            { name: "Ri Si Home Food", path: "/ri-si-home-food" },
+            { name: "Ri Si Home Food", path: "/ri-si-home-food-home" },
             { name: "72 GDR Steel", path: "/72-gdr-steel" }
         ]
     },
@@ -38,13 +38,13 @@ export const navlinks = [
         title: "News",
         path: "/news"
     },
-   
+
     {
         id: 3,
         title: "Contact",
         path: "/contact"
     },
-   
+
 
 ]
 export const constructionNavbar = [

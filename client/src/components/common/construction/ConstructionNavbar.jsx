@@ -32,7 +32,7 @@ const Navbar = () => {
       <nav className="bg-gray-900 text-white py-3">
         <div className="max-w-7xl mx-auto flex justify-between items-center px-4">
           {/* Logo and Contact Information */}
-          <div className="flex items-center space-x-4">
+          <Link to="/" className="flex items-center space-x-4">
             <img src={logo} alt="Logo" className="h-14" />
             {/* <div className="hidden lg:flex items-center space-x-6">
               <div className="flex items-center">
@@ -48,7 +48,7 @@ const Navbar = () => {
                 <span>rkshomes30@gmail.com</span>
               </div>
             </div> */}
-          </div>
+          </Link>
 
           {/* Navigation Links */}
           <div className="hidden lg:flex flex-grow items-center justify-center">

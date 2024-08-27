@@ -1,5 +1,13 @@
 import React, { useState } from "react";
-import { FaChevronDown, FaBars, FaTimes, FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
+import {
+  FaChevronDown,
+  FaBars,
+  FaTimes,
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaYoutube,
+} from "react-icons/fa";
 import { FiMapPin, FiPhone, FiMail } from "react-icons/fi";
 import logo from "../../assests/logos/gdrgruop.jpg";
 import { navlinks } from "../../data/navlink";
@@ -33,7 +41,7 @@ const Navbar = () => {
       <nav className="bg-gray-900 text-white py-3">
         <div className="max-w-7xl mx-auto flex justify-between items-center px-4">
           {/* Logo and Contact Information */}
-          <div className="flex items-center space-x-4">
+          <Link to="/" className="flex items-center space-x-4">
             <img src={logo} alt="Logo" className="h-14" />
             {/* <div className="hidden lg:flex items-center space-x-6">
               <div className="flex items-center">
@@ -49,7 +57,7 @@ const Navbar = () => {
                 <span>rkshomes30@gmail.com</span>
               </div>
             </div> */}
-          </div>
+          </Link>
 
           {/* Navigation Links */}
           <div className="hidden lg:flex flex-grow items-center justify-center">
@@ -117,7 +125,6 @@ const Navbar = () => {
           {navlinks?.map((link) => (
             <li key={link.id} className="relative">
               <Link
-
                 to={link.path}
                 onClick={() => link.sublink && handleLinkClick(link.id)}
                 className="px-4 py-2 text-lg font-semibold flex items-center justify-between text-white border-b-2 border-transparent hover:border-red-500 transition-all duration-300"

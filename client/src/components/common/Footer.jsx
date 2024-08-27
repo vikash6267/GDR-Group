@@ -67,13 +67,17 @@ const Footer = () => {
             <h2 className="text-xl font-semibold mb-4">Contact Us</h2>
             <hr className="my-4" />
             <ul className="grid gap-3 list-disc ">
-              <li>1234 Elm Street, Apt 56, Springfield, IL 62704</li>
-              <li>7890 Maple Avenue, Suite 12, Metropolis, NY 10001</li>
+              <li>Ratibad, Bhopal</li>
             </ul>
             <ul className="grid my-3">
-              <li>+1 234 567 8901</li>
-              <li>+1 234 567 8901</li>
-              <li>info@test.com</li>
+              <li>98937 30005</li>
+            </ul>
+            <ul className="grid my-3">
+              <li>rkshomes30@gmail.com ​​</li>
+              <li>r.k_construction@yahoo.com ​​</li>
+              <li>srsmilkfood@gmail.com ​​</li>
+              <li>ri.si.homefood@gmail.com ​​</li>
+              <li> rrsliquid@gmail.com ​​</li>
             </ul>
             <div className="mt-5 flex space-x-4">
               <Link to="#">
