@@ -2,7 +2,6 @@ import React from "react";
 import { FaChevronDown } from "react-icons/fa";
 import contact from "../../assests/about.png";
 import SubNavbar from "../../components/common/SubNavbar";
-import SubNav2 from "../../components/common/SubNav2";
 import ConstructionNavbar from "../../components/common/construction/ConstructionNavbar";
 import Footer from "../../components/common/Footer";
 import { FaCheckCircle } from "react-icons/fa";
@@ -11,7 +10,6 @@ const ConstructorAbout = () => {
   return (
     <div>
       <SubNavbar />
-      <SubNav2 />
       <ConstructionNavbar />
       <div className="relative flex justify-center items-center">
         <img

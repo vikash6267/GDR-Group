@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { BsArrowRight } from "react-icons/bs";
 import SubNavbar from "../components/common/SubNavbar";
-import SubNav2 from "../components/common/SubNav2";
+// import SubNav2 from "../components/common/SubNav2";
 import NavbarMain from "../components/common/NavbarMain";
 import Footer from "../components/common/Footer";
 const About = () => {
@@ -13,7 +13,7 @@ const About = () => {
   return (
     <div>
       <SubNavbar />
-      <SubNav2 />
+      {/* <SubNav2 /> */}
       <NavbarMain />
       <div className="relative bg-gradient-to-r from-blue-50 to-gray-100 py-16 px-6 md:px-12">
         <div className="container mx-auto flex flex-col lg:flex-row items-center">

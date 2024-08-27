@@ -8,6 +8,7 @@ import About from "./pages/About";
 import ConstructorHome from "./pages/constructor/ConstructorHome";
 import ConstructorAbout from "./pages/constructor/ConstructorAbout";
 import ConstructorContact from "./pages/constructor/ConstructorContact";
+import Service from "./pages/Service";
 function App() {
   const [showModal, setShowModal] = useState(true);
 
@@ -27,6 +28,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Service />} />
         <Route path="/construction-home" element={<ConstructorHome />} />
         <Route path="/construction-about" element={<ConstructorAbout />} />
         <Route path="/construction-contact" element={<ConstructorContact />} />
