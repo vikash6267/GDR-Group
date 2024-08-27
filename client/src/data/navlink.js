@@ -20,12 +20,21 @@ export const navlinks = [
         title: "Our Companies",
         path: "#",
         sublink: [
+<<<<<<< HEAD
             { name: "New RK Construction", path: "/construction/home" },
             { name: "RKS Homes", path: "/rks-homes/home" },
             { name: "SRS Foods", path: "/srs-foods/home" },
             { name: "Ri Si Home Food", path: "/ri-si-home-food-home/home" },
             { name: "72 GDR Steel", path: "/72-gdr-steel/home" },
             { name: "R.R.S. Liquid Products", path: "/liquid/home" }
+=======
+            { name: "New RK Construction", path: "/construction-home" },
+            { name: "RKS Homes", path: "/rks-homes" },
+            { name: "SRS Foods", path: "/srs-foods" },
+            { name: "Ri Si Home Food", path: "/ri-si-food/home" },
+            { name: "72 GDR Steel", path: "/72-gdr-steel" },
+            { name: "R.R.S. Liquid Products", path: "/liquid" }
+>>>>>>> 538de616e64b90535ea0ed439258920ff452b93f
         ]
     },
 
