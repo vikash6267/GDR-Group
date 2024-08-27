@@ -6,6 +6,7 @@ import SubNavbar from "../components/common/SubNavbar";
 import MilkAbout from "../pages/milk/MilkAbout";
 import ConstructorContact from "../pages/constructor/ConstructorContact";
 import MilkContact from "../pages/milk/MilkContact";
+import Footer from "../components/common/Footer";
 
 const MilkProduct = () => {
   return (
@@ -18,6 +19,7 @@ const MilkProduct = () => {
         <Route path="/about" element={<MilkAbout />} />
         <Route path="/contact" element={<MilkContact />} />
       </Routes>
+      <Footer />
     </div>
   );
 };
