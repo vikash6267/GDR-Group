@@ -1,15 +1,10 @@
 import React from "react";
 import { FaArrowRight, FaChevronDown } from "react-icons/fa";
 import contact from "../../assests/contact.jpg";
-import SubNavbar from "../../components/common/SubNavbar";
-import ConstructionNavbar from "../../components/common/construction/ConstructionNavbar";
-import Footer from "../../components/common/Footer";
 
-const ConstructorContact = () => {
+const MilkContact = () => {
   return (
     <div>
-      <SubNavbar />
-      <ConstructionNavbar />
       <div className="relative flex justify-center items-center">
         <img
           src={contact}
@@ -101,9 +96,8 @@ const ConstructorContact = () => {
         </div>
       </div>
       <div className="mt-96"></div>
-      <Footer />
     </div>
   );
 };
 
-export default ConstructorContact;
+export default MilkContact;
