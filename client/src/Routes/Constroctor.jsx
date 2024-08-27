@@ -7,9 +7,9 @@ const Constroctor = () => {
   return (
     <div>
       <Routes>
-        <Route path="/construction-home" element={<ConstructorHome />} />
-        <Route path="/construction-about" element={<ConstructorAbout />} />
-        <Route path="/construction-contact" element={<ConstructorContact />} />
+        <Route path="/construction/home" element={<ConstructorHome />} />
+        <Route path="/construction/about" element={<ConstructorAbout />} />
+        <Route path="/construction/contact" element={<ConstructorContact />} />
       </Routes>
     </div>
   );
