@@ -10,6 +10,7 @@ import Service from "./pages/Service";
 import RISIFoddHome from "./Routes/RISIFoddHome";
 import MilkProduct from "./Routes/MilkProduct";
 import Constroctor from "./Routes/Constroctor";
+import GreedSteel72 from "./Routes/GreedSteel72";
 function App() {
   const [showModal, setShowModal] = useState(true);
 
@@ -34,6 +35,7 @@ function App() {
 
         <Route path="/ri-si-food/*" element={<RISIFoddHome />} />
         <Route path="/srs-foods/*" element={<MilkProduct />} />
+        <Route path="/72-gdr-steel/*" element={<GreedSteel72 />} />
       </Routes>
     </div>
   );
