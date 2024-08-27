@@ -7,6 +7,14 @@ import c5 from "../../../assests/constructor/c5.jpg";
 import c6 from "../../../assests/constructor/c6.jpg";
 import c7 from "../../../assests/constructor/c7.jpg";
 import c8 from "../../../assests/constructor/c8.jpg";
+
+import dahi from "../../../assests/milk/dahi.webp";
+import dudh from "../../../assests/milk/dudh.jpeg";
+import ghee from "../../../assests/milk/ghee.jpg";
+import lassi from "../../../assests/milk/lassi.webp";
+import matha from "../../../assests/milk/maththa.webp";
+import paneer from "../../../assests/milk/paneer.jpeg";
+import shak from "../../../assests/milk/shak.jpeg";
 import { Link } from "react-router-dom";
 const Project = () => {
   const tabs = [
@@ -57,7 +65,7 @@ const Project = () => {
         link: "/construction/home",
       },
       {
-        id: 8,
+        id: 18,
         name: "Industrial sites",
         src: "https://static.vecteezy.com/system/resources/thumbnails/015/640/043/original/4k-swimming-pool-construction-site-fading-vertically-to-completion-video.jpg",
         link: "/construction/home",
@@ -70,8 +78,13 @@ const Project = () => {
       { id: 7, name: "Commercial 4", src: home4 },
     ],
     3: [
-      { id: 8, name: "Hospitality 1", src: "logo" },
-      { id: 9, name: "Hospitality 2", src: "logo" },
+      { id: 8, name: "Dahi", src: dahi },
+      { id: 9, name: "Dudh ", src: dudh },
+      { id: 10, name: "Ghee ", src: ghee },
+      { id: 11, name: "Lassi ", src: lassi },
+      { id: 12, name: "Mattha ", src: matha },
+      { id: 13, name: "Paneer ", src: paneer },
+      { id: 14, name: "Shake ", src: shak },
     ],
     4: [
       { id: 10, name: "Office 1", src: "logo" },
