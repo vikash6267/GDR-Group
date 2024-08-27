@@ -45,18 +45,18 @@ const Project = () => {
         src: c7,
         link: "/construction/home",
       },
-      { id: 4, name: "Industrial sites", src: c8, link: "/construction/home" },
+      { id: 4, name: "Industrial sites", src: c8, link: "construction-home" },
       {
         id: 5,
         name: "Industrial sites",
         src: "https://img.freepik.com/free-photo/construction-works-frankfurt-downtown-germany_1268-20907.jpg",
-        link: "/construction/home",
+        link: "construction-home",
       },
       {
         id: 6,
         name: "Industrial sites",
         src: "https://plus.unsplash.com/premium_photo-1681691912442-68c4179c530c?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29uc3RydWN0aW9ufGVufDB8fDB8fHww",
-        link: "/construction/home",
+        link: "construction-home",
       },
       {
         id: 7,
@@ -76,7 +76,28 @@ const Project = () => {
       { id: 5, name: "Commercial 2", src: home2 },
       { id: 6, name: "Commercial 3", src: home3 },
       { id: 7, name: "Commercial 4", src: home4 },
+      {
+        id: 12,
+        name: "Commercial 4",
+        src: "https://png.pngtree.com/png-vector/20200831/ourmid/pngtree-home-for-sale-sign-representing-the-concept-of-real-estate-sale-png-image_2336006.jpg",
+      },
+      {
+        id: 22,
+        name: "Commercial 4",
+        src: "https://i.pinimg.com/736x/06/3f/b6/063fb643d1ddc8bbd4a3cdf002552aa4.jpg",
+      },
+      {
+        id: 23,
+        name: "Commercial 4",
+        src: "https://img.freepik.com/premium-psd/real-estate-house-property-instagram-post-social-media-banner-template_486734-232.jpg",
+      },
+      {
+        id: 24,
+        name: "Commercial 4",
+        src: "https://i.pinimg.com/736x/c5/6c/20/c56c20a7d00d37d3fdf3d833b580a85c.jpg",
+      },
     ],
+
     3: [
       { id: 8, name: "Dahi", src: dahi },
       { id: 9, name: "Dudh ", src: dudh },
@@ -86,6 +107,7 @@ const Project = () => {
       { id: 13, name: "Paneer ", src: paneer },
       { id: 14, name: "Shake ", src: shak },
     ],
+
     4: [
       { id: 10, name: "Office 1", src: "logo" },
       { id: 11, name: "Office 2", src: "logo" },

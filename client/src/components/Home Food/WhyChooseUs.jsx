@@ -39,7 +39,7 @@ const WhyChooseRISI = () => {
         </div>
 
         <div className='lg:w-[50%] w-full'>
-          Discover why The Bharat Exporter stands out as your premier choice for sourcing exceptional culinary delights.
+          Discover why RISI Home qFoods stands out as your premier choice for sourcing exceptional culinary delights.
         </div>
       </div>
 
