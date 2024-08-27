@@ -7,6 +7,7 @@ import ProdutsHomeFood from './ProdutsHomeFood';
 import ItemList from './OtherItems';
 import SecondSection from './SectionSecond';
 import WhyChooseRISI from './WhyChooseUs';
+import Footer from "../common/Footer"
 
 function RISIHomeFood() {
   return (
@@ -19,6 +20,7 @@ function RISIHomeFood() {
       <SecondSection />
       <ItemList />
       <WhyChooseRISI />
+      <Footer />
     </div>
   )
 }

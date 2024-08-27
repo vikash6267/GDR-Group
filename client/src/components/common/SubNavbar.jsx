@@ -4,7 +4,7 @@ import { FiMapPin, FiPhone, FiMail } from "react-icons/fi";
 
 const TopHeader = () => {
   return (
-    <div className="bg-e[#212385] text-white py-3">
+    <div className="bg-[#212385] text-white py-3">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center px-4 space-y-2 md:space-y-0">
         <div className="flex flex-col md:flex-row md:items-center space-y-2 md:space-y-0">
           <div className="flex  justify-center md:justify-start items-center space-x-6">
