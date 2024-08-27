@@ -33,7 +33,7 @@ function App() {
         <Route path="/*" element={<Constroctor />} />
 
         <Route path="/ri-si-food/*" element={<RISIFoddHome />} />
-        <Route path="/milk/*" element={<MilkProduct />} />
+        <Route path="/srs-foods/*" element={<MilkProduct />} />
       </Routes>
     </div>
   );
