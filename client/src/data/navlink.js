@@ -23,7 +23,7 @@ export const navlinks = [
             { name: "New RK Construction", path: "/construction-home" },
             { name: "RKS Homes", path: "/rks-homes" },
             { name: "SRS Foods", path: "/srs-foods" },
-            { name: "Ri Si Home Food", path: "/ri-si-home-food-home" },
+            { name: "Ri Si Home Food", path: "/ri-si-food/home" },
             { name: "72 GDR Steel", path: "/72-gdr-steel" },
             { name: "R.R.S. Liquid Products", path: "/liquid" }
         ]
@@ -48,8 +48,13 @@ export const navlinks = [
 
 
 ]
-export const constructionNavbar = [
 
+export const constructionNavbar = [
+    {
+        id: 0,
+        title: "Main Home",
+        path: "/"
+    },
     {
         id: 1,
         title: "Home",
@@ -66,6 +71,33 @@ export const constructionNavbar = [
         id: 3,
         title: "Contact",
         path: "/construction-contact"
+    },
+
+]
+
+export const risiFoodNavbar = [
+
+    {
+        id: 0,
+        title: "Main Home",
+        path: "/"
+    },
+    {
+        id: 1,
+        title: "Home",
+        path: "/ri-si-food/home"
+    },
+    {
+        id: 2,
+        title: "About",
+        path: "/ri-si-food/about"
+    },
+
+
+    {
+        id: 3,
+        title: "Contact",
+        path: "/ri-si-food/contact"
     },
 
 ]
