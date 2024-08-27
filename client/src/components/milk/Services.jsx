@@ -1,61 +1,63 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import home from "../../../assests/home/h2.jpg";
-
+import creame from "../../assests/milk/creame.jpeg";
+import dahi from "../../assests/milk/dahi.webp";
+import dudh from "../../assests/milk/dudh.jpeg";
+import ghee from "../../assests/milk/ghee.jpg";
+import lassi from "../../assests/milk/lassi.webp";
+import matha from "../../assests/milk/maththa.webp";
+import paneer from "../../assests/milk/paneer.jpeg";
+import shak from "../../assests/milk/shak.jpeg";
 const services = [
   {
-    image:
-      "https://5.imimg.com/data5/SELLER/Default/2023/3/DW/RJ/XB/37290892/monkey-hoist-or-mini-lift-500x500.jpeg",
-    title: "New RK Constructor",
-    subtitle: "Best Service Ever",
-    description:
-      "Leading construction company specializing in civil works for both government and private bodies.",
+    image: creame,
+    title: "Cream",
+    subtitle: "Best Cream",
+    description: "We Have All Brands of Fresh Creame",
     link: "/construction/home",
   },
   {
-    image: home,
-    title: "RKS Home",
-    subtitle: "Excellent Home",
-    description:
-      "Real estate company focusing on the sale of agricultural lands with expert guidance.",
-    link: "/real-estate",
+    image: dahi,
+    title: "Dahi",
+    subtitle: "Best Dahi",
+    description: "We Have All Brands of Fresh Dahi",
   },
   {
-    image:
-      "https://gdrgroup.in/wp-content/uploads/2022/12/Shree-Ji-225x300.png",
-    title: "SRK Food",
-    subtitle: "Best Quality Assurance",
-    description:
-      "Manufacturer of milk products like butter, clarified butter, and ice cream.",
-    link: "/food-products",
+    image: dudh,
+    title: "Dudh",
+    subtitle: "Best Dudh",
+    description: "We Have All Brands of Fresh Dudh",
   },
   {
-    image:
-      "https://5.imimg.com/data5/SELLER/Default/2022/7/HJ/RA/RN/26624004/whatsapp-image-2022-07-19-at-11-15-10-pm-500x500.jpeg",
-    title: "Ri Si Home Food",
-    subtitle: "Best Quality Assurance",
-    description:
-      "Specializes in selling high-quality spices and dry food items for home cooking.",
-    link: "/home-food",
+    image: ghee,
+    title: "Ghee",
+    subtitle: "Best Ghee",
+    description: "We Have All Brands of Fresh Ghee",
   },
   {
-    image:
-      "https://gdrgroup.in/wp-content/uploads/2023/02/10-STAINLESS-STEEL-REBAR.webp",
-    title: "72 GDR Steel",
-    subtitle: "Quality Assurance",
-    description:
-      "Specializes in TMT iron rods for the reinforcement of concrete structures.",
-    link: "/steel-products",
+    image: lassi,
+    title: "Lassi",
+    subtitle: "Best Lassi",
+    description: "We Have All Brands of Fresh Lassi",
   },
 
   {
-    id: 7,
-    image:
-      "https://t3.ftcdn.net/jpg/07/34/77/60/360_F_734776078_Z94kwR6jm2w1HxmPeSjqJNJFqM4Mp3Nk.jpg",
-    title: "RRS Liquid Products",
-    description:
-      "Offers refreshing beverages including flavored water and energy drinks.",
-    link: "/liquid-products",
+    image: matha,
+    title: "mattha",
+    subtitle: "Best mattha",
+    description: "We Have All Brands of Fresh mattha",
+  },
+  {
+    image: paneer,
+    title: "Panner",
+    subtitle: "Best Panner",
+    description: "We Have All Brands of Fresh Panner",
+  },
+  {
+    image: shak,
+    title: "Shake",
+    subtitle: "Best Shake",
+    description: "We Have All Brands of Fresh Shake",
   },
 ];
 

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaChevronDown, FaBars, FaTimes } from "react-icons/fa";
 import logo from "../../../assests/logos/gdrgruop.jpg";
-import { constructionNavbar } from "../../../data/navlink";
+import { milkNavbar } from "../../../data/navlink";
 import Modal from "../../core/contact/Modal";
 import { Link } from "react-router-dom";
 
@@ -53,7 +53,7 @@ const MilkNavbar = () => {
           {/* Navigation Links */}
           <div className="hidden lg:flex flex-grow items-center justify-center">
             <ul className="flex space-x-8">
-              {constructionNavbar?.map((link) => (
+              {milkNavbar?.map((link) => (
                 <li key={link.id} className="relative group">
                   <Link
                     to={link.path}
@@ -113,7 +113,7 @@ const MilkNavbar = () => {
           </button>
         </div>
         <ul className="flex flex-col mt-4">
-          {constructionNavbar?.map((link) => (
+          {milkNavbar?.map((link) => (
             <li key={link.id} className="relative">
               <Link
                 to={link.path}
