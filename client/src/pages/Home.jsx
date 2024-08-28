@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Slider from "../components/core/Home/Swipper";
 import AboutHome from "../components/core/Home/AboutHome";
 import Company from "../components/core/Home/Company";
@@ -20,6 +20,9 @@ import ContactBanner from "../components/milk/ContactBanner";
 // import GetInTouch from "../components/core/Home/GetInTouch";
 
 function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <SubNavbar />

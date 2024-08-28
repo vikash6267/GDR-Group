@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import RISINavbar from "./Navbar";
 import SubNavbar from "../common/SubNavbar";
 import HeroSlider from "./Slider";
@@ -10,6 +10,9 @@ import WhyChooseRISI from "./WhyChooseUs";
 import Footer from "../common/Footer";
 import ContactBanner from "../../components/milk/ContactBanner";
 function RISIHomeFood() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <SubNavbar />

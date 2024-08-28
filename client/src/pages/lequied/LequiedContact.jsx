@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FaArrowRight, FaChevronDown } from "react-icons/fa";
 import contact from "../../assests/contact.jpg";
 import Devision from "../../components/common/Devision";
 
 const MilkContact = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <div className="relative flex justify-center items-center">

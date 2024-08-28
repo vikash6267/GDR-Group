@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import SubNavbar from "../../components/common/SubNavbar";
 import ConstructionNavbar from "../../components/common/construction/ConstructionNavbar";
 import Footer from "../../components/common/Footer";
@@ -10,6 +10,9 @@ import Partners from "../../components/constructor/Partner";
 import TalkToUs from "../../components/constructor/TalkToUs";
 import ContactBanner from "../../components/milk/ContactBanner";
 const ConstructorHome = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <SubNavbar />

@@ -103,7 +103,6 @@ body {
   z-index: -1;
 }
 
-
 /* Welcome */
 @keyframes scroll-left {
   0% {
@@ -130,7 +129,6 @@ body {
 .welcomeanimate-scroll-right {
   animation: scroll-right 20s linear infinite;
 }
-
 
 .gradient-text {
   background-image: linear-gradient(to right, #b3e11d, #e83598);
@@ -248,8 +246,21 @@ body {
   position: relative;
 }
 
+.scroll-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 20px;
+  cursor: pointer;
+  z-index: 1000;
+}
 
-
-
+.scroll-to-top-button:hover {
+  background-color: #0056b3;
+}
 
 /* globals.css or Tailwind CSS file */

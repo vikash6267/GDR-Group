@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "./Navbar";
 import SubNavbar from "../common/SubNavbar";
 import Footer from "../common/Footer";
@@ -17,6 +17,9 @@ import { MdOutlineSupervisorAccount } from "react-icons/md";
 import Devision from "../common/Devision";
 
 const AboutUsPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <SubNavbar />

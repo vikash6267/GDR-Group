@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FaArrowRight, FaChevronDown } from "react-icons/fa";
 import contact from "../../assests/contact.jpg";
 import SubNavbar from "../../components/common/SubNavbar";
@@ -7,6 +7,9 @@ import Footer from "../../components/common/Footer";
 import Devision from "../../components/common/Devision";
 
 const ConstructorContact = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <SubNavbar />
