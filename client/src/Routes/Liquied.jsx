@@ -1,23 +1,22 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import MilkHome from "../pages/milk/MilkHome";
-import MilkNavbar from "../components/common/milk/MilkNavbar";
 import SubNavbar from "../components/common/SubNavbar";
-import MilkAbout from "../pages/milk/MilkAbout";
-import ConstructorContact from "../pages/constructor/ConstructorContact";
-import MilkContact from "../pages/milk/MilkContact";
 import Footer from "../components/common/Footer";
+import LequiedNavbar from "../components/common/liqued/LequiedNavbar";
+import LequiedHome from "../pages/lequied/LequiedHome";
+import LequiedAbout from "../pages/lequied/LequiedAbout";
+import LequiedContact from "../pages/lequied/LequiedContact";
 
 const Liquied = () => {
   return (
     <div>
       <SubNavbar />
 
-      <MilkNavbar />
+      <LequiedNavbar />
       <Routes>
-        <Route path="/home" element={<MilkHome />} />
-        <Route path="/about" element={<MilkAbout />} />
-        <Route path="/contact" element={<MilkContact />} />
+        <Route path="/home" element={<LequiedHome />} />
+        <Route path="/about" element={<LequiedAbout />} />
+        <Route path="/contact" element={<LequiedContact />} />
       </Routes>
       <Footer />
     </div>
