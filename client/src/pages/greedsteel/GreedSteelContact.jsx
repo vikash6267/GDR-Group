@@ -1,6 +1,7 @@
 import React from "react";
 import { FaArrowRight, FaChevronDown } from "react-icons/fa";
 import contact from "../../assests/contact.jpg";
+import Devision from "../../components/common/Devision";
 
 const GreedSteelContact = () => {
   return (
@@ -97,6 +98,7 @@ const GreedSteelContact = () => {
         </div>
       </div>
       <div className="mt-96"></div>
+      <Devision />
     </div>
   );
 };

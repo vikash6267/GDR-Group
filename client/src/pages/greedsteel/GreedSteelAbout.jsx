@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { BsArrowRight } from "react-icons/bs";
+import Devision from "../../components/common/Devision";
 
 const GreedSteelAbout = () => {
   const aboutImage =
@@ -81,6 +82,7 @@ const GreedSteelAbout = () => {
           </motion.div>
         </div>
       </div>
+      <Devision />
     </div>
   );
 };

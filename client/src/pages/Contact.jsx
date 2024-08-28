@@ -6,6 +6,7 @@ import SubNavbar from "../components/common/SubNavbar";
 // import SubNav2 from "../components/common/SubNav2";
 import NavbarMain from "../components/common/NavbarMain";
 import Footer from "../components/common/Footer";
+import Devision from "../components/common/Devision";
 const Contact = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -64,11 +65,12 @@ const Contact = () => {
         {/* Right Column: Map */}
         <div>
           <iframe
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3668.196516107796!2d77.27105677531803!3d23.16302667907558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDA5JzQ2LjkiTiA3N8KwMTYnMjUuMSJF!5e0!3m2!1sen!2sin!4v1724832538455!5m2!1sen!2sin"
             className="w-full h-96"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.8510343500087!2d144.955432715673!3d-37.8173259797515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577cb1aa9f2ad71!2s123%20Main%20St%2C%20Melbourne%20VIC%203000%2C%20Australia!5e0!3m2!1sen!2sus!4v1615530123456!5m2!1sen!2sus"
+            title="Provision Plus"
             allowFullScreen=""
             loading="lazy"
-            title="Google Map"
+            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </div>
@@ -79,6 +81,7 @@ const Contact = () => {
         toggleModal={toggleModal}
         onSubmit={handleSubmit}
       />
+      <Devision />
       <Footer />
     </div>
   );

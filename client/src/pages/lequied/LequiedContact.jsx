@@ -1,6 +1,7 @@
 import React from "react";
 import { FaArrowRight, FaChevronDown } from "react-icons/fa";
 import contact from "../../assests/contact.jpg";
+import Devision from "../../components/common/Devision";
 
 const MilkContact = () => {
   return (
@@ -48,7 +49,7 @@ const MilkContact = () => {
           {/* Replace with your map image or iframe */}
           <iframe
             title="milk"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24300.37058745542!2d-0.1396336!3d51.5114219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487605197cbac571%3A0x8dbe0ffdc1e1427c!2sLondon%20Eye!5e0!3m2!1sen!2sus!4v1692962633304!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3668.196516107796!2d77.27105677531803!3d23.16302667907558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDA5JzQ2LjkiTiA3N8KwMTYnMjUuMSJF!5e0!3m2!1sen!2sin!4v1724832538455!5m2!1sen!2sin"
             className="w-screen h-[70vh]"
             style={{ border: 0 }}
             allowFullScreen=""
@@ -97,6 +98,7 @@ const MilkContact = () => {
         </div>
       </div>
       <div className="mt-96"></div>
+      <Devision />
     </div>
   );
 };

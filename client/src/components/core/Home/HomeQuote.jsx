@@ -34,10 +34,9 @@ const HomeQuote = () => {
         <div className="grid lg:grid-cols-2 max-w-7xl mx-auto gap-5 p-5 lg:py-16">
           <div className="text-center my-1">
             <iframe
-              title="Provision Plus"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7333.84352057614!2d77.41208863733591!3d23.209521776763022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c42fdc98e7b33%3A0x23e5d8d4025e8abb!2sJanki%20Nagar%2C%20Chuna%20Bhatti%2C%20Bhopal%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1724748951956!5m2!1sen!2sin"
-              // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d469402.70437816554!2d77.07623464395338!3d23.19906632038403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c428f8fd68fbd%3A0x2155716d572d4f8!2sBhopal%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1721991329276!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3668.196516107796!2d77.27105677531803!3d23.16302667907558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDA5JzQ2LjkiTiA3N8KwMTYnMjUuMSJF!5e0!3m2!1sen!2sin!4v1724832538455!5m2!1sen!2sin"
               className="w-full h-[100vh]"
+              title="Provision Plus"
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

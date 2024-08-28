@@ -5,6 +5,7 @@ import SubNavbar from "../../components/common/SubNavbar";
 import ConstructionNavbar from "../../components/common/construction/ConstructionNavbar";
 import Footer from "../../components/common/Footer";
 import { FaCheckCircle } from "react-icons/fa";
+import Devision from "../../components/common/Devision";
 
 const ConstructorAbout = () => {
   return (
@@ -101,6 +102,7 @@ const ConstructorAbout = () => {
           </div>
         </div>
       </section>
+      <Devision />
 
       <Footer />
     </div>
