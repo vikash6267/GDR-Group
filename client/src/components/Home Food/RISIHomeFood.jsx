@@ -1,14 +1,14 @@
-import React from 'react'
-import RISINavbar from './Navbar'
+import React from "react";
+import RISINavbar from "./Navbar";
 import SubNavbar from "../common/SubNavbar";
-import HeroSlider from './Slider';
-import AboutSection from './About';
-import ProdutsHomeFood from './ProdutsHomeFood';
-import ItemList from './OtherItems';
-import SecondSection from './SectionSecond';
-import WhyChooseRISI from './WhyChooseUs';
-import Footer from "../common/Footer"
-
+import HeroSlider from "./Slider";
+import AboutSection from "./About";
+import ProdutsHomeFood from "./ProdutsHomeFood";
+import ItemList from "./OtherItems";
+import SecondSection from "./SectionSecond";
+import WhyChooseRISI from "./WhyChooseUs";
+import Footer from "../common/Footer";
+import ContactBanner from "../../components/milk/ContactBanner";
 function RISIHomeFood() {
   return (
     <div>
@@ -16,13 +16,14 @@ function RISIHomeFood() {
       <RISINavbar />
       <HeroSlider />
       <AboutSection />
+      <ContactBanner />
       <ProdutsHomeFood />
       <SecondSection />
       <ItemList />
       <WhyChooseRISI />
       <Footer />
     </div>
-  )
+  );
 }
 
-export default RISIHomeFood
+export default RISIHomeFood;
