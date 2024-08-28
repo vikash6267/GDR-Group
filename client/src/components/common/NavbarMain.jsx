@@ -148,7 +148,7 @@ const Navbar = () => {
   <div className="flex space-x-4 w-11/12 mx-auto items-center justify-center mt-10">
   <Link
     to="https://www.facebook.com/RKSHOME.CO.IN"
-    className="text-blue-600 hover:text-blue-400 border border-blue-600 hover:border-blue-400 rounded-full p-3 px-5 transition-all duration-300"
+    className="text-blue-600 hover:text-blue-400 border border-blue-600 hover:border-blue-400 rounded-full p-3  transition-all duration-300"
     aria-label="Facebook"
     target="_blank"
   >
@@ -157,7 +157,7 @@ const Navbar = () => {
 
   <Link
     to="https://www.instagram.com/rks.homes/"
-    className="text-pink-600 hover:text-pink-400 border border-pink-600 hover:border-pink-400 rounded-full p-3 px-5 transition-all duration-300"
+    className="text-pink-600 hover:text-pink-400 border border-pink-600 hover:border-pink-400 rounded-full p-3  transition-all duration-300"
     aria-label="Instagram"
     target="_blank"
   >
@@ -165,7 +165,7 @@ const Navbar = () => {
   </Link>
   <Link
     to="https://www.youtube.com/@rkshomes5376"
-    className="text-red-600 hover:text-red-400 border border-red-600 hover:border-red-400 rounded-full p-3 px-5 transition-all duration-300"
+    className="text-red-600 hover:text-red-400 border border-red-600 hover:border-red-400 rounded-full p-3 transition-all duration-300"
     aria-label="YouTube"
     target="_blank"
   >
@@ -174,7 +174,7 @@ const Navbar = () => {
 
   <Link
     to="https://www.google.com/maps?q=23.1630267,77.2736317&z=17&hl=en"
-    className="text-blue-600 hover:text-blue-400 border border-blue-600 hover:border-blue-400 rounded-full p-3 px-5 transition-all duration-300"
+    className="text-blue-600 hover:text-blue-400 border border-blue-600 hover:border-blue-400 rounded-full p-3 transition-all duration-300"
     aria-label="Facebook"
     target="_blank"
   >
