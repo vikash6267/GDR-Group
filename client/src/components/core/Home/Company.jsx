@@ -8,12 +8,12 @@ const company = [
   {
     img: home,
     title: "RKS Homes",
-    desc: "RKS Homes is a real estate company specializing in the sale of agricultural lands. We are committed to helping our clients find the perfect piece of land for their farming or ranching needs. Our team of real estate professionals has extensive knowledge of the local agricultural market and can provide valuable insights and guidance to help our clients make informed decisions.",
+    desc: "RKS Homes is a real estate company specializing in the sale of agricultural lands. We are committed to helping our clients find the perfect piece of land for their farming or ranching needs. Our team of real estate professionals has extensive knowledge .",
   },
   {
     img: food,
     title: "Ri Si Home Food",
-    desc: "Ri Si Home Food is a company that specializes in selling a wide range of spices and dry food items for home cooking. Our aim is to provide our customers with high-quality products that will enhance the flavor of their dishes and make their cooking experience more enjoyable.",
+    desc: "Ri Si Home Food is a company that specializes in selling a wide range of spices and dry food items for home cooking. Our aim is to provide our customers with high-quality products .",
   },
   {
     img: milk,

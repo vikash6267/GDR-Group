@@ -109,12 +109,33 @@ const Project = () => {
     ],
 
     4: [
-      { id: 10, name: "Office 1", src: "logo" },
-      { id: 11, name: "Office 2", src: "logo" },
+      {
+        id: 10,
+        name: "Cardamom",
+        src: "https://gdrgroup.in/wp-content/uploads/2023/04/Cardamom.jpg",
+      },
+      {
+        id: 11,
+        name: "Black-Cumin",
+        src: "https://gdrgroup.in/wp-content/uploads/2023/04/Black-Cumin.jpg",
+      },
     ],
     5: [
-      { id: 12, name: "Residential 1", src: "logo" },
-      { id: 13, name: "Residential 2", src: "logo" },
+      {
+        id: 12,
+        name: "Iron",
+        src: "https://gdrgroup.in/wp-content/uploads/2023/02/011.webp",
+      },
+      {
+        id: 13,
+        name: "Iron",
+        src: "https://gdrgroup.in/wp-content/uploads/2023/02/012.webp",
+      },
+      {
+        id: 14,
+        name: "Iron",
+        src: "https://gdrgroup.in/wp-content/uploads/2023/02/10-STAINLESS-STEEL-REBAR.webp",
+      },
     ],
   };
 
