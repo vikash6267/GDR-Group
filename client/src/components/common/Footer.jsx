@@ -80,22 +80,15 @@ const Footer = () => {
               <li> rrsliquid@gmail.com ​​</li>
             </ul>
             <div className="mt-5 flex space-x-4">
-              <Link to="#">
-                <FaFacebook className="h-6 w-6" />
+              <Link to="https://www.facebook.com/RKSHOME.CO.IN">
+                <FaFacebook className="h-6 w-6" target="_blank" />
               </Link>
-              <Link to="#">
-                <FaTwitter className="h-6 w-6" />
+
+              <Link to="https://www.instagram.com/rks.homes/">
+                <FaInstagram className="h-6 w-6" target="_blank" />
               </Link>
-              <Link to="#">
-                <FaPinterest className="h-6 w-6" />
-              </Link>
-              <Link to="#">
-                <FaInstagram className="h-6 w-6" />
-              </Link>
-              <Link to="#">
-                <FaLinkedin className="h-6 w-6" />
-              </Link>
-              <Link to="#">
+
+              <Link to="https://www.youtube.com/@rkshomes5376">
                 <FaYoutube className="h-6 w-6" />
               </Link>
             </div>
@@ -103,7 +96,7 @@ const Footer = () => {
               <div className="flex items-center bg-green-500 rounded-full p-2 space-x-2 text-white hover:bg-green-600 transition w-fit px-5 mt-5 duration-300">
                 <FaWhatsapp size={34} />
                 <a
-                  href="https://wa.me/+12345678901"
+                  href="https://wa.me/+919893730005"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-bold text-sm"

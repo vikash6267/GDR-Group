@@ -25,33 +25,36 @@ const TopHeader = () => {
         </div>
         <div className="flex space-x-4">
           <Link
-            to="#"
+            to="https://www.facebook.com/RKSHOME.CO.IN"
             className="text-white hover:text-gray-300"
             aria-label="Facebook"
+            target="_blank"
           >
             <FaFacebook size={22} />
           </Link>
           <Link
-            href="#"
+            to="https://www.instagram.com/rks.homes/"
             className="text-white hover:text-gray-300"
             aria-label="Instagram"
+            target="_blank"
           >
             <FaInstagram size={22} />
           </Link>
           <Link
-            href="#"
+            to="https://www.youtube.com/@rkshomes5376"
             className="text-white hover:text-gray-300"
             aria-label="YouTube"
+            target="_blank"
           >
             <FaYoutube size={22} />
           </Link>
-          <Link
+          {/* <Link
             href="#"
             className="text-white hover:text-gray-300"
             aria-label="LinkedIn"
           >
             <FaLinkedin size={22} />
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>
