@@ -12,9 +12,9 @@ const MilkHome = () => {
     <div>
       <Slider />
       <Services />
+      <ContactBanner />
       <MilkProduct />
       <Company />
-      <ContactBanner />
       <WhyUs />
     </div>
   );

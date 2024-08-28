@@ -16,6 +16,7 @@ import NavbarMain from "../components/common/NavbarMain";
 import Footer from "../components/common/Footer";
 import HomeQuote from "../components/core/Home/HomeQuote";
 import Blog from "../components/core/Home/Blog";
+import ContactBanner from "../components/milk/ContactBanner";
 // import GetInTouch from "../components/core/Home/GetInTouch";
 
 function Home() {
@@ -36,6 +37,7 @@ function Home() {
         }
       />
       <Company />
+      <ContactBanner />
       {/* <Gallery /> */}
       <Project />
       <Process />

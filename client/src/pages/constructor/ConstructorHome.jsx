@@ -8,6 +8,7 @@ import Company from "../../components/constructor/Services";
 import Expert from "../../components/constructor/Expert";
 import Partners from "../../components/constructor/Partner";
 import TalkToUs from "../../components/constructor/TalkToUs";
+import ContactBanner from "../../components/milk/ContactBanner";
 const ConstructorHome = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const ConstructorHome = () => {
       <Swipper />
       <Building />
       <Company />
+      <ContactBanner />
       <Expert />
       <Partners />
       <TalkToUs />
