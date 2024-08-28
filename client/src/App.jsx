@@ -12,6 +12,7 @@ import MilkProduct from "./Routes/MilkProduct";
 import Constroctor from "./Routes/Constroctor";
 import GreedSteel72 from "./Routes/GreedSteel72";
 import RKSHome from "./Routes/RKSHome";
+import Gallery from "./pages/Gallery";
 function App() {
   const [showModal, setShowModal] = useState(true);
 
@@ -32,6 +33,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Service />} />
+        <Route path="/gallery" element={<Gallery />} />
         <Route path="/*" element={<Constroctor />} />
 
         <Route path="/ri-si-food/*" element={<RISIFoddHome />} />
