@@ -11,7 +11,7 @@ import TagCloudWithDetails from "../components/core/Home/CanvasRotation";
 import Project from "../components/core/Home/Project";
 import Process from "../components/core/Home/Process";
 import SubNavbar from "../components/common/SubNavbar";
-import SubNav2 from "../components/common/SubNav2";
+// import SubNav2 from "../components/common/SubNav2";
 import NavbarMain from "../components/common/NavbarMain";
 import Footer from "../components/common/Footer";
 import HomeQuote from "../components/core/Home/HomeQuote";

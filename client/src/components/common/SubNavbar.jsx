@@ -1,6 +1,7 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FiMapPin, FiPhone, FiMail } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 const TopHeader = () => {
   return (
@@ -23,34 +24,34 @@ const TopHeader = () => {
           </div>
         </div>
         <div className="flex space-x-4">
-          <a
-            href="#"
+          <Link
+            to="#"
             className="text-white hover:text-gray-300"
             aria-label="Facebook"
           >
             <FaFacebook size={22} />
-          </a>
-          <a
+          </Link>
+          <Link
             href="#"
             className="text-white hover:text-gray-300"
             aria-label="Instagram"
           >
             <FaInstagram size={22} />
-          </a>
-          <a
+          </Link>
+          <Link
             href="#"
             className="text-white hover:text-gray-300"
             aria-label="YouTube"
           >
             <FaYoutube size={22} />
-          </a>
-          <a
+          </Link>
+          <Link
             href="#"
             className="text-white hover:text-gray-300"
             aria-label="LinkedIn"
           >
             <FaLinkedin size={22} />
-          </a>
+          </Link>
         </div>
       </div>
     </div>

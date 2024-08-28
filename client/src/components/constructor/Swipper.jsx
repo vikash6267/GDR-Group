@@ -16,9 +16,7 @@ import "swiper/css/autoplay";
 import "swiper/css/effect-fade";
 import { Link } from "react-router-dom";
 
-import image1 from "../../assests/constructor/c1.jpg";
 import image2 from "../../assests/constructor/c2.png";
-import image3 from "../../assests/constructor/c3.jpeg";
 
 const Slider = () => {
   const [textVisible, setTextVisible] = useState(false);

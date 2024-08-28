@@ -1,5 +1,4 @@
 import React from "react";
-import { FaHardHat } from "react-icons/fa";
 
 const experts = [
   {

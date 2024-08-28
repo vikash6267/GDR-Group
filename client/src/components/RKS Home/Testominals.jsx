@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { InfiniteMovingCards } from "./TestominalSlider";
 
 export default function TestimonialSection() {

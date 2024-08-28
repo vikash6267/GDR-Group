@@ -1,13 +1,11 @@
-'use client';
-
-import React, { useEffect, useRef, useState } from 'react';
-import { FaStar } from 'react-icons/fa';
-import { cn } from './cn';
+import React, { useEffect, useRef, useState } from "react";
+import { FaStar } from "react-icons/fa";
+import { cn } from "./cn";
 
 export const InfiniteMovingCards = ({
   items,
-  direction = 'left',
-  speed = 'fast',
+  direction = "left",
+  speed = "fast",
   pauseOnHover = true,
   className,
 }) => {
@@ -24,7 +22,7 @@ export const InfiniteMovingCards = ({
   const addAnimation = () => {
     const scrollerContent = Array.from(scrollerRef.current.children);
 
-    scrollerContent.forEach(item => {
+    scrollerContent.forEach((item) => {
       const duplicatedItem = item.cloneNode(true);
       scrollerRef.current.appendChild(duplicatedItem);
     });
@@ -36,32 +34,37 @@ export const InfiniteMovingCards = ({
 
   const getDirection = () => {
     if (containerRef.current) {
-      const directionValue = direction === 'left' ? 'scroll-left' : 'scroll-right';
-      containerRef.current.style.setProperty('--animation-direction', directionValue);
+      const directionValue =
+        direction === "left" ? "scroll-left" : "scroll-right";
+      containerRef.current.style.setProperty(
+        "--animation-direction",
+        directionValue
+      );
     }
   };
 
   const getSpeed = () => {
     if (containerRef.current) {
-      const duration = speed === 'fast' ? '20s' : speed === 'normal' ? '40s' : '80s';
-      containerRef.current.style.setProperty('--animation-duration', duration);
+      const duration =
+        speed === "fast" ? "20s" : speed === "normal" ? "40s" : "80s";
+      containerRef.current.style.setProperty("--animation-duration", duration);
     }
   };
 
   return (
     <div
       ref={containerRef}
-      className={cn('scroller relative z-20 max-w-7xl', className)}
+      className={cn("scroller relative z-20 max-w-7xl", className)}
     >
       <ul
         ref={scrollerRef}
         className={cn(
-          'flex min-w-full gap-4 w-max flex-nowrap',
-          start && 'animate-scroll',
-          pauseOnHover && 'hover:[animation-play-state:paused]'
+          "flex min-w-full gap-4 w-max flex-nowrap",
+          start && "animate-scroll",
+          pauseOnHover && "hover:[animation-play-state:paused]"
         )}
       >
-        {items.map(item => (
+        {items.map((item) => (
           <li
             key={item.name}
             className="w-[350px] max-w-full relative rounded-2xl border flex-shrink-0 border-bgColor px-8 py-6 md:w-[450px]"

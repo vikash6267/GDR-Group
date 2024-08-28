@@ -1,14 +1,5 @@
 import React, { useState } from "react";
-import {
-  FaChevronDown,
-  FaBars,
-  FaTimes,
-  FaFacebook,
-  FaInstagram,
-  FaLinkedin,
-  FaYoutube,
-} from "react-icons/fa";
-import { FiMapPin, FiPhone, FiMail } from "react-icons/fi";
+import { FaChevronDown, FaBars, FaTimes } from "react-icons/fa";
 import logo from "../../assests/logos/gdrgruop.jpg";
 import { navlinks } from "../../data/navlink";
 import Modal from "../core/contact/Modal";
