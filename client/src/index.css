@@ -103,6 +103,8 @@ body {
   z-index: -1;
 }
 
+
+/* Welcome */
 @keyframes scroll-left {
   0% {
     transform: translateX(100%);
@@ -121,13 +123,15 @@ body {
   }
 }
 
-.scroll-left .animate-scroll-left {
+.welcomeanimate-scroll-left {
   animation: scroll-left 20s linear infinite;
 }
 
-.scroll-right .animate-scroll-right {
+.welcomeanimate-scroll-right {
   animation: scroll-right 20s linear infinite;
 }
+
+
 .gradient-text {
   background-image: linear-gradient(to right, #b3e11d, #e83598);
   background-clip: text;
