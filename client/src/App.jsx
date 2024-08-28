@@ -16,6 +16,7 @@ import Gallery from "./pages/Gallery";
 import Liquied from "./Routes/Liquied";
 import ContactSection from "./components/common/SocialMedia";
 import Blog from "./pages/Blog";
+import ScrollToTop from "./components/ScrollToTop";
 function App() {
   const [showModal, setShowModal] = useState(true);
 
@@ -48,9 +49,9 @@ function App() {
       </Routes>
 
       <ContactSection />
-      <div className=" fixed bottom-0 z-50 right">
 
-      </div>
+      <div className=" fixed bottom-0 z-50 right"></div>
+      <ScrollToTop />
     </div>
   );
 }
