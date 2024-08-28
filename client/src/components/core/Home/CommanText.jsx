@@ -18,12 +18,12 @@ const ScrollingText = () => {
       {/* Scrolling Texts */}
       <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center">
         <div className="overflow-hidden w-full h-16">
-          <div className="text-left font-bold lg:text-3xl text-xl text-white whitespace-nowrap animate-scroll-left uppercase hover:pause-scroll">
+          <div className="text-left font-bold lg:text-3xl text-xl text-white whitespace-nowrap welcomeanimate-scroll-left uppercase hover:pause-scroll">
             If you want to join us and invest, then you are welcome to GDR Group
           </div>
         </div>
         <div className="overflow-hidden w-full h-16 mt-2">
-          <div className="text-right font-bold lg:text-3xl text-xl text-white whitespace-nowrap animate-scroll-right uppercase hover:pause-scroll">
+          <div className="text-right font-bold lg:text-3xl text-xl text-white whitespace-nowrap welcomeanimate-scroll-right uppercase hover:pause-scroll">
             Your investment in the GDR Group is highly valued and appreciated.
           </div>
         </div>
