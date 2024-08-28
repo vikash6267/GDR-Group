@@ -51,7 +51,7 @@ const TagCloudWithDetails = () => {
   const [selectedTag, setSelectedTag] = useState(tags[0]);
 
   return (
-    <div className="containercanvas my-3 grid lg:grid-cols-2 min-h-[80vh] grid-cols-1">
+    <div className="containercanvas grid lg:grid-cols-2 min-h-[80vh] grid-cols-1">
       {/* Details box */}
       <div className="details-box font-bold lg:text-lg p-4  text-wrap text-white min-h-[400px]">
         {selectedTag ? (

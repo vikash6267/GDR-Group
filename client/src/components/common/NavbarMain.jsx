@@ -1,10 +1,16 @@
 import React, { useState } from "react";
-import { FaChevronDown, FaBars, FaTimes } from "react-icons/fa";
+import { FaChevronDown, FaBars, FaTimes, FaPhone } from "react-icons/fa";
 import logo from "../../assests/logos/gdrgruop.jpg";
 import { navlinks } from "../../data/navlink";
 import Modal from "../core/contact/Modal";
 import { Link } from "react-router-dom";
-import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube,FaGoogle  } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaYoutube,
+  FaGoogle,
+} from "react-icons/fa";
 
 const Navbar = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -30,7 +36,6 @@ const Navbar = () => {
 
   return (
     <div>
-
       <nav className="bg-gray-900 text-white py-3">
         <div className="max-w-7xl mx-auto flex justify-between items-center px-4">
           {/* Logo and Contact Information */}
@@ -90,108 +95,116 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {/* // Mobile Menu */}
-<div
-  className={`fixed top-0 right-0 w-3/4 h-full bg-gray-800 border-t border-gray-600 z-50 transform transition-transform duration-300 ease-in-out ${
-    isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
-  }`}
->
-  <div className="flex items-center justify-between p-4 border-b border-gray-600">
-    <img src={logo} alt="GDR Logo" className="h-12" />
-    <button onClick={toggleMobileMenu} className="text-2xl text-white">
-      <FaTimes />
-    </button>
-  </div>
-  <ul className="flex flex-col mt-4">
-    {navlinks?.map((link, index) => (
-      <li key={link.id} className="relative">
-        <Link
-          to={link.path}
-          onClick={() => link.sublink && handleLinkClick(link.id)}
-          className={`px-4 py-2 text-lg font-semibold flex items-center justify-between text-white border-b-2 border-transparent hover:border-red-500 transition-all duration-300 
+      <div
+        className={`fixed top-0 right-0 w-3/4 h-full bg-gray-800 border-t border-gray-600 z-50 transform transition-transform duration-300 ease-in-out ${
+          isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
+        }`}
+      >
+        <div className="flex items-center justify-between p-4 border-b border-gray-600">
+          <img src={logo} alt="GDR Logo" className="h-12" />
+          <button onClick={toggleMobileMenu} className="text-2xl text-white">
+            <FaTimes />
+          </button>
+        </div>
+        <ul className="flex flex-col mt-4">
+          {navlinks?.map((link, index) => (
+            <li key={link.id} className="relative">
+              <Link
+                to={link.path}
+                onClick={() => link.sublink && handleLinkClick(link.id)}
+                className={`px-4 py-2 text-lg font-semibold flex items-center justify-between text-white border-b-2 border-transparent hover:border-red-500 transition-all duration-300 
            
           `}
-        >
-          {link.title}
-          {link.sublink && (
-            <FaChevronDown
-              className={`transition-transform duration-300 ${
-                activeMenu === link.id ? "rotate-180" : ""
-              }`}
-            />
-          )}
-        </Link>
-
-        {/* Sublinks dropdown for mobile */}
-        {link.sublink && activeMenu === link.id && (
-          <ul className="pl-4 bg-gray-600">
-            {link.sublink.map((sublink, index) => (
-              <li
-                key={index}
-                className={`py-2 ${
-                  (index === link.sublink.length - 1 || index === link.sublink.length - 2) ? "border-b border-gray-500" : ""
-                } hover:bg-gray-500`}
               >
-                <Link
-                  to={sublink.path}
-                  className="text-white border-b-2 border-transparent transition-all duration-300"
-                >
-                  {sublink.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        )}
-      </li>
-    ))}
-  </ul>
+                {link.title}
+                {link.sublink && (
+                  <FaChevronDown
+                    className={`transition-transform duration-300 ${
+                      activeMenu === link.id ? "rotate-180" : ""
+                    }`}
+                  />
+                )}
+              </Link>
 
-  <div className="flex space-x-4 w-11/12 mx-auto items-center justify-center mt-10">
-  <Link
-    to="https://www.facebook.com/RKSHOME.CO.IN"
-    className="text-blue-600 hover:text-blue-400 border border-blue-600 hover:border-blue-400 rounded-full p-3  transition-all duration-300"
-    aria-label="Facebook"
-    target="_blank"
-  >
-    <FaFacebook size={22} />
-  </Link>
+              {/* Sublinks dropdown for mobile */}
+              {link.sublink && activeMenu === link.id && (
+                <ul className="pl-4 bg-gray-600">
+                  {link.sublink.map((sublink, index) => (
+                    <li
+                      key={index}
+                      className={`py-2 ${
+                        index === link.sublink.length - 1 ||
+                        index === link.sublink.length - 2
+                          ? "border-b border-gray-500"
+                          : ""
+                      } hover:bg-gray-500`}
+                    >
+                      <Link
+                        to={sublink.path}
+                        className="text-white border-b-2 border-transparent transition-all duration-300"
+                      >
+                        {sublink.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </li>
+          ))}
+        </ul>
 
-  <Link
-    to="https://www.instagram.com/rks.homes/"
-    className="text-pink-600 hover:text-pink-400 border border-pink-600 hover:border-pink-400 rounded-full p-3  transition-all duration-300"
-    aria-label="Instagram"
-    target="_blank"
-  >
-    <FaInstagram size={22} />
-  </Link>
-  <Link
-    to="https://www.youtube.com/@rkshomes5376"
-    className="text-red-600 hover:text-red-400 border border-red-600 hover:border-red-400 rounded-full p-3 transition-all duration-300"
-    aria-label="YouTube"
-    target="_blank"
-  >
-    <FaYoutube size={22} />
-  </Link>
+        <div className="flex space-x-2 w-11/12 mx-auto items-center justify-center mt-10">
+          <Link
+            to="https://www.facebook.com/RKSHOME.CO.IN"
+            className="text-blue-600 hover:text-blue-400 border border-blue-600 hover:border-blue-400 rounded-full p-3  transition-all duration-300"
+            aria-label="Facebook"
+            target="_blank"
+          >
+            <FaFacebook size={22} />
+          </Link>
 
-  <Link
-    to="https://www.google.com/maps?q=23.1630267,77.2736317&z=17&hl=en"
-    className="text-blue-600 hover:text-blue-400 border border-blue-600 hover:border-blue-400 rounded-full p-3 transition-all duration-300"
-    aria-label="Facebook"
-    target="_blank"
-  >
-    <FaGoogle  size={22} />
-  </Link>
-  {/* <Link
+          <Link
+            to="https://www.instagram.com/rks.homes/"
+            className="text-pink-600 hover:text-pink-400 border border-pink-600 hover:border-pink-400 rounded-full p-3  transition-all duration-300"
+            aria-label="Instagram"
+            target="_blank"
+          >
+            <FaInstagram size={22} />
+          </Link>
+          <Link
+            to="https://www.youtube.com/@rkshomes5376"
+            className="text-red-600 hover:text-red-400 border border-red-600 hover:border-red-400 rounded-full p-3 transition-all duration-300"
+            aria-label="YouTube"
+            target="_blank"
+          >
+            <FaYoutube size={22} />
+          </Link>
+
+          <Link
+            to="https://www.google.com/maps?q=23.1630267,77.2736317&z=17&hl=en"
+            className="text-blue-600 hover:text-blue-400 border border-blue-600 hover:border-blue-400 rounded-full p-3 transition-all duration-300"
+            aria-label="Facebook"
+            target="_blank"
+          >
+            <FaGoogle size={22} />
+          </Link>
+
+          <a
+            href={`tel:+919893730005`}
+            to="https://www.facebook.com/RKSHOME.CO.IN"
+            className="text-blue-600 hover:text-blue-400 border border-blue-600 hover:border-blue-400 rounded-full p-3  transition-all duration-300"
+          >
+            <FaPhone size={22} />
+          </a>
+          {/* <Link
     href="#"
     className="text-blue-700 hover:text-blue-500 border border-blue-700 hover:border-blue-500 rounded-full p-2 transition-all duration-300"
     aria-label="LinkedIn"
   >
     <FaLinkedin size={22} />
   </Link> */}
-</div>
-
-
-</div>
-
+        </div>
+      </div>
 
       {/* Modal Component */}
       <Modal

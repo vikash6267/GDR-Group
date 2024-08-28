@@ -148,7 +148,7 @@ const Slider = () => {
               <img
                 src={item.image}
                 alt={item.text}
-                className="w-full lg:h-[80vh] object-cover"
+                className="w-full lg:h-[80vh] h-[45vh] object-cover"
                 style={{ filter: "brightness(0.5)" }} // Darkens the image
               />
             </motion.div>

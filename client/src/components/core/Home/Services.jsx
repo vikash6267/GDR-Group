@@ -18,7 +18,7 @@ const services = [
     subtitle: "Excellent Home",
     description:
       "Real estate company focusing on the sale of agricultural lands with expert guidance.",
-    link: "/real-estate",
+    link: "/rks-homes/home",
   },
   {
     image:
@@ -27,7 +27,7 @@ const services = [
     subtitle: "Best Quality Assurance",
     description:
       "Manufacturer of milk products like butter, clarified butter, and ice cream.",
-    link: "/food-products",
+    link: "/srs-foods/home",
   },
   {
     image:
@@ -36,7 +36,7 @@ const services = [
     subtitle: "Best Quality Assurance",
     description:
       "Specializes in selling high-quality spices and dry food items for home cooking.",
-    link: "/home-food",
+    link: "/ri-si-food/home",
   },
   {
     image:
@@ -45,7 +45,7 @@ const services = [
     subtitle: "Quality Assurance",
     description:
       "Specializes in TMT iron rods for the reinforcement of concrete structures.",
-    link: "/steel-products",
+    link: "/72-gdr-steel/home",
   },
 
   {
@@ -55,7 +55,7 @@ const services = [
     title: "RRS Liquid Products",
     description:
       "Offers refreshing beverages including flavored water and energy drinks.",
-    link: "/liquid-products",
+    link: "/liquid/home",
   },
 ];
 
