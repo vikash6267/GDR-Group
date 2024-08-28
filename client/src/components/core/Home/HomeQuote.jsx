@@ -35,7 +35,7 @@ const HomeQuote = () => {
           <div className="text-center my-1">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3668.196516107796!2d77.27105677531803!3d23.16302667907558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDA5JzQ2LjkiTiA3N8KwMTYnMjUuMSJF!5e0!3m2!1sen!2sin!4v1724832538455!5m2!1sen!2sin"
-              className="w-full h-[100vh]"
+              className="w-full lg:h-[100vh] h-[50vh]"
               title="Provision Plus"
               allowFullScreen=""
               loading="lazy"

@@ -123,11 +123,11 @@ body {
 }
 
 .welcomeanimate-scroll-left {
-  animation: scroll-left 20s linear infinite;
+  animation: scroll-left 8s linear infinite;
 }
 
 .welcomeanimate-scroll-right {
-  animation: scroll-right 20s linear infinite;
+  animation: scroll-right 8s linear infinite;
 }
 
 .gradient-text {

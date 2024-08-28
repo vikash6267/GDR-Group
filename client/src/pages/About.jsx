@@ -7,13 +7,15 @@ import NavbarMain from "../components/common/NavbarMain";
 import Footer from "../components/common/Footer";
 import MainCommon from "../components/common/MainCommon";
 import Devision from "../components/common/Devision";
+import video from "../assests/video.mp4";
+
 const About = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   const aboutImage =
     "https://img.freepik.com/free-vector/building-house-structure-flat-design_23-2147561234.jpg?w=740&t=st=1724415492~exp=1724416092~hmac=81b1aaf43aa647ef069800026a0d4aa27bc01a873317423351151fa74ab8c3a0";
-  const videoUrl = "https://www.w3schools.com/html/mov_bbb.mp4"; // Replace with your video URL
+  const videoUrl = video; // Replace with your video URL
 
   return (
     <div>
