@@ -2,6 +2,7 @@ import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FiMapPin, FiPhone, FiMail } from "react-icons/fi";
 import { Link } from "react-router-dom";
+import { SiMaplibre } from "react-icons/si";
 
 const TopHeader = () => {
   return (
@@ -48,13 +49,14 @@ const TopHeader = () => {
           >
             <FaYoutube size={22} />
           </Link>
-          {/* <Link
-            href="#"
+          <Link
+            to="https://www.google.com/maps?q=23.1630267,77.2736317&z=17&hl=en"
             className="text-white hover:text-gray-300"
-            aria-label="LinkedIn"
+            aria-label="map"
+            target="_blank"
           >
-            <FaLinkedin size={22} />
-          </Link> */}
+            <SiMaplibre size={22} />
+          </Link>
         </div>
       </div>
     </div>

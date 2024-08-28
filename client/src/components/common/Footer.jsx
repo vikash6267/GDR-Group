@@ -1,14 +1,7 @@
 // src/components/Footer.js
 import React from "react";
-import {
-  FaFacebook,
-  FaTwitter,
-  FaPinterest,
-  FaInstagram,
-  FaLinkedin,
-  FaYoutube,
-  FaWhatsapp,
-} from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaYoutube, FaWhatsapp } from "react-icons/fa";
+import { SiMaplibre } from "react-icons/si";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -90,6 +83,9 @@ const Footer = () => {
 
               <Link to="https://www.youtube.com/@rkshomes5376">
                 <FaYoutube className="h-6 w-6" />
+              </Link>
+              <Link to="https://www.google.com/maps?q=23.1630267,77.2736317&z=17&hl=en">
+                <SiMaplibre className="h-6 w-6" />
               </Link>
             </div>
             <div>
