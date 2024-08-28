@@ -65,7 +65,7 @@ const TopHeader = () => {
     </div>
 
 
-<div className="bg-[#212385] text-white p-4">
+<div className="bg-[#212385] text-white p-4 lg:hidden md:hidden">
 
 
 
