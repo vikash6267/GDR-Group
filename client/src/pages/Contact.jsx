@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FaChevronDown } from "react-icons/fa";
 import contact from "../assests/contact.jpg";
 import Modal from "../components/core/contact/Modal"; // Import the Modal component
@@ -8,6 +8,9 @@ import NavbarMain from "../components/common/NavbarMain";
 import Footer from "../components/common/Footer";
 import Devision from "../components/common/Devision";
 const Contact = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const toggleModal = () => {

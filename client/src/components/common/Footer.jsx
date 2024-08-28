@@ -32,15 +32,17 @@ const Footer = () => {
               <h2 className="text-xl font-semibold mb-4">Our Companys</h2>
               <hr className="my-4" />
               <ul className="grid gap-2">
-                <Link to="#">New RK Construction</Link>
+                <Link to="/construction/home">New RK Construction</Link>
 
-                <Link to="/">RKS Homes</Link>
-                <Link to="/">SRS Foods</Link>
-                <Link to="/">Ri Si Home Food</Link>
-                <Link to="/">72 GDR Steel</Link>
-                <Link to="/">Privacy Policy</Link>
+                <Link to="/rks-homes/home">RKS Homes</Link>
+                <Link to="/srs-foods/home">SRS Foods</Link>
+                <Link to="/ri-si-food/home">Ri Si Home Food</Link>
+                <Link to="/72-gdr-steel/home">72 GDR Steel</Link>
+                <Link to="/liquid/home">R.R.S. Liquid Products</Link>
+                <Link to="/ri-si-food/home">Ri Si Home Food</Link>
+                {/* <Link to="/">Privacy Policy</Link>
                 <Link to="/replacementpolicy">Replacement Policy</Link>
-                <Link to="/tc">Terms of Use</Link>
+                <Link to="/tc">Terms of Use</Link> */}
               </ul>
             </div>
             <div className="">
@@ -48,8 +50,8 @@ const Footer = () => {
               <hr className="my-4" />
               <ul className="grid gap-2">
                 <Link to="/">Home</Link>
-                <Link to="/">About</Link>
-                <Link to="/">Contact </Link>
+                <Link to="/about">About</Link>
+                <Link to="/contact">Contact </Link>
               </ul>
             </div>
           </div>

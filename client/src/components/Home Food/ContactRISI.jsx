@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "./Navbar";
 import SubNavr from "../common/SubNavbar";
 import ContactForm from "./RISIContactForm";
@@ -7,6 +7,9 @@ import Footer from "../common/Footer";
 import Devision from "../common/Devision";
 
 function ContactUs() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <SubNavr />

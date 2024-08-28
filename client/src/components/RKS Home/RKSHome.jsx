@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import RKSHomeNavbar from "./Navbar";
 import Subnavbar from "../common/SubNavbar";
 import Footer from "../common/Footer";
@@ -10,6 +10,9 @@ import AboutSection from "./AboutSection";
 import ContactBanner from "../milk/ContactBanner";
 
 function RKSHome() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <Subnavbar />

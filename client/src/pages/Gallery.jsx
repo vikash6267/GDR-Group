@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import SubNavbar from "../components/common/SubNavbar";
 import NavbarMain from "../components/common/NavbarMain";
 import Footer from "../components/common/Footer";
@@ -55,6 +55,9 @@ const data = [
 ];
 
 const Gallery = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <SubNavbar />

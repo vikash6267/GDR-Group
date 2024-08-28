@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FaChevronDown } from "react-icons/fa";
 import service from "../assests/service.png";
 import SubNavbar from "../components/common/SubNavbar";
@@ -8,6 +8,9 @@ import Services from "../components/core/Home/Services";
 import MainCommon from "../components/common/MainCommon";
 
 const Service = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <SubNavbar />
