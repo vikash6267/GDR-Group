@@ -43,15 +43,18 @@ const Contact = () => {
         <div className="flex flex-col w-full md:w-1/2 p-4">
           <div className="mb-4">
             <h3 className="text-xl font-semibold">Address:</h3>
-            <p>123, Main Street, Your City, Your State, 123456</p>
+            <p>
+              Janki Nagar, Neelkant Mahadev Mandir, Near Mashroom Factory
+              Ratibad Bhopal
+            </p>
           </div>
           <div className="mb-4">
             <h3 className="text-xl font-semibold">Phone Number:</h3>
-            <p>(123) 456-7890</p>
+            <p>98937 30005</p>
           </div>
           <div>
             <h3 className="text-xl font-semibold">Email:</h3>
-            <p>info@yourcompany.com</p>
+            <p>rkshomes30@gmail.com</p>
           </div>
 
           <button

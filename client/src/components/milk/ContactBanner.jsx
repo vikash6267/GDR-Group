@@ -11,11 +11,11 @@ const ContactBanner = () => {
           <p className="text-lg mb-4">
             Interested in partnering with us? Contact us today!
           </p>
-          <p className="text-lg font-semibold">Phone: 123-456-7890</p>
+          <p className="text-lg font-semibold">Phone: 9893730005</p>
         </div>
         <div className="md:w-1/2 flex justify-center">
           <a
-            href={`tel:1234567890`}
+            href={`tel:+919893730005`}
             className="bg-white text-blue-500 font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-gray-200 transition"
           >
             Call Now
