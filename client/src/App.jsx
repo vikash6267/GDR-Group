@@ -14,6 +14,8 @@ import GreedSteel72 from "./Routes/GreedSteel72";
 import RKSHome from "./Routes/RKSHome";
 import Gallery from "./pages/Gallery";
 import Liquied from "./Routes/Liquied";
+import ContactSection from "./components/common/SocialMedia";
+import Blog from "./pages/Blog";
 function App() {
   const [showModal, setShowModal] = useState(true);
 
@@ -35,6 +37,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Service />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/news" element={<Blog />} />
         <Route path="/*" element={<Constroctor />} />
 
         <Route path="/ri-si-food/*" element={<RISIFoddHome />} />
@@ -43,6 +46,11 @@ function App() {
         <Route path="/72-gdr-steel/*" element={<GreedSteel72 />} />
         <Route path="/liquid/*" element={<Liquied />} />
       </Routes>
+
+      <ContactSection />
+      <div className=" fixed bottom-0 z-50 right">
+
+      </div>
     </div>
   );
 }

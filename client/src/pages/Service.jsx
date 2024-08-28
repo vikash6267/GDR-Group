@@ -5,6 +5,7 @@ import SubNavbar from "../components/common/SubNavbar";
 import NavbarMain from "../components/common/NavbarMain";
 import Footer from "../components/common/Footer";
 import Services from "../components/core/Home/Services";
+import MainCommon from "../components/common/MainCommon";
 
 const Service = () => {
   return (
@@ -26,6 +27,8 @@ const Service = () => {
         </div>
       </div>
       <Services />
+      <MainCommon />
+
       <Footer />
     </div>
   );

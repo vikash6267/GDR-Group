@@ -10,6 +10,7 @@ import c1 from "../assests/constructor/briks.jpeg";
 import c2 from "../assests/constructor/cement.jpeg";
 import c3 from "../assests/constructor/craser.jpg";
 import c4 from "../assests/constructor/c8.jpg";
+import MainCommon from "../components/common/MainCommon";
 const data = [
   {
     id: 1,
@@ -76,6 +77,8 @@ const Gallery = () => {
           <Tile key={item.id} data={item} />
         ))}
       </div>
+      <MainCommon />
+
       <Footer />
     </div>
   );
