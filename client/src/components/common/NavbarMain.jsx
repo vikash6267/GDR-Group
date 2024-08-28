@@ -89,7 +89,7 @@ const Navbar = () => {
       </nav>
 
       {/* Mobile Menu */}
-      // Mobile Menu
+      {/* // Mobile Menu */}
 <div
   className={`fixed top-0 right-0 w-3/4 h-full bg-gray-800 border-t border-gray-600 z-50 transform transition-transform duration-300 ease-in-out ${
     isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
