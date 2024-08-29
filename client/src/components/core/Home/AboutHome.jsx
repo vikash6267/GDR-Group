@@ -53,15 +53,15 @@ const AboutHome = () => {
         >
           <div className="relative w-full h-80 lg:h-[400px] rounded-xl overflow-hidden shadow-xl group">
             {/* Image */}
-            <motion.img
+            {/* <motion.img
               src={aboutImage}
               alt="About Us"
               className="w-full h-full object-cover transform transition-transform duration-500 group-hover:opacity-0"
-            />
+            /> */}
             {/* Video */}
             <motion.video
               src={videoUrl}
-              className="absolute inset-0 w-full h-full object-cover hidden group-hover:block"
+              className=" inset-0 w-full h-full object-cover "
               autoPlay
               loop
               muted
