@@ -28,9 +28,16 @@ const Navbar = () => {
   const handleLinkClick = (id) => {
     setActiveMenu(activeMenu === id ? null : id);
   };
+  
+  const BASE_URL = process.env.REACT_APP_BASE_URL;
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+
+  
+
+
     toggleModal();
   };
 
