@@ -63,7 +63,7 @@ const Gallery = () => {
       <SubNavbar />
       <NavbarMain />
       <div className="flex mt-5 flex-col w-full items-center">
-        <h3 className="text-4xl font-fjalla text-[#33536B]">Our Services</h3>
+        <h3 className="text-4xl font-fjalla text-[#33536B]">Our Gallery</h3>
         <div className="flex items-center w-[75px]">
           <div className="h-0.5 bg-[#e2571a]"></div>
           <div className="h-1 w-1 bg-[#e2571a] rounded-full mx-1"></div>

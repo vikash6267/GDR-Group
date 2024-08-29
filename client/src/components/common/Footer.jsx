@@ -1,8 +1,16 @@
 // src/components/Footer.js
 import React from "react";
-import { FaFacebook, FaInstagram, FaYoutube, FaWhatsapp } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaYoutube,
+  FaWhatsapp,
+  FaPhone,
+  FaLocationArrow,
+} from "react-icons/fa";
 import { SiMaplibre } from "react-icons/si";
 import { Link } from "react-router-dom";
+import { MdEmail, MdLocationCity } from "react-icons/md";
 
 const Footer = () => {
   return (
@@ -29,7 +37,7 @@ const Footer = () => {
           </div>
           <div className="grid  grid-cols-2 gap-8 lg:gap-10 px-5">
             <div className="">
-              <h2 className="text-xl font-semibold mb-4">Our Companys</h2>
+              <h2 className="text-xl font-semibold mb-4">Our Companies</h2>
               <hr className="my-4" />
               <ul className="grid gap-2">
                 <Link to="/construction/home">New RK Construction</Link>
@@ -58,21 +66,37 @@ const Footer = () => {
           <div className="px-5">
             <h2 className="text-xl font-semibold mb-4">Contact Us</h2>
             <hr className="my-4" />
-            <ul className="grid gap-3 list-disc ">
-              <li>
-                Janki Nagar, Neelkant Mahadev Mandir, Near Mashroom Factory
-                Ratibad Bhopal
+            <ul className="grid gap-3  ">
+              <li className="flex gap-2">
+                <MdLocationCity size={22} className="" /> Janki Nagar, Neelkant
+                Mahadev Mandir, Near Mashroom Factory Ratibad Bhopal
               </li>
             </ul>
-            <ul className="grid my-3">
-              <li>98937 30005</li>
+            <ul className="grid my-1">
+              <li className="flex gap-2 items-center">
+                {" "}
+                <FaPhone size={15} />
+                98937 30005
+              </li>
             </ul>
-            <ul className="grid my-3">
-              <li>rkshomes30@gmail.com ​​</li>
-              <li>r.k_construction@yahoo.com ​​</li>
-              <li>srsmilkfood@gmail.com ​​</li>
-              <li>ri.si.homefood@gmail.com ​​</li>
-              <li> rrsliquid@gmail.com ​​</li>
+            <ul className="grid my-1">
+              <li className="flex gap-2 items-center">
+                {" "}
+                <MdEmail size={15} /> rkshomes30@gmail.com ​​
+              </li>
+              <li className="flex gap-2 items-center">
+                <MdEmail size={15} /> r.k_construction@yahoo.com ​​
+              </li>
+              <li className="flex gap-2 items-center">
+                <MdEmail size={15} /> srsmilkfood@gmail.com ​​
+              </li>
+              <li className="flex gap-2 items-center">
+                <MdEmail size={15} /> ri.si.homefood@gmail.com ​​
+              </li>
+              <li className="flex gap-2 items-center">
+                {" "}
+                <MdEmail size={15} /> rrsliquid@gmail.com ​​
+              </li>
             </ul>
             <div className="mt-5 flex space-x-4">
               <Link to="https://www.facebook.com/RKSHOME.CO.IN">

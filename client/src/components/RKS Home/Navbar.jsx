@@ -92,7 +92,7 @@ const RKSHomeNavbar = () => {
               className="hidden lg:block relative overflow-hidden bg-red-600 text-white py-2 px-5 text-xl rounded shadow-lg transition-all duration-300 ease-in-out before:absolute before:top-0 before:left-0 before:h-full before:w-0 before:bg-yellow-700 before:z-0 before:transition-all before:duration-300 before:ease-in-out hover:before:w-full hover:text-white"
               onClick={handleSubmit}
             >
-              <span className="relative z-10">Get Quotes</span>
+              <span className="relative z-10">Inquiry</span>
             </button>
             <button onClick={toggleMobileMenu} className="lg:hidden text-2xl">
               {isMobileMenuOpen ? <FaTimes /> : <FaBars />}
