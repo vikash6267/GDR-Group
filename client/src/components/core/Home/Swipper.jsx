@@ -26,6 +26,14 @@ const Slider = () => {
   const work = [
     {
       id: 1,
+      text: "RKS Infrabuild & Homes Pvt. LTD.",
+      image: image2,
+      description:
+        "High-quality dairy products with a focus on freshness and excellence.",
+      path: "/rks-homes/home",
+    },
+    {
+      id: 2,
       image:
         "https://i.pinimg.com/originals/94/41/f2/9441f2efd20b16f02e73b25b43181a8c.jpg",
       text: "Praharsh Constructor Pvt. LTD.",
@@ -34,29 +42,22 @@ const Slider = () => {
       path: "/construction/home",
     },
     {
-      id: 2,
+      id: 3,
+      image:
+        "https://c4.wallpaperflare.com/wallpaper/441/38/477/pepper-carnation-spices-diversity-wallpaper-preview.jpg",
+      text: "Ruchir Home Food",
+      description: "Wide range of spices and dry foods for home cooking.",
+      path: "/ri-si-food/home",
+    },
+
+    {
+      id: 4,
       image:
         "https://wallpapers.com/images/hd/real-estate-digital-art-0kmi22tcj2x60lim.jpg",
       text: "SRS Cattle Feed & Milk Product",
       description:
         "Expert in agricultural land sales with seamless financing options.",
       path: "/srs-foods/home",
-    },
-    {
-      id: 3,
-      text: "RKS Infrabuild & Homes Pvt. LTD.",
-      image: image2,
-      description:
-        "High-quality dairy products with a focus on freshness and excellence.",
-      path: "/rks-homes/home",
-    },
-    {
-      id: 4,
-      image:
-        "https://c4.wallpaperflare.com/wallpaper/441/38/477/pepper-carnation-spices-diversity-wallpaper-preview.jpg",
-      text: "Ruchir Home Food",
-      description: "Wide range of spices and dry foods for home cooking.",
-      path: "/ri-si-food/home",
     },
   ];
 
