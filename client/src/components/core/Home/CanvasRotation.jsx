@@ -10,40 +10,29 @@ const TagCloudWithDetails = () => {
   // Define tags with associated details and images
   const tags = [
     {
-      name: "New RK Construction",
+      name: "Praharsh Construction",
       details:
         "Specializing in all types of construction services including residential, commercial, and industrial projects.",
-      image: image1,
+      image: image2,
     },
     {
       name: "RKS Homes",
       details:
         "Offering comprehensive home building and renovation services with a focus on quality and customer satisfaction.",
-      image: image2,
-    },
-    {
-      name: "SRS Foods",
-      details:
-        "Providing a range of high-quality food products, including spices, grains, and ready-to-eat meals.",
       image: image3,
     },
     {
-      name: "Ri Si Home Food",
+      name: "SRS Cattle Feed & Milk Product",
       details:
-        "Delivering home-cooked meals and specialty foods with an emphasis on taste and health.",
+        "Providing a range of high-quality food products, including spices, grains, and ready-to-eat meals.",
       image: image4,
     },
+
     {
-      name: "72 GDR Steel",
-      details:
-        "Offering steel products and construction materials with a focus on durability and strength.",
-      image: image4,
-    },
-    {
-      name: "R. R. S. Liquid Products",
+      name: "Ruchir Home Food",
       details:
         "Supplying a variety of liquid products, including industrial chemicals and personal care items.",
-      image: image4,
+      image: image1,
     },
   ];
 
@@ -84,7 +73,7 @@ const TagCloudWithDetails = () => {
               onMouseEnter={() => setSelectedTag(tag)}
               className={`floating-tag floating-tag-${
                 index + 1
-              } font-bold text-white text-2xl`}
+              } font-bold text-white text-xl`}
             >
               {tag.name}
             </li>

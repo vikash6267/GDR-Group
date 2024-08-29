@@ -20,12 +20,12 @@ export const navlinks = [
         title: "Our Companies",
         path: "#",
         sublink: [
-            { name: "New RK Construction", path: "/construction/home" },
-            { name: "RKS Homes", path: "/rks-homes/home" },
-            { name: "SRS Foods", path: "/srs-foods/home" },
-            { name: "72 GDR Steel", path: "/72-gdr-steel/home" },
-            { name: "R.R.S. Liquid Products", path: "/liquid/home" },
-            { name: "Ri Si Home Food", path: "/ri-si-food/home" },
+            { name: "RKS Infrabuild & Homes Pvt. LTD.", path: "/rks-homes/home" },
+            { name: "Praharsh Constructor Pvt. LTD.", path: "/construction/home" },
+            { name: "Ruchir Home Food", path: "/ri-si-food/home" },
+            { name: "SRS Cattle Feed & Milk Product", path: "/srs-foods/home" },
+            // { name: "72 GDR Steel", path: "/72-gdr-steel/home" },
+            // { name: "R.R.S. Liquid Products", path: "/liquid/home" },
 
         ]
     },
@@ -78,12 +78,10 @@ export const constructionNavbar = [
         title: "Our Companies",
         path: "#",
         sublink: [
-            { name: "New RK Construction", path: "/construction/home" },
-            { name: "RKS Homes", path: "/rks-homes/home" },
-            { name: "SRS Foods", path: "/srs-foods/home" },
-            { name: "Ri Si Home Food", path: "/ri-si-food/home" },
-            { name: "72 GDR Steel", path: "/72-gdr-steel/home" },
-            { name: "R.R.S. Liquid Products", path: "/liquid/home" }
+            { name: "RKS Infrabuild & Homes Pvt. LTD.", path: "/rks-homes/home" },
+            { name: "Praharsh Constructor Pvt. LTD.", path: "/construction/home" },
+            { name: "Ruchir Home Food", path: "/ri-si-food/home" },
+            { name: "SRS Cattle Feed & Milk Product", path: "/srs-foods/home" },
         ]
     },
 
@@ -112,12 +110,10 @@ export const milkNavbar = [
         title: "Our Companies",
         path: "#",
         sublink: [
-            { name: "New RK Construction", path: "/construction/home" },
-            { name: "RKS Homes", path: "/rks-homes/home" },
-            { name: "SRS Foods", path: "/srs-foods/home" },
-            { name: "Ri Si Home Food", path: "/ri-si-food/home" },
-            { name: "72 GDR Steel", path: "/72-gdr-steel/home" },
-            { name: "R.R.S. Liquid Products", path: "/liquid/home" }
+            { name: "RKS Infrabuild & Homes Pvt. LTD.", path: "/rks-homes/home" },
+            { name: "Praharsh Constructor Pvt. LTD.", path: "/construction/home" },
+            { name: "Ruchir Home Food", path: "/ri-si-food/home" },
+            { name: "SRS Cattle Feed & Milk Product", path: "/srs-foods/home" },
         ]
     },
 
@@ -153,12 +149,10 @@ export const risiFoodNavbar = [
         title: "Our Companies",
         path: "#",
         sublink: [
-            { name: "New RK Construction", path: "/construction/home" },
-            { name: "RKS Homes", path: "/rks-homes/home" },
-            { name: "SRS Foods", path: "/srs-foods/home" },
-            { name: "72 GDR Steel", path: "/72-gdr-steel/home" },
-            { name: "R.R.S. Liquid Products", path: "/liquid/home" },
-            { name: "Ri Si Home Food", path: "/ri-si-food/home" },
+            { name: "RKS Infrabuild & Homes Pvt. LTD.", path: "/rks-homes/home" },
+            { name: "Praharsh Constructor Pvt. LTD.", path: "/construction/home" },
+            { name: "Ruchir Home Food", path: "/ri-si-food/home" },
+            { name: "SRS Cattle Feed & Milk Product", path: "/srs-foods/home" },
 
         ]
     },
@@ -194,13 +188,10 @@ export const homeReatNavbar = [
         title: "Our Companies",
         path: "#",
         sublink: [
-            { name: "New RK Construction", path: "/construction/home" },
-            { name: "RKS Homes", path: "/rks-homes/home" },
-            { name: "SRS Foods", path: "/srs-foods/home" },
-            { name: "72 GDR Steel", path: "/72-gdr-steel/home" },
-            { name: "R.R.S. Liquid Products", path: "/liquid/home" },
-            { name: "Ri Si Home Food", path: "/ri-si-food/home" },
-
+            { name: "RKS Infrabuild & Homes Pvt. LTD.", path: "/rks-homes/home" },
+            { name: "Praharsh Constructor Pvt. LTD.", path: "/construction/home" },
+            { name: "Ruchir Home Food", path: "/ri-si-food/home" },
+            { name: "SRS Cattle Feed & Milk Product", path: "/srs-foods/home" },
         ]
     },
 
@@ -236,14 +227,13 @@ export const gridSteel72 = [
         title: "Our Companies",
         path: "#",
         sublink: [
-            { name: "New RK Construction", path: "/construction/home" },
-            { name: "RKS Homes", path: "/rks-homes/home" },
-            { name: "SRS Foods", path: "/srs-foods/home" },
-            { name: "72 GDR Steel", path: "/72-gdr-steel/home" },
-            { name: "R.R.S. Liquid Products", path: "/liquid/home" },
-            { name: "Ri Si Home Food", path: "/ri-si-food/home" },
+            { name: "RKS Infrabuild & Homes Pvt. LTD.", path: "/rks-homes/home" },
+            { name: "Praharsh Constructor Pvt. LTD.", path: "/construction/home" },
+            { name: "Ruchir Home Food", path: "/ri-si-food/home" },
+            { name: "SRS Cattle Feed & Milk Product", path: "/srs-foods/home" },
 
         ]
+
     },
 ]
 export const lequied = [
@@ -275,13 +265,10 @@ export const lequied = [
         title: "Our Companies",
         path: "#",
         sublink: [
-            { name: "New RK Construction", path: "/construction/home" },
-            { name: "RKS Homes", path: "/rks-homes/home" },
-            { name: "SRS Foods", path: "/srs-foods/home" },
-            { name: "72 GDR Steel", path: "/72-gdr-steel/home" },
-            { name: "R.R.S. Liquid Products", path: "/liquid/home" },
-            { name: "Ri Si Home Food", path: "/ri-si-food/home" },
-
+            { name: "RKS Infrabuild & Homes Pvt. LTD.", path: "/rks-homes/home" },
+            { name: "Praharsh Constructor Pvt. LTD.", path: "/construction/home" },
+            { name: "Ruchir Home Food", path: "/ri-si-food/home" },
+            { name: "SRS Cattle Feed & Milk Product", path: "/srs-foods/home" },
         ]
     },
 ]

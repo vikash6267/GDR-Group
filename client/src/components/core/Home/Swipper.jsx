@@ -28,7 +28,7 @@ const Slider = () => {
       id: 1,
       image:
         "https://i.pinimg.com/originals/94/41/f2/9441f2efd20b16f02e73b25b43181a8c.jpg",
-      text: "New RK Construction",
+      text: "Praharsh Constructor Pvt. LTD.",
       description:
         "Top player in civil works with a focus on quality and safety.",
       path: "/construction/home",
@@ -37,15 +37,15 @@ const Slider = () => {
       id: 2,
       image:
         "https://wallpapers.com/images/hd/real-estate-digital-art-0kmi22tcj2x60lim.jpg",
-      text: "SRS Homes",
+      text: "SRS Cattle Feed & Milk Product",
       description:
         "Expert in agricultural land sales with seamless financing options.",
       path: "/srs-foods/home",
     },
     {
       id: 3,
+      text: "RKS Infrabuild & Homes Pvt. LTD.",
       image: image2,
-      text: "RKS Food",
       description:
         "High-quality dairy products with a focus on freshness and excellence.",
       path: "/rks-homes/home",
@@ -54,36 +54,9 @@ const Slider = () => {
       id: 4,
       image:
         "https://c4.wallpaperflare.com/wallpaper/441/38/477/pepper-carnation-spices-diversity-wallpaper-preview.jpg",
-      text: "Ri Si Home Food",
+      text: "Ruchir Home Food",
       description: "Wide range of spices and dry foods for home cooking.",
-      path: "/ri-si-home-food-home/home",
-    },
-    {
-      id: 5,
-      image:
-        "https://media.istockphoto.com/id/1344231216/photo/rolled-metal-warehouse-many-packs-of-metal-bars-on-the-shelves.jpg?s=612x612&w=0&k=20&c=NdBJpn98jT43UXxRMv-R1gVwynBq-2nQGmJVLx4bCxc=",
-      text: "72 GDR Steel",
-      description:
-        "Specializes in high-quality TMT iron rods and other steel products.",
-      path: "/72-gdr-steel/home",
-    },
-    {
-      id: 6,
-      image:
-        "https://media.istockphoto.com/id/1344231216/photo/rolled-metal-warehouse-many-packs-of-metal-bars-on-the-shelves.jpg?s=612x612&w=0&k=20&c=NdBJpn98jT43UXxRMv-R1gVwynBq-2nQGmJVLx4bCxc=",
-      text: "R. R. S. Liquid Products",
-      description:
-        "Provides high-quality mineral water, ice cubes, and beverages.",
-      path: "/liquid/home",
-    },
-    {
-      id: 7,
-      image:
-        "https://t3.ftcdn.net/jpg/07/34/77/60/360_F_734776078_Z94kwR6jm2w1HxmPeSjqJNJFqM4Mp3Nk.jpg",
-      text: "RRS Liquid Products",
-      description:
-        "Offers refreshing beverages including flavored water and energy drinks.",
-      path: "/rrs-products",
+      path: "/ri-si-food/home",
     },
   ];
 

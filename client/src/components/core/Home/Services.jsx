@@ -4,17 +4,8 @@ import home from "../../../assests/home/h2.jpg";
 
 const services = [
   {
-    image:
-      "https://5.imimg.com/data5/SELLER/Default/2023/3/DW/RJ/XB/37290892/monkey-hoist-or-mini-lift-500x500.jpeg",
-    title: "New RK Constructor",
-    subtitle: "Best Service Ever",
-    description:
-      "Leading construction company specializing in civil works for both government and private bodies.",
-    link: "/construction/home",
-  },
-  {
     image: home,
-    title: "RKS Home",
+    title: "RKS Infrabuild & Homes Pvt. LTD.",
     subtitle: "Excellent Home",
     description:
       "Real estate company focusing on the sale of agricultural lands with expert guidance.",
@@ -22,17 +13,18 @@ const services = [
   },
   {
     image:
-      "https://gdrgroup.in/wp-content/uploads/2022/12/Shree-Ji-225x300.png",
-    title: "SRK Food",
-    subtitle: "Best Quality Assurance",
+      "https://5.imimg.com/data5/SELLER/Default/2023/3/DW/RJ/XB/37290892/monkey-hoist-or-mini-lift-500x500.jpeg",
+    title: "Praharsh Constructor Pvt. LTD.",
+    subtitle: "Best Service Ever",
     description:
-      "Manufacturer of milk products like butter, clarified butter, and ice cream.",
-    link: "/srs-foods/home",
+      "Leading construction company specializing in civil works for both government and private bodies.",
+    link: "/construction/home",
   },
+
   {
     image:
       "https://5.imimg.com/data5/SELLER/Default/2022/7/HJ/RA/RN/26624004/whatsapp-image-2022-07-19-at-11-15-10-pm-500x500.jpeg",
-    title: "Ri Si Home Food",
+    title: "Ruchir Home Food",
     subtitle: "Best Quality Assurance",
     description:
       "Specializes in selling high-quality spices and dry food items for home cooking.",
@@ -40,22 +32,12 @@ const services = [
   },
   {
     image:
-      "https://gdrgroup.in/wp-content/uploads/2023/02/10-STAINLESS-STEEL-REBAR.webp",
-    title: "72 GDR Steel",
-    subtitle: "Quality Assurance",
+      "https://gdrgroup.in/wp-content/uploads/2022/12/Shree-Ji-225x300.png",
+    title: "SRK Milk Food Making Products",
+    subtitle: "Best Quality Assurance",
     description:
-      "Specializes in TMT iron rods for the reinforcement of concrete structures.",
-    link: "/72-gdr-steel/home",
-  },
-
-  {
-    id: 7,
-    image:
-      "https://t3.ftcdn.net/jpg/07/34/77/60/360_F_734776078_Z94kwR6jm2w1HxmPeSjqJNJFqM4Mp3Nk.jpg",
-    title: "RRS Liquid Products",
-    description:
-      "Offers refreshing beverages including flavored water and energy drinks.",
-    link: "/liquid/home",
+      "Manufacturer of milk products like butter, clarified butter, and ice cream.",
+    link: "/srs-foods/home",
   },
 ];
 

@@ -18,11 +18,11 @@ import shak from "../../../assests/milk/shak.jpeg";
 import { Link } from "react-router-dom";
 const Project = () => {
   const tabs = [
-    { id: 1, name: "RK Constructor" },
     { id: 2, name: "RKS Homes" },
-    { id: 3, name: "SRS Food" },
-    { id: 4, name: "Ri Si Home Food" },
-    { id: 5, name: "72 GDR Steel" },
+    { id: 1, name: "Praharsh Construction" },
+    { id: 3, name: "Ruchir Home Food" },
+    { id: 4, name: "SRS Cattle Feed & Milk Product" },
+    // { id: 5, name: "72 GDR Steel" },
   ];
 
   const projects = {

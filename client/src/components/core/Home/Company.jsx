@@ -7,34 +7,23 @@ import { Slide } from "react-awesome-reveal";
 const company = [
   {
     img: home,
-    title: "RKS Homes",
+    title: "RKS Infrabuild & Homes Pvt LTD",
     desc: "RKS Homes is a real estate company specializing in the sale of agricultural lands. We are committed to helping our clients find the perfect piece of land for their farming or ranching needs. Our team of real estate professionals has extensive knowledge .",
   },
   {
+    img: "https://5.imimg.com/data5/SELLER/Default/2023/3/DW/RJ/XB/37290892/monkey-hoist-or-mini-lift-500x500.jpeg",
+    title: "Praharsh Constructor Pvt LTD",
+    desc: "Praharsh Constructor Pvt LTD is a leading construction company that specializes in a wide range of civil works. We have extensive experience in delivering construction projects for both government and private bodies.",
+  },
+  {
     img: food,
-    title: "Ri Si Home Food",
-    desc: "Ri Si Home Food is a company that specializes in selling a wide range of spices and dry food items for home cooking. Our aim is to provide our customers with high-quality products .",
+    title: "Ruchir Home Food",
+    desc: "Ruchir Home Food is a company that specializes in selling a wide range of spices and dry food items for home cooking. Our aim is to provide our customers with high-quality products .",
   },
   {
     img: milk,
-    title: "SRS Foods",
-    desc: "SRS Cattle and Milk Food Company owns 2 brands – “Shree Ji 72” & “Shree Ji Milk Products“.is a manufacturer of milk products like milk, butter, clarified butter, cottage cheese, ice cream etc. The company was founded in the year 2018 and is headquartered in Bhopal, India.",
-  },
-  {
-    img: "https://5.imimg.com/data5/SELLER/Default/2023/3/DW/RJ/XB/37290892/monkey-hoist-or-mini-lift-500x500.jpeg",
-    title: "New RK Constructions",
-    desc: "New RK Constructions is a leading construction company that specializes in a wide range of civil works. We have extensive experience in delivering construction projects for both government and private bodies.",
-  },
-  {
-    img: "https://endura-steel.com/wp-content/uploads/2023/06/steel-facts.jpg",
-    title: "72 GDR Steel",
-    desc: "72 GDR Steel is a company that specializes in the production and distribution of high-quality steel products. The company’s main focus is on TMT iron rods, which are used in the construction industry for the reinforcement of concrete structures.",
-  },
-  {
-    id: 7,
-    img: "https://t3.ftcdn.net/jpg/07/34/77/60/360_F_734776078_Z94kwR6jm2w1HxmPeSjqJNJFqM4Mp3Nk.jpg",
-    title: "RRS Liquid Products",
-    desc: "Offers refreshing beverages including flavored water and energy drinks.",
+    title: "SRS Cattle Feed & Milk Product",
+    desc: "SRS Cattle Feed & Milk Product Company owns 2 brands – “Shree Ji 72” & “Shree Ji Milk Products“.is a manufacturer of milk products like milk, butter, clarified butter, cottage cheese, ice cream etc. The company was founded in the year 2018 and is headquartered in Bhopal, India.",
   },
 ];
 
