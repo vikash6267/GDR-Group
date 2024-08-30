@@ -4,6 +4,41 @@ import ProductCard from "./ProductCard";
 // Dummy data for products
 const dryFruits = [
   {
+    name: "Sugar Cane Vinegar",
+    category: "Sirka",
+    image:
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQpKpWcpxp5eJBNISi6Y0QsIYVBVo874ikrDfSg3Xh6qTdnG6MDmtUSicPh9gLI84ZgQYG5UN9NrkP_nH-IU1wiaa0jSvYzAsDpue_5GfU&usqp=CAE",
+  },
+  {
+    name: "All Types Vinegar",
+    category: "Sirka",
+    image:
+      "https://assets.bonappetit.com/photos/5cc1f251f8ab2775109895c7/master/pass/Basically-Vinegar-Group-Update.jpg",
+  },
+  
+  {
+    name: "All Types Achhar",
+    category: "Achhar",
+    image:
+      "https://foodalltime.com/wp-content/uploads/2022/01/10-Best-Achar-and-Pickle-Recipes-of-India-2.png",
+  },
+
+  {
+    name: "Minralas Water",
+    category: "Minrals",
+    image:
+      "https://www.netsolwater.com/netsol-water/assets/img/product-images/Is-mineral-water-different-from-packaged-drinking-water.jpg",
+  },
+  {
+    name: "Ice Cube ",
+    category: "Minrals",
+    image:
+      "https://www.eurokidsindia.com/blog/wp-content/uploads/2024/05/ice-cube-activities.jpg",
+  },
+
+
+
+  {
     name: "Elaichi (Cardamom)",
     category: "Spice",
     image: "https://gdrgroup.in/wp-content/uploads/2023/04/Cardamom.jpg",
@@ -261,38 +296,7 @@ const dryFruits = [
 
 
 
-  {
-    name: "Sugar Cane Vinegar",
-    category: "Sirka",
-    image:
-      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQpKpWcpxp5eJBNISi6Y0QsIYVBVo874ikrDfSg3Xh6qTdnG6MDmtUSicPh9gLI84ZgQYG5UN9NrkP_nH-IU1wiaa0jSvYzAsDpue_5GfU&usqp=CAE",
-  },
-  {
-    name: "All Types Vinegar",
-    category: "Sirka",
-    image:
-      "https://assets.bonappetit.com/photos/5cc1f251f8ab2775109895c7/master/pass/Basically-Vinegar-Group-Update.jpg",
-  },
-  
-  {
-    name: "All Types Achhar",
-    category: "Achhar",
-    image:
-      "https://foodalltime.com/wp-content/uploads/2022/01/10-Best-Achar-and-Pickle-Recipes-of-India-2.png",
-  },
 
-  {
-    name: "Minralas Water",
-    category: "Minrals",
-    image:
-      "https://www.netsolwater.com/netsol-water/assets/img/product-images/Is-mineral-water-different-from-packaged-drinking-water.jpg",
-  },
-  {
-    name: "Ice Cube ",
-    category: "Minrals",
-    image:
-      "https://www.eurokidsindia.com/blog/wp-content/uploads/2024/05/ice-cube-activities.jpg",
-  },
 
 
 
