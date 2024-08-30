@@ -22,8 +22,8 @@ function RKSHome() {
       <PropertiesList />
       <Property />
       <ContactBanner />
-      <AboutSection />
       <FeaturesSection />
+      <AboutSection />
       <TestimonialSection />
 
       <Footer />

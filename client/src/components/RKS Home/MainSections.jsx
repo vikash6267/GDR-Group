@@ -50,7 +50,7 @@ export default function MainSection() {
         >
           <motion.div className="lg:w-1/2 lg:mr-4" variants={leftItemVariants}>
             <h1 className="text-3xl md:text-5xl font-bold text-gray-800 mb-6 text-center lg:text-left">
-              Explore Some Of The Best Properties In Your Area
+              Explore Some RKS Homes for The Best Properties In Your Area
             </h1>
             <p className="text-gray-600 mb-6 text-center lg:text-left">
               Discover premium residences that best suit your needs and
