@@ -43,7 +43,7 @@ const Company = () => {
           ></div>
         </div>
       </div>
-      <div className="main grid lg:grid-cols-3 gap-4 p-5 max-w-7xl mx-auto">
+      <div className="main grid lg:grid-cols-2 gap-4 p-5 max-w-7xl mx-auto">
         <Slide direction="left">
           {company.map((currElem, index) => (
             <div

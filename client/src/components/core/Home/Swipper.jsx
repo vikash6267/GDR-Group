@@ -53,7 +53,8 @@ const Slider = () => {
 
     {
       id: 4,
-      image: image2,
+      image:
+        "https://gdrgroup.in/wp-content/uploads/2022/11/milk-splashes-blue-background-natural-dairy-product-yogurt-cream-splash-realistic-illustration_221648-128.webp",
 
       text: "SRS Cattle Feed & Milk Product",
       description:
