@@ -291,7 +291,7 @@ const dryFruits = [
     name: "Ice Cube ",
     category: "Minrals",
     image:
-      "https://www.netsolwater.com/netsol-water/assets/img/product-images/Is-mineral-water-different-from-packaged-drinking-water.jpg",
+      "https://www.eurokidsindia.com/blog/wp-content/uploads/2024/05/ice-cube-activities.jpg",
   },
 
 
