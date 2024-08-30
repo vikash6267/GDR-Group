@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   Navigation,
   Pagination,
@@ -21,6 +21,7 @@ import h5 from "../../../assests/home/blog/h5.jpg";
 import h6 from "../../../assests/home/blog/h6.jpg";
 import h7 from "../../../assests/home/blog/h7.jpg";
 import h8 from "../../../assests/home/blog/h8.jpg";
+import axios from "axios";
 
 const work = [
   {
@@ -74,6 +75,36 @@ const work = [
 ];
 
 const Blog = () => {
+
+
+
+
+
+
+  const BASE_URL = process.env.REACT_APP_BASE_URL;
+
+  const [blog, setBlog] = useState([]);
+
+  const getAllBlogs = async () => {
+    try {
+      const response = await axios.get(`${BASE_URL}/blog/getAll`);
+
+      if (response?.data?.success) {
+        setBlog(response.data.blogs);
+      }
+      console.log(response.data.blogs);
+    } catch (error) {
+      console.log("Something went wrong");
+    }
+  };
+  useEffect(() => {
+    getAllBlogs();
+  }, []);
+
+  const formatDate = (dateString) => {
+    const options = { year: "numeric", month: "long", day: "numeric" };
+    return new Date(dateString).toLocaleDateString(undefined, options);
+  };
   return (
     <div className="relative mt-2 max-w-7xl mx-auto px-5">
       <p className="text-center text-4xl font-semibold my-10">Latest Blog</p>
@@ -99,7 +130,7 @@ const Blog = () => {
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
       >
-        {work.map((item) => (
+        {blog.map((item) => (
           <SwiperSlide key={item.id}>
             <div className="flex flex-col items-center bg-white shadow-lg rounded-lg overflow-hidden">
               <img
@@ -108,10 +139,11 @@ const Blog = () => {
                 className="w-full  object-cover"
               />
               <div className="p-4 flex flex-col items-start">
-                <h3 className="text-lg font-semibold mb-2 p-5">{item.text}</h3>
+                <h3 className="text-lg font-semibold mb-2 p-5">{item.title}</h3>
                 <div className="flex items-center text-gray-500 px-5">
                   <FaCalendarAlt className="mr-2" />
-                  <span>{item.date}</span>
+                  <span>                  {formatDate(item.createdAt)}
+</span>
                 </div>
               </div>
             </div>

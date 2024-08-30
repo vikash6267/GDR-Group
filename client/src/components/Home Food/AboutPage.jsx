@@ -39,7 +39,7 @@ const AboutUsPage = () => {
             </h2>
             <p>
               Both the employees and business partners have made a major
-              contribution to The Bharat Exporter strong foundation. We are
+              contribution to Ruchir Home Food strong foundation. We are
               proud to have such team players incorporating years of expertise
               in providing customers with a range of import and export
               solutions. Our leaders' approach is always intended to provide
@@ -108,9 +108,9 @@ const AboutUsPage = () => {
               <FaGavel className="text-red-500 mr-2" /> BUSINESS ETHICS
             </h2>
             <p>
-              The Bharat Exporter' business ethics completely incorporate
+              Ruchir Home Food' business ethics completely incorporate
               import-export laws & guidelines and operate in a fair, legal, and
-              quality-assured manner. At The Bharat Exporter, the groundwork of
+              quality-assured manner. At Ruchir Home Food, the groundwork of
               integrity is based on the standards of business conduct which are
               envisioned to meet commitment, principles, and endeavor to trade
               fairly and honestly.
