@@ -53,12 +53,12 @@ function AboutSection() {
         is to exceed expectations, fostering growth and prosperity for our clients and stakeholders.
       </p>
       <div className="mt-4">
-        <div
+        <button
           to="/product"
           className="bg-[#e2571a] text-white py-2 px-6 rounded-lg uppercase font-sans font-semibold hover:bg-[#5A5A5A] transition duration-300 ease-in-out"
         >
           Discover All Products
-        </div>
+        </button>
       </div>
     </div>
       
