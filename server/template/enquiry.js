@@ -70,8 +70,8 @@ const enquiryEmail = (name, companyName, product, quantity, email, contactNumber
     </head>
     <body>
         <div class="container">
-            <a href="https://thebharatexporter.com/">
-                <img class="logo" src="https://i.ibb.co/xjNCDxd/logo2.png" alt="The Bharat Exporter">
+            <a href="https://gdrgroup72.com/">
+                <img class="logo" src="https://gdrgroup72.com/static/media/gdrgruop.6fe169ab01a3b9b0d5f7.jpg" alt="Ruchir Home Food">
             </a>
             <div class="message">New Product Query</div>
             <div class="body">

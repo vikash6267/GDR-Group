@@ -139,14 +139,11 @@ const HomeQuote = () => {
                 className="w-full px-3 py-3 border rounded"
               >
                 <option value="">Select Service</option>
-                <option value="new-rk-construction">New RK Construction</option>
-                <option value="rks-homes">RKS Homes</option>
-                <option value="srs-foods">SRS Foods</option>
-                <option value="ri-si-home-food">Ri Si Home Food</option>
-                <option value="72-gdr-steel">72 GDR Steel</option>
-                <option value="rrs-liquid-products">
-                  R. R. S. Liquid Products
-                </option>
+                <option value="RKS Infrabuild & Homes Pvt. LTD.">RKS Infrabuild & Homes Pvt. LTD.</option>
+                <option value="Praharsh Constructor Pvt. LTD.">Praharsh Constructor Pvt. LTD.</option>
+                <option value="Ruchir Home Food">Ruchir Home Food</option>
+                <option value="SRS Cattle Feed & Milk Product">SRS Cattle Feed & Milk Product</option>
+            
               </select>
             </div>
         

@@ -1,9 +1,87 @@
-import React, { useState } from 'react';
-import { FaFacebookF, FaWhatsapp, FaEnvelope, FaInstagram, FaTimes } from 'react-icons/fa';
-import './SocialMediaBar.css';
+import React, { useState } from "react";
+import {
+  FaFacebookF,
+  FaWhatsapp,
+  FaEnvelope,
+  FaInstagram,
+  FaTimes,
+} from "react-icons/fa";
+import "./SocialMediaBar.css";
+import Swal from "sweetalert2";
+import { apiConnector } from "../../services/apiConnector";
+import axios from "axios";
 
 const SocialMediaBar = () => {
   const [isContactFormOpen, setContactFormOpen] = useState(false);
+  const BASE_URL = process.env.REACT_APP_BASE_URL;
+
+  const [formData, setFormData] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    subject: null,
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    console.log(name, value);
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      Swal.fire({
+        title: "Loading",
+        allowOutsideClick: false,
+        allowEscapeKey: false,
+        allowEnterKey: false,
+        showConfirmButton: false,
+        html: '<div class="spinner-border" role="status"><span class="sr-only">Loading...</span></div>',
+      });
+
+      const formDataToSend = new FormData();
+      formDataToSend.append("name", formData.name);
+      formDataToSend.append("phone", formData.phone);
+      formDataToSend.append("email", formData.email);
+      formDataToSend.append("subject", formData.subject);
+      formDataToSend.append("message", formData.message);
+
+      const response = await axios.post(
+        `${BASE_URL}/contact/create`,
+        formDataToSend,
+        {
+          headers: {
+            "Content-Type": "multipart/form-data",
+          },
+        }
+      );
+
+      Swal.close();
+
+      if (response?.data?.success) {
+        Swal.fire({
+          title: `Contact form submited successfully! `,
+          text: `Have a nice day!`,
+          icon: "success",
+        });
+        setFormData({
+          name: "",
+          phone: "",
+          email: "",
+          message: "",
+        });
+      }
+    } catch (error) {
+      Swal.close();
+      // toast.error("Oops, something went wrong!");
+    }
+  };
 
   const handleContactFormOpen = () => {
     setContactFormOpen(true);
@@ -15,8 +93,8 @@ const SocialMediaBar = () => {
 
   return (
     <div className="social-media-bar">
-      <div 
-        className="social-icon contact-us" 
+      <div
+        className="social-icon contact-us"
         onMouseEnter={handleContactFormOpen}
         onMouseLeave={handleContactFormClose}
       >
@@ -28,29 +106,68 @@ const SocialMediaBar = () => {
               <FaTimes />
             </button>
             <h3>Contact Us</h3>
-            <form>
-              <input type="text" placeholder="Your Name" />
-              <input type="email" placeholder="Your Email" />
-              <textarea placeholder="Your Message"></textarea>
-              <button type="submit" className='sendbutton'>Send</button>
+            <form onSubmit={handleSubmit} className=" text-black">
+              <input
+                type="text"
+                placeholder="Your Name"
+                name="name"
+                value={formData.name}
+              onChange={handleChange}
+
+              />
+              <input
+              onChange={handleChange}
+              type="email"
+                placeholder="Your Email"
+                name="email"
+                value={formData.email}
+              />
+              <input
+                type="tel"
+                onChange={handleChange}
+                placeholder="Your NUmber"
+                name="phone"
+                value={formData.phone}
+              />
+              <textarea
+                placeholder="Your Message"
+                onChange={handleChange}
+                name="message"
+                value={formData.message}
+              ></textarea>
+              <button type="submit" className="sendbutton">
+                Send
+              </button>
             </form>
           </div>
         )}
       </div>
       <div className="social-icon bg-blue-800">
-        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaFacebookF />
           <span className="icon-name">Facebook</span>
         </a>
       </div>
       <div className="social-icon bg-green-600">
-        <a href="https://wa.me/9893730005" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://wa.me/9893730005"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaWhatsapp />
           <span className="icon-name">WhatsApp</span>
         </a>
       </div>
       <div className="social-icon bg-red-500">
-        <a href="https://www.instagram.com/rks.homes/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.instagram.com/rks.homes/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaInstagram />
           <span className="icon-name ">Instagram</span>
         </a>

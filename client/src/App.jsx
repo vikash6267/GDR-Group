@@ -17,6 +17,14 @@ import Liquied from "./Routes/Liquied";
 import ContactSection from "./components/common/SocialMedia";
 import Blog from "./pages/Blog";
 import ScrollToTop from "./components/ScrollToTop";
+import SingleBlog from "./pages/SingleBLogs";
+import OpenRoute from "./components/Admin/auth/OpenRoute";
+import Login from "./components/Admin/pages/Login";
+import Layout from "./components/Admin/pages/Layout";
+import Dashboard from "./components/Admin/pages/Dashboard";
+import AddBlog from "./components/Admin/pages/AddBlog";
+import GetBlog from "./components/Admin/pages/GetBlogs";
+import PrivateRoute from "./components/Admin/auth/PrivateRoute";
 function App() {
   const [showModal, setShowModal] = useState(true);
 
@@ -39,6 +47,8 @@ function App() {
         <Route path="/services" element={<Service />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/news" element={<Blog />} />
+        <Route path="/news/:id" element={<SingleBlog />} />
+
         <Route path="/*" element={<Constroctor />} />
 
         <Route path="/ri-si-food/*" element={<RISIFoddHome />} />
@@ -46,6 +56,36 @@ function App() {
         <Route path="/rks-homes/*" element={<RKSHome />} />
         <Route path="/72-gdr-steel/*" element={<GreedSteel72 />} />
         <Route path="/liquid/*" element={<Liquied />} />
+
+
+
+
+
+
+
+        <Route
+          path="/login"
+          element={
+            <OpenRoute>
+              <Login />
+            </OpenRoute>
+          }
+        />
+
+        <Route
+          element={
+            <PrivateRoute>
+              <Layout />
+            </PrivateRoute>
+          }
+        >
+          <Route path="/admin/dashboard" element={<Dashboard />} />
+          <Route path="/admin/addBlog" element={<AddBlog />} />
+          <Route path="/admin/getBlog" element={<GetBlog />} />
+        </Route>
+    
+
+
       </Routes>
 
       <ContactSection />

@@ -82,8 +82,8 @@ const contactUsEmail = (
     
     <body>
         <div class="container">
-            <a href="https://thebharatexporter.com/"><img class="logo"
-                    src="https://i.ibb.co/xjNCDxd/logo2.png" alt="Not found"></a>
+            <a href="https://gdrgroup72.com/"><img class="logo"
+                    src="https://gdrgroup72.com/static/media/gdrgruop.6fe169ab01a3b9b0d5f7.jpg" alt="Not found"></a>
             <div class="message">New Contact Query</div>
             <div class="body">
                 <p>Dear <span class="highlight">Admin</span>,</p>
