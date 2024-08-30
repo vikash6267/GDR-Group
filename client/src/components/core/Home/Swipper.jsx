@@ -27,7 +27,8 @@ const Slider = () => {
     {
       id: 1,
       text: "RKS Infrabuild & Homes Pvt. LTD.",
-      image: image2,
+      image:
+        "https://wallpapers.com/images/hd/real-estate-digital-art-0kmi22tcj2x60lim.jpg",
       description:
         "High-quality dairy products with a focus on freshness and excellence.",
       path: "/rks-homes/home",
@@ -52,8 +53,8 @@ const Slider = () => {
 
     {
       id: 4,
-      image:
-        "https://wallpapers.com/images/hd/real-estate-digital-art-0kmi22tcj2x60lim.jpg",
+      image: image2,
+
       text: "SRS Cattle Feed & Milk Product",
       description:
         "Expert in agricultural land sales with seamless financing options.",
