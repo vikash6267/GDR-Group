@@ -12,42 +12,42 @@ const company = [
   {
     img: craser,
     title: "Crusher Plant",
-    desc: "This is the description for Home.",
+    desc: "GDR Group's Crusher Plant is a state-of-the-art facility designed to efficiently break down large rocks and stones into various sizes for construction and industrial applications.",
   },
   {
     img: cement,
     title: "Cement Plant",
-    desc: "This is the description for Milk.",
+    desc: "GDR Group's Cement Plant is a leading facility in the production of high-quality cement, catering to the needs of various construction and infrastructure projects",
   },
   {
     img: briks,
     title: "Bricks Plant",
-    desc: "This is the description for Food.",
+    desc: "GDR Group's Bricks Plant is a cutting-edge facility dedicated to the production of high-quality bricks for various construction needs. Utilizing advanced manufacturing techniques, the plant produces durable.",
   },
   {
     img: send,
     title: "Sand Plant",
-    desc: "This is the description for Food.",
+    desc: "GDR Group's Sand Plant is a modern facility designed to produce high-quality sand for a variety of construction and industrial applications. The plant utilizes advanced processing techniques to ensure that the sand is of consistent size.",
   },
   {
     img: iron,
     title: "Iron Engle",
-    desc: "This is the description for Food.",
+    desc: "GDR Group's Iron Angle is a high-quality steel product designed for structural and architectural applications. Iron angles, also known as L-beams or angle iron, are essential components in construction.",
   },
   {
     img: sariya,
     title: "Sariya",
-    desc: "This is the description for Food.",
+    desc: "GDR Group's Sariya, also known as reinforcement bars or rebar, is a vital product in the construction industry, providing the necessary tensile strength to concrete structures.",
   },
   {
     img: wire,
     title: "Wire",
-    desc: "This is the description for Food.",
+    desc: "GDR Group's Wire is a premium quality product designed to meet the diverse needs of various industries, including construction, manufacturing, and electrical applications. Known for its strength, flexibility, and durability.",
   },
   {
     img: el,
     title: "Electrical Material",
-    desc: "This is the description for Food.",
+    desc: "GDR Group's Electrical Material offers a comprehensive range of high-quality products essential for safe and efficient electrical installations. Catering to residential, commercial, and industrial sectors.",
   },
 ];
 
@@ -86,7 +86,7 @@ const Company = () => {
                 </p>
               </div>
               <div className="absolute inset-0  top-48 flex bg-yellow-500 p-4 text-black opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100">
-                <p className="z-10 text-xl">{currElem.desc}</p>
+                <p className="z-10 text-sm">{currElem.desc}</p>
               </div>
             </div>
           ))}
