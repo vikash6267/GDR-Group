@@ -74,7 +74,7 @@ const HomeQuote = () => {
         <div className="grid lg:grid-cols-2 max-w-7xl mx-auto gap-5 p-5 lg:py-16">
           <div className="text-center my-1">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3668.196516107796!2d77.27105677531803!3d23.16302667907558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDA5JzQ2LjkiTiA3N8KwMTYnMjUuMSJF!5e0!3m2!1sen!2sin!4v1724832538455!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.4566768768123!2d77.43275097400793!3d23.226463208691257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c425ca9792c07%3A0xf45c6c8c88378b28!2sShri%20Neelkand%20Shiv%20Temple!5e0!3m2!1sen!2sin!4v1725031788748!5m2!1sen!2sin"
               className="w-full lg:h-[100vh] h-[50vh]"
               title="GDR Gruop"
               allowFullScreen=""

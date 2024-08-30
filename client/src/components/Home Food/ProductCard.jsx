@@ -8,7 +8,7 @@ const ProductCard = ({ imageUrl, title, category, index }) => {
   const [showModal, setShowModal] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
-    phoneCode:"",
+    phoneCode:"93",
     companyName: "",
     product: title,
     quantity: "",
@@ -114,6 +114,7 @@ console.log(response)
         closeModal(); // Close modal after form submission
       }
     } catch (error) {
+      console.log(error)
       Swal.close();
       Swal.fire({
         title: "Error!",
@@ -136,9 +137,9 @@ console.log(response)
         <div className="font-bold text-xl mb-2 text-teal-700 font-sans text-wrap">
           {title}
         </div>
-        <p className="text-gray-600 text-base mb-4">
+        {/* <p className="text-gray-600 text-base mb-4">
           <span className="font-bold">Category:</span> {category}
-        </p>
+        </p> */}
         <button
           onClick={openModal}
           className={`text-white w-full font-serif py-2 px-4 rounded ${buttonColorClass} hover:bg-opacity-75`}

@@ -40,6 +40,7 @@ const createContactCtrl = async (req, res) => {
 
 const createEnquiryCtrl = async (req, res) => {
     try {
+        // console.log("hello")
         console.log(req.body)
         const { name, companyName, product, quantity, email, contactNumber, country, state, address ,city,phoneCode} = req.body;
         if (!name || !companyName || !product || !quantity || !email || !contactNumber || !country || !state || !city || !address ||!phoneCode) {
@@ -50,11 +51,11 @@ const createEnquiryCtrl = async (req, res) => {
         }
 
         const emailRes = await mailSender(
-            "thebharatexporter@gmail.com",
-            // "vikasmaheshwari6267@gmail.com",
+            "vikasmaheshwari6267@gmail.com",
             "New Enquiry",
             enquiryEmail(name, companyName, product, quantity, email, contactNumber, country, state,city, address,phoneCode)
         )
+        console.log(emailRes)
         res.status(200).send({
             message: "Email send successfully.Our team will contact you soon!",
             emailRes,
