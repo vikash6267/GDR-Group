@@ -30,7 +30,7 @@ const Slider = () => {
       image:
         "https://wallpapers.com/images/hd/real-estate-digital-art-0kmi22tcj2x60lim.jpg",
       description:
-        "High-quality dairy products with a focus on freshness and excellence.",
+        "Expert in agricultural land sales with seamless financing options.",
       path: "/rks-homes/home",
     },
     {
@@ -38,6 +38,7 @@ const Slider = () => {
       image:
         "https://i.pinimg.com/originals/94/41/f2/9441f2efd20b16f02e73b25b43181a8c.jpg",
       text: "Praharsh Constructor Pvt. LTD.",
+
       description:
         "Top player in civil works with a focus on quality and safety.",
       path: "/construction/home",
@@ -58,7 +59,8 @@ const Slider = () => {
 
       text: "SRS Cattle Feed & Milk Product",
       description:
-        "Expert in agricultural land sales with seamless financing options.",
+        "High-quality dairy products with a focus on freshness and excellence.",
+
       path: "/srs-foods/home",
     },
   ];
