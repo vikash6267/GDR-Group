@@ -148,7 +148,7 @@ const Slider = () => {
                 className="block border-2 border-white text-center py-2 text-white text-sm md:text-lg lg:text-xl rounded-lg transition-transform transform hover:scale-105"
                 style={{ width: "200px" }}
               >
-                Learn More
+                Visit Now
               </Link>
             </motion.div>
           </SwiperSlide>
