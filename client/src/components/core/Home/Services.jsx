@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import home from "../../../assests/home/h2.jpg";
+import home from "../../../assests/home/h1.jpg";
 
 const services = [
   {
@@ -13,7 +13,7 @@ const services = [
   },
   {
     image:
-      "https://5.imimg.com/data5/SELLER/Default/2023/3/DW/RJ/XB/37290892/monkey-hoist-or-mini-lift-500x500.jpeg",
+      "https://wallpapers.com/images/hd/real-estate-digital-art-0kmi22tcj2x60lim.jpg",
     title: "Praharsh Constructor Pvt. LTD.",
     subtitle: "Best Service Ever",
     description:

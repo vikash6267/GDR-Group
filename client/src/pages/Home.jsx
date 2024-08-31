@@ -29,16 +29,16 @@ function Home() {
       {/* <SubNav2 /> */}
       <NavbarMain />
       <Slider />
-      <TagCloudWithDetails />
-      <Fade>
-        <AboutHome />
-      </Fade>
-      <Services />
       <CommanText
         text={
           "If you want to join us and invest then you are welcome to GDR Group"
         }
       />
+      <TagCloudWithDetails />
+      <Fade>
+        <AboutHome />
+      </Fade>
+      <Services />
       <Company />
       <ContactBanner />
       {/* <Gallery /> */}

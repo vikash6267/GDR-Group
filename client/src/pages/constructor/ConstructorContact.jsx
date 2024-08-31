@@ -13,8 +13,6 @@ const ConstructorContact = () => {
     window.scrollTo(0, 0);
   }, []);
 
-
-
   const BASE_URL = process.env.REACT_APP_BASE_URL;
 
   const [formData, setFormData] = useState({
@@ -103,7 +101,7 @@ const ConstructorContact = () => {
               Main Offices
             </p>
             <p className="text-center mb-2 text-white text-sm">
-              Mon - Sat 10.00 - 18.00
+              10 Am To 7 Pm All Days
             </p>
             <p className="text-center mb-4 text-white text-lg font-semibold">
               98937 30005
@@ -153,7 +151,7 @@ const ConstructorContact = () => {
                 type="text"
                 name="name"
                 value={formData.name}
-              onChange={handleChange}
+                onChange={handleChange}
                 placeholder="Full Name"
                 className="col-span-1 p-3 border border-gray-300 rounded-md"
               />
@@ -161,7 +159,7 @@ const ConstructorContact = () => {
                 type="email"
                 name="email"
                 value={formData.email}
-              onChange={handleChange}
+                onChange={handleChange}
                 placeholder="Email Address"
                 className="col-span-1 p-3 border border-gray-300 rounded-md"
               />
@@ -170,14 +168,14 @@ const ConstructorContact = () => {
                 placeholder="Phone"
                 name="phone"
                 value={formData.phone}
-              onChange={handleChange}
+                onChange={handleChange}
                 className="col-span-1 p-3 border border-gray-300 rounded-md"
               />
             </div>
             <textarea
               placeholder="Write Here..."
               name="message"
-                value={formData.message}
+              value={formData.message}
               onChange={handleChange}
               className="w-full p-3 border border-gray-300 rounded-md mb-4"
               rows="4"

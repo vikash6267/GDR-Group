@@ -15,6 +15,7 @@ import {
 } from "react-icons/fa";
 import { MdOutlineSupervisorAccount } from "react-icons/md";
 import Devision from "../common/Devision";
+import CompanyDetails from "../CompanyDetails";
 
 const AboutUsPage = () => {
   useEffect(() => {
@@ -39,13 +40,13 @@ const AboutUsPage = () => {
             </h2>
             <p>
               Both the employees and business partners have made a major
-              contribution to Ruchir Home Food strong foundation. We are
-              proud to have such team players incorporating years of expertise
-              in providing customers with a range of import and export
-              solutions. Our leaders' approach is always intended to provide
-              visibility, reliability, and consistency of product and unwavering
-              commitment towards customer satisfaction. Advent our customers
-              with distinguished qualities and fulfill their product-related
+              contribution to Ruchir Home Food strong foundation. We are proud
+              to have such team players incorporating years of expertise in
+              providing customers with a range of import and export solutions.
+              Our leaders' approach is always intended to provide visibility,
+              reliability, and consistency of product and unwavering commitment
+              towards customer satisfaction. Advent our customers with
+              distinguished qualities and fulfill their product-related
               requirements with full fidelity is the prime priority of our team.
               In addition, our logistics program makes it easy to maintain
               up-to-date communication with clients and take a customer-centric
@@ -160,7 +161,9 @@ const AboutUsPage = () => {
             </p>
           </section>
         </div>
-
+        <br />
+        <CompanyDetails />
+        <br />
         <Devision />
       </div>
 

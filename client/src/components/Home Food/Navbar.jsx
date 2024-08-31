@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaChevronDown, FaBars, FaTimes } from "react-icons/fa";
-import logo from "../../assests/logos/home.jpg";
+import logo from "../../assests/logos/food.jpg";
 
 import Modal from "../core/contact/Modal";
 import { Link } from "react-router-dom";

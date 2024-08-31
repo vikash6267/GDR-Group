@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { BsArrowRight } from "react-icons/bs";
 import Devision from "../../components/common/Devision";
 import video from "../../assests/video.mp4";
+import CompanyDetails from "../../components/CompanyDetails";
 const MilkAbout = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -83,6 +84,8 @@ const MilkAbout = () => {
           </motion.div>
         </div>
       </div>
+      <br />
+      <CompanyDetails />
       <Devision />
     </div>
   );

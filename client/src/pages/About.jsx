@@ -8,6 +8,7 @@ import Footer from "../components/common/Footer";
 import MainCommon from "../components/common/MainCommon";
 import Devision from "../components/common/Devision";
 import video from "../assests/video.mp4";
+import CompanyDetails from "../components/CompanyDetails";
 
 const About = () => {
   useEffect(() => {
@@ -90,6 +91,8 @@ const About = () => {
           </motion.div>
         </div>
       </div>
+      <br />
+      <CompanyDetails />
       <Devision />
       <MainCommon />
       <Footer />

@@ -10,10 +10,10 @@ import Service from "./pages/Service";
 import RISIFoddHome from "./Routes/RISIFoddHome";
 import MilkProduct from "./Routes/MilkProduct";
 import Constroctor from "./Routes/Constroctor";
-import GreedSteel72 from "./Routes/GreedSteel72";
+// import GreedSteel72 from "./Routes/GreedSteel72";
 import RKSHome from "./Routes/RKSHome";
 import Gallery from "./pages/Gallery";
-import Liquied from "./Routes/Liquied";
+// import Liquied from "./Routes/Liquied";
 import ContactSection from "./components/common/SocialMedia";
 import Blog from "./pages/Blog";
 import ScrollToTop from "./components/ScrollToTop";
@@ -30,6 +30,9 @@ function App() {
 
   useEffect(() => {
     setShowModal(true);
+    setInterval(() => {
+      setShowModal(false);
+    }, 8000);
   }, []);
 
   const handleCloseModal = () => {
@@ -54,14 +57,8 @@ function App() {
         <Route path="/ri-si-food/*" element={<RISIFoddHome />} />
         <Route path="/srs-foods/*" element={<MilkProduct />} />
         <Route path="/rks-homes/*" element={<RKSHome />} />
-        <Route path="/72-gdr-steel/*" element={<GreedSteel72 />} />
-        <Route path="/liquid/*" element={<Liquied />} />
-
-
-
-
-
-
+        {/* <Route path="/72-gdr-steel/*" element={<GreedSteel72 />} />
+        <Route path="/liquid/*" element={<Liquied />} /> */}
 
         <Route
           path="/login"
@@ -83,9 +80,6 @@ function App() {
           <Route path="/admin/addBlog" element={<AddBlog />} />
           <Route path="/admin/getBlog" element={<GetBlog />} />
         </Route>
-    
-
-
       </Routes>
 
       <ContactSection />

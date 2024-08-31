@@ -3,8 +3,8 @@ import video from "../../../assests/video.mp4";
 const Modal = ({ onClose }) => {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center z-50">
-      <div className="relative bg-white p-6 rounded-lg lg:max-w-[60%] w-full">
-        <button className="absolute top-1 right-2 text-black" onClick={onClose}>
+      <div className="relative bg-white rounded-lg h-scree w-screen">
+        <button className="absolute top-1 right-4 text-black" onClick={onClose}>
           <AiOutlineClose size={24} />
         </button>
         <div className="text-center">

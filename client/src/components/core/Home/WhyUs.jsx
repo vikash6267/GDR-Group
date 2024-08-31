@@ -15,9 +15,9 @@ const WhyUs = () => {
             </div>
           </div>
           <div className="flex flex-col lg:flex-row items-center text-center gap-2 md:ml-20">
-            <span className="text-7xl font-semibold ">1,000</span>
+            <span className="text-7xl font-semibold ">25</span>
             <p className="lg:w-[10px] text-[16px] flex  justify-start text-gray-300">
-              Plus Completed Projects
+              Plus Completed and 3 Ongoing Projects
             </p>
           </div>{" "}
           <div className="flex flex-col lg:flex-row items-center text-center gap-2  md:ml-24">
@@ -27,9 +27,9 @@ const WhyUs = () => {
             </p>
           </div>{" "}
           <div className="flex flex-col lg:flex-row items-center text-center gap-2 md:-ml-2">
-            <span className="text-7xl font-semibold ">50</span>
+            <span className="text-7xl font-semibold ">2005</span>
             <p className="lg:w-[10px] text-[16px] flex  justify-start text-gray-300">
-              Plus Active Clients
+              Since Trust And Reliable
             </p>
           </div>
         </div>

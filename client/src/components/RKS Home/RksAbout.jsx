@@ -6,6 +6,7 @@ import Subnavbar from "../common/SubNavbar";
 import Footer from "../common/Footer";
 import Devision from "../common/Devision";
 import video from "../../assests/video.mp4";
+import CompanyDetails from "../CompanyDetails";
 
 const RksAbout = () => {
   useEffect(() => {
@@ -99,6 +100,8 @@ const RksAbout = () => {
           </motion.div>
         </div>
       </div>
+      <br />
+      <CompanyDetails />
       <Devision />
       <Footer />
     </div>

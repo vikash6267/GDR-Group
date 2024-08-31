@@ -6,6 +6,7 @@ import ConstructionNavbar from "../../components/common/construction/Constructio
 import Footer from "../../components/common/Footer";
 import { FaCheckCircle } from "react-icons/fa";
 import Devision from "../../components/common/Devision";
+import CompanyDetails from "../../components/CompanyDetails";
 
 const ConstructorAbout = () => {
   useEffect(() => {
@@ -76,35 +77,30 @@ const ConstructorAbout = () => {
             <ul className="list-none space-y-2">
               <li className="flex items-center text-gray-800">
                 <FaCheckCircle className="text-green-600 mr-2" />
-                NEW RK Construction
+                RKS Infrabuild & Homes Pvt. LTD.
               </li>
               <li className="flex items-center text-gray-800">
                 <FaCheckCircle className="text-green-600 mr-2" />
-                RKS Homes
-              </li>
-              <li className="flex items-center text-gray-800">
-                <FaCheckCircle className="text-green-600 mr-2" />
-                SRS Cattle and Milk Food
+                Praharsh Constructor Pvt. LTD.
               </li>
             </ul>
 
             <ul className="list-none space-y-2">
               <li className="flex items-center text-gray-800">
                 <FaCheckCircle className="text-green-600 mr-2" />
-                Ri Si Home Food
+                Ruchir Home Food
               </li>
               <li className="flex items-center text-gray-800">
                 <FaCheckCircle className="text-green-600 mr-2" />
-                RS Liquid Products
-              </li>
-              <li className="flex items-center text-gray-800">
-                <FaCheckCircle className="text-green-600 mr-2" />
-                72 GDR Steel
+                SRS Cattle Feed & Milk Product
               </li>
             </ul>
           </div>
         </div>
       </section>
+      <br />
+      <CompanyDetails />
+      <br />
       <Devision />
 
       <Footer />
