@@ -89,6 +89,12 @@ export const constructionNavbar = [
 export const milkNavbar = [
 
     {
+        id: 0,
+        title: "Main Home",
+        path: "/"
+    },
+
+    {
         id: 1,
         title: "Home",
         path: "/srs-foods/home"

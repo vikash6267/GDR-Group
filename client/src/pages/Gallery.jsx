@@ -251,207 +251,243 @@ const data = [
       "https://allaboutbaking.in/wp-content/uploads/2021/07/81rhUGe0saL._SL1500_.jpg",
     type: "SRS Cattle Feed & Milk Product",
   },
+  {
+    id: 50,
+    name: "Sweet Shop",
+    image:
+      "https://content.jdmagicbox.com/comp/def_content/sweet_shops/default-sweet-shops-4.jpg",
+    type: "SRS Cattle Feed & Milk Product",
+  },
 
+  // DryFruits
+  {
+    id: 33,
+    name: "Makhana",
+    image:
+      "https://t3.ftcdn.net/jpg/04/48/23/16/360_F_448231665_VjDHDTJpPRx4xKivsmSJN88QqxXVh5D8.jpg",
+    type: "Ruchir Home Food Gallery",
+  },
+  {
+    id: 34,
+    name: "Cashew",
+    image:
+      "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719310369/INEXT/qqpalnu6cmnxkz89iz2n.jpg",
+    type: "Ruchir Home Food Gallery",
+  },
+  {
+    id: 35,
+    name: "Almond",
+    image:
+      "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719310441/INEXT/a0zuke3evn0fw4kvw7yz.jpg",
+    type: "Ruchir Home Food Gallery",
+  },
+  {
+    id: 36,
+    name: "Smart Bazaar",
+    image:
+      "https://www.infinitimall.com/wp-content/uploads/2023/04/Smart-Bazaar-Malad-Infiniti-Mal-1.jpg",
+    type: "Ruchir Home Food Gallery",
+  },
+  {
+    id: 37,
+    name: "Smart Bazaar",
+    image:
+      "https://i.ytimg.com/vi/IsxiHLGrKzI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAasjoHI4patOyWprH2ndRENP-9aQ",
+    type: "Ruchir Home Food Gallery",
+  },
 
+  // Millet
+  // {
+  //   id: 36,
+  //   name: "Pearl Millet",
+  //   image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719471977/INEXT/n8fytp8pu2azjujawj05.jpg",
+  //   type: "Ruchir Home Food Gallery",
+  // },
+  // {
+  //   id: 37,
+  //   name: "Sorghum",
+  //   image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719472203/INEXT/zwcdngotgxpj08igfpim.jpg",
+  //   type: "Ruchir Home Food Gallery",
+  // },
+  // {
+  //   id: 38,
+  //   name: "Finger Millet",
+  //   image: "https://5.imimg.com/data5/SELLER/Default/2022/8/QG/PN/VM/156307736/3-500x500.jpeg",
+  //   type: "Ruchir Home Food Gallery",
+  // },
 
-    // DryFruits
-    {
-      id: 33,
-      name: "Makhana",
-      image: "https://t3.ftcdn.net/jpg/04/48/23/16/360_F_448231665_VjDHDTJpPRx4xKivsmSJN88QqxXVh5D8.jpg",
-      type: "Ruchir Home Food Gallery",
-    },
-    {
-      id: 34,
-      name: "Cashew",
-      image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719310369/INEXT/qqpalnu6cmnxkz89iz2n.jpg",
-      type: "Ruchir Home Food Gallery",
-    },
-    {
-      id: 35,
-      name: "Almond",
-      image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719310441/INEXT/a0zuke3evn0fw4kvw7yz.jpg",
-      type: "Ruchir Home Food Gallery",
-    },
-  
-    // Millet
-    // {
-    //   id: 36,
-    //   name: "Pearl Millet",
-    //   image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719471977/INEXT/n8fytp8pu2azjujawj05.jpg",
-    //   type: "Ruchir Home Food Gallery",
-    // },
-    // {
-    //   id: 37,
-    //   name: "Sorghum",
-    //   image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719472203/INEXT/zwcdngotgxpj08igfpim.jpg",
-    //   type: "Ruchir Home Food Gallery",
-    // },
-    // {
-    //   id: 38,
-    //   name: "Finger Millet",
-    //   image: "https://5.imimg.com/data5/SELLER/Default/2022/8/QG/PN/VM/156307736/3-500x500.jpeg",
-    //   type: "Ruchir Home Food Gallery",
-    // },
-  
-    // Pulses
-    // {
-    //   id: 39,
-    //   name: "Green Gram (Mng Dal)",
-    //   image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719472481/INEXT/kzuhyjo9bnjtnldju6fd.jpg",
-    //   type: "Ruchir Home Food Gallery",
-    // },
-    // {
-    //   id: 40,
-    //   name: "Split Green Gram (Mung Dal)",
-    //   image: "https://t4.ftcdn.net/jpg/01/83/47/67/360_F_183476704_WElLlOssc5NeZFYRNlI7BtebbjSMJFrf.jpg",
-    //   type: "Ruchir Home Food Gallery",
-    // },
-    // {
-    //   id: 41,
-    //   name: "Yellow Lentils (Toor Dal)",
-    //   image: "https://cdn.ecommercedns.uk/files/8/252318/9/27680479/yellow-lentils.jpg",
-    //   type: "Ruchir Home Food Gallery",
-    // },
-  
-    // Spices
-    {
-      id: 42,
-      name: "Black Paper",
-      image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719475282/INEXT/ap6w3nzo4x9sss7sibyo.webp",
-      type: "Ruchir Home Food Gallery",
-    },
-    {
-      id: 43,
-      name: "Cinnamon",
-      image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719475578/INEXT/dbi0su0ofwwims7j3rg0.jpg",
-      type: "Ruchir Home Food Gallery",
-    },
-    {
-      id: 44,
-      name: "Red Chilli",
-      image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719475760/INEXT/pp92egns6eokuc6rqk9i.jpg",
-      type: "Ruchir Home Food Gallery",
-    },
-  
-    // Vegetable
-    // {
-    //   id: 45,
-    //   name: "Ginger",
-    //   image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719476349/INEXT/o95pdidtmxj2vsf7blcd.webp",
-    //   type: "Ruchir Home Food Gallery",
-    // },
-    // {
-    //   id: 46,
-    //   name: "Garlic",
-    //   image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719476439/INEXT/lw5zodvwlfbwnorfnqkh.jpg",
-    //   type: "Ruchir Home Food Gallery",
-    // },
-    // {
-    //   id: 47,
-    //   name: "Green Chilli",
-    //   image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719504391/INEXT/phacoej2wcdpoqv6x1vf.webp",
-    //   type: "Ruchir Home Food Gallery",
-    // },
-  
-    // Powders
-    {
-      id: 48,
-      name: "Red Chilli Powders",
-      image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719504546/INEXT/nhesd1yzyakg8802cvkk.jpg",
-      type: "Ruchir Home Food Gallery",
-    },
-    {
-      id: 49,
-      name: "Ginger Powders",
-      image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719504584/INEXT/fek8fextyerkvzvdwgks.jpg",
-      type: "Ruchir Home Food Gallery",
-    },
-    {
-      id: 50,
-      name: "Onion Powders",
-      image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719504792/INEXT/tdv8esny978wrutlicdx.webp",
-      type: "Ruchir Home Food Gallery",
-    },
-  
-    // Rice
-    // {
-    //   id: 51,
-    //   name: "Basnati Rice",
-    //   image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719579620/INEXT/rlgavk9bh7uksfdchlgf.webp",
-    //   type: "Ruchir Home Food Gallery",
-    // },
-    // {
-    //   id: 52,
-    //   name: "Sona Masoori Rice",
-    //   image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719579720/INEXT/mavgxgw4ij1icwuj90zw.jpg",
-    //   type: "Ruchir Home Food Gallery",
-    // },
-    // {
-    //   id: 53,
-    //   name: "Brown Rice",
-    //   image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719579826/INEXT/fvgiua4tf0v9ithwjpf3.webp",
-    //   type: "Ruchir Home Food Gallery",
-    // },
-  
-    // Fruits
-    {
-      id: 54,
-      name: "Mango",
-      image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719579962/INEXT/cfov9rnywyccvqjkspcv.jpg",
-      type: "Ruchir Home Food Gallery",
-    },
-    {
-      id: 55,
-      name: "Watermelon",
-      image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719579992/INEXT/pe5rt1vorfmsqqouduth.jpg",
-      type: "Ruchir Home Food Gallery",
-    },
-    {
-      id: 56,
-      name: "Licchi",
-      image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719580052/INEXT/arj9jitgsui4vbfjqeaj.webp",
-      type: "Ruchir Home Food Gallery",
-    },
-    
-    {
-      id: 57,
-      name: "Khada Anaj",
-      image: "https://simplyfresh.info/wp-content/uploads/2015/09/simply-wholegrainstips.jpg",
-      type: "Ruchir Home Food Gallery",
-    },
-    
-    {
-      id: 58,
-      name: "Aam Achaf",
-      image: "https://maayeka.com/wp-content/uploads/2017/05/aam-ka-sookha-achar-dry-mango-pickle-maayeka.jpg",
-      type: "Ruchir Home Food Gallery",
-    },
-    {
-      id: 59,
-      name: "All Types Achar",
-      image: "https://www.farmdidi.com/cdn/shop/articles/Blog-post-revised_1445x.webp?v=1670659916",
-      type: "Ruchir Home Food Gallery",
-    },
-    {
-      id: 60,
-      name: "All Types Fruites Juice",
-      image: "https://5.imimg.com/data5/SELLER/Default/2023/11/360122485/VE/ZU/WB/153255301/istockphoto-158268808-612x612-jpg-500x500.jpg",
-      type: "Ruchir Home Food Gallery",
-    },
-    {
-      id: 60,
-      name: "Mineral water",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUs3NmXZYW_w86JwABXYBmRcMU_Y6HII-zaBX_VYCjBTK7lpOpjGwmOkh_j8yQORzadWQ&usqp=CAU",
-      type: "Ruchir Home Food Gallery",
-    },
-    {
-      id: 60,
-      name: "Ice CUbes",
-      image: "https://www.eurokidsindia.com/blog/wp-content/uploads/2024/05/ice-cube-activities.jpg",
-      type: "Ruchir Home Food Gallery",
-    },
-    
+  // Pulses
+  // {
+  //   id: 39,
+  //   name: "Green Gram (Mng Dal)",
+  //   image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719472481/INEXT/kzuhyjo9bnjtnldju6fd.jpg",
+  //   type: "Ruchir Home Food Gallery",
+  // },
+  // {
+  //   id: 40,
+  //   name: "Split Green Gram (Mung Dal)",
+  //   image: "https://t4.ftcdn.net/jpg/01/83/47/67/360_F_183476704_WElLlOssc5NeZFYRNlI7BtebbjSMJFrf.jpg",
+  //   type: "Ruchir Home Food Gallery",
+  // },
+  // {
+  //   id: 41,
+  //   name: "Yellow Lentils (Toor Dal)",
+  //   image: "https://cdn.ecommercedns.uk/files/8/252318/9/27680479/yellow-lentils.jpg",
+  //   type: "Ruchir Home Food Gallery",
+  // },
+
+  // Spices
+  {
+    id: 42,
+    name: "Black Paper",
+    image:
+      "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719475282/INEXT/ap6w3nzo4x9sss7sibyo.webp",
+    type: "Ruchir Home Food Gallery",
+  },
+  {
+    id: 43,
+    name: "Cinnamon",
+    image:
+      "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719475578/INEXT/dbi0su0ofwwims7j3rg0.jpg",
+    type: "Ruchir Home Food Gallery",
+  },
+  {
+    id: 44,
+    name: "Red Chilli",
+    image:
+      "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719475760/INEXT/pp92egns6eokuc6rqk9i.jpg",
+    type: "Ruchir Home Food Gallery",
+  },
+
+  // Vegetable
+  // {
+  //   id: 45,
+  //   name: "Ginger",
+  //   image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719476349/INEXT/o95pdidtmxj2vsf7blcd.webp",
+  //   type: "Ruchir Home Food Gallery",
+  // },
+  // {
+  //   id: 46,
+  //   name: "Garlic",
+  //   image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719476439/INEXT/lw5zodvwlfbwnorfnqkh.jpg",
+  //   type: "Ruchir Home Food Gallery",
+  // },
+  // {
+  //   id: 47,
+  //   name: "Green Chilli",
+  //   image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719504391/INEXT/phacoej2wcdpoqv6x1vf.webp",
+  //   type: "Ruchir Home Food Gallery",
+  // },
+
+  // Powders
+  {
+    id: 48,
+    name: "Red Chilli Powders",
+    image:
+      "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719504546/INEXT/nhesd1yzyakg8802cvkk.jpg",
+    type: "Ruchir Home Food Gallery",
+  },
+  {
+    id: 49,
+    name: "Ginger Powders",
+    image:
+      "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719504584/INEXT/fek8fextyerkvzvdwgks.jpg",
+    type: "Ruchir Home Food Gallery",
+  },
+  {
+    id: 50,
+    name: "Onion Powders",
+    image:
+      "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719504792/INEXT/tdv8esny978wrutlicdx.webp",
+    type: "Ruchir Home Food Gallery",
+  },
+
+  // Rice
+  // {
+  //   id: 51,
+  //   name: "Basnati Rice",
+  //   image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719579620/INEXT/rlgavk9bh7uksfdchlgf.webp",
+  //   type: "Ruchir Home Food Gallery",
+  // },
+  // {
+  //   id: 52,
+  //   name: "Sona Masoori Rice",
+  //   image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719579720/INEXT/mavgxgw4ij1icwuj90zw.jpg",
+  //   type: "Ruchir Home Food Gallery",
+  // },
+  // {
+  //   id: 53,
+  //   name: "Brown Rice",
+  //   image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719579826/INEXT/fvgiua4tf0v9ithwjpf3.webp",
+  //   type: "Ruchir Home Food Gallery",
+  // },
+
+  // Fruits
+  {
+    id: 54,
+    name: "Mango",
+    image:
+      "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719579962/INEXT/cfov9rnywyccvqjkspcv.jpg",
+    type: "Ruchir Home Food Gallery",
+  },
+  {
+    id: 55,
+    name: "Watermelon",
+    image:
+      "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719579992/INEXT/pe5rt1vorfmsqqouduth.jpg",
+    type: "Ruchir Home Food Gallery",
+  },
+  {
+    id: 56,
+    name: "Licchi",
+    image:
+      "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719580052/INEXT/arj9jitgsui4vbfjqeaj.webp",
+    type: "Ruchir Home Food Gallery",
+  },
+
+  {
+    id: 57,
+    name: "Khada Anaj",
+    image:
+      "https://simplyfresh.info/wp-content/uploads/2015/09/simply-wholegrainstips.jpg",
+    type: "Ruchir Home Food Gallery",
+  },
+
+  {
+    id: 58,
+    name: "Aam Achaf",
+    image:
+      "https://maayeka.com/wp-content/uploads/2017/05/aam-ka-sookha-achar-dry-mango-pickle-maayeka.jpg",
+    type: "Ruchir Home Food Gallery",
+  },
+  {
+    id: 59,
+    name: "All Types Achar",
+    image:
+      "https://www.farmdidi.com/cdn/shop/articles/Blog-post-revised_1445x.webp?v=1670659916",
+    type: "Ruchir Home Food Gallery",
+  },
+  {
+    id: 60,
+    name: "All Types Fruites Juice",
+    image:
+      "https://5.imimg.com/data5/SELLER/Default/2023/11/360122485/VE/ZU/WB/153255301/istockphoto-158268808-612x612-jpg-500x500.jpg",
+    type: "Ruchir Home Food Gallery",
+  },
+  {
+    id: 60,
+    name: "Mineral water",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUs3NmXZYW_w86JwABXYBmRcMU_Y6HII-zaBX_VYCjBTK7lpOpjGwmOkh_j8yQORzadWQ&usqp=CAU",
+    type: "Ruchir Home Food Gallery",
+  },
+  {
+    id: 60,
+    name: "Ice CUbes",
+    image:
+      "https://www.eurokidsindia.com/blog/wp-content/uploads/2024/05/ice-cube-activities.jpg",
+    type: "Ruchir Home Food Gallery",
+  },
 ];
 
 const Gallery = () => {

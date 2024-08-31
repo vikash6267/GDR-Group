@@ -40,6 +40,16 @@ const FeaturesSection = () => {
           imageSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUUGSCAJ5lnrrmleJ1LVIW_7u2omoCkgAXSg&s"
           heading="House"
         />
+        <AnimatedCard
+          index={3}
+          imageSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQalUt-hv788-uXN_J9T1MjncH0XKdzuVKe1g&s"
+          heading="Farm House"
+        />
+        <AnimatedCard
+          index={3}
+          imageSrc="https://farmloans.com/wp-content/uploads/2023/03/The-Benefits-Of-Owning-Agricultural-Land-For-Farming-And-Investment1.2-e1680126871212.jpg"
+          heading="Farm Land"
+        />
       </div>
     </section>
   );
