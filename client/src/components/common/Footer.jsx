@@ -97,18 +97,21 @@ const Footer = () => {
               </li>
             </ul>
             <div className="mt-5 flex space-x-4">
-              <Link to="https://www.facebook.com/RKSHOME.CO.IN">
-                <FaFacebook className="h-6 w-6" target="_blank" />
+              <Link to="https://www.facebook.com/RKSHOME.CO.IN" target="_blank">
+                <FaFacebook className="h-6 w-6" />
               </Link>
 
-              <Link to="https://www.instagram.com/rks.homes/">
-                <FaInstagram className="h-6 w-6" target="_blank" />
+              <Link to="https://www.instagram.com/rks.homes/" target="_blank">
+                <FaInstagram className="h-6 w-6" />
               </Link>
 
-              <Link to="https://www.youtube.com/@rkshomes5376">
+              <Link to="https://www.youtube.com/@rkshomes5376" target="_blank">
                 <FaYoutube className="h-6 w-6" />
               </Link>
-              <Link to="https://www.google.com/maps?q=23.1630267,77.2736317&z=17&hl=en">
+              <Link
+                to="https://www.google.com/maps?q=23.1630267,77.2736317&z=17&hl=en"
+                target="_blank"
+              >
                 <SiMaplibre className="h-6 w-6" />
               </Link>
             </div>

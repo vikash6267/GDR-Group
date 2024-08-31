@@ -21,7 +21,7 @@ const ConstructorHome = () => {
       <Building />
       <Company />
       <ContactBanner />
-      <Expert />
+      {/* <Expert /> */}
       <Partners />
       <TalkToUs />
       <Footer />

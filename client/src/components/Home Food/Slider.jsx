@@ -13,26 +13,31 @@ function HeroSlider() {
       _id: "6682639df9a5891201ae43dd",
       title: "CULINARY EXPORTS REDEFINING PALATES WORLDWIDE",
       desc: "We are a premier food exporter specializing in delivering the finest culinary delights to discerning palates around the world",
-      image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719821220/INEXT/jmtdvvc7ofy36i9ipstl.jpg"
+      image:
+        "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719821220/INEXT/jmtdvvc7ofy36i9ipstl.jpg",
     },
     {
       _id: "668263caf9a5891201ae43df",
       title: "CULINARY EXPORTS REDEFINING PALATES WORLDWIDE",
       desc: "We are a premier food exporter specializing in delivering the finest culinary delights to discerning palates around the world",
-      image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719821265/INEXT/wrjwsqb1tfuotdpcgpqd.png"
+      image:
+        "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719821265/INEXT/wrjwsqb1tfuotdpcgpqd.png",
     },
     {
       _id: "6682641cf9a5891201ae43e5",
       title: "CULINARY EXPORTS REDEFINING PALATES WORLDWIDE",
       desc: "We are a premier food exporter specializing in delivering the finest culinary delights to discerning palates around the world",
-      image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719821347/INEXT/fficfzyq0hv8wuxfxkaf.jpg"
+      image:
+        "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719821347/INEXT/fficfzyq0hv8wuxfxkaf.jpg",
     },
     {
       _id: "66a4f936d5954d17852bac98",
-      title: "Bringing You the Finest Agricultural Products from Bharat [India]",
+      title:
+        "Bringing You the Finest Agricultural Products from Bharat [India]",
       desc: "Commit to a healthier lifestyle with our sustainably farmed foxnuts, packed",
-      image: "https://res.cloudinary.com/dsvotvxhq/image/upload/v1722087734/INEXT/sqeyiwkkucmue9wnpooz.jpg"
-    }
+      image:
+        "https://res.cloudinary.com/dsvotvxhq/image/upload/v1722087734/INEXT/sqeyiwkkucmue9wnpooz.jpg",
+    },
   ];
 
   return (
@@ -62,7 +67,7 @@ function HeroSlider() {
                 <h1 className="text-xl font-bold mb-4">
                   Welcome to{" "}
                   <span className="flip-text text-[#e2571a]">
-                    RiSI Home Foods
+                    Ruchir Home Foods
                   </span>
                 </h1>
 

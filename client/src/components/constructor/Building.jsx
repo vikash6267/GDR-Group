@@ -4,21 +4,21 @@ import { FaBuilding, FaRoad, FaTools } from "react-icons/fa";
 const Building = () => {
   const services = [
     {
-      title: "Road Building Building",
+      title: "Road Building ",
       description:
-        "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.",
+        "Praharsh Construction Company is a dynamic and reliable construction firm specializing in road building and infrastructure development",
       icon: <FaBuilding className="text-orange-500 w-10 h-10" />,
     },
     {
       title: "Highway Bridge",
       description:
-        "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.",
+        "A Highway Bridge is a critical infrastructure component designed to span over obstacles like rivers, valleys, or other roads, allowing the continuous flow of traffic on highways. These bridges are engineered to support heavy loads",
       icon: <FaRoad className="text-orange-500 w-10 h-10" />,
     },
     {
       title: "All Construction Work ",
       description:
-        "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.",
+        "All Construction Work encompasses a wide range of activities involved in building and infrastructure development. This includes residential, commercial, and industrial construction, as well as specialized projects like roadways, bridges, tunnels, and public facilities. It involves various stages such as planning",
       icon: <FaTools className="text-orange-500 w-10 h-10" />,
     },
   ];
