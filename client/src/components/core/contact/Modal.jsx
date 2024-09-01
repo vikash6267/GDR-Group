@@ -1,28 +1,25 @@
 import axios from "axios";
 import React, { useState } from "react";
 import Swal from "sweetalert2";
+
 const Modal = ({ isOpen, toggleModal, onSubmit }) => {
   const BASE_URL = process.env.REACT_APP_BASE_URL;
-  
-  
+
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
     email: "",
-    subject:null,
+    subject: null,
     message: "",
   });
 
-
   const handleChange = (e) => {
     const { name, value } = e.target;
-    console.log(name, value)
     setFormData({
       ...formData,
       [name]: value,
     });
   };
-
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -58,11 +55,11 @@ const Modal = ({ isOpen, toggleModal, onSubmit }) => {
 
       if (response?.data?.success) {
         Swal.fire({
-          title: `Contact form submited successfully! `,
+          title: `Contact form submitted successfully! `,
           text: `Have a nice day!`,
           icon: "success",
         });
-        toggleModal()
+        toggleModal();
         setFormData({
           name: "",
           phone: "",
@@ -79,7 +76,12 @@ const Modal = ({ isOpen, toggleModal, onSubmit }) => {
   if (!isOpen) return null;
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-      <div className="bg-white w-full max-w-md p-8 rounded-lg">
+      <div
+        className="bg-white w-full max-w-md p-8 rounded-lg bg-cover bg-center"
+        style={{
+          backgroundImage: `url(https://i.ytimg.com/vi/kBkIa6GxqzU/maxresdefault.jpg)`,
+        }}
+      >
         <h2 className="text-2xl font-bold mb-4">Enquiry Form</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
@@ -98,7 +100,6 @@ const Modal = ({ isOpen, toggleModal, onSubmit }) => {
             <input
               type="email"
               name="email"
-
               value={formData.email}
               onChange={handleChange}
               className="w-full p-2 border border-gray-300 rounded"
@@ -119,10 +120,9 @@ const Modal = ({ isOpen, toggleModal, onSubmit }) => {
           <div className="mb-4">
             <label className="block text-gray-700">Message</label>
             <textarea
-                 value={formData.message}
-                 onChange={handleChange}
+              value={formData.message}
+              onChange={handleChange}
               name="message"
-
               className="w-full p-2 border border-gray-300 rounded"
               placeholder="Your Message"
             ></textarea>
