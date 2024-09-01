@@ -15,7 +15,7 @@ import "swiper/css/scrollbar";
 import "swiper/css/autoplay";
 import "swiper/css/effect-fade";
 import { motion, useAnimation } from "framer-motion";
-import image2 from "../../../assests/milk.jpg";
+import image2 from "../../../assests/god.jpg";
 import { Link } from "react-router-dom";
 
 const Slider = () => {
@@ -27,8 +27,7 @@ const Slider = () => {
     {
       id: 1,
       text: "RKS Infrabuild & Homes Pvt. LTD.",
-      image:
-        "https://wallpapers.com/images/hd/real-estate-digital-art-0kmi22tcj2x60lim.jpg",
+      image: image2,
       description:
         "Expert in agricultural land sales with seamless financing options.",
       path: "/rks-homes/home",
