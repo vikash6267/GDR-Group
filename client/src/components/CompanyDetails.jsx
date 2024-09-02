@@ -2,10 +2,10 @@ import React from "react";
 
 const CompanyDetails = () => {
   return (
-    <div className="max-w-6xl mx-auto p-6 bg-white shadow-md rounded-lg">
+    <div className="max-w-6xl mx-auto p-6 bg-white  shadow-md rounded-lg">
       {/* Agriculture & Commercial Land */}
-      <div className="mb-12">
-        <h2 className="text-2xl font-extrabold text-green-800 mb-6">
+      <div className="mb-6 p-6 bg-green-50 hover:bg-blue-400 rounded-lg shadow-sm">
+        <h2 className="text-2xl font-extrabold text-green-800 mb-4">
           Agriculture & Commercial Land
         </h2>
         <p className="text-lg text-gray-800 leading-relaxed">
@@ -19,8 +19,8 @@ const CompanyDetails = () => {
       </div>
 
       {/* Construction */}
-      <div className="mb-12">
-        <h2 className="text-2xl font-extrabold text-blue-800 mb-6">
+      <div className="mb-6 p-6 bg-blue-50 hover:bg-red-400 rounded-lg shadow-sm">
+        <h2 className="text-2xl font-extrabold text-blue-800 mb-4">
           Construction
         </h2>
         <p className="text-lg text-gray-800 leading-relaxed">
@@ -30,8 +30,8 @@ const CompanyDetails = () => {
           is committed to delivering excellence in construction, focusing on
           innovative designs and sustainable building practices.
         </p>
-        <div className="ml-6 mt-6">
-          <h3 className="text-xl font-semibold text-blue-700 mb-3">
+        <div className="ml-6 mt-4">
+          <h3 className="text-xl font-semibold text-blue-700 mb-2">
             Government Construction & Civil Work
           </h3>
           <p className="text-lg text-gray-700 leading-relaxed">
@@ -43,16 +43,16 @@ const CompanyDetails = () => {
       </div>
 
       {/* Home Food */}
-      <div className="mb-12">
-        <h2 className="text-2xl font-extrabold text-red-800 mb-6">Home Food</h2>
+      <div className="mb-6 p-6 bg-red-50 hover:bg-yellow-400 rounded-lg shadow-sm">
+        <h2 className="text-2xl font-extrabold text-red-800 mb-4">Home Food</h2>
         <p className="text-lg text-gray-800 leading-relaxed">
           <span className="font-semibold text-red-600">Ruchir Home Food</span>{" "}
           offers a wide range of home food products, including groceries,
           grains, and dried fruits, delivering the freshness and quality you
           deserve.
         </p>
-        <div className="ml-6 mt-6">
-          <h3 className="text-xl font-semibold text-red-700 mb-3">
+        <div className="ml-6 mt-4">
+          <h3 className="text-xl font-semibold text-red-700 mb-2">
             All Groceries, Grains, & Dry Fruits
           </h3>
           <p className="text-lg text-gray-700 leading-relaxed">
@@ -64,8 +64,8 @@ const CompanyDetails = () => {
       </div>
 
       {/* Cattle Food and Milk Products */}
-      <div className="mb-12">
-        <h2 className="text-2xl font-extrabold text-yellow-800 mb-6">
+      <div className="mb-6 p-6 bg-yellow-50 hover:bg-green-400 rounded-lg shadow-sm">
+        <h2 className="text-2xl font-extrabold text-yellow-800 mb-4">
           Cattle Food & Milk Products
         </h2>
         <p className="text-lg text-gray-800 leading-relaxed">
@@ -75,8 +75,8 @@ const CompanyDetails = () => {
           provides a variety of cattle feed options and high-quality milk
           products, supporting your dairy farming needs with excellence.
         </p>
-        <div className="ml-6 mt-6">
-          <h3 className="text-xl font-semibold text-yellow-700 mb-3">
+        <div className="ml-6 mt-4">
+          <h3 className="text-xl font-semibold text-yellow-700 mb-2">
             All Types of Milk Products
           </h3>
           <p className="text-lg text-gray-700 leading-relaxed">
@@ -84,8 +84,8 @@ const CompanyDetails = () => {
             operations are supported with the finest quality offerings.
           </p>
         </div>
-        <div className="ml-6 mt-6">
-          <h3 className="text-xl font-semibold text-yellow-700 mb-3">
+        <div className="ml-6 mt-4">
+          <h3 className="text-xl font-semibold text-yellow-700 mb-2">
             All Types of Food Material
           </h3>
           <p className="text-lg text-gray-700 leading-relaxed">

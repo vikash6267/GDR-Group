@@ -31,7 +31,7 @@ function Home() {
       <Slider />
       <CommanText
         text={
-          "If you want to join us and invest then you are welcome to GDR Group"
+          "If you want to join & Invest wtih us you are welcome to GDR group"
         }
       />
       <TagCloudWithDetails />
