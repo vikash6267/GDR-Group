@@ -83,8 +83,14 @@ const HomeQuote = () => {
           </div>
 
           <form
-            className=" d-shadow grid grid-cols-1 md:grid-cols-2 gap-6 bg-white px-5 py-5"
+            className="d-shadow grid grid-cols-1 w-full md:grid-cols-2 gap-6 bg-white px-5 py-5"
             onSubmit={handleSubmit}
+            style={{
+              backgroundImage: `url(https://i.ytimg.com/vi/kBkIa6GxqzU/maxresdefault.jpg)`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
           >
             <div className="md:col-span-2 text-center">
               <h2 className="text-red-600 text-xl font-bold">
