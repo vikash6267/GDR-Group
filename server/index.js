@@ -32,6 +32,8 @@ cloudinaryConnect();
 app.use("/api/v1/contact", require("./routes/contactRoute"))
 app.use("/api/v1/auth", require("./routes/authRoute"))
 app.use("/api/v1/blog", require("./routes/blogRoute"))
+app.use("/api/v1/image", require("./routes/imageRoute"))
+app.use("/api/v1/gallery", require("./routes/galleryRoute"))
 
 app.use("/", (req, res) => {
     res.send("Ha bhai chal rha hu. Uski tarha tere ko chod kar thodi jaunga 😀")

@@ -11,14 +11,14 @@ const SingleBlog = () => {
       const response = await axios.get(
         `${process.env.REACT_APP_BASE_URL}/blog/get/${id}`
       );
-      console.log(response)
+      console.log(response);
       if (response?.data?.success) {
         setSingleBlog(response.data.blog);
       } else {
         throw new Error(response?.data?.message);
       }
     } catch (error) {
-        console.log(error)
+      console.log(error);
     }
   };
 
@@ -44,7 +44,7 @@ const SingleBlog = () => {
           <img
             src={singleBlog.image}
             alt={singleBlog.title}
-            className="flex justify-center items-center lg:w-[60vw] lg:h-[50vh] object-cover mx-auto"
+            className="flex justify-center items-center  object-cover mx-auto"
           />
           <div className="p-6">
             <h1 className="text-3xl font-bold mb-2">{singleBlog.title}</h1>

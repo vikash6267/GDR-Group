@@ -37,7 +37,7 @@ export const navlinks = [
     },
     {
         id: 8,
-        title: "News",
+        title: "Latest Update",
         path: "/news"
     },
 

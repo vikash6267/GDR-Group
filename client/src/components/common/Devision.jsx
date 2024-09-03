@@ -2,12 +2,12 @@ import React from "react";
 
 const Devision = () => {
   const items = [
-    {
-      type: "Division",
-      title: "Real Estate",
-      description:
-        "In the realm of Real Estate, we specialize in creating spaces that inspire, empower, and transform. From residential complexes to commercial properties, we leverage our industry knowledge and creative vision to deliver projects that exceed expectations and enrich lives.",
-    },
+    // {
+    //   type: "Division",
+    //   title: "Real Estate",
+    //   description:
+    //     "In the realm of Real Estate, we specialize in creating spaces that inspire, empower, and transform. From residential complexes to commercial properties, we leverage our industry knowledge and creative vision to deliver projects that exceed expectations and enrich lives.",
+    // },
     {
       type: "Division",
       title: "Construction",

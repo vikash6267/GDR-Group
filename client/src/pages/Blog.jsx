@@ -6,8 +6,6 @@ import { Link } from "react-router-dom";
 import MainCommon from "../components/common/MainCommon";
 import axios from "axios";
 
-
-
 function Blog() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -42,7 +40,7 @@ function Blog() {
       <Navbar />
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-4">List of Articles</h1>
-        <div className="grid gap-5 md:grid-cols-2  lg:grid-cols-3 ">
+        <div className="grid gap-5 md:grid-cols-2  lg:grid-cols-3 max-w-7xl mx-auto p-5 ">
           {blog.map((article, index) => (
             <Link
               key={index}
