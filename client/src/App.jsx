@@ -25,6 +25,7 @@ import Dashboard from "./components/Admin/pages/Dashboard";
 import AddBlog from "./components/Admin/pages/AddBlog";
 import GetBlog from "./components/Admin/pages/GetBlogs";
 import PrivateRoute from "./components/Admin/auth/PrivateRoute";
+import Career from "./pages/Career";
 function App() {
   const [showModal, setShowModal] = useState(true);
 
@@ -50,6 +51,7 @@ function App() {
         <Route path="/services" element={<Service />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/news" element={<Blog />} />
+        <Route path="/career" element={<Career />} />
         <Route path="/news/:id" element={<SingleBlog />} />
 
         <Route path="/*" element={<Constroctor />} />
