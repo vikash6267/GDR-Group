@@ -26,6 +26,7 @@ import AddBlog from "./components/Admin/pages/AddBlog";
 import GetBlog from "./components/Admin/pages/GetBlogs";
 import PrivateRoute from "./components/Admin/auth/PrivateRoute";
 import Career from "./pages/Career";
+import AddGallery from "./components/Admin/pages/AddGallery";
 function App() {
   const [showModal, setShowModal] = useState(true);
 
@@ -81,6 +82,7 @@ function App() {
           <Route path="/admin/dashboard" element={<Dashboard />} />
           <Route path="/admin/addBlog" element={<AddBlog />} />
           <Route path="/admin/getBlog" element={<GetBlog />} />
+          <Route path="/admin/create-gallery" element={<AddGallery />} />
         </Route>
       </Routes>
 

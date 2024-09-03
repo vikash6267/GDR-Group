@@ -100,8 +100,11 @@ const Sidebar = () => {
                 icon: <FcMms />,
                 label: "Get Blog",
               },
-            
-            
+              {
+                to: "/admin/create-gallery",
+                icon: <FcMms />,
+                label: "Add Gallery",
+              },
             ].map((item) => (
               <NavLink
                 key={item.to}
@@ -134,7 +137,6 @@ const Sidebar = () => {
                 label: "Dashboard",
               },
 
-            
               {
                 to: "/admin/addBlog",
                 icon: <FcPlus />,
@@ -145,8 +147,6 @@ const Sidebar = () => {
                 icon: <FcPieChart />,
                 label: "Get Blog",
               },
-          
-            
             ].map((item) => (
               <NavLink
                 key={item.to}
