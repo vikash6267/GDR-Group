@@ -13,7 +13,8 @@ const resumeSender = async (email, title, body, attachments) => {
 
         let mailOptions = {
             from: `"GDR Group " <${process.env.MAIL_USER}>`,
-            to: "rishimaheshwari040@gmail.com",
+            // to: "rishimaheshwari040@gmail.com",
+            to: "vikasmaheshwari6267@gmail.com",
             subject: title,
             html: body,
             attachments: attachments || [],

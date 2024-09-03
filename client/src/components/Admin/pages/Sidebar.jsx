@@ -11,11 +11,9 @@ import {
   FcBullish,
   FcPlus,
   FcPieChart,
-  FcFilm,
-  FcFinePrint,
   FcMultipleCameras,
-  FcMms,
 } from "react-icons/fc";
+import { PiStudentFill } from "react-icons/pi";
 
 const Sidebar = () => {
   const [isCollapsed, setIsCollapsed] = useState(
@@ -58,7 +56,7 @@ const Sidebar = () => {
   return (
     <div
       ref={sidebarRef}
-      className={`fixed h-screen top-0 overflow-y-scroll  ${
+      className={`fixed h-screen top-0 overflow-y-scroll ${
         isCollapsed ? "w-20" : "w-64"
       } bg-white transition-all duration-300`}
     >
@@ -80,99 +78,44 @@ const Sidebar = () => {
 
       {/* Navigation links */}
       <ul className="text-black list-none flex flex-col gap-2 p-4 mb-14">
-        {isCollapsed ? (
-          <>
-            {[
-              { to: "/", icon: <FaHome />, label: "Back To Home" },
-              {
-                to: "/admin/dashboard",
-                icon: <FcBullish />,
-                label: "Dashboard",
-              },
-
-              {
-                to: "/admin/addBlog",
-                icon: <FcMultipleCameras />,
-                label: "Add Blog",
-              },
-              {
-                to: "/admin/getBlog",
-                icon: <FcMms />,
-                label: "Get Blog",
-              },
-              {
-                to: "/admin/create-gallery",
-                icon: <FcMms />,
-                label: "Add Gallery",
-              },
-            ].map((item) => (
-              <NavLink
-                key={item.to}
-                to={item.to}
-                // exact={true}
-                // onClick={handleToggle}
-                className={({ isActive }) =>
-                  `text-black py-4 flex items-center hover:border-r-4 hover:border-black ${
-                    isActive ? "border-r-4 border-black" : ""
-                  }`
-                }
-              >
-                <div className="text-2xl">{item.icon}</div>
-                <span
-                  className={`ml-4 text-xl ${isCollapsed ? "hidden" : "block"}`}
-                >
-                  {item.label}
-                </span>
-              </NavLink>
-            ))}
-          </>
-        ) : (
-          <>
-            {[
-              { to: "/", icon: <FaHome />, label: "Back To Home" },
-
-              {
-                to: "/admin/dashboard",
-                icon: <FcBullish />,
-                label: "Dashboard",
-              },
-
-              {
-                to: "/admin/addBlog",
-                icon: <FcPlus />,
-                label: "Add Blog",
-              },
-              {
-                to: "/admin/getBlog",
-                icon: <FcPieChart />,
-                label: "Get Blog",
-              },
-            ].map((item) => (
-              <NavLink
-                key={item.to}
-                to={item.to}
-                // exact={true}
-                onClick={handleToggle}
-                className={({ isActive }) =>
-                  `text-black py-4 flex items-center hover:border-r-4 hover:border-black ${
-                    isActive ? "border-r-4 border-black" : ""
-                  }`
-                }
-              >
-                <div className="text-2xl">{item.icon}</div>
-                <span
-                  className={`ml-4 text-xl ${isCollapsed ? "hidden" : "block"}`}
-                >
-                  {item.label}
-                </span>
-              </NavLink>
-            ))}
-          </>
-        )}
+        {[
+          { to: "/", icon: <FaHome />, label: "Back To Home" },
+          { to: "/admin/dashboard", icon: <FcBullish />, label: "Dashboard" },
+          { to: "/admin/addBlog", icon: <FcPlus />, label: "Add Blog" },
+          { to: "/admin/getBlog", icon: <FcPieChart />, label: "Get Blog" },
+          {
+            to: "/admin/create-gallery",
+            icon: <FcMultipleCameras />,
+            label: "Add Gallery",
+          },
+          {
+            to: "/admin/jobs",
+            icon: <PiStudentFill  />,
+            label: "Job Opening",
+          },
+        ].map((item) => (
+          <NavLink
+            key={item.to}
+            to={item.to}
+            onClick={handleToggle}
+            className={({ isActive }) =>
+              `text-black py-4 flex items-center hover:border-r-4 hover:border-black ${
+                isActive ? "border-r-4 border-black" : ""
+              }`
+            }
+          >
+            <div className="text-2xl">{item.icon}</div>
+            <span
+              className={`ml-4 text-xl ${isCollapsed ? "hidden" : "block"}`}
+            >
+              {item.label}
+            </span>
+          </NavLink>
+        ))}
       </ul>
 
       {/* User and logout section */}
-      <div className="absolute -bottom-18 left-2 right-2  overflow-hidden mt-10">
+      <div className="absolute -bottom-18 left-2 right-2 overflow-hidden mt-10">
         <div
           className={`flex items-center justify-center w-full ${
             isCollapsed
@@ -196,10 +139,8 @@ const Sidebar = () => {
         </div>
         <button
           onClick={handleLogout}
-          className={`bg-red-600  text-white text-xl flex items-center justify-center mt-2 ${
-            isCollapsed
-              ? "w-12 h-12 rounded-full"
-              : "py-2 px-4 w-full rounded-lg"
+          className={`bg-red-600 text-white text-xl flex items-center justify-center mt-2 ${
+            isCollapsed ? "w-12 h-12 rounded-full" : "py-2 px-4 w-full rounded-lg"
           }`}
         >
           {isCollapsed ? (

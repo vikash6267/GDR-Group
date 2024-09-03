@@ -1,13 +1,19 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Footer from "../components/common/Footer";
 import Navbar from "../components/common/NavbarMain";
 import CareerForm from "../components/common/CareerForm";
 import CareerData from "../components/common/CareerData";
 
+
 const Career = () => {
+  
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+
+
   return (
     <div>
       <Navbar />

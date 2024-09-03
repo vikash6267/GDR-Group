@@ -70,7 +70,16 @@ const HomeQuote = () => {
   return (
     <div>
       <div className="bg-black mb-1">
-        <div className="grid lg:grid-cols-2 max-w-7xl mx-auto gap-5 p-5 lg:py-16">
+
+    <div className=" flex items-center justify-center w-full">
+    <img
+          src="https://i.ytimg.com/vi/kBkIa6GxqzU/maxresdefault.jpg"
+          alt="Modal Visual"
+          className="w-ful flex h-36 object-cove rounded-t-lg"
+        />
+    </div>
+        
+        <div className="grid lg:grid-cols-2 max-w-7xl mx-auto gap-5 p-5">
           <div className="text-center my-1">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3668.196516107796!2d77.27105677531803!3d23.16302667907558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDA5JzQ2LjkiTiA3N8KwMTYnMjUuMSJF!5e0!3m2!1sen!2sin!4v1724832538455!5m2!1sen!2sin"
@@ -86,12 +95,14 @@ const HomeQuote = () => {
             className="d-shadow grid grid-cols-1 w-full md:grid-cols-2 gap-6 bg-white px-5 py-5"
             onSubmit={handleSubmit}
             style={{
-              backgroundImage: `url(https://i.ytimg.com/vi/kBkIa6GxqzU/maxresdefault.jpg)`,
+              backgroundImage: `url()`,
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
             }}
           >
+
+
             <div className="md:col-span-2 text-center">
               <h2 className="text-red-600 text-xl font-bold">
                 Request a Call Back!
@@ -99,6 +110,7 @@ const HomeQuote = () => {
               <h1 className="text-3xl font-bold">General Enquiry</h1>
               <p className="text-gray-500">Not sure about your requirements?</p>
             </div>
+            
             <div>
               <input
                 type="text"

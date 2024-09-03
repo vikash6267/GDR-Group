@@ -12,6 +12,7 @@ const ContactBanner = () => {
             Interested in partnering with us? Contact us today!
           </p>
           <p className="text-lg font-semibold">Phone: 9893730005</p>
+          <p className="text-lg font-semibold">Whatsapp No.: 9893730005</p>
         </div>
         <div className="md:w-1/2 flex justify-center">
           <a

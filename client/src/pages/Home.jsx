@@ -29,6 +29,7 @@ function Home() {
       {/* <SubNav2 /> */}
       <NavbarMain />
       <Slider />
+
       <CommanText
         text={
           "If you want to join & Invest wtih us you are welcome to GDR group"

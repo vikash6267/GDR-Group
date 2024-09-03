@@ -266,3 +266,53 @@ body {
 }
 
 /* globals.css or Tailwind CSS file */
+/* ScrollingText.css */
+
+.scrolling-text-right {
+  display: inline-block;
+  white-space: nowrap;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  animation: scroll-right 20s linear infinite;
+}
+
+.scrolling-text-left {
+  display: inline-block;
+  white-space: nowrap;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  animation: scroll-left 20s linear infinite;
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.scroll-right:hover, .scroll-left:hover {
+  animation-play-state: paused;
+}
+
+
+/* //ANimation */
+
+
+
+/* styles.css */
+
+

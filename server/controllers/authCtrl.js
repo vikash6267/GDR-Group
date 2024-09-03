@@ -1,7 +1,7 @@
 const userModel = require("../models/auth");
 const jwt = require("jsonwebtoken")
 const bcrypt = require("bcrypt");
-
+const Jobs = require("../models/jobopening")
 
 
 
@@ -84,4 +84,85 @@ const registerCtrl = async (req, res) => {
     }
 }
 
-module.exports = { loginCtrl, registerCtrl }
+
+const newJobAdd = async (req, res) => {
+  console.log(req.body)
+    try {
+      const { jobTitle, description, gender } = req.body;
+  
+      if (!jobTitle || !description || !gender) {
+        return res.status(400).json({
+          success: false,
+          message: "All fields are mandatory"
+        });
+      }
+  
+      const newJob = await Jobs.create({
+        jobtitle:jobTitle,
+        description,
+        gender
+      });
+  
+      res.status(201).json({
+        success: true,
+        message: "Job created successfully",
+        job: newJob
+      });
+    } catch (error) {
+      console.error(error);
+      res.status(500).json({
+        success: false,
+        message: "Error while creating job",
+        error: error.message
+      });
+    }
+  };
+  
+
+  // Get all jobs
+const getAllJobs = async (req, res) => {
+    try {
+      const jobs = await Jobs.find({});
+      res.status(200).json({
+        success: true,
+        jobs
+      });
+    } catch (error) {
+      console.error(error);
+      res.status(500).json({
+        success: false,
+        message: "Error while fetching jobs",
+        error: error.message
+      });
+    }
+  };
+  
+  const deleteJob = async (req, res) => {
+    try {
+      console.log(req.params)
+      const job = await Jobs.findByIdAndDelete(req.params.id);
+      
+      if (!job) {
+        return res.status(404).json({
+          success: false,
+          message: "Job not found"
+        });
+      }
+  
+      res.status(200).json({
+        success: true,
+        message: "Job deleted successfully"
+      });
+    } catch (error) {
+      console.error(error);
+      res.status(500).json({
+        success: false,
+        message: "Error while deleting job",
+        error: error.message
+      });
+    }
+  };
+  
+  
+
+module.exports = { loginCtrl, registerCtrl,newJobAdd ,getAllJobs,deleteJob}

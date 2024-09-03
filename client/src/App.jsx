@@ -27,6 +27,7 @@ import GetBlog from "./components/Admin/pages/GetBlogs";
 import PrivateRoute from "./components/Admin/auth/PrivateRoute";
 import Career from "./pages/Career";
 import AddGallery from "./components/Admin/pages/AddGallery";
+import JobOpening from "./components/Admin/pages/JobOpening";
 function App() {
   const [showModal, setShowModal] = useState(true);
 
@@ -43,7 +44,7 @@ function App() {
 
   return (
     <div className="min-h-screen">
-      {showModal && <Modal onClose={handleCloseModal} />}
+      {/* {showModal && <Modal onClose={handleCloseModal} />} */}
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -83,6 +84,7 @@ function App() {
           <Route path="/admin/addBlog" element={<AddBlog />} />
           <Route path="/admin/getBlog" element={<GetBlog />} />
           <Route path="/admin/create-gallery" element={<AddGallery />} />
+          <Route path="/admin/jobs" element={<JobOpening />} />
         </Route>
       </Routes>
 
