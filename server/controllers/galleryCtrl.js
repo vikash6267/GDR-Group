@@ -1,10 +1,10 @@
 const galleryModel = require("../models/gallery")
-const createGalleryCtrl = async () => {
+const createGalleryCtrl = async (req, res) => {
     try {
         const { title, type, images } = req.body;
         const imageArray = typeof images === 'string' ? JSON.parse(images) : images;
 
-        if (!title || !desc || !imageArray) {
+        if (!title || !type || !imageArray) {
             return res.status(400).json({
                 success: false,
                 message: "Please Provide All Fields"

@@ -32,8 +32,6 @@ const CareerForm = () => {
     // Add more job positions as needed
   ];
 
-
-
   const BASE_URL = process.env.REACT_APP_BASE_URL;
   const [jobs, setJobs] = useState([]);
   useEffect(() => {
@@ -42,15 +40,13 @@ const CareerForm = () => {
         const response = await axios.get(`${BASE_URL}/auth/jobs`);
         setJobs(response?.data?.jobs);
 
-        console.log(jobs)
+        console.log(jobs);
       } catch (error) {
         console.error("Error fetching jobs:", error);
       }
     };
     fetchJobs();
   }, [BASE_URL]);
-
-
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -81,7 +77,8 @@ const CareerForm = () => {
         // Update job description based on gender change
         const selectedJob = jobs.find(
           (job) =>
-            job.jobtitle === formData.applicationFor && job.gender === selectedGender
+            job.jobtitle === formData.applicationFor &&
+            job.gender === selectedGender
         );
         setSelectedJobDescription(selectedJob ? selectedJob.description : "");
       }, 300); // Duration should match the CSS transition duration
@@ -211,12 +208,7 @@ const CareerForm = () => {
       </div>
 
       {/* Animated Gender Indicator */}
-      <CSSTransition
-        in={animate}
-        timeout={300}
-        classNames="fade"
-        unmountOnExit
-      >
+      <CSSTransition in={animate} timeout={300} classNames="fade" unmountOnExit>
         <div className="text-center mb-4">
           <p className="text-sm text-gray-500">Changing Gender...</p>
         </div>
@@ -312,19 +304,16 @@ const CareerForm = () => {
               Job Description
             </label>
             <div
-                className="mt-2"
-                dangerouslySetInnerHTML={{ __html: selectedJobDescription}}
-              />
+              className="mt-2"
+              dangerouslySetInnerHTML={{ __html: selectedJobDescription }}
+            />
             {/* <p className="text-lg text-gray-600">{selectedJobDescription}</p> */}
           </div>
         )}
 
         {/* Message Field */}
         <div className="mb-4 lg:col-span-2">
-          <label
-            className="block text-xl text-gray-700 mb-2"
-            htmlFor="message"
-          >
+          <label className="block text-xl text-gray-700 mb-2" htmlFor="message">
             Message
           </label>
           <textarea
