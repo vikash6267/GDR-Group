@@ -44,7 +44,7 @@ function App() {
 
   return (
     <div className="min-h-screen">
-      {/* {showModal && <Modal onClose={handleCloseModal} />} */}
+      {showModal && <Modal onClose={handleCloseModal} />}
 
       <Routes>
         <Route path="/" element={<Home />} />

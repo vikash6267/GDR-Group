@@ -49,7 +49,7 @@ const Sidebar = () => {
     document.addEventListener("mousedown", handleClickOutside);
 
     return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
+      // document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
 
@@ -90,7 +90,7 @@ const Sidebar = () => {
           },
           {
             to: "/admin/jobs",
-            icon: <PiStudentFill  />,
+            icon: <PiStudentFill />,
             label: "Job Opening",
           },
         ].map((item) => (
@@ -140,7 +140,9 @@ const Sidebar = () => {
         <button
           onClick={handleLogout}
           className={`bg-red-600 text-white text-xl flex items-center justify-center mt-2 ${
-            isCollapsed ? "w-12 h-12 rounded-full" : "py-2 px-4 w-full rounded-lg"
+            isCollapsed
+              ? "w-12 h-12 rounded-full"
+              : "py-2 px-4 w-full rounded-lg"
           }`}
         >
           {isCollapsed ? (
