@@ -3,16 +3,15 @@ import Footer from "../components/common/Footer";
 import Navbar from "../components/common/NavbarMain";
 import CareerForm from "../components/common/CareerForm";
 import CareerData from "../components/common/CareerData";
-
+import h4 from "../assests/home/h4.jpg";
+import ag from "../assests/gallery/ag.jpg";
+import fh from "../assests/gallery/fh.jpg";
+import cl from "../assests/gallery/cl.jpg";
 
 const Career = () => {
-  
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
-
 
   return (
     <div>
@@ -25,22 +24,22 @@ const Career = () => {
             </p>
             <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 ">
               <img
-                src="http://localhost:4016/static/media/h4.6d9757b6737f408c5c41.jpg"
+                src={h4}
                 alt="not found"
                 className="w-full h-full rounded-md hover:opacity-80"
               />
               <img
-                src="http://localhost:4016/static/media/ag.8e00e69c47769e6a9b19.jpg"
+                src={ag}
                 alt="not found"
                 className=" w-full h-full rounded-md hover:opacity-80"
               />
               <img
-                src="http://localhost:4016/static/media/fd.106a7b0abcec5f96dd30.jpg"
+                src={fh}
                 alt="not found"
                 className=" w-full h-full rounded-md hover:opacity-80"
               />
               <img
-                src="http://localhost:4016/static/media/cl.abe98a95d40c77432784.jpg"
+                src={cl}
                 alt="not found"
                 className=" w-full h-full rounded-md hover:opacity-80"
               />

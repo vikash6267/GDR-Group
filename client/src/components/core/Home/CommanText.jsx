@@ -3,10 +3,6 @@ import images from "../../../assests/banner.png";
 import { TypeAnimation } from "react-type-animation";
 import video from "../../../assests/homevideo.mp4"
 const ScrollingText = () => {
-
-
-
-
   const [isTypingDone, setIsTypingDone] = useState(false);
 
   useEffect(() => {
@@ -14,11 +10,13 @@ const ScrollingText = () => {
       setIsTypingDone(true);
     };
 
-    // Listen to the end of the typing animation
-    document.querySelector('.type-animation').addEventListener('animationend', handleAnimationEnd);
+    document
+      .querySelector(".type-animation")
+      .addEventListener("animationend", handleAnimationEnd);
 
     return () => {
-      document.querySelector('.type-animation').removeEventListener('animationend', handleAnimationEnd);
+      document.querySelector(".type-animation");
+      // .removeEventListener("animationend", handleAnimationEnd);
     };
   }, []);
 
@@ -48,34 +46,27 @@ const ScrollingText = () => {
           </div>
         </div> */}
 
-        {/* <div className="w-11/12 mx-auto uppercase">
-      <TypeAnimation
-        sequence={[
-          "Welcome To GDR Group",
-          1000,
-          "If you want to join & Invest with us you are welcome to GDR group",
-          1000,
-        ]}
-        cursor={true}
-        repeat={Infinity}
-        style={{
-          whiteSpace: "pre-line",
-          display: "block",
-          transition: "font-size 0.5s ease", // Smooth transition
-          fontSize: isTypingDone ? "1rem" : "2rem", // Conditional font size
-        }}
-        omitDeletionAnimation={false}
-        className="type-animation lg:text-3xl text-xl font-bold text-white"
-        onTypingDone={() => setIsTypingDone(true)} // Set typing done when text animation completes
-      />
-    </div> */}
-
-
-
-<video src={video}
-></video>
-
-
+        <div className="w-11/12 mx-auto uppercase">
+          <TypeAnimation
+            sequence={[
+              "Welcome To GDR Group",
+              1000,
+              "If you want to join & Invest with us you are welcome to GDR group",
+              1000,
+            ]}
+            cursor={true}
+            repeat={Infinity}
+            style={{
+              whiteSpace: "pre-line",
+              display: "block",
+              transition: "font-size 0.5s ease", // Smooth transition
+              fontSize: isTypingDone ? "1rem" : "2rem", // Conditional font size
+            }}
+            omitDeletionAnimation={false}
+            className="type-animation lg:text-3xl text-xl font-bold text-white"
+            onTypingDone={() => setIsTypingDone(true)} // Set typing done when text animation completes
+          />
+        </div>
       </div>
     </div>
   );
