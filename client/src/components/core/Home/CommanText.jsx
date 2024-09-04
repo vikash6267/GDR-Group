@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import images from "../../../assests/banner.png";
 import { TypeAnimation } from "react-type-animation";
-
+import video from "../../../assests/homevideo.mp4"
 const ScrollingText = () => {
 
 
@@ -48,7 +48,7 @@ const ScrollingText = () => {
           </div>
         </div> */}
 
-        <div className="w-11/12 mx-auto uppercase">
+        {/* <div className="w-11/12 mx-auto uppercase">
       <TypeAnimation
         sequence={[
           "Welcome To GDR Group",
@@ -68,7 +68,12 @@ const ScrollingText = () => {
         className="type-animation lg:text-3xl text-xl font-bold text-white"
         onTypingDone={() => setIsTypingDone(true)} // Set typing done when text animation completes
       />
-    </div>
+    </div> */}
+
+
+
+<video src={video}
+></video>
 
 
       </div>
