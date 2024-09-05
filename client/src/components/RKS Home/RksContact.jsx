@@ -108,7 +108,7 @@ const RksContact = () => {
               98937 30005
             </p>
             <p className="text-center mb-4 text-white text-lg font-semibold">
-              rkshomes30@gmail.com
+              rkshomes30@gdrgroup72.com
             </p>
             <p className="text-center text-black text-sm">
               Janki Nagar, Neelkant Mahadev Mandir, Near Mashroom Factory

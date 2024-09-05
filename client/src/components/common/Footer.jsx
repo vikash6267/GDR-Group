@@ -80,20 +80,21 @@ const Footer = () => {
             <ul className="grid my-1">
               <li className="flex gap-2 items-center">
                 {" "}
-                <MdEmail size={15} /> rkshomes30@gmail.com ​​
+                <MdEmail size={15} />
+                rkshomes30@gdrgroup72.com
               </li>
               <li className="flex gap-2 items-center">
-                <MdEmail size={15} /> r.k_construction@yahoo.com ​​
+                <MdEmail size={15} /> srsmilkfood@gdrgroup72.com
               </li>
               <li className="flex gap-2 items-center">
-                <MdEmail size={15} /> srsmilkfood@gmail.com ​​
+                <MdEmail size={15} /> praharshconstruction@gdrgroup72.com
               </li>
               <li className="flex gap-2 items-center">
                 <MdEmail size={15} /> ri.si.homefood@gmail.com ​​
               </li>
               <li className="flex gap-2 items-center">
                 {" "}
-                <MdEmail size={15} /> rrsliquid@gmail.com ​​
+                <MdEmail size={15} /> ruchir@gdrgroup72.com
               </li>
             </ul>
             <div className="mt-5 flex space-x-4">

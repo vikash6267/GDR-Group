@@ -48,7 +48,7 @@ function ContactUs() {
             </h3>
             <p className=" text-[#7c7c7c] lg:text-xl text-sm">
               <a href="mailto:thebharatexporter@gmail.com">
-                ri.si.homefood@gmail.com
+                ruchir@gdrgroup72.com
               </a>
             </p>
           </div>
