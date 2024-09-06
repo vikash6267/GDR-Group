@@ -112,12 +112,11 @@ const SocialMediaBar = () => {
                 placeholder="Your Name"
                 name="name"
                 value={formData.name}
-              onChange={handleChange}
-
+                onChange={handleChange}
               />
               <input
-              onChange={handleChange}
-              type="email"
+                onChange={handleChange}
+                type="email"
                 placeholder="Your Email"
                 name="email"
                 value={formData.email}
