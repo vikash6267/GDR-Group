@@ -1,7 +1,7 @@
 import React from "react";
-import home from "../../../assests/logos/home.jpg";
-import milk from "../../../assests/logos/milk.jpg";
-import food from "../../../assests/logos/food.jpg";
+import home from "../../../assests/logos/rhome.jpg";
+import milk from "../../../assests/logos/srs.jpg";
+import food from "../../../assests/logos/rfood.jpg";
 import { Slide } from "react-awesome-reveal";
 
 const company = [

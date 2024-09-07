@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import "./TagCloud.css";
 import globeimage from "../../../assests/globe.png";
-import image1 from "../../../assests/logos/food.jpg";
+import image1 from "../../../assests/logos/rfood.jpg";
 import image2 from "../../../assests/logos/gdrgruop.jpg";
-import image3 from "../../../assests/logos/home.jpg";
-import image4 from "../../../assests/logos/milk.jpg";
+import image3 from "../../../assests/logos/rhome.jpg";
+import image4 from "../../../assests/logos/srs.jpg";
 
 const TagCloudWithDetails = () => {
   // Define tags with associated details and images
