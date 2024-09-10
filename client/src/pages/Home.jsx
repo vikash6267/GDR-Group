@@ -8,6 +8,8 @@ import { Fade } from "react-awesome-reveal";
 import CommanText from "../components/core/Home/CommanText";
 import TagCloudWithDetails from "../components/core/Home/CanvasRotation";
 // import Gallery from "../components/core/Home/Gallery";
+import { Helmet } from "react-helmet";
+
 import Project from "../components/core/Home/Project";
 import Process from "../components/core/Home/Process";
 import SubNavbar from "../components/common/SubNavbar";
@@ -25,6 +27,34 @@ function Home() {
   }, []);
   return (
     <div>
+      <Helmet>
+        <title>GDR Group - Home</title>
+        <meta
+          name="description"
+          content="GDR Group 72: A dynamic conglomerate specializing in Agriculture, Dairy, Farm Land, and Commercial Property with a mission to drive growth in rural communities through innovation and sustainability"
+        />
+
+        {/* Structured Data */}
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              "name": "GDR Group",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Janki Nagar, Neelkant Mahadev Mandir, Near Mashroom Factory Ratibad Bhopal",
+                "addressLocality": "Bhopal",
+                "addressRegion": "MP",
+                "postalCode": "462001",
+                "addressCountry": "IN"
+              },
+              "telephone": "+91-1234567890",
+              "url": "https://gdrgroup72.com"
+            }
+          `}
+        </script>
+      </Helmet>
       <SubNavbar />
       {/* <SubNav2 /> */}
       <NavbarMain />

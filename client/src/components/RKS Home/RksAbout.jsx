@@ -7,6 +7,7 @@ import Footer from "../common/Footer";
 import Devision from "../common/Devision";
 import video from "../../assests/video.mp4";
 import CompanyDetails from "../CompanyDetails";
+import { Helmet } from "react-helmet";
 
 const RksAbout = () => {
   useEffect(() => {
@@ -18,6 +19,13 @@ const RksAbout = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>About - RKS Infrabuild & Homes Pvt. LTD. </title>
+        <meta
+          name="description"
+          content="GDR Group 72: A dynamic conglomerate specializing in Agriculture, Dairy, Farm Land, and Commercial Property with a mission to drive growth in rural communities through innovation and sustainability"
+        />
+      </Helmet>
       <Subnavbar />
       <RKSHomeNavbar />
       <div className="relative bg-gradient-to-r from-blue-50 to-gray-100 py-16 px-6 md:px-12">

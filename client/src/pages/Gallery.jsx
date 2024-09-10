@@ -24,6 +24,7 @@ import matha from "../assests/milk/maththa.webp";
 import paneer from "../assests/milk/paneer.jpeg";
 import shak from "../assests/milk/shak.jpeg";
 import MainCommon from "../components/common/MainCommon";
+import { Helmet } from "react-helmet";
 
 const data = [
   {
@@ -506,6 +507,13 @@ const Gallery = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>GDR Group - Gallery</title>
+        <meta
+          name="description"
+          content="GDR Group 72: A dynamic conglomerate specializing in Agriculture, Dairy, Farm Land, and Commercial Property with a mission to drive growth in rural communities through innovation and sustainability"
+        />
+      </Helmet>
       <SubNavbar />
       <NavbarMain />
       <div className="flex mt-5 flex-col w-full items-center">

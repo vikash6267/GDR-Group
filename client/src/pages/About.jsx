@@ -9,6 +9,7 @@ import MainCommon from "../components/common/MainCommon";
 import Devision from "../components/common/Devision";
 import video from "../assests/video.mp4";
 import CompanyDetails from "../components/CompanyDetails";
+import { Helmet } from "react-helmet";
 
 const About = () => {
   useEffect(() => {
@@ -20,6 +21,13 @@ const About = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>About Us - GDR Group</title>
+        <meta
+          name="description"
+          content="GDR Group 72: A dynamic conglomerate specializing in Agriculture, Dairy, Farm Land, and Commercial Property with a mission to drive growth in rural communities through innovation and sustainability"
+        />
+      </Helmet>
       <SubNavbar />
       {/* <SubNav2 /> */}
       <NavbarMain />

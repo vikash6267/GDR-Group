@@ -7,6 +7,7 @@ import SubNavbar from "../components/common/SubNavbar";
 import NavbarMain from "../components/common/NavbarMain";
 import Footer from "../components/common/Footer";
 import Devision from "../components/common/Devision";
+import { Helmet } from "react-helmet";
 const Contact = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -25,6 +26,13 @@ const Contact = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Contact Us - GDR Group</title>
+        <meta
+          name="description"
+          content="GDR Group 72: A dynamic conglomerate specializing in Agriculture, Dairy, Farm Land, and Commercial Property with a mission to drive growth in rural communities through innovation and sustainability"
+        />
+      </Helmet>
       <SubNavbar />
       {/* <SubNav2 /> */}
       <NavbarMain />

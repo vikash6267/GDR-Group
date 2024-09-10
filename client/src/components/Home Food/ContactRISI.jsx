@@ -5,6 +5,7 @@ import ContactForm from "./RISIContactForm";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 import Footer from "../common/Footer";
 import Devision from "../common/Devision";
+import { Helmet } from "react-helmet";
 
 function ContactUs() {
   useEffect(() => {
@@ -12,6 +13,13 @@ function ContactUs() {
   }, []);
   return (
     <div>
+      <Helmet>
+        <title>Contact - Ruchir Home Food </title>
+        <meta
+          name="description"
+          content="GDR Group 72: A dynamic conglomerate specializing in Agriculture, Dairy, Farm Land, and Commercial Property with a mission to drive growth in rural communities through innovation and sustainability"
+        />
+      </Helmet>
       <SubNavr />
       <Navbar />
       <div className="relative flex justify-center items-center w-full min-h-[40vh] -mt-2 bg-gradient-to-r bg-black">

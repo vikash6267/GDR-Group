@@ -4,6 +4,7 @@ import { BsArrowRight } from "react-icons/bs";
 import Devision from "../../components/common/Devision";
 import video from "../../assests/video.mp4";
 import CompanyDetails from "../../components/CompanyDetails";
+import { Helmet } from "react-helmet";
 const MilkAbout = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -14,6 +15,13 @@ const MilkAbout = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>About - SRS Cattle Feed & Milk Product</title>
+        <meta
+          name="description"
+          content="GDR Group 72: A dynamic conglomerate specializing in Agriculture, Dairy, Farm Land, and Commercial Property with a mission to drive growth in rural communities through innovation and sustainability"
+        />
+      </Helmet>
       <div className="relative bg-gradient-to-r from-blue-50 to-gray-100 py-16 px-6 md:px-12">
         <div className="container mx-auto flex flex-col lg:flex-row items-center">
           {/* Text Section */}

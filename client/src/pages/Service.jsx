@@ -6,6 +6,7 @@ import NavbarMain from "../components/common/NavbarMain";
 import Footer from "../components/common/Footer";
 import Services from "../components/core/Home/Services";
 import MainCommon from "../components/common/MainCommon";
+import { Helmet } from "react-helmet";
 
 const Service = () => {
   useEffect(() => {
@@ -13,6 +14,13 @@ const Service = () => {
   }, []);
   return (
     <div>
+      <Helmet>
+        <title> GDR Group - Services</title>
+        <meta
+          name="description"
+          content="GDR Group 72: A dynamic conglomerate specializing in Agriculture, Dairy, Farm Land, and Commercial Property with a mission to drive growth in rural communities through innovation and sustainability"
+        />
+      </Helmet>
       <SubNavbar />
       <NavbarMain />
       <div className="relative flex justify-center items-center">

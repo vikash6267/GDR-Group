@@ -9,12 +9,20 @@ import SecondSection from "./SectionSecond";
 import WhyChooseRISI from "./WhyChooseUs";
 import Footer from "../common/Footer";
 import ContactBanner from "../../components/milk/ContactBanner";
+import { Helmet } from "react-helmet";
 function RISIHomeFood() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   return (
     <div>
+      <Helmet>
+        <title>Home - Ruchir Home Food </title>
+        <meta
+          name="description"
+          content="GDR Group 72: A dynamic conglomerate specializing in Agriculture, Dairy, Farm Land, and Commercial Property with a mission to drive growth in rural communities through innovation and sustainability"
+        />
+      </Helmet>
       <SubNavbar />
       <RISINavbar />
       <HeroSlider />

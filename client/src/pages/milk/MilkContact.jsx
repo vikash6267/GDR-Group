@@ -4,6 +4,7 @@ import contact from "../../assests/contact.jpg";
 import Devision from "../../components/common/Devision";
 import axios from "axios";
 import Swal from "sweetalert2";
+import { Helmet } from "react-helmet";
 
 const MilkContact = () => {
   useEffect(() => {
@@ -81,6 +82,13 @@ const MilkContact = () => {
   };
   return (
     <div>
+      <Helmet>
+        <title>Contact - SRS Cattle Feed & Milk Product</title>
+        <meta
+          name="description"
+          content="GDR Group 72: A dynamic conglomerate specializing in Agriculture, Dairy, Farm Land, and Commercial Property with a mission to drive growth in rural communities through innovation and sustainability"
+        />
+      </Helmet>
       <div className="relative flex justify-center items-center">
         <img
           src={contact}

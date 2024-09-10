@@ -7,6 +7,7 @@ import h4 from "../assests/home/h4.jpg";
 import ag from "../assests/gallery/ag.jpg";
 import fh from "../assests/gallery/fh.jpg";
 import cl from "../assests/gallery/cl.jpg";
+import { Helmet } from "react-helmet";
 
 const Career = () => {
   useEffect(() => {
@@ -15,6 +16,13 @@ const Career = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Career - GDR Group</title>
+        <meta
+          name="description"
+          content="GDR Group 72: A dynamic conglomerate specializing in Agriculture, Dairy, Farm Land, and Commercial Property with a mission to drive growth in rural communities through innovation and sustainability"
+        />
+      </Helmet>
       <Navbar />
       <div className="mt-[87px] w-11/12 mx-auto">
         <div className="">

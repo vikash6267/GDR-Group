@@ -7,6 +7,7 @@ import Footer from "../common/Footer";
 import Devision from "../common/Devision";
 import Swal from "sweetalert2";
 import axios from "axios";
+import { Helmet } from "react-helmet";
 
 const RksContact = () => {
   useEffect(() => {
@@ -85,6 +86,13 @@ const RksContact = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Contact - RKS Infrabuild & Homes Pvt. LTD. </title>
+        <meta
+          name="description"
+          content="GDR Group 72: A dynamic conglomerate specializing in Agriculture, Dairy, Farm Land, and Commercial Property with a mission to drive growth in rural communities through innovation and sustainability"
+        />
+      </Helmet>
       <Subnavbar />
       <RKSHomeNavbar />
       <div className="relative flex justify-center items-center">

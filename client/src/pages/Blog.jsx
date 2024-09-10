@@ -5,6 +5,7 @@ import Footer from "../components/common/Footer";
 import { Link } from "react-router-dom";
 import MainCommon from "../components/common/MainCommon";
 import axios from "axios";
+import { Helmet } from "react-helmet";
 
 function Blog() {
   useEffect(() => {
@@ -36,6 +37,13 @@ function Blog() {
   };
   return (
     <div>
+      <Helmet>
+        <title>Latest Update - GDR Group</title>
+        <meta
+          name="description"
+          content="GDR Group 72: A dynamic conglomerate specializing in Agriculture, Dairy, Farm Land, and Commercial Property with a mission to drive growth in rural communities through innovation and sustainability"
+        />
+      </Helmet>
       <SubNavbar />
       <Navbar />
       <div className="container mx-auto px-4 py-8">

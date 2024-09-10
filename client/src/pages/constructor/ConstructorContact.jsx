@@ -7,6 +7,7 @@ import Footer from "../../components/common/Footer";
 import Devision from "../../components/common/Devision";
 import axios from "axios";
 import Swal from "sweetalert2";
+import { Helmet } from "react-helmet";
 
 const ConstructorContact = () => {
   useEffect(() => {
@@ -84,6 +85,13 @@ const ConstructorContact = () => {
   };
   return (
     <div>
+      <Helmet>
+        <title>Contact - Praharsh Constructor Pvt. LTD. </title>
+        <meta
+          name="description"
+          content="GDR Group 72: A dynamic conglomerate specializing in Agriculture, Dairy, Farm Land, and Commercial Property with a mission to drive growth in rural communities through innovation and sustainability"
+        />
+      </Helmet>
       <SubNavbar />
       <ConstructionNavbar />
       <div className="relative flex justify-center items-center">

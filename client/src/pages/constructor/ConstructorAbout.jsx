@@ -7,6 +7,7 @@ import Footer from "../../components/common/Footer";
 import { FaCheckCircle } from "react-icons/fa";
 import Devision from "../../components/common/Devision";
 import CompanyDetails from "../../components/CompanyDetails";
+import { Helmet } from "react-helmet";
 
 const ConstructorAbout = () => {
   useEffect(() => {
@@ -14,6 +15,13 @@ const ConstructorAbout = () => {
   }, []);
   return (
     <div>
+      <Helmet>
+        <title>About - Praharsh Constructor Pvt. LTD. </title>
+        <meta
+          name="description"
+          content="GDR Group 72: A dynamic conglomerate specializing in Agriculture, Dairy, Farm Land, and Commercial Property with a mission to drive growth in rural communities through innovation and sustainability"
+        />
+      </Helmet>
       <SubNavbar />
       <ConstructionNavbar />
       <div className="relative flex justify-center items-center">
