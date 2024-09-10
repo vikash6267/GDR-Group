@@ -1,45 +1,34 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
 import { FaTrashAlt } from "react-icons/fa";
-
-import { toast } from "react-toastify";
+import { getProducts, deleteProduct } from "../../../services/operation/admin"; // Import both functions
 
 const GetProduct = () => {
-  const BASE_URL = process.env.REACT_APP_BASE_URL;
-
   const [product, setProduct] = useState([]);
-
-  const getAllProduct = async () => {
+  const fetchProducts = async () => {
     try {
-      const response = await axios.get(`${BASE_URL}/product/getAll`);
-
-      if (response?.data?.success) {
-        setProduct(response.data.products);
-      }
+      const response = await getProducts();
+      setProduct(response);
+      console.log(response);
     } catch (error) {
-      console.log("Something went wrong");
+      console.log(error);
+      console.error("Error fetching posts:", error);
     }
   };
 
   const handleDelete = async (id) => {
-    try {
-      const res = await axios.delete(`${BASE_URL}/product/delete/${id}`);
-      setProduct(product.filter((event) => event._id !== id));
-      if (res?.data?.success) {
-        toast.success(res.data.message);
-      }
-    } catch (error) {
-      console.log("Error in deleting product in front end");
+    const isDeleted = await deleteProduct(id);
+    if (isDeleted) {
+      setProduct(product.filter((item) => item._id !== id));
     }
   };
 
   useEffect(() => {
-    getAllProduct();
+    fetchProducts();
   }, []);
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h2 className="text-2xl font-semibold mb-4">All Product</h2>
+      <h2 className="text-2xl font-semibold mb-4">All Products</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full divide-y divide-gray-200">
           <thead className="bg-gray-50">
@@ -48,10 +37,7 @@ const GetProduct = () => {
                 Image
               </th>
               <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                Name
-              </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                Category
+                Title
               </th>
 
               <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
@@ -61,27 +47,22 @@ const GetProduct = () => {
           </thead>
           <tbody className="bg-white divide-y divide-gray-200">
             {product.length > 0 ? (
-              product.map((event, index) => (
+              product.map((item, index) => (
                 <tr key={index}>
                   <td className="px-6 py-4 whitespace-nowrap">
                     <img
-                      src={event.image}
+                      src={item.images[0]?.url}
                       alt=""
                       className="h-10 w-10 rounded-full"
                     />
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap">
-                    <div className="text-sm text-gray-900">{event.name}</div>
-                  </td>
-                  <td className="px-6 py-4 whitespace-nowrap">
-                    <div className="text-sm text-gray-900">
-                      {event.category}
-                    </div>
+                    <div className="text-sm text-gray-900">{item.title}</div>
                   </td>
 
                   <td className="px-6 py-4 whitespace-nowrap">
                     <button
-                      onClick={() => handleDelete(event._id)}
+                      onClick={() => handleDelete(item._id)}
                       className="text-red-600 hover:text-red-800"
                     >
                       <FaTrashAlt size={23} />
@@ -91,8 +72,8 @@ const GetProduct = () => {
               ))
             ) : (
               <tr>
-                <td className="px-6 py-4 whitespace-nowrap" colSpan="4">
-                  <p className="text-sm text-gray-500">No product available</p>
+                <td className="px-6 py-4 text-center" colSpan="4">
+                  <p className="text-sm text-gray-500">No products available</p>
                 </td>
               </tr>
             )}

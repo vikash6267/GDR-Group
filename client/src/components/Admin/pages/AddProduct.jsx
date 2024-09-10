@@ -1,168 +1,121 @@
-import axios from "axios";
 import React, { useState } from "react";
+import Dropzone from "react-dropzone";
+import { createProduct, imageUpload } from "../../../services/operation/admin";
 
-import Swal from "sweetalert2";
-import { toast } from "react-toastify";
+function AddProduct() {
+  const [title, setTitle] = useState("");
+  const [images, setImages] = useState([]);
 
-const AddProduct = () => {
-  const BASE_URL = process.env.REACT_APP_BASE_URL;
-  const [formData, setFormData] = useState({
-    name: "",
-    category: "",
-    image: null,
-  });
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
+  const uploadImage = async (acceptedFiles) => {
+    const response = await imageUpload(acceptedFiles);
+    const uploadedImages = response?.map((image) => ({
+      public_id: image.asset_id,
+      url: image.url,
+    }));
+    setImages((prevImages) => [...prevImages, ...uploadedImages]);
   };
 
-  const handleFileChange = (e) => {
-    setFormData({
-      ...formData,
-      image: e.target.files[0],
-    });
+  const removeImage = (publicId) => {
+    const updatedImages = images.filter(
+      (image) => image.public_id !== publicId
+    );
+    setImages(updatedImages);
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    // Prepare the data to be sent to the backend
+    const data = {
+      title,
+      images,
+    };
+
     try {
-      Swal.fire({
-        title: "Loading",
-        allowOutsideClick: false,
-        allowEscapeKey: false,
-        allowEnterKey: false,
-        showConfirmButton: false,
-        html: '<div class="spinner-border" role="status"><span class="sr-only">Loading...</span></div>',
-      });
-
-      const formDataToSend = new FormData();
-      formDataToSend.append("name", formData.name);
-      formDataToSend.append("category", formData.category);
-      formDataToSend.append("image", formData.image);
-
-      const response = await axios.post(
-        `${BASE_URL}/product/create`,
-        formDataToSend,
-        {
-          headers: {
-            "Content-Type": "multipart/form-data",
-          },
-        }
-      );
-
-      Swal.close();
-
-      if (response?.data?.success) {
-        Swal.fire({
-          title: `Product created successfully! `,
-          text: `Have a nice day!`,
-          icon: "success",
-        });
-        setFormData({
-          name: "",
-          category: "",
-          image: null,
-        });
-      }
+      // Call the createProduct function
+      await createProduct(data);
+      // Reset the form after successful submission
+      setTitle("");
+      setImages([]);
     } catch (error) {
-      Swal.close();
-      toast.error("Oops, something went wrong!");
+      console.error("Error creating gallery:", error);
     }
   };
 
-  const categories = [
-    "DryFruits",
-    "Millet",
-    "Pulses",
-    "Spices",
-    "Vegetable",
-    "Powders",
-    "Rice",
-    "Fruits",
-  ];
-
   return (
-    <>
-      <h1 className="text-blue-600 text-center text-3xl border border-b-2 border-blue-600 pb-2">
-        Add Products
-      </h1>
-      <form
-        onSubmit={handleSubmit}
-        className="sm:grid grid-cols-1 md:grid-cols-2 md:gap-4 md:mt-20 mt-10"
-      >
-        <div className="mb-4">
-          <label
-            className="block text-gray-700 text-xl font-bold mb-2"
-            htmlFor="name"
-          >
-            Name : <span className="text-red-500">*</span>
-          </label>
-          <input
-            type="text"
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h-[50px] text-2xl"
-            name="name"
-            id="name"
-            value={formData.name}
-            onChange={handleChange}
-            required
-          />
-        </div>
-        <div className="mb-4">
-  <label
-    className="block text-gray-700 text-xl font-bold mb-2"
-    htmlFor="category"
-  >
-    Category : <span className="text-red-500">*</span>
-  </label>
-  <select
-    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h-[50px] text-2xl"
-    name="category"
-    id="category"
-    value={formData.category}
-    onChange={handleChange}
-    required
-  >
-    <option value="" disabled>Select a category</option>
-    {categories.map((category) => (
-      <option key={category} value={category}>
-        {category}
-      </option>
-    ))}
-  </select>
-</div>
-
-        <div className="mb-4">
-          <label
-            className="block text-gray-700 text-xl font-bold mb-2"
-            htmlFor="image"
-          >
-            Image:
-          </label>
-          <input
-            className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h-[50px] text-2xl border-none"
-            id="image"
-            type="file"
-            accept="image/*"
-            onChange={handleFileChange}
-          />
+    <div className="max-w-3xl mx-auto p-4 mb-[100px]">
+      <div>
+        <div className=" font-bold text-3xl text-center w-full mb-6">
+          Gallery
         </div>
 
-        <div className="flex items-center justify-between mt-5">
+        <form onSubmit={handleSubmit}>
+          <div className="space-y-2">
+            <label htmlFor="title" className="block font-medium text-gray-700">
+              Title *
+            </label>
+            <input
+              type="text"
+              id="title"
+              value={title}
+              onChange={(e) => setTitle(e.target.value)}
+              className="w-full p-2 border rounded"
+              required
+            />
+          </div>
+
+          <div className="space-y-2 mt-4">
+            <label htmlFor="images" className="block font-medium text-gray-700">
+              Upload Images *
+            </label>
+            <Dropzone onDrop={uploadImage}>
+              {({ getRootProps, getInputProps }) => (
+                <section>
+                  <div
+                    {...getRootProps()}
+                    className="border-2 border-dashed p-4 text-center cursor-pointer"
+                  >
+                    <input {...getInputProps()} />
+                    <p>
+                      Drag 'n' drop some files here, or click to select files
+                    </p>
+                  </div>
+                  <aside className="mt-4">
+                    <h4>Uploaded Images</h4>
+                    <div className="grid grid-cols-4 gap-2">
+                      {images?.map((image) => (
+                        <div key={image.public_id} className="relative">
+                          <img
+                            src={image.url}
+                            alt="Uploaded"
+                            className="h-24 w-full object-cover"
+                          />
+                          <button
+                            type="button"
+                            onClick={() => removeImage(image.public_id)}
+                            className="absolute top-0 right-0 bg-red-500 text-white p-1 rounded-full"
+                          >
+                            X
+                          </button>
+                        </div>
+                      ))}
+                    </div>
+                  </aside>
+                </section>
+              )}
+            </Dropzone>
+          </div>
+
           <button
-            className="px-8 py-4 bg-black text-white rounded-md text-sm"
             type="submit"
+            className="mt-6 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
           >
-            Create Product
+            Create Gallery
           </button>
-        </div>
-      </form>
-    </>
+        </form>
+      </div>
+    </div>
   );
-};
+}
 
 export default AddProduct;

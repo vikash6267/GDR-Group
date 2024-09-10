@@ -28,6 +28,8 @@ import PrivateRoute from "./components/Admin/auth/PrivateRoute";
 import Career from "./pages/Career";
 import AddGallery from "./components/Admin/pages/AddGallery";
 import JobOpening from "./components/Admin/pages/JobOpening";
+import AddProduct from "./components/Admin/pages/AddProduct";
+import GetProduct from "./components/Admin/pages/GetProduct";
 function App() {
   const [showModal, setShowModal] = useState(true);
 
@@ -85,6 +87,8 @@ function App() {
           <Route path="/admin/getBlog" element={<GetBlog />} />
           <Route path="/admin/create-gallery" element={<AddGallery />} />
           <Route path="/admin/jobs" element={<JobOpening />} />
+          <Route path="/admin/product-create" element={<AddProduct />} />
+          <Route path="/admin/product-getAll" element={<GetProduct />} />
         </Route>
       </Routes>
 

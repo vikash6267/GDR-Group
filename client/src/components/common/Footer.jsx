@@ -6,13 +6,13 @@ import {
   FaYoutube,
   FaWhatsapp,
   FaPhone,
-  FaLocationArrow,
 } from "react-icons/fa";
 import { SiMaplibre } from "react-icons/si";
 import { Link } from "react-router-dom";
 import { MdEmail, MdLocationCity } from "react-icons/md";
-
+import { useSelector } from "react-redux";
 const Footer = () => {
+  const { token } = useSelector((state) => state.auth);
   return (
     <footer className="bg-black text-white py-10">
       <div className="max-w-7xl mx-auto p-5">
@@ -58,6 +58,11 @@ const Footer = () => {
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
                 <Link to="/contact">Contact </Link>
+                {token ? (
+                  <Link to="/admin/dashboard">Admin Login </Link>
+                ) : (
+                  <Link to="/login">Admin Login </Link>
+                )}
               </ul>
             </div>
           </div>

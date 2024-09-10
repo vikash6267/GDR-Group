@@ -93,6 +93,16 @@ const Sidebar = () => {
             icon: <PiStudentFill />,
             label: "Job Opening",
           },
+          {
+            to: "/admin/product-create",
+            icon: <PiStudentFill />,
+            label: "Create Product",
+          },
+          {
+            to: "/admin/product-getAll",
+            icon: <PiStudentFill />,
+            label: "Get Product",
+          },
         ].map((item) => (
           <NavLink
             key={item.to}
