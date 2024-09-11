@@ -3,7 +3,7 @@ import home from "../../../assests/logos/rhome.jpg";
 import milk from "../../../assests/logos/srs.jpg";
 import food from "../../../assests/logos/rfood.jpg";
 import { Slide } from "react-awesome-reveal";
-
+import prabhash from "../../../assests/logos/home.jpg"
 const company = [
   {
     img: home,
@@ -11,7 +11,7 @@ const company = [
     desc: "RKS Homes is a real estate company specializing in the sale of agricultural lands. We are committed to helping our clients find the perfect piece of land for their farming or ranching needs. Our team of real estate professionals has extensive knowledge .",
   },
   {
-    img: "https://5.imimg.com/data5/SELLER/Default/2023/3/DW/RJ/XB/37290892/monkey-hoist-or-mini-lift-500x500.jpeg",
+    img: prabhash,
     title: "Praharsh Constructor Pvt LTD",
     desc: "Praharsh Constructor Pvt LTD is a leading construction company that specializes in a wide range of civil works. We have extensive experience in delivering construction projects for both government and private bodies.",
   },
