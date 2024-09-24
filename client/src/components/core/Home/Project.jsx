@@ -20,8 +20,8 @@ const Project = () => {
   const tabs = [
     { id: 2, name: "RKS Homes" },
     { id: 1, name: "Praharsh Construction" },
-    { id: 3, name: "Ruchir Home Food" },
-    { id: 4, name: "SRS Cattle Feed & Milk Product" },
+    { id: 3, name: "SRS Cattle Feed & Milk Product" },
+    { id: 4, name: "Ruchir Home Food" },
     // { id: 5, name: "72 GDR Steel" },
   ];
 
