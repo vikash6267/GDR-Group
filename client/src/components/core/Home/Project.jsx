@@ -9,8 +9,8 @@ import c7 from "../../../assests/constructor/c7.jpg";
 import c8 from "../../../assests/constructor/c8.jpg";
 
 import dahi from "../../../assests/milk/dahi.webp";
-import dudh from "../../../assests/milk/dudh.jpeg";
-import ghee from "../../../assests/milk/ghee.jpg";
+import dudh from "../../../assests/dudh.jpg";
+import ghee from "../../../assests/ghee.jpg";
 import lassi from "../../../assests/milk/lassi.webp";
 import matha from "../../../assests/milk/maththa.webp";
 import paneer from "../../../assests/milk/paneer.jpeg";
@@ -117,7 +117,7 @@ const Project = () => {
       },
       {
         id: 10,
-        src: "https://www.allrecipes.com/thmb/TgXszUn8XHUTe19kOwlyGQ4ZjyM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Gettysrcs-87984584-2-2000-b40af34c16fd4bed815f1e279592b172.jpg",
+        src: dudh,
         name: "Dudh",
         subname: "Best Dudh",
         description: "We Have All Brands of Fresh Dudh",
@@ -125,7 +125,7 @@ const Project = () => {
       },
       {
         id: 11,
-        src: "https://m.media-amazon.com/srcs/I/41diIEPUlnL._AC_UF1000,1000_QL80_.jpg",
+        src: ghee,
         name: "Ghee",
         subname: "Best Ghee",
         description: "We Have All Brands of Fresh Ghee",
