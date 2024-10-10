@@ -4,7 +4,7 @@ const products = [
   {
     id: 1,
     image:
-      "https://gdrgroup.in/wp-content/uploads/2022/11/Midaas-Pashu-Ahar.png",
+      "https://5.imimg.com/data5/AT/SA/MY-29330816/animal-feed-pellets-500x500.jpg",
     title: "Shree Ji 72 Midaas",
     subtitle: "(Cattle Food)",
     description:
@@ -13,7 +13,7 @@ const products = [
   {
     id: 2,
     image:
-      "https://gdrgroup.in/wp-content/uploads/2022/11/Daimond-Pashu-Ahar.png",
+      "https://5.imimg.com/data5/ANDROID/Default/2020/10/HB/FR/JY/74354263/product-jpeg-250x250.jpg",
     title: "Shree Ji 72 Diamond",
     subtitle: "(Cattle Food)",
     description:
@@ -21,28 +21,31 @@ const products = [
   },
   {
     id: 3,
-    image: "https://gdrgroup.in/wp-content/uploads/2022/11/Mix-chana-churi.png",
+    image:
+      "https://5.imimg.com/data5/PV/TU/MY-17912631/soya-di-oil-cake-500x500.jpg",
     title: "Shree Ji 72 Mix",
     subtitle: "(Chana Churi)",
     description: "",
   },
   {
     id: 4,
-    image: "https://gdrgroup.in/wp-content/uploads/2022/11/chapad.png",
+    image:
+      "https://tiimg.tistatic.com/fp/1/004/834/soyabean-chapad-churi-cattle-feed-542.jpg",
     title: "Shree Ji 72 Chapad",
     subtitle: "",
     description: "",
   },
   {
     id: 5,
-    image: "https://gdrgroup.in/wp-content/uploads/2022/11/Khal-Alsi.png",
+    image: "https://m.media-amazon.com/images/I/91CK8dmVXAL.jpg",
     title: "Shree Ji 72 Khal Alsi",
     subtitle: "",
     description: "",
   },
   {
     id: 6,
-    image: "https://gdrgroup.in/wp-content/uploads/2022/11/Saylej.png",
+    image:
+      "https://cpimg.tistatic.com/07306952/b/4/Corn-Silage-Cattle-Feed.jpg?tr=w300",
     title: "Shree Ji 72 Sailez",
     subtitle: "",
     description: "",

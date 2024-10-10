@@ -31,8 +31,8 @@ const services = [
     link: "/ri-si-food/home",
   },
   {
-    image:
-      "https://gdrgroup.in/wp-content/uploads/2022/12/Shree-Ji-225x300.png",
+    image: " https://welthi.com/uploads/images/2022/01/17891583297072.jpg",
+
     title: "SRK Milk Food Making Products",
     subtitle: "Best Quality Assurance",
     description:
