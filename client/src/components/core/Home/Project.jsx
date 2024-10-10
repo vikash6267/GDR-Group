@@ -9,8 +9,8 @@ import c7 from "../../../assests/constructor/c7.jpg";
 import c8 from "../../../assests/constructor/c8.jpg";
 
 import dahi from "../../../assests/milk/dahi.webp";
-import dudh from "../../../assests/milk/dudh.jpeg";
-import ghee from "../../../assests/milk/ghee.jpg";
+import dudh from "../../../assests/dudh.jpg";
+import ghee from "../../../assests/ghee.jpg";
 import lassi from "../../../assests/milk/lassi.webp";
 import matha from "../../../assests/milk/maththa.webp";
 import paneer from "../../../assests/milk/paneer.jpeg";
@@ -20,8 +20,8 @@ const Project = () => {
   const tabs = [
     { id: 2, name: "RKS Homes" },
     { id: 1, name: "Praharsh Construction" },
-    { id: 3, name: "Ruchir Home Food" },
-    { id: 4, name: "SRS Cattle Feed & Milk Product" },
+    { id: 3, name: "SRS Cattle Feed & Milk Product" },
+    { id: 4, name: "Ruchir Home Food" },
     // { id: 5, name: "72 GDR Steel" },
   ];
 
@@ -99,13 +99,70 @@ const Project = () => {
     ],
 
     3: [
-      { id: 8, name: "Dahi", src: dahi },
-      { id: 9, name: "Dudh ", src: dudh },
-      { id: 10, name: "Ghee ", src: ghee },
-      { id: 11, name: "Lassi ", src: lassi },
-      { id: 12, name: "Mattha ", src: matha },
-      { id: 13, name: "Paneer ", src: paneer },
-      { id: 14, name: "Shake ", src: shak },
+      {
+        id: 8,
+        src: "https://img.bebeautiful.in/www-bebeautiful-in/how-to-use-milk-cream-for-your-skin-600x350-picmobhome.jpg",
+        name: "Cream",
+        subname: "Best Cream",
+        description: "We Have All Brands of Fresh Cream",
+        link: "/construction-home",
+      },
+      {
+        id: 9,
+        src: "https://www.india.com/wp-content/uploads/2022/07/Dahi-Khanyache-Fayde-Marathi.jpg",
+        name: "Dahi",
+        subname: "Best Dahi",
+        description: "We Have All Brands of Fresh Dahi",
+        link: "/construction-home",
+      },
+      {
+        id: 10,
+        src: dudh,
+        name: "Dudh",
+        subname: "Best Dudh",
+        description: "We Have All Brands of Fresh Dudh",
+        link: "/construction-home",
+      },
+      {
+        id: 11,
+        src: ghee,
+        name: "Ghee",
+        subname: "Best Ghee",
+        description: "We Have All Brands of Fresh Ghee",
+        link: "/construction-home",
+      },
+      {
+        id: 12,
+        src: "https://i.ytimg.com/vi/tziQpzMX8Uk/maxresdefault.jpg",
+        name: "Lassi",
+        subname: "Best Lassi",
+        description: "We Have All Brands of Fresh Lassi",
+        link: "/construction-home",
+      },
+      {
+        id: 13,
+        src: "https://nonprod-media.webdunia.com/public_html/_media/hi/img/article/2020-04/22/full/1587556253-7501.jpg",
+        name: "Mattha",
+        subname: "Best Mattha",
+        description: "We Have All Brands of Fresh Mattha",
+        link: "/construction-home",
+      },
+      {
+        id: 14,
+        src: "https://www.prakashdairymorbi.com/wp-content/uploads/Malai-Panner.png",
+        name: "Paneer",
+        subname: "Best Paneer",
+        description: "We Have All Brands of Fresh Paneer",
+        link: "/construction-home",
+      },
+      {
+        id: 15,
+        src: "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/11/apple-milkshake-apple-shake.jpg",
+        name: "Shake",
+        subname: "Best Shake",
+        description: "We Have All Brands of Fresh Shake",
+        link: "/construction-home",
+      },
     ],
 
     4: [

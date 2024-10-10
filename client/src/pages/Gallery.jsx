@@ -16,13 +16,13 @@ import fd from "../assests/gallery/fd.jpg";
 import college from "../assests/gallery/collage.jpeg";
 import re from "../assests/gallery/re.jpeg";
 import cl from "../assests/gallery/cl.jpg";
-import dahi from "../assests/milk/dahi.webp";
-import dudh from "../assests/milk/dudh.jpeg";
-import ghee from "../assests/milk/ghee.jpg";
+import dahi from "../assests/dahi.jpg";
+import dudh from "../assests/dudh.jpg";
+import ghee from "../assests/ghee.jpg";
 import lassi from "../assests/milk/lassi.webp";
-import matha from "../assests/milk/maththa.webp";
-import paneer from "../assests/milk/paneer.jpeg";
-import shak from "../assests/milk/shak.jpeg";
+import matha from "../assests/matha.jpg";
+import paneer from "../assests/paneer.png";
+import shak from "../assests/shake.jpg";
 import MainCommon from "../components/common/MainCommon";
 import { Helmet } from "react-helmet";
 
@@ -249,7 +249,7 @@ const data = [
     id: 32,
     name: "Creame",
     image:
-      "https://allaboutbaking.in/wp-content/uploads/2021/07/81rhUGe0saL._SL1500_.jpg",
+      "https://img.bebeautiful.in/www-bebeautiful-in/how-to-use-milk-cream-for-your-skin-600x350-picmobhome.jpg",
     type: "SRS Cattle Feed & Milk Product",
   },
   {

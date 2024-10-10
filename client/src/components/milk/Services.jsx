@@ -10,51 +10,51 @@ import paneer from "../../assests/milk/paneer.jpeg";
 import shak from "../../assests/milk/shak.jpeg";
 const services = [
   {
-    image: creame,
+    image: "https://img.bebeautiful.in/www-bebeautiful-in/how-to-use-milk-cream-for-your-skin-600x350-picmobhome.jpg",
     title: "Cream",
     subtitle: "Best Cream",
     description: "We Have All Brands of Fresh Creame",
     link: "/construction/home",
   },
   {
-    image: dahi,
+    image: "https://www.india.com/wp-content/uploads/2022/07/Dahi-Khanyache-Fayde-Marathi.jpg",
     title: "Dahi",
     subtitle: "Best Dahi",
     description: "We Have All Brands of Fresh Dahi",
   },
   {
-    image: dudh,
+    image: "https://www.allrecipes.com/thmb/TgXszUn8XHUTe19kOwlyGQ4ZjyM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-87984584-2-2000-b40af34c16fd4bed815f1e279592b172.jpg",
     title: "Dudh",
     subtitle: "Best Dudh",
     description: "We Have All Brands of Fresh Dudh",
   },
   {
-    image: ghee,
+    image: "https://m.media-amazon.com/images/I/41diIEPUlnL._AC_UF1000,1000_QL80_.jpg",
     title: "Ghee",
     subtitle: "Best Ghee",
     description: "We Have All Brands of Fresh Ghee",
   },
   {
-    image: lassi,
+    image: "https://i.ytimg.com/vi/tziQpzMX8Uk/maxresdefault.jpg",
     title: "Lassi",
     subtitle: "Best Lassi",
     description: "We Have All Brands of Fresh Lassi",
   },
 
   {
-    image: matha,
+    image: "https://nonprod-media.webdunia.com/public_html/_media/hi/img/article/2020-04/22/full/1587556253-7501.jpg",
     title: "mattha",
     subtitle: "Best mattha",
     description: "We Have All Brands of Fresh mattha",
   },
   {
-    image: paneer,
+    image: 'https://www.prakashdairymorbi.com/wp-content/uploads/Malai-Panner.png',
     title: "Panner",
     subtitle: "Best Panner",
     description: "We Have All Brands of Fresh Panner",
   },
   {
-    image: shak,
+    image: "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/11/apple-milkshake-apple-shake.jpg",
     title: "Shake",
     subtitle: "Best Shake",
     description: "We Have All Brands of Fresh Shake",
