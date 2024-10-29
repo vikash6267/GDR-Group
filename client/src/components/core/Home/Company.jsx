@@ -3,7 +3,9 @@ import home from "../../../assests/logos/rhome.jpg";
 import milk from "../../../assests/logos/srs.jpg";
 import food from "../../../assests/logos/rfood.jpg";
 import { Slide } from "react-awesome-reveal";
-import prabhash from "../../../assests/logos/home.jpg"
+import prabhash from "../../../assests/logos/home.jpg";
+import n from "../../../assests/nir.jpg";
+
 const company = [
   {
     img: home,
@@ -12,17 +14,17 @@ const company = [
   },
   {
     img: prabhash,
-    title: "Praharsh Constructor Pvt LTD",
+    title: "New RK Construction",
     desc: "Praharsh Constructor Pvt LTD is a leading construction company that specializes in a wide range of civil works. We have extensive experience in delivering construction projects for both government and private bodies.",
   },
   {
     img: food,
-    title: "Ruchir Home Food",
+    title: "Parthavi Ruchir Home Food",
     desc: "Ruchir Home Food is a company that specializes in selling a wide range of spices and dry food items for home cooking. Our aim is to provide our customers with high-quality products .",
   },
   {
-    img: milk,
-    title: "SRS Cattle Feed & Milk Product",
+    img: n,
+    title: "Nirvdit All Making Products Private Limited",
     desc: "SRS Cattle Feed & Milk Product Company owns 2 brands – “Shree Ji 72” & “Shree Ji Milk Products“.is a manufacturer of milk products like milk, butter, clarified butter, cottage cheese, ice cream etc. The company was founded in the year 2018 and is headquartered in Bhopal, India.",
   },
 ];

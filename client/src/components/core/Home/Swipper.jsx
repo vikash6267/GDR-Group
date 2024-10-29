@@ -36,7 +36,7 @@ const Slider = () => {
       id: 2,
       image:
         "https://i.pinimg.com/originals/94/41/f2/9441f2efd20b16f02e73b25b43181a8c.jpg",
-      text: "Praharsh Constructor Pvt. LTD.",
+      text: "New RK Construction",
 
       description:
         "Top player in civil works with a focus on quality and safety.",
@@ -46,7 +46,7 @@ const Slider = () => {
       id: 3,
       image:
         "https://c4.wallpaperflare.com/wallpaper/441/38/477/pepper-carnation-spices-diversity-wallpaper-preview.jpg",
-      text: "Ruchir Home Food",
+      text: "Parthavi Ruchir Home Food",
       description: "Wide range of spices and dry foods for home cooking.",
       path: "/ri-si-food/home",
     },
@@ -57,7 +57,7 @@ const Slider = () => {
         // "https://gdrgroup.in/wp-content/uploads/2022/11/milk-splashes-blue-background-natural-dairy-product-yogurt-cream-splash-realistic-illustration_221648-128.webp",
         " https://welthi.com/uploads/images/2022/01/17891583297072.jpg",
 
-      text: "SRS Cattle Feed & Milk Product",
+      text: "Nirvdit All Making Products Private Limited",
       description:
         "High-quality dairy products with a focus on freshness and excellence.",
 

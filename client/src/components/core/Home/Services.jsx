@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import home from "../../../assests/home/h1.jpg";
-
+import n from "../../../assests/nir.jpg";
+import p from "../../../assests/par.jpg";
 const services = [
   {
     image: home,
@@ -14,7 +15,7 @@ const services = [
   {
     image:
       "https://wallpapers.com/images/hd/real-estate-digital-art-0kmi22tcj2x60lim.jpg",
-    title: "Praharsh Constructor Pvt. LTD.",
+    title: "New RK Construction",
     subtitle: "Best Service Ever",
     description:
       "Leading construction company specializing in civil works for both government and private bodies.",
@@ -22,18 +23,17 @@ const services = [
   },
 
   {
-    image:
-      "https://5.imimg.com/data5/SELLER/Default/2022/7/HJ/RA/RN/26624004/whatsapp-image-2022-07-19-at-11-15-10-pm-500x500.jpeg",
-    title: "Ruchir Home Food",
+    image: p,
+    title: "Parthavi Ruchir Home Food",
     subtitle: "Best Quality Assurance",
     description:
       "Specializes in selling high-quality spices and dry food items for home cooking.",
     link: "/ri-si-food/home",
   },
   {
-    image: " https://welthi.com/uploads/images/2022/01/17891583297072.jpg",
+    image: n,
 
-    title: "SRK Milk Food Making Products",
+    title: "Nirvdit All Making Products Private Limited",
     subtitle: "Best Quality Assurance",
     description:
       "Manufacturer of milk products like butter, clarified butter, and ice cream.",
