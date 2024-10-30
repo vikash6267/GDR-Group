@@ -11,6 +11,7 @@ import { SiMaplibre } from "react-icons/si";
 import { Link } from "react-router-dom";
 import { MdEmail, MdLocationCity } from "react-icons/md";
 import { useSelector } from "react-redux";
+import ShareButtons from "../ShareButtons";
 const Footer = () => {
   const { token } = useSelector((state) => state.auth);
   return (
@@ -34,6 +35,7 @@ const Footer = () => {
                 className="h-16"
               />
             </div>
+            <ShareButtons />
           </div>
           <div className="grid  grid-cols-2 gap-8 lg:gap-10 px-5">
             <div className="">

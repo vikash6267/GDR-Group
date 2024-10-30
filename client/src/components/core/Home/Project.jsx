@@ -19,9 +19,9 @@ import { Link } from "react-router-dom";
 const Project = () => {
   const tabs = [
     { id: 2, name: "RKS Homes" },
-    { id: 1, name: "Praharsh Construction" },
-    { id: 3, name: "SRS Cattle Feed & Milk Product" },
-    { id: 4, name: "Ruchir Home Food" },
+    { id: 1, name: "New RK Construction" },
+    { id: 3, name: "Nirvdit All Making Products Private Limited" },
+    { id: 4, name: "Parthavi Ruchir Home Food" },
     // { id: 5, name: "72 GDR Steel" },
   ];
 

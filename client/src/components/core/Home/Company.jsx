@@ -15,17 +15,17 @@ const company = [
   {
     img: prabhash,
     title: "New RK Construction",
-    desc: "Praharsh Constructor Pvt LTD is a leading construction company that specializes in a wide range of civil works. We have extensive experience in delivering construction projects for both government and private bodies.",
+    desc: "New RK Construction Pvt LTD is a leading construction company that specializes in a wide range of civil works. We have extensive experience in delivering construction projects for both government and private bodies.",
   },
   {
     img: food,
     title: "Parthavi Ruchir Home Food",
-    desc: "Ruchir Home Food is a company that specializes in selling a wide range of spices and dry food items for home cooking. Our aim is to provide our customers with high-quality products .",
+    desc: "Parthavi Ruchir Home Food is a company that specializes in selling a wide range of spices and dry food items for home cooking. Our aim is to provide our customers with high-quality products .",
   },
   {
     img: n,
     title: "Nirvdit All Making Products Private Limited",
-    desc: "SRS Cattle Feed & Milk Product Company owns 2 brands – “Shree Ji 72” & “Shree Ji Milk Products“.is a manufacturer of milk products like milk, butter, clarified butter, cottage cheese, ice cream etc. The company was founded in the year 2018 and is headquartered in Bhopal, India.",
+    desc: "Nirvdit All Making Products Private Limited Company owns 2 brands – “Shree Ji 72” & “Shree Ji Milk Products“.is a manufacturer of milk products like milk, butter, clarified butter, cottage cheese, ice cream etc. The company was founded in the year 2018 and is headquartered in Bhopal, India.",
   },
 ];
 

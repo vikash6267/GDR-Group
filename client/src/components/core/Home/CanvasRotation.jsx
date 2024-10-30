@@ -4,13 +4,13 @@ import globeimage from "../../../assests/globe.png";
 import image1 from "../../../assests/logos/rfood.jpg";
 import image2 from "../../../assests/logos/gdrgruop.jpg";
 import image3 from "../../../assests/logos/rhome.jpg";
-import image4 from "../../../assests/logos/srs.jpg";
+import image4 from "../../../assests/nir.jpg";
 
 const TagCloudWithDetails = () => {
   // Define tags with associated details and images
   const tags = [
     {
-      name: "Praharsh Construction",
+      name: "New RK Construction",
       details:
         "Specializing in all types of construction services including residential, commercial, and industrial projects.",
       image: image2,
@@ -22,14 +22,14 @@ const TagCloudWithDetails = () => {
       image: image3,
     },
     {
-      name: "SRS Cattle Feed & Milk Product",
+      name: "Nirvdit All Making Products Private Limited",
       details:
         "Providing a range of high-quality food products, including spices, grains, and ready-to-eat meals.",
       image: image4,
     },
 
     {
-      name: "Ruchir Home Food",
+      name: "Parthavi Ruchir Home Food",
       details:
         "Supplying a variety of liquid products, including industrial chemicals and personal care items.",
       image: image1,

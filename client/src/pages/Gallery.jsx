@@ -93,171 +93,171 @@ const data = [
     name: "Road",
     image:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Road_in_Norway.jpg/640px-Road_in_Norway.jpg",
-    type: "Praharsh Constructor Pvt. LTD.",
+    type: "New RK Construction",
   },
   {
     id: 11,
     name: "Hightways.",
     image:
       "https://images.cnbctv18.com/wp-content/uploads/2023/11/cube-highways-trust.png",
-    type: "Praharsh Constructor Pvt. LTD.",
+    type: "New RK Construction",
   },
   {
     id: 12,
     name: "Bridge",
     image:
       "https://sika.scene7.com/is/image/sika/glo-second-penang-bridge-02:16-9?wid=1920&hei=1080&fit=crop%2C1",
-    type: "Praharsh Constructor Pvt. LTD.",
+    type: "New RK Construction",
   },
   {
     id: 13,
     name: "Dam",
     image:
       "https://www.financialexpress.com/wp-content/uploads/2018/10/dam.jpg",
-    type: "Praharsh Constructor Pvt. LTD.",
+    type: "New RK Construction",
   },
   {
     id: 14,
     name: "Nahar ",
     image: "https://img.jagranjosh.com/imported/images/E/Articles/Canal.jpg",
-    type: "Praharsh Constructor Pvt. LTD.",
+    type: "New RK Construction",
   },
   {
     id: 15,
     name: "Goverment Buildings ",
     image:
       "https://assets-news.housing.com/news/wp-content/uploads/2022/10/12093520/Types-of-building-materials.jpg",
-    type: "Praharsh Constructor Pvt. LTD.",
+    type: "New RK Construction",
   },
   {
     id: 16,
     name: "House ",
     image:
       "https://website-data-pluckwalk.s3.ap-south-1.amazonaws.com/blogs-images/38h6fE1nuT49Zt2Za3kKhw.webp",
-    type: "Praharsh Constructor Pvt. LTD.",
+    type: "New RK Construction",
   },
   {
     id: 17,
     name: "Farm House ",
     image:
       "https://2.imimg.com/data2/NX/IF/MY-654968/farm-house-construction.jpg",
-    type: "Praharsh Constructor Pvt. LTD.",
+    type: "New RK Construction",
   },
   {
     id: 18,
     name: "Collage ",
     image: college,
-    type: "Praharsh Constructor Pvt. LTD.",
+    type: "New RK Construction",
   },
   {
     id: 19,
     name: "Land Development",
     image: c4,
-    type: "Praharsh Constructor Pvt. LTD.",
+    type: "New RK Construction",
   },
   {
     id: 20,
     name: " Development",
     image: c3,
-    type: "Praharsh Constructor Pvt. LTD.",
+    type: "New RK Construction",
   },
   {
     id: 21,
     name: "Cow Cattle Food",
     image:
       "https://azeuspelletmill.com/wp-content/uploads/2019/03/Cow-Feed-Pellets.jpg",
-    type: "SRS Cattle Feed & Milk Product",
+    type: "Nirvdit All Making Products Private Limited",
   },
   {
     id: 22,
     name: "Buffalo Cattle Food",
     image: "https://5.imimg.com/data5/HL/UA/MY-33307328/dsc_0203-500x500.jpg",
-    type: "SRS Cattle Feed & Milk Product",
+    type: "Nirvdit All Making Products Private Limited",
   },
   {
     id: 23,
     name: "Dog Cattle Food",
     image:
       "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_27/2918166/190701-dog-food-eating-bowl-ac-527p.jpg",
-    type: "SRS Cattle Feed & Milk Product",
+    type: "Nirvdit All Making Products Private Limited",
   },
   {
     id: 24,
     name: "Hourse Cattle Food",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8qyqrDYSOwq6930EZJkyr8O9BhrU0twnGsQ&shttps://hindhusthaan.in/wp-content/uploads/2019/03/maxresdefault-1024x576.jpg",
-    type: "SRS Cattle Feed & Milk Product",
+    type: "Nirvdit All Making Products Private Limited",
   },
   {
     id: 25,
     name: "Cat Cattle Food",
     image:
       "https://image.chewy.com/catalog/cms/images/2024-CF_387-ContentBlock2A_2-NaturalFood-v2-original._SY382__V1712676262_.jpeg",
-    type: "SRS Cattle Feed & Milk Product",
+    type: "Nirvdit All Making Products Private Limited",
   },
   {
     id: 25,
     name: "Goat Cattle Food",
     image:
       "https://www.treehugger.com/thmb/Va_CF5poRP9hE7EsMGsZ4FQrzXA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/feed-and-tend-goats-3016793-05-a5a77fc6799d4bbdad2e87d8d6387dda.jpg",
-    type: "SRS Cattle Feed & Milk Product",
+    type: "Nirvdit All Making Products Private Limited",
   },
   {
     id: 26,
     name: "Fish Cattle Food",
     image:
       "https://www.hosokawa-alpine.com/fileadmin/_processed_/0/5/csm_Fischfutter_30f3db244d.jpg",
-    type: "SRS Cattle Feed & Milk Product",
+    type: "Nirvdit All Making Products Private Limited",
   },
   {
     id: 27,
     name: "Milk",
     image: dudh,
-    type: "SRS Cattle Feed & Milk Product",
+    type: "Nirvdit All Making Products Private Limited",
   },
   {
     id: 28,
     name: "Ghee",
     image: ghee,
-    type: "SRS Cattle Feed & Milk Product",
+    type: "Nirvdit All Making Products Private Limited",
   },
   {
     id: 28,
     name: "Mattha",
     image: matha,
-    type: "SRS Cattle Feed & Milk Product",
+    type: "Nirvdit All Making Products Private Limited",
   },
   {
     id: 29,
     name: "Paneer",
     image: paneer,
-    type: "SRS Cattle Feed & Milk Product",
+    type: "Nirvdit All Making Products Private Limited",
   },
   {
     id: 30,
     name: "Shake",
     image: shak,
-    type: "SRS Cattle Feed & Milk Product",
+    type: "Nirvdit All Making Products Private Limited",
   },
   {
     id: 31,
     name: "Dahi",
     image: dahi,
-    type: "SRS Cattle Feed & Milk Product",
+    type: "Nirvdit All Making Products Private Limited",
   },
   {
     id: 32,
     name: "Creame",
     image:
       "https://img.bebeautiful.in/www-bebeautiful-in/how-to-use-milk-cream-for-your-skin-600x350-picmobhome.jpg",
-    type: "SRS Cattle Feed & Milk Product",
+    type: "Nirvdit All Making Products Private Limited",
   },
   {
     id: 50,
     name: "Sweet Shop",
     image:
       "https://content.jdmagicbox.com/comp/def_content/sweet_shops/default-sweet-shops-4.jpg",
-    type: "SRS Cattle Feed & Milk Product",
+    type: "Nirvdit All Making Products Private Limited",
   },
 
   // DryFruits
@@ -266,35 +266,35 @@ const data = [
     name: "Makhana",
     image:
       "https://t3.ftcdn.net/jpg/04/48/23/16/360_F_448231665_VjDHDTJpPRx4xKivsmSJN88QqxXVh5D8.jpg",
-    type: "Ruchir Home Food Gallery",
+    type: "Parthavi Ruchir Home Food Gallery",
   },
   {
     id: 34,
     name: "Cashew",
     image:
       "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719310369/INEXT/qqpalnu6cmnxkz89iz2n.jpg",
-    type: "Ruchir Home Food Gallery",
+    type: "Parthavi Ruchir Home Food Gallery",
   },
   {
     id: 35,
     name: "Almond",
     image:
       "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719310441/INEXT/a0zuke3evn0fw4kvw7yz.jpg",
-    type: "Ruchir Home Food Gallery",
+    type: "Parthavi Ruchir Home Food Gallery",
   },
   {
     id: 36,
     name: "Smart Bazaar",
     image:
       "https://www.infinitimall.com/wp-content/uploads/2023/04/Smart-Bazaar-Malad-Infiniti-Mal-1.jpg",
-    type: "Ruchir Home Food Gallery",
+    type: "Parthavi Ruchir Home Food Gallery",
   },
   {
     id: 37,
     name: "Smart Bazaar",
     image:
       "https://i.ytimg.com/vi/IsxiHLGrKzI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAasjoHI4patOyWprH2ndRENP-9aQ",
-    type: "Ruchir Home Food Gallery",
+    type: "Parthavi Ruchir Home Food Gallery",
   },
 
   // Millet
@@ -343,21 +343,21 @@ const data = [
     name: "Black Paper",
     image:
       "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719475282/INEXT/ap6w3nzo4x9sss7sibyo.webp",
-    type: "Ruchir Home Food Gallery",
+    type: "Parthavi Ruchir Home Food",
   },
   {
     id: 43,
     name: "Cinnamon",
     image:
       "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719475578/INEXT/dbi0su0ofwwims7j3rg0.jpg",
-    type: "Ruchir Home Food Gallery",
+    type: "Parthavi Ruchir Home Food Gallery",
   },
   {
     id: 44,
     name: "Red Chilli",
     image:
       "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719475760/INEXT/pp92egns6eokuc6rqk9i.jpg",
-    type: "Ruchir Home Food Gallery",
+    type: "Parthavi Ruchir Home Food Gallery",
   },
 
   // Vegetable
@@ -386,21 +386,21 @@ const data = [
     name: "Red Chilli Powders",
     image:
       "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719504546/INEXT/nhesd1yzyakg8802cvkk.jpg",
-    type: "Ruchir Home Food Gallery",
+    type: "Parthavi Ruchir Home Food Gallery",
   },
   {
     id: 49,
     name: "Ginger Powders",
     image:
       "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719504584/INEXT/fek8fextyerkvzvdwgks.jpg",
-    type: "Ruchir Home Food Gallery",
+    type: "Parthavi Ruchir Home Food",
   },
   {
     id: 50,
     name: "Onion Powders",
     image:
       "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719504792/INEXT/tdv8esny978wrutlicdx.webp",
-    type: "Ruchir Home Food Gallery",
+    type: "Parthavi Ruchir Home Food",
   },
 
   // Rice
@@ -429,21 +429,21 @@ const data = [
     name: "Mango",
     image:
       "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719579962/INEXT/cfov9rnywyccvqjkspcv.jpg",
-    type: "Ruchir Home Food Gallery",
+    type: "Parthavi Ruchir Home Food",
   },
   {
     id: 55,
     name: "Watermelon",
     image:
       "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719579992/INEXT/pe5rt1vorfmsqqouduth.jpg",
-    type: "Ruchir Home Food Gallery",
+    type: "Parthavi Ruchir Home Food",
   },
   {
     id: 56,
     name: "Licchi",
     image:
       "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719580052/INEXT/arj9jitgsui4vbfjqeaj.webp",
-    type: "Ruchir Home Food Gallery",
+    type: "Parthavi Ruchir Home Food",
   },
 
   {
@@ -451,7 +451,7 @@ const data = [
     name: "Khada Anaj",
     image:
       "https://simplyfresh.info/wp-content/uploads/2015/09/simply-wholegrainstips.jpg",
-    type: "Ruchir Home Food Gallery",
+    type: "Parthavi Ruchir Home Food",
   },
 
   {
@@ -459,35 +459,35 @@ const data = [
     name: "Aam Achaf",
     image:
       "https://maayeka.com/wp-content/uploads/2017/05/aam-ka-sookha-achar-dry-mango-pickle-maayeka.jpg",
-    type: "Ruchir Home Food Gallery",
+    type: "Parthavi Ruchir Home Food",
   },
   {
     id: 59,
     name: "All Types Achar",
     image:
       "https://www.farmdidi.com/cdn/shop/articles/Blog-post-revised_1445x.webp?v=1670659916",
-    type: "Ruchir Home Food Gallery",
+    type: "Parthavi Ruchir Home Food",
   },
   {
     id: 60,
     name: "All Types Fruites Juice",
     image:
       "https://5.imimg.com/data5/SELLER/Default/2023/11/360122485/VE/ZU/WB/153255301/istockphoto-158268808-612x612-jpg-500x500.jpg",
-    type: "Ruchir Home Food Gallery",
+    type: "Parthavi Ruchir Home Food",
   },
   {
     id: 60,
     name: "Mineral water",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUs3NmXZYW_w86JwABXYBmRcMU_Y6HII-zaBX_VYCjBTK7lpOpjGwmOkh_j8yQORzadWQ&usqp=CAU",
-    type: "Ruchir Home Food Gallery",
+    type: "Parthavi Ruchir Home Food",
   },
   {
     id: 60,
     name: "Ice CUbes",
     image:
       "https://www.eurokidsindia.com/blog/wp-content/uploads/2024/05/ice-cube-activities.jpg",
-    type: "Ruchir Home Food Gallery",
+    type: "Parthavi Ruchir Home Food",
   },
 ];
 

@@ -70,15 +70,14 @@ const HomeQuote = () => {
   return (
     <div>
       <div className="bg-black mb-1">
+        <div className=" flex items-center justify-center w-full">
+          <img
+            src="https://i.ytimg.com/vi/kBkIa6GxqzU/maxresdefault.jpg"
+            alt="Modal Visual"
+            className="w-ful flex h-36 object-cove rounded-t-lg"
+          />
+        </div>
 
-    <div className=" flex items-center justify-center w-full">
-    <img
-          src="https://i.ytimg.com/vi/kBkIa6GxqzU/maxresdefault.jpg"
-          alt="Modal Visual"
-          className="w-ful flex h-36 object-cove rounded-t-lg"
-        />
-    </div>
-        
         <div className="grid lg:grid-cols-2 max-w-7xl mx-auto gap-5 p-5">
           <div className="text-center my-1">
             <iframe
@@ -101,8 +100,6 @@ const HomeQuote = () => {
               backgroundRepeat: "no-repeat",
             }}
           >
-
-
             <div className="md:col-span-2 text-center">
               <h2 className="text-red-600 text-xl font-bold">
                 Request a Call Back!
@@ -110,7 +107,7 @@ const HomeQuote = () => {
               <h1 className="text-3xl font-bold">General Enquiry</h1>
               <p className="text-gray-500">Not sure about your requirements?</p>
             </div>
-            
+
             <div>
               <input
                 type="text"
@@ -162,12 +159,12 @@ const HomeQuote = () => {
                 <option value="RKS Infrabuild & Homes Pvt. LTD.">
                   RKS Infrabuild & Homes Pvt. LTD.
                 </option>
-                <option value="Praharsh Constructor Pvt. LTD.">
-                  Praharsh Constructor Pvt. LTD.
+                <option value="New RK Construction">New RK Construction</option>
+                <option value="Parthavi Ruchir Home Food">
+                  Parthavi Ruchir Home Food
                 </option>
-                <option value="Ruchir Home Food">Ruchir Home Food</option>
-                <option value="SRS Cattle Feed & Milk Product">
-                  SRS Cattle Feed & Milk Product
+                <option value="Nirvdit All Making Products Private Limited">
+                  Nirvdit All Making Products Private Limited
                 </option>
               </select>
             </div>

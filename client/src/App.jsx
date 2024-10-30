@@ -37,7 +37,7 @@ function App() {
     setShowModal(true);
     setInterval(() => {
       setShowModal(false);
-    }, 8000);
+    }, 9000);
   }, []);
 
   const handleCloseModal = () => {
