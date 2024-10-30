@@ -19,8 +19,8 @@ const company = [
   },
   {
     img: food,
-    title: "Parthavi Home Food",
-    desc: "Parthavi Home Food is a company that specializes in selling a wide range of spices and dry food items for home cooking. Our aim is to provide our customers with high-quality products .",
+    title: "SRS Home Food",
+    desc: "SRS Home Food is a company that specializes in selling a wide range of spices and dry food items for home cooking. Our aim is to provide our customers with high-quality products .",
   },
   {
     img: n,

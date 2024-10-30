@@ -86,7 +86,7 @@ const ConstructorContact = () => {
   return (
     <div>
       <Helmet>
-        <title>Contact - Praharsh Constructor Pvt. LTD. </title>
+        <title>Contact - New RK Construction. </title>
         <meta
           name="description"
           content="GDR Group 72: A dynamic conglomerate specializing in Agriculture, Dairy, Farm Land, and Commercial Property with a mission to drive growth in rural communities through innovation and sustainability"

@@ -16,7 +16,7 @@ const MilkAbout = () => {
   return (
     <div>
       <Helmet>
-        <title>About - SRS Cattle Feed & Milk Product</title>
+        <title>About - Nirvdit All Making Products Private Limited</title>
         <meta
           name="description"
           content="GDR Group 72: A dynamic conglomerate specializing in Agriculture, Dairy, Farm Land, and Commercial Property with a mission to drive growth in rural communities through innovation and sustainability"

@@ -24,7 +24,7 @@ const services = [
 
   {
     image: p,
-    title: "Parthavi Home Food",
+    title: "SRS Home Food",
     subtitle: "Best Quality Assurance",
     description:
       "Specializes in selling high-quality spices and dry food items for home cooking.",

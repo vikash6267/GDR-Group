@@ -84,12 +84,10 @@ function AddGallery() {
               <option value="RKS Infrabuild & Homes Pvt. LTD.">
                 RKS Infrabuild & Homes Pvt. LTD.
               </option>
-              <option value="Praharsh Constructor Pvt. LTD.">
-                Praharsh Constructor Pvt. LTD.
-              </option>
-              <option value="Ruchir Home Food">Ruchir Home Food</option>
-              <option value="SRS Cattle Feed & Milk Product">
-                SRS Cattle Feed & Milk Product
+              <option value="New RK Construction.">New RK Construction.</option>
+              <option value="SRS Home Food">SRS Home Food</option>
+              <option value="Nirvdit All Making Products Private Limited">
+                Nirvdit All Making Products Private Limited
               </option>
             </select>
           </div>

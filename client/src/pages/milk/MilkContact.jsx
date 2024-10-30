@@ -83,7 +83,7 @@ const MilkContact = () => {
   return (
     <div>
       <Helmet>
-        <title>Contact - SRS Cattle Feed & Milk Product</title>
+        <title>Contact - Nirvdit All Making Products Private Limited</title>
         <meta
           name="description"
           content="GDR Group 72: A dynamic conglomerate specializing in Agriculture, Dairy, Farm Land, and Commercial Property with a mission to drive growth in rural communities through innovation and sustainability"

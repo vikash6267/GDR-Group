@@ -29,7 +29,7 @@ const TagCloudWithDetails = () => {
     },
 
     {
-      name: "Parthavi Home Food",
+      name: "SRS Home Food",
       details:
         "Supplying a variety of liquid products, including industrial chemicals and personal care items.",
       image: image1,

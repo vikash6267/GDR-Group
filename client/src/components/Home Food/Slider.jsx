@@ -66,7 +66,7 @@ function HeroSlider() {
                 <h1 className="text-xl font-bold mb-4">
                   Welcome to{" "}
                   <span className="flip-text text-[#e2571a]">
-                    Ruchir Home Foods
+                    SRS Home Foods
                   </span>
                 </h1>
 

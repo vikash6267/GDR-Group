@@ -25,7 +25,7 @@ const CompanyDetails = () => {
         </h2>
         <p className="text-lg text-gray-800 leading-relaxed">
           <span className="font-semibold text-blue-600">
-            Praharsh Constructor Pvt. LTD.
+            New RK Construction{" "}
           </span>{" "}
           is committed to delivering excellence in construction, focusing on
           innovative designs and sustainable building practices.
@@ -46,7 +46,7 @@ const CompanyDetails = () => {
       <div className="mb-6 p-6 bg-red-50 hover:bg-yellow-400 rounded-lg shadow-sm">
         <h2 className="text-2xl font-extrabold text-red-800 mb-4">Home Food</h2>
         <p className="text-lg text-gray-800 leading-relaxed">
-          <span className="font-semibold text-red-600">Ruchir Home Food</span>{" "}
+          <span className="font-semibold text-red-600">SRS Home Food</span>{" "}
           offers a wide range of home food products, including groceries,
           grains, and dried fruits, delivering the freshness and quality you
           deserve.
@@ -70,7 +70,7 @@ const CompanyDetails = () => {
         </h2>
         <p className="text-lg text-gray-800 leading-relaxed">
           <span className="font-semibold text-yellow-600">
-            SRS Cattle Feed & Milk Product
+            Nirvdit All Making Products Private Limited
           </span>{" "}
           provides a variety of cattle feed options and high-quality milk
           products, supporting your dairy farming needs with excellence.

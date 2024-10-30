@@ -16,7 +16,7 @@ const ConstructorAbout = () => {
   return (
     <div>
       <Helmet>
-        <title>About - Praharsh Constructor Pvt. LTD. </title>
+        <title>About - New RK Construction. </title>
         <meta
           name="description"
           content="GDR Group 72: A dynamic conglomerate specializing in Agriculture, Dairy, Farm Land, and Commercial Property with a mission to drive growth in rural communities through innovation and sustainability"
@@ -89,18 +89,18 @@ const ConstructorAbout = () => {
               </li>
               <li className="flex items-center text-gray-800">
                 <FaCheckCircle className="text-green-600 mr-2" />
-                Praharsh Constructor Pvt. LTD.
+                New RK Construction.
               </li>
             </ul>
 
             <ul className="list-none space-y-2">
               <li className="flex items-center text-gray-800">
                 <FaCheckCircle className="text-green-600 mr-2" />
-                Ruchir Home Food
+                SRS Home Food
               </li>
               <li className="flex items-center text-gray-800">
                 <FaCheckCircle className="text-green-600 mr-2" />
-                SRS Cattle Feed & Milk Product
+                Nirvdit All Making Products Private Limited
               </li>
             </ul>
           </div>
