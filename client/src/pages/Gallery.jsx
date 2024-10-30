@@ -266,35 +266,35 @@ const data = [
     name: "Makhana",
     image:
       "https://t3.ftcdn.net/jpg/04/48/23/16/360_F_448231665_VjDHDTJpPRx4xKivsmSJN88QqxXVh5D8.jpg",
-    type: "Parthavi Ruchir Home Food Gallery",
+    type: "Parthavi  Home Food Gallery",
   },
   {
     id: 34,
     name: "Cashew",
     image:
       "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719310369/INEXT/qqpalnu6cmnxkz89iz2n.jpg",
-    type: "Parthavi Ruchir Home Food Gallery",
+    type: "Parthavi  Home Food Gallery",
   },
   {
     id: 35,
     name: "Almond",
     image:
       "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719310441/INEXT/a0zuke3evn0fw4kvw7yz.jpg",
-    type: "Parthavi Ruchir Home Food Gallery",
+    type: "Parthavi  Home Food Gallery",
   },
   {
     id: 36,
     name: "Smart Bazaar",
     image:
       "https://www.infinitimall.com/wp-content/uploads/2023/04/Smart-Bazaar-Malad-Infiniti-Mal-1.jpg",
-    type: "Parthavi Ruchir Home Food Gallery",
+    type: "Parthavi  Home Food Gallery",
   },
   {
     id: 37,
     name: "Smart Bazaar",
     image:
       "https://i.ytimg.com/vi/IsxiHLGrKzI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAasjoHI4patOyWprH2ndRENP-9aQ",
-    type: "Parthavi Ruchir Home Food Gallery",
+    type: "Parthavi  Home Food Gallery",
   },
 
   // Millet
@@ -343,21 +343,21 @@ const data = [
     name: "Black Paper",
     image:
       "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719475282/INEXT/ap6w3nzo4x9sss7sibyo.webp",
-    type: "Parthavi Ruchir Home Food",
+    type: "Parthavi  Home Food",
   },
   {
     id: 43,
     name: "Cinnamon",
     image:
       "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719475578/INEXT/dbi0su0ofwwims7j3rg0.jpg",
-    type: "Parthavi Ruchir Home Food Gallery",
+    type: "Parthavi  Home Food Gallery",
   },
   {
     id: 44,
     name: "Red Chilli",
     image:
       "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719475760/INEXT/pp92egns6eokuc6rqk9i.jpg",
-    type: "Parthavi Ruchir Home Food Gallery",
+    type: "Parthavi  Home Food Gallery",
   },
 
   // Vegetable
@@ -386,21 +386,21 @@ const data = [
     name: "Red Chilli Powders",
     image:
       "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719504546/INEXT/nhesd1yzyakg8802cvkk.jpg",
-    type: "Parthavi Ruchir Home Food Gallery",
+    type: "Parthavi  Home Food Gallery",
   },
   {
     id: 49,
     name: "Ginger Powders",
     image:
       "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719504584/INEXT/fek8fextyerkvzvdwgks.jpg",
-    type: "Parthavi Ruchir Home Food",
+    type: "Parthavi  Home Food",
   },
   {
     id: 50,
     name: "Onion Powders",
     image:
       "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719504792/INEXT/tdv8esny978wrutlicdx.webp",
-    type: "Parthavi Ruchir Home Food",
+    type: "Parthavi  Home Food",
   },
 
   // Rice
@@ -429,21 +429,21 @@ const data = [
     name: "Mango",
     image:
       "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719579962/INEXT/cfov9rnywyccvqjkspcv.jpg",
-    type: "Parthavi Ruchir Home Food",
+    type: "Parthavi  Home Food",
   },
   {
     id: 55,
     name: "Watermelon",
     image:
       "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719579992/INEXT/pe5rt1vorfmsqqouduth.jpg",
-    type: "Parthavi Ruchir Home Food",
+    type: "Parthavi  Home Food",
   },
   {
     id: 56,
     name: "Licchi",
     image:
       "https://res.cloudinary.com/dsvotvxhq/image/upload/v1719580052/INEXT/arj9jitgsui4vbfjqeaj.webp",
-    type: "Parthavi Ruchir Home Food",
+    type: "Parthavi  Home Food",
   },
 
   {
@@ -451,7 +451,7 @@ const data = [
     name: "Khada Anaj",
     image:
       "https://simplyfresh.info/wp-content/uploads/2015/09/simply-wholegrainstips.jpg",
-    type: "Parthavi Ruchir Home Food",
+    type: "Parthavi  Home Food",
   },
 
   {
@@ -459,35 +459,35 @@ const data = [
     name: "Aam Achaf",
     image:
       "https://maayeka.com/wp-content/uploads/2017/05/aam-ka-sookha-achar-dry-mango-pickle-maayeka.jpg",
-    type: "Parthavi Ruchir Home Food",
+    type: "Parthavi  Home Food",
   },
   {
     id: 59,
     name: "All Types Achar",
     image:
       "https://www.farmdidi.com/cdn/shop/articles/Blog-post-revised_1445x.webp?v=1670659916",
-    type: "Parthavi Ruchir Home Food",
+    type: "Parthavi  Home Food",
   },
   {
     id: 60,
     name: "All Types Fruites Juice",
     image:
       "https://5.imimg.com/data5/SELLER/Default/2023/11/360122485/VE/ZU/WB/153255301/istockphoto-158268808-612x612-jpg-500x500.jpg",
-    type: "Parthavi Ruchir Home Food",
+    type: "Parthavi  Home Food",
   },
   {
     id: 60,
     name: "Mineral water",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUs3NmXZYW_w86JwABXYBmRcMU_Y6HII-zaBX_VYCjBTK7lpOpjGwmOkh_j8yQORzadWQ&usqp=CAU",
-    type: "Parthavi Ruchir Home Food",
+    type: "Parthavi  Home Food",
   },
   {
     id: 60,
     name: "Ice CUbes",
     image:
       "https://www.eurokidsindia.com/blog/wp-content/uploads/2024/05/ice-cube-activities.jpg",
-    type: "Parthavi Ruchir Home Food",
+    type: "Parthavi  Home Food",
   },
 ];
 

@@ -21,7 +21,7 @@ const Project = () => {
     { id: 2, name: "RKS Homes" },
     { id: 1, name: "New RK Construction" },
     { id: 3, name: "Nirvdit All Making Products Private Limited" },
-    { id: 4, name: "Parthavi Ruchir Home Food" },
+    { id: 4, name: "Parthavi Home Food" },
     // { id: 5, name: "72 GDR Steel" },
   ];
 

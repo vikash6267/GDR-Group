@@ -49,7 +49,7 @@ const Footer = () => {
                   Nirvdit All Making Products Private Limited
                 </Link>
 
-                <Link to="/ri-si-food/home">Parthavi Ruchir Home Food</Link>
+                <Link to="/ri-si-food/home">Parthavi Home Food</Link>
                 {/* <Link to="/">Privacy Policy</Link>
                 <Link to="/replacementpolicy">Replacement Policy</Link>
                 <Link to="/tc">Terms of Use</Link> */}
