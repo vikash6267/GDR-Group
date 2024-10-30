@@ -40,12 +40,14 @@ const Footer = () => {
               <h2 className="text-xl font-semibold mb-4">Our Companies</h2>
               <hr className="my-4" />
               <ul className="grid gap-2">
-                <Link to="/construction/home">Praharsh Construction</Link>
+                <Link to="/construction/home">New RK Construction</Link>
 
                 <Link to="/rks-homes/home">RKS Homes</Link>
-                <Link to="/srs-foods/home">SRS Cattle Feed & Milk Product</Link>
+                <Link to="/srs-foods/home">
+                  Nirvdit All Making Products Private Limited
+                </Link>
 
-                <Link to="/ri-si-food/home">Ruchir Home Food</Link>
+                <Link to="/ri-si-food/home">Parthavi Ruchir Home Food</Link>
                 {/* <Link to="/">Privacy Policy</Link>
                 <Link to="/replacementpolicy">Replacement Policy</Link>
                 <Link to="/tc">Terms of Use</Link> */}
