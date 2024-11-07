@@ -15,7 +15,7 @@ const company = [
   {
     img: prabhash,
     title: "New RK Construction",
-    desc: "New RK Construction Pvt LTD is a leading construction company that specializes in a wide range of civil works. We have extensive experience in delivering construction projects for both government and private bodies.",
+    desc: "New RK Construction is a leading construction company that specializes in a wide range of civil works. We have extensive experience in delivering construction projects for both government and private bodies.",
   },
   {
     img: food,
