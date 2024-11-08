@@ -5,7 +5,8 @@ import n from "../../../assests/nir.jpg";
 import p from "../../../assests/par.jpg";
 const services = [
   {
-    image: home,
+    image:
+      "https://media.istockphoto.com/id/824351914/photo/distribution-warehouse-with-trucks-of-different-capacity.jpg?s=612x612&w=0&k=20&c=-aeDD6vTkJZ9c_Sg_xFPZKpn10HNPczG8AKYPRcWvFs=",
     title: "RKS Infrabuild & Homes Pvt. LTD.",
     subtitle: "Excellent Home",
     description:
