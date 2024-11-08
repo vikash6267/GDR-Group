@@ -54,7 +54,7 @@ function AddGallery() {
 
         <form onSubmit={handleSubmit}>
           <div className="space-y-2">
-            <label htmlFor="title" className="block font-medium text-gray-700">
+            <label htmlFor="title" className="block font-medium text-gray-600">
               Title *
             </label>
             <input
@@ -68,7 +68,7 @@ function AddGallery() {
           </div>
 
           <div className="space-y-2 mt-4">
-            <label htmlFor="type" className="block font-medium text-gray-700">
+            <label htmlFor="type" className="block font-medium text-gray-600">
               Type *
             </label>
             <select
@@ -93,7 +93,7 @@ function AddGallery() {
           </div>
 
           <div className="space-y-2 mt-4">
-            <label htmlFor="images" className="block font-medium text-gray-700">
+            <label htmlFor="images" className="block font-medium text-gray-600">
               Upload Images *
             </label>
             <Dropzone onDrop={uploadImage}>

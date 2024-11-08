@@ -85,7 +85,7 @@ const Company = () => {
                   {currElem.title}
                 </p>
               </div>
-              <div className="absolute inset-0  top-48 flex bg-yellow-500 p-4 text-black opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100">
+              <div className="absolute inset-0  top-48 flex bg-yellow-500 p-4 text-gray-600 opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100">
                 <p className="z-10 text-sm">{currElem.desc}</p>
               </div>
             </div>

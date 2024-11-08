@@ -22,23 +22,23 @@ const GreedSteelAbout = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl font-extrabold text-gray-800 mb-6">
+            <h2 className="text-4xl font-extrabold text-gray-600 mb-6">
               72 GDR Steel
             </h2>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-gray-600 mb-4">
               72 GDR Steel is a company that specializes in the production and
               distribution of high-quality steel products. The company’s main
               focus is on TMT iron rods, which are used in the construction
               industry for the reinforcement of concrete structures.
             </p>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-gray-600 mb-4">
               In addition to TMT iron rods, 72 GDR Steel also deals in a range
               of other steel products, including structural steel, rebar, and
               steel sheets. The company prides itself on its commitment to
               producing high-quality steel products that meet the needs of its
               customers and exceed industry standards.
             </p>
-            <p className="text-lg text-gray-700 mb-6">
+            <p className="text-lg text-gray-600 mb-6">
               Overall, 72 GDR Steel is a reliable and trusted supplier of steel
               products, with a strong focus on providing high-quality products
               and exceptional customer service.

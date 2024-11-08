@@ -56,7 +56,7 @@ const Process = () => {
                   className={`${
                     index === activeStep
                       ? "bg-transparent border-2 border-white text-white"
-                      : "bg-yellow-500 text-black"
+                      : "bg-yellow-500 text-gray-600"
                   } font-bold rounded-full w-40 h-40 sm:w-48 sm:h-48 p-3 flex items-center justify-center text-lg sm:text-xl hover:bg-yellow-600 hover:scale-105`}
                 >
                   {step.icon}

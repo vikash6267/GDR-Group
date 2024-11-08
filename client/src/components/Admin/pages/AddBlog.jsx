@@ -86,14 +86,14 @@ const AddBlog = () => {
       >
         <div className="mb-4">
           <label
-            className="block text-gray-700 text-xl font-bold mb-2"
+            className="block text-gray-600 text-xl font-bold mb-2"
             htmlFor="title"
           >
             Title : <span className="text-red-500">*</span>
           </label>
           <input
             type="text"
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h-[50px] text-2xl"
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-600 leading-tight focus:outline-none focus:shadow-outline h-[50px] text-2xl"
             name="title"
             id="title"
             value={formData.title}
@@ -103,14 +103,14 @@ const AddBlog = () => {
         </div>
         <div className="mb-4">
           <label
-            className="block text-gray-700 text-xl font-bold mb-2"
+            className="block text-gray-600 text-xl font-bold mb-2"
             htmlFor="desc"
           >
             Description : <span className="text-red-500">*</span>
           </label>
           <input
             type="text"
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h-[50px] text-2xl"
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-600 leading-tight focus:outline-none focus:shadow-outline h-[50px] text-2xl"
             name="desc"
             id="desc"
             value={formData.desc}
@@ -121,13 +121,13 @@ const AddBlog = () => {
 
         <div className="mb-4">
           <label
-            className="block text-gray-700 text-xl font-bold mb-2"
+            className="block text-gray-600 text-xl font-bold mb-2"
             htmlFor="image"
           >
             Image:
           </label>
           <input
-            className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h-[50px] text-2xl border-none"
+            className="appearance-none border rounded w-full py-2 px-3 text-gray-600 leading-tight focus:outline-none focus:shadow-outline h-[50px] text-2xl border-none"
             id="image"
             type="file"
             accept="image/*"

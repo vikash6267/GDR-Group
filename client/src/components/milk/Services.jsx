@@ -10,26 +10,30 @@ import paneer from "../../assests/milk/paneer.jpeg";
 import shak from "../../assests/milk/shak.jpeg";
 const services = [
   {
-    image: "https://img.bebeautiful.in/www-bebeautiful-in/how-to-use-milk-cream-for-your-skin-600x350-picmobhome.jpg",
+    image:
+      "https://img.bebeautiful.in/www-bebeautiful-in/how-to-use-milk-cream-for-your-skin-600x350-picmobhome.jpg",
     title: "Cream",
     subtitle: "Best Cream",
     description: "We Have All Brands of Fresh Creame",
     link: "/construction/home",
   },
   {
-    image: "https://www.india.com/wp-content/uploads/2022/07/Dahi-Khanyache-Fayde-Marathi.jpg",
+    image:
+      "https://www.india.com/wp-content/uploads/2022/07/Dahi-Khanyache-Fayde-Marathi.jpg",
     title: "Dahi",
     subtitle: "Best Dahi",
     description: "We Have All Brands of Fresh Dahi",
   },
   {
-    image: "https://www.allrecipes.com/thmb/TgXszUn8XHUTe19kOwlyGQ4ZjyM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-87984584-2-2000-b40af34c16fd4bed815f1e279592b172.jpg",
+    image:
+      "https://www.allrecipes.com/thmb/TgXszUn8XHUTe19kOwlyGQ4ZjyM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-87984584-2-2000-b40af34c16fd4bed815f1e279592b172.jpg",
     title: "Dudh",
     subtitle: "Best Dudh",
     description: "We Have All Brands of Fresh Dudh",
   },
   {
-    image: "https://m.media-amazon.com/images/I/41diIEPUlnL._AC_UF1000,1000_QL80_.jpg",
+    image:
+      "https://m.media-amazon.com/images/I/41diIEPUlnL._AC_UF1000,1000_QL80_.jpg",
     title: "Ghee",
     subtitle: "Best Ghee",
     description: "We Have All Brands of Fresh Ghee",
@@ -42,19 +46,22 @@ const services = [
   },
 
   {
-    image: "https://nonprod-media.webdunia.com/public_html/_media/hi/img/article/2020-04/22/full/1587556253-7501.jpg",
+    image:
+      "https://nonprod-media.webdunia.com/public_html/_media/hi/img/article/2020-04/22/full/1587556253-7501.jpg",
     title: "mattha",
     subtitle: "Best mattha",
     description: "We Have All Brands of Fresh mattha",
   },
   {
-    image: 'https://www.prakashdairymorbi.com/wp-content/uploads/Malai-Panner.png',
+    image:
+      "https://www.prakashdairymorbi.com/wp-content/uploads/Malai-Panner.png",
     title: "Panner",
     subtitle: "Best Panner",
     description: "We Have All Brands of Fresh Panner",
   },
   {
-    image: "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/11/apple-milkshake-apple-shake.jpg",
+    image:
+      "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/11/apple-milkshake-apple-shake.jpg",
     title: "Shake",
     subtitle: "Best Shake",
     description: "We Have All Brands of Fresh Shake",
@@ -99,7 +106,7 @@ const Services = () => {
             {/* Hidden content */}
             <div className="absolute inset-0 bg-white flex flex-col justify-center items-center text-center p-4 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out z-20">
               <h2 className="text-xl font-bold">{service.title}</h2>
-              <p className="mt-4 text-gray-800">{service.description}</p>
+              <p className="mt-4 text-gray-600">{service.description}</p>
               <Link
                 to={service.link}
                 className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors duration-300"

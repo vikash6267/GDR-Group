@@ -11,7 +11,7 @@ const TalkToUs = () => {
     >
       <div className="text-center p-8 bg-white bg-opacity-75 shadow-xl rounded-lg transform hover:scale-105 transition-transform duration-500 ease-in-out">
         <h2 className="text-green-600 text-4xl font-bold mb-4">TALK TO US</h2>
-        <p className="text-gray-700 text-lg mb-6">
+        <p className="text-gray-600 text-lg mb-6">
           Have any questions? We are always open to talk about your business,
           new projects, creative opportunities, and how we can help you.
         </p>
@@ -21,7 +21,7 @@ const TalkToUs = () => {
         >
           GET IN TOUCH
         </a>
-        <div className="mt-6 flex items-center justify-center text-gray-600 hover:text-gray-800 transition-colors duration-300">
+        <div className="mt-6 flex items-center justify-center text-gray-600 hover:text-gray-600 transition-colors duration-300">
           <FaEnvelope className="mr-2" />
           <span>send mail to r.k_construction@yahoo.com</span>
         </div>

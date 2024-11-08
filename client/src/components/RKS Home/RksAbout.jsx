@@ -37,10 +37,10 @@ const RksAbout = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl font-extrabold text-gray-800 mb-6">
+            <h2 className="text-4xl font-extrabold text-gray-600 mb-6">
               RKS Infrabuild & Homes Pvt. Ltd.{" "}
             </h2>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-gray-600 mb-4">
               RKS Homes is a real estate company specializing in the sale of
               agricultural lands. We are committed to helping our clients find
               the perfect piece of land for their farming or ranching needs. Our
@@ -48,14 +48,14 @@ const RksAbout = () => {
               local agricultural market and can provide valuable insights and
               guidance to help our clients make informed decisions.
             </p>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-gray-600 mb-4">
               At RKS Homes, we understand that purchasing agricultural land is a
               significant investment and we strive to make the process as smooth
               and stress-free as possible. We offer a wide range of properties
               including small hobby farms, large commercial operations, and
               everything in between.
             </p>
-            <p className="text-lg text-gray-700 mb-6">
+            <p className="text-lg text-gray-600 mb-6">
               Our properties are located throughout the region, giving our
               clients a variety of options to choose from. Whether you are
               looking for fertile soil, convenient access to markets, or a

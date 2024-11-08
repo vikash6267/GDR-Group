@@ -4,7 +4,7 @@ import { InfiniteMovingCards } from "./TestominalSlider";
 export default function TestimonialSection() {
   return (
     <div className="my-10 text-white">
-      <h2 className="text-3xl text-center font-bold text-gray-800 mb-4">
+      <h2 className="text-3xl text-center font-bold text-gray-600 mb-4">
         Over <span className="text-primary text-3xl font-black">1000+</span>{" "}
         happy <br />
         customers

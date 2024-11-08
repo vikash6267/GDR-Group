@@ -189,7 +189,7 @@ const CareerForm = () => {
           className={`px-4 py-2 mr-2 rounded-l-lg border ${
             gender === "Male"
               ? "bg-red-600 text-white"
-              : "bg-white text-gray-700 hover:bg-gray-100"
+              : "bg-white text-gray-600 hover:bg-gray-100"
           } transition-colors duration-300`}
         >
           Male
@@ -200,7 +200,7 @@ const CareerForm = () => {
           className={`px-4 py-2 rounded-r-lg border ${
             gender === "Female"
               ? "bg-red-600 text-white"
-              : "bg-white text-gray-700 hover:bg-gray-100"
+              : "bg-white text-gray-600 hover:bg-gray-100"
           } transition-colors duration-300`}
         >
           Female
@@ -221,7 +221,7 @@ const CareerForm = () => {
       >
         {/* Name Field */}
         <div className="mb-4">
-          <label className="block text-xl text-gray-700 mb-2" htmlFor="name">
+          <label className="block text-xl text-gray-600 mb-2" htmlFor="name">
             Name
           </label>
           <input
@@ -238,7 +238,7 @@ const CareerForm = () => {
 
         {/* Email Field */}
         <div className="mb-4">
-          <label className="block text-xl text-gray-700 mb-2 " htmlFor="email">
+          <label className="block text-xl text-gray-600 mb-2 " htmlFor="email">
             Email
           </label>
           <input
@@ -255,7 +255,7 @@ const CareerForm = () => {
 
         {/* Contact Number Field */}
         <div className="mb-4">
-          <label className="block text-xl text-gray-700 mb-2" htmlFor="contact">
+          <label className="block text-xl text-gray-600 mb-2" htmlFor="contact">
             Contact Number
           </label>
           <input
@@ -273,7 +273,7 @@ const CareerForm = () => {
         {/* Position Selection */}
         <div className="mb-4 lg:col-span-2">
           <label
-            className="block text-xl text-gray-700 mb-2"
+            className="block text-xl text-gray-600 mb-2"
             htmlFor="applicationFor"
           >
             Select Position
@@ -300,7 +300,7 @@ const CareerForm = () => {
         {/* Job Description */}
         {selectedJobDescription && (
           <div className="mb-4 lg:col-span-2">
-            <label className="block text-xl text-gray-700 mb-2">
+            <label className="block text-xl text-gray-600 mb-2">
               Job Description
             </label>
             <div
@@ -313,7 +313,7 @@ const CareerForm = () => {
 
         {/* Message Field */}
         <div className="mb-4 lg:col-span-2">
-          <label className="block text-xl text-gray-700 mb-2" htmlFor="message">
+          <label className="block text-xl text-gray-600 mb-2" htmlFor="message">
             Message
           </label>
           <textarea
@@ -329,7 +329,7 @@ const CareerForm = () => {
 
         {/* Resume Upload */}
         <div className="mb-4 lg:col-span-2">
-          <label className="block text-xl text-gray-700 mb-2" htmlFor="resume">
+          <label className="block text-xl text-gray-600 mb-2" htmlFor="resume">
             Upload Resume
           </label>
           <input

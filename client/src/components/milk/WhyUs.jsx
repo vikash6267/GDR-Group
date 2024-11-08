@@ -52,13 +52,13 @@ const WhyUs = () => {
           >
             <div className="flex items-center space-x-4 mb-4">
               {section.icon}
-              <h2 className="text-2xl font-bold text-gray-800">
+              <h2 className="text-2xl font-bold text-gray-600">
                 {section.title}
               </h2>
             </div>
-            <p className="text-gray-700 mb-4">{section.description}</p>
+            <p className="text-gray-600 mb-4">{section.description}</p>
             {section.content && (
-              <div className="text-gray-700">{section.content}</div>
+              <div className="text-gray-600">{section.content}</div>
             )}
           </div>
         ))}

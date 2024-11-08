@@ -17,19 +17,19 @@ const AboutHome = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-4xl font-extrabold text-gray-800 mb-6">
+          <h2 className="text-4xl font-extrabold text-gray-600 mb-6">
             Welcome to <span className="text-blue-600">GDR Group 72</span>
           </h2>
-          <p className="text-lg text-gray-700 mb-4">
+          <p className="text-lg text-gray-600 mb-4">
             GDR Group 72 is a dynamic conglomerate engaged in diverse sectors
             including Agriculture, Dairy, Farm Land, and Commercial Property.
           </p>
-          <p className="text-lg text-gray-700 mb-4">
+          <p className="text-lg text-gray-600 mb-4">
             Our mission is to cultivate opportunities that foster growth and
             development in rural communities, driving innovation and excellence
             across our ventures.
           </p>
-          <p className="text-lg text-gray-700 mb-6">
+          <p className="text-lg text-gray-600 mb-6">
             With a deep commitment to sustainability and progress, we aim to
             empower the future through our strategic initiatives and dedicated
             efforts.

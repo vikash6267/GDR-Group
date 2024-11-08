@@ -31,20 +31,20 @@ const MilkAbout = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl font-extrabold text-gray-800 mb-6">
+            <h2 className="text-4xl font-extrabold text-gray-600 mb-6">
               SRS Cattle and Milk Food Company owns 2 brands – “Shree Ji 72” &
               “Shree Ji Milk Products“.
             </h2>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-gray-600 mb-4">
               is a manufacturer of milk products like milk, butter, clarified
               butter, cottage cheese, ice cream etc. The company was founded in
               the year 2018 and is headquartered in Bhopal, India.
             </p>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-gray-600 mb-4">
               The company has a wide distribution network across India and soon
               they will exports its products to various countries.
             </p>
-            <p className="text-lg text-gray-700 mb-6">
+            <p className="text-lg text-gray-600 mb-6">
               SRS Cattle and Milk Food has a state–of–the–art manufacturing
               facility which has been accredited by ISO 9001:2008. The company
               has a team of experienced professionals who are committed to

@@ -65,19 +65,19 @@ const Sidebar = () => {
         <div
           className={`${
             isCollapsed ? "hidden" : "block"
-          } text-black font-bold text-xl`}
+          } text-gray-600 font-bold text-xl`}
         ></div>
         {/* Toggle button */}
         <button
           onClick={handleToggle}
-          className="bg-transparent border-none w-8 h-8 flex justify-center items-center cursor-pointer text-black"
+          className="bg-transparent border-none w-8 h-8 flex justify-center items-center cursor-pointer text-gray-600"
         >
           {isCollapsed ? <CiMenuFries size={22} /> : <RxCross1 size={22} />}
         </button>
       </div>
 
       {/* Navigation links */}
-      <ul className="text-black list-none flex flex-col gap-2 p-4 mb-14">
+      <ul className="text-gray-600 list-none flex flex-col gap-2 p-4 mb-14">
         {[
           { to: "/", icon: <FaHome />, label: "Back To Home" },
           { to: "/admin/dashboard", icon: <FcBullish />, label: "Dashboard" },
@@ -109,7 +109,7 @@ const Sidebar = () => {
             to={item.to}
             onClick={handleToggle}
             className={({ isActive }) =>
-              `text-black py-4 flex items-center hover:border-r-4 hover:border-black ${
+              `text-gray-600 py-4 flex items-center hover:border-r-4 hover:border-black ${
                 isActive ? "border-r-4 border-black" : ""
               }`
             }
@@ -134,7 +134,7 @@ const Sidebar = () => {
           }`}
         >
           <div
-            className={`cursor-pointer flex items-center justify-center text-black ${
+            className={`cursor-pointer flex items-center justify-center text-gray-600 ${
               isCollapsed ? "w-10 h-10 rounded-full" : ""
             }`}
           >

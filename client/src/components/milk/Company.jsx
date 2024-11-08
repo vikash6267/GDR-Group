@@ -65,7 +65,7 @@ const Company = () => {
                   className="min-w-full h-full object-cover transition-transform duration-500 ease-in-out transform group-hover:translate-y-[-50%]"
                 />
               </div>
-              <div className="absolute inset-0  flex flex-col top-48  bg-yellow-500 p-4 text-black opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100">
+              <div className="absolute inset-0  flex flex-col top-48  bg-yellow-500 p-4 text-gray-600 opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100">
                 <p className="z-10 text-sm">{currElem.desc1}</p>
                 <p className="z-10 text-sm">{currElem.desc2}</p>
                 <p className="z-10 text-sm">{currElem.desc3}</p>

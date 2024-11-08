@@ -84,11 +84,13 @@ const Modal = ({ isOpen, toggleModal, onSubmit }) => {
           alt="Modal Visual"
           className="absolute lg:top-5 top-0 left-0 w-full h-36 object-cover rounded-t-lg"
         />
-        <div className="pt-32"> {/* Padding to push form below the image */}
+        <div className="pt-32">
+          {" "}
+          {/* Padding to push form below the image */}
           <h2 className="text-2xl font-bold mb-4">Enquiry Form</h2>
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
-              <label className="block text-gray-700">Name</label>
+              <label className="block text-gray-600">Name</label>
               <input
                 type="text"
                 name="name"
@@ -99,7 +101,7 @@ const Modal = ({ isOpen, toggleModal, onSubmit }) => {
               />
             </div>
             <div className="mb-4">
-              <label className="block text-gray-700">Email</label>
+              <label className="block text-gray-600">Email</label>
               <input
                 type="email"
                 name="email"
@@ -110,7 +112,7 @@ const Modal = ({ isOpen, toggleModal, onSubmit }) => {
               />
             </div>
             <div className="mb-4">
-              <label className="block text-gray-700">Phone</label>
+              <label className="block text-gray-600">Phone</label>
               <input
                 type="tel"
                 name="phone"
@@ -121,7 +123,7 @@ const Modal = ({ isOpen, toggleModal, onSubmit }) => {
               />
             </div>
             <div className="mb-4">
-              <label className="block text-gray-700">Message</label>
+              <label className="block text-gray-600">Message</label>
               <textarea
                 value={formData.message}
                 onChange={handleChange}

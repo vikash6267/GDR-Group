@@ -51,7 +51,7 @@ const AboutSection = () => {
     <section className="bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-extrabold text-gray-900">
+          <h2 className="text-3xl font-extrabold text-gray-600">
             About RKS Infrabuild & Homes Pvt. Ltd.
           </h2>
           <p className="mt-4 text-lg text-gray-600">
@@ -73,7 +73,7 @@ const AboutSection = () => {
               <div className="p-6 flex items-start">
                 <div className="mr-4">{offering.icon}</div>
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900">
+                  <h3 className="text-lg font-semibold text-gray-600">
                     {offering.title}
                   </h3>
                   <p className="mt-2 text-sm text-gray-600">

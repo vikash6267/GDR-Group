@@ -59,7 +59,7 @@ const Product = () => {
             </div>
             {/* Hidden content */}
             <div className="absolute inset-0 bg-white flex flex-col justify-center items-center text-center p-4 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out z-20">
-              <p className="mt-4 text-gray-800">{service.description}</p>
+              <p className="mt-4 text-gray-600">{service.description}</p>
             </div>
           </div>
         ))}

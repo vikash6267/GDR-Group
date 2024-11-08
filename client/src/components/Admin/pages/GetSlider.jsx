@@ -72,10 +72,10 @@ const GetSlider = () => {
                     />
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap">
-                    <div className="text-sm text-gray-900">{event.title}</div>
+                    <div className="text-sm text-gray-600">{event.title}</div>
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap">
-                    <div className="text-sm text-gray-900">{event.desc}</div>
+                    <div className="text-sm text-gray-600">{event.desc}</div>
                   </td>
 
                   <td className="px-6 py-4 whitespace-nowrap">

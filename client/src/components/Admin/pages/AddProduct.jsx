@@ -51,7 +51,7 @@ function AddProduct() {
 
         <form onSubmit={handleSubmit}>
           <div className="space-y-2">
-            <label htmlFor="title" className="block font-medium text-gray-700">
+            <label htmlFor="title" className="block font-medium text-gray-600">
               Title *
             </label>
             <input
@@ -65,7 +65,7 @@ function AddProduct() {
           </div>
 
           <div className="space-y-2 mt-4">
-            <label htmlFor="images" className="block font-medium text-gray-700">
+            <label htmlFor="images" className="block font-medium text-gray-600">
               Upload Images *
             </label>
             <Dropzone onDrop={uploadImage}>

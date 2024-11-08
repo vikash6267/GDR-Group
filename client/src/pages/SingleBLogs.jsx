@@ -50,7 +50,7 @@ const SingleBlog = () => {
             <h1 className="text-3xl font-bold mb-2">{singleBlog.title}</h1>
             <br />
             <p
-              className="text-gray-700 text-lg mb-4"
+              className="text-gray-600 text-lg mb-4"
               dangerouslySetInnerHTML={{
                 __html: formatDescription(singleBlog.desc),
               }}

@@ -106,7 +106,7 @@ const SocialMediaBar = () => {
               <FaTimes />
             </button>
             <h3>Contact Us</h3>
-            <form onSubmit={handleSubmit} className=" text-black">
+            <form onSubmit={handleSubmit} className=" text-gray-600">
               <input
                 type="text"
                 placeholder="Your Name"

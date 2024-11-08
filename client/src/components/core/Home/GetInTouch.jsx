@@ -39,10 +39,10 @@ function GetInTouch() {
       <div className="flex flex-col lg:flex-row justify-between w-full max-w-7xl p-8 bg-white shadow-xl rounded-lg">
         {/* Left Column: Company Name and Social Media Links */}
         <div className="lg:w-1/2 lg:pr-12 mb-8 lg:mb-0">
-          <h2 className="text-gray-900 text-4xl font-extrabold mb-6">
+          <h2 className="text-gray-600 text-4xl font-extrabold mb-6">
             Get in Touch
           </h2>
-          <div className="text-gray-700 text-lg">
+          <div className="text-gray-600 text-lg">
             <p className="mb-4">Follow us on:</p>
             <ul className="flex space-x-6">
               <li>
@@ -91,10 +91,10 @@ function GetInTouch() {
 
         {/* Right Column: Address and Contact Form */}
         <div className="lg:w-1/2 lg:pl-12">
-          <h2 className="text-gray-900 text-4xl font-extrabold mb-6">
+          <h2 className="text-gray-600 text-4xl font-extrabold mb-6">
             Contact Us
           </h2>
-          <div className="text-gray-700 text-lg mb-8">
+          <div className="text-gray-600 text-lg mb-8">
             <p className="mb-2">123 Example Street</p>
             <p className="mb-2">Bhopal, MP, India</p>
             <p className="mb-2">Phone: +91-123-456-7890</p>
@@ -106,7 +106,7 @@ function GetInTouch() {
             <div>
               <label
                 htmlFor="name"
-                className="block text-gray-900 text-lg font-medium mb-2"
+                className="block text-gray-600 text-lg font-medium mb-2"
               >
                 Name:
               </label>
@@ -123,7 +123,7 @@ function GetInTouch() {
             <div>
               <label
                 htmlFor="email"
-                className="block text-gray-900 text-lg font-medium mb-2"
+                className="block text-gray-600 text-lg font-medium mb-2"
               >
                 Email:
               </label>
@@ -140,7 +140,7 @@ function GetInTouch() {
             <div>
               <label
                 htmlFor="phone"
-                className="block text-gray-900 text-lg font-medium mb-2"
+                className="block text-gray-600 text-lg font-medium mb-2"
               >
                 Phone Number:
               </label>
@@ -156,7 +156,7 @@ function GetInTouch() {
             <div>
               <label
                 htmlFor="message"
-                className="block text-gray-900 text-lg font-medium mb-2"
+                className="block text-gray-600 text-lg font-medium mb-2"
               >
                 Message:
               </label>
@@ -173,7 +173,7 @@ function GetInTouch() {
             <div>
               <label
                 htmlFor="company"
-                className="block text-gray-900 text-lg font-medium mb-2"
+                className="block text-gray-600 text-lg font-medium mb-2"
               >
                 Company:
               </label>

@@ -76,7 +76,7 @@ const Devision = () => {
             className="bg-green-100 p-6 rounded-lg shadow-md hover:bg-green-700 hover:text-white  transition-colors duration-300"
           >
             <h3 className="text-xl font-semibold mb-4">{vision.title}:</h3>
-            <p className="text-gray-700">{vision.description}</p>
+            <p className="text-gray-600">{vision.description}</p>
           </div>
         ))}
       </div>

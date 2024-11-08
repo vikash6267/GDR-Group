@@ -22,10 +22,10 @@ const MilkAbout = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl font-extrabold text-gray-800 mb-6">
+            <h2 className="text-4xl font-extrabold text-gray-600 mb-6">
               RRS Liquid Products
             </h2>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-gray-600 mb-4">
               R.R.S. Liquid Products is a company that specializes in the
               production and distribution of high-quality mineral water, ice
               cubes, food drinks, and beverages. Our products are made with the
@@ -34,7 +34,7 @@ const MilkAbout = () => {
               a wide range of products to choose from, including flavored water,
               sports drinks, and healthy beverage options.
             </p>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-gray-600 mb-4">
               Our mineral water is sourced from natural springs and undergoes a
               thorough purification process to ensure that it is free from
               impurities and contaminants. Our ice cubes are made using
@@ -47,7 +47,7 @@ const MilkAbout = () => {
               providing high-quality, delicious, and refreshing products that
               meet the needs of our customers
             </p>
-            <p className="text-lg text-gray-700 mb-6">
+            <p className="text-lg text-gray-600 mb-6">
               If you are looking for a reliable and trusted source for all of
               your liquid product needs, look no further than RS 1 Liquid
               Products. Contact us today to learn more about our products and

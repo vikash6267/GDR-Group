@@ -54,24 +54,26 @@ const Navbar = () => {
       <nav className="bg-white p-4 rounded-b-lg">
         <div className="container mx-auto flex justify-between items-center">
           {/* Menu icon for mobile devices */}
-          <div className="text-black text-xl md:hidden">
+          <div className="text-gray-600 text-xl md:hidden">
             <button onClick={toggleSidebar}>
               {isSidebarOpen ? (
-                <FaTimes className="text-black text-2xl" />
+                <FaTimes className="text-gray-600 text-2xl" />
               ) : (
-                <FaBars className="text-black text-2xl" />
+                <FaBars className="text-gray-600 text-2xl" />
               )}
             </button>
           </div>
           {/* Home/Dashboard text for larger devices */}
-          <div className="text-black text-xl hidden md:block">{pageTitle}</div>
+          <div className="text-gray-600 text-xl hidden md:block">
+            {pageTitle}
+          </div>
           <div className=" w-[50px] h-[50px] lg:w-16 lg:h-16 ">
             <img
               src="https://i.ibb.co/6wtWwqk/nechro-pure-farm-oil-m-p-nagar-bhopal-offset-printers-li1sf7va5d-250.webp"
               alt=""
               className=" object-cover rounded-full"
             />
-            <p className="text-black mt-5">LOGO</p>
+            <p className="text-gray-600 mt-5">LOGO</p>
           </div>
         </div>
       </nav>
@@ -86,13 +88,13 @@ const Navbar = () => {
 
       {/* Sidebar */}
       <div
-        className={`fixed top-0 w-[60%] left-0 h-full bg-white text-black p-4 transition-transform  duration-700 transform z-20 ${
+        className={`fixed top-0 w-[60%] left-0 h-full bg-white text-gray-600 p-4 transition-transform  duration-700 transform z-20 ${
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
         } md:hidden`}
       >
         <div className="flex justify-between items-center mb-8 -mt-2 gap-5">
           <h2 className="text-lg font-bold">Logo</h2>
-          <button onClick={closeSidebar} className="text-black md:hidden">
+          <button onClick={closeSidebar} className="text-gray-600 md:hidden">
             <FaTimes className="text-2xl" />
           </button>
         </div>

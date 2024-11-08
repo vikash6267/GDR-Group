@@ -46,7 +46,7 @@ const Services = () => {
   return (
     <div className="my-16">
       <div className="flex flex-col w-full items-center">
-        <h3 className="text-4xl font-fjalla text-[#33536B]">Our Services</h3>
+        <h3 className="text-4xl font-fjalla text-[#33536B] ">Our Services</h3>
         <div className="flex items-center w-[75px]">
           <div className="h-0.5 bg-[#e2571a]"></div>
           <div className="h-1 w-1 bg-[#e2571a] rounded-full mx-1"></div>
@@ -80,7 +80,7 @@ const Services = () => {
             {/* Hidden content */}
             <div className="absolute inset-0 bg-white flex flex-col justify-center items-center text-center p-4 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out z-20">
               <h2 className="text-xl font-bold">{service.title}</h2>
-              <p className="mt-4 text-gray-800">{service.description}</p>
+              <p className="mt-4 text-gray-600">{service.description}</p>
               <Link
                 to={service.link}
                 className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors duration-300"

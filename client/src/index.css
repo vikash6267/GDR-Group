@@ -13,6 +13,7 @@
 html,
 body {
   overflow-x: hidden;
+  color: gray;
 }
 
 .sub-navbar-container {
@@ -304,15 +305,11 @@ body {
   }
 }
 
-.scroll-right:hover, .scroll-left:hover {
+.scroll-right:hover,
+.scroll-left:hover {
   animation-play-state: paused;
 }
 
-
 /* //ANimation */
 
-
-
 /* styles.css */
-
-

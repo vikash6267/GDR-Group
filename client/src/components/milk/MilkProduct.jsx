@@ -74,7 +74,7 @@ const MilkProduct = () => {
               <h2 className="font-bold text-red-700 text-xl mb-2">
                 {product.title}
               </h2>
-              <h3 className="text-gray-700 text-md mb-4">{product.subtitle}</h3>
+              <h3 className="text-gray-600 text-md mb-4">{product.subtitle}</h3>
               <p className="text-gray-600 text-sm">{product.description}</p>
             </div>
           </div>

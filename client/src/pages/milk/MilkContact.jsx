@@ -112,7 +112,7 @@ const MilkContact = () => {
             <p className="text-center mb-4 text-white text-lg font-semibold">
               srsmilkfood@gdrgroup72.com
             </p>
-            <p className="text-center text-black text-sm">
+            <p className="text-center text-gray-600 text-sm">
               Janki Nagar, Neelkant Mahadev Mandir, Near Mashroom Factory
               Ratibad Bhopal
             </p>

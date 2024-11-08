@@ -11,7 +11,7 @@ import c from "../../assests/gallery/collage.jpeg";
 const FeaturesSection = () => {
   return (
     <section className="container mx-auto px-6 py-8">
-      <h2 className="text-3xl mx-auto w-full text-center font-bold text-gray-800 mb-8">
+      <h2 className="text-3xl mx-auto w-full text-center font-bold text-gray-600 mb-8">
         Why sell and purchase your house with RKS Home?
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto p-5">
@@ -76,7 +76,7 @@ const AnimatedCard = ({ index, imageSrc, heading, details, buttonText }) => {
     >
       <img src={imageSrc} alt="Card" className="w-full h-60 object-cover" />
       <div className="p-6">
-        <h3 className="text-xl font-bold text-center text-gray-800 mb-4">
+        <h3 className="text-xl font-bold text-center text-gray-600 mb-4">
           {heading}
         </h3>
         {/* <p className="text-gray-600 mb-6">{details}</p> */}

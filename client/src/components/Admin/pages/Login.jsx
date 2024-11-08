@@ -107,7 +107,7 @@ function Login() {
             <div className="mb-4">
               <label
                 htmlFor="email"
-                className="block text-xl font-medium text-gray-700"
+                className="block text-xl font-medium text-gray-600"
               >
                 Email
               </label>
@@ -125,7 +125,7 @@ function Login() {
             <div className="mb-4 relative">
               <label
                 htmlFor="password"
-                className="block text-xl font-medium text-gray-700"
+                className="block text-xl font-medium text-gray-600"
               >
                 Password
               </label>

@@ -57,7 +57,7 @@ const GetProduct = () => {
                     />
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap">
-                    <div className="text-sm text-gray-900">{item.title}</div>
+                    <div className="text-sm text-gray-600">{item.title}</div>
                   </td>
 
                   <td className="px-6 py-4 whitespace-nowrap">
