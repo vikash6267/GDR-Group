@@ -1,7 +1,7 @@
 import React from "react";
 import home from "../../../assests/logos/rhome.jpg";
 import milk from "../../../assests/logos/srs.jpg";
-import food from "../../../assests/logos/rfood.jpg";
+import food from "../../../assests/par.jpg";
 import { Slide } from "react-awesome-reveal";
 import prabhash from "../../../assests/logos/home.jpg";
 import n from "../../../assests/nir.jpg";
