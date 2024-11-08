@@ -6,6 +6,7 @@ import WhyUs from "../../components/milk/WhyUs";
 import ContactBanner from "../../components/milk/ContactBanner";
 import Services from "../../components/milk/Services";
 import { Helmet } from "react-helmet";
+import Swipper2 from "../../components/core/Home/Swipper2";
 // import Services from "../../components/core/Home/Services";
 
 const MilkHome = () => {
@@ -21,7 +22,7 @@ const MilkHome = () => {
           content="GDR Group 72: A dynamic conglomerate specializing in Agriculture, Dairy, Farm Land, and Commercial Property with a mission to drive growth in rural communities through innovation and sustainability"
         />
       </Helmet>
-      <Slider />
+      <Swipper2 />
       <Services />
       <ContactBanner />
       <MilkProduct />
