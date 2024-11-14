@@ -24,7 +24,8 @@ const services = [
   },
 
   {
-    image: p,
+    image:
+      "https://c4.wallpaperflare.com/wallpaper/441/38/477/pepper-carnation-spices-diversity-wallpaper-preview.jpg",
     title: "SRS Home Food",
     subtitle: "Best Quality Assurance",
     description:
