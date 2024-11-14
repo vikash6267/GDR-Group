@@ -168,13 +168,13 @@ const Project = () => {
     4: [
       {
         id: 10,
-        name: "Cardamom",
-        src: "https://gdrgroup.in/wp-content/uploads/2023/04/Cardamom.jpg",
+        name: "Sugar Cane Vinegar",
+        src: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQpKpWcpxp5eJBNISi6Y0QsIYVBVo874ikrDfSg3Xh6qTdnG6MDmtUSicPh9gLI84ZgQYG5UN9NrkP_nH-IU1wiaa0jSvYzAsDpue_5GfU&usqp=CAE",
       },
       {
         id: 11,
-        name: "Black-Cumin",
-        src: "https://gdrgroup.in/wp-content/uploads/2023/04/Black-Cumin.jpg",
+        name: "Minralas Water",
+        src: "https://www.netsolwater.com/netsol-water/assets/img/product-images/Is-mineral-water-different-from-packaged-drinking-water.jpg",
       },
     ],
     5: [
