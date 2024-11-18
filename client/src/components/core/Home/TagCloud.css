@@ -1,5 +1,5 @@
 .containercanvas {
-  background: url("https://www.shutterstock.com/image-photo/bhopal-madhya-pradesh-india-december-600nw-2085427558.jpg")
+  background: url("https://as1.ftcdn.net/v2/jpg/04/76/35/16/1000_F_476351699_PioCA914rBzWWwJjuS8S29L3SJwnJmEB.jpg")
     no-repeat center center;
   background-size: cover;
   position: relative;
@@ -13,12 +13,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(
-    243,
-    11,
-    11,
-    0.3
-  ); /* Adjust the opacity to make it darker or lighter */
+ /* Adjust the opacity to make it darker or lighter */
   z-index: 1;
 }
 
@@ -47,29 +42,6 @@
 }
 
 /* Different floating effects for each tag */
-.floating-tag-1 {
-  animation: float1 6s ease-in-out infinite;
-}
-
-.floating-tag-2 {
-  animation: float2 6s ease-in-out infinite;
-}
-
-.floating-tag-3 {
-  animation: float3 5.5s ease-in-out infinite;
-}
-
-.floating-tag-4 {
-  animation: float4 5.5s ease-in-out infinite;
-}
-
-.floating-tag-5 {
-  animation: float5 7s ease-in-out infinite;
-}
-
-.floating-tag-6 {
-  animation: float6 8s ease-in-out infinite;
-}
 
 /* Keyframes for different floating animations with more vertical movement */
 @keyframes float1 {

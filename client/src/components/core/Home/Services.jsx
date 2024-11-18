@@ -49,10 +49,10 @@ const Services = () => {
       <div className="flex flex-col w-full items-center">
         <h3 className="text-4xl font-fjalla text-[#33536B] ">Our Services</h3>
         <div className="flex items-center w-[75px]">
-          <div className="h-0.5 bg-[#e2571a]"></div>
-          <div className="h-1 w-1 bg-[#e2571a] rounded-full mx-1"></div>
-          <div className="h-1 w-1 bg-[#e2571a] rounded-full mx-1"></div>
-          <div className="h-1 w-1 bg-[#e2571a] rounded-full mx-1"></div>
+          <div className="h-0.5 bg-yellow-400"></div>
+          <div className="h-1 w-1 bg-yellow-400 rounded-full mx-1"></div>
+          <div className="h-1 w-1 bg-yellow-400 rounded-full mx-1"></div>
+          <div className="h-1 w-1 bg-yellow-400 rounded-full mx-1"></div>
           <div
             className="h-[4px] rounded-full w-[10px] flex-grow"
             style={{ backgroundColor: "#e2571a" }}
@@ -84,7 +84,7 @@ const Services = () => {
               <p className="mt-4 text-gray-600">{service.description}</p>
               <Link
                 to={service.link}
-                className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors duration-300"
+                className="mt-4 px-4 py-2 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600 transition-colors duration-300"
               >
                 Read More
               </Link>

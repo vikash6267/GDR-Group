@@ -10,7 +10,7 @@ const company = [
   {
     img: home,
     title: "RKS Infrabuild & Homes Pvt LTD",
-    desc: "RKS Homes is a real estate company specializing in the sale of agricultural lands. We are committed to helping our clients find the perfect piece of land for their farming or ranching needs. Our team of real estate professionals has extensive knowledge .",
+    desc: "RKS Homes is a real estate company specializing in the sale of agricultural lands. We are committed to helping our clients find the perfect piece of land for their farming or ranching needs. Our team of real estate professionals has extensive knowledge.",
   },
   {
     img: prabhash,
@@ -20,7 +20,7 @@ const company = [
   {
     img: food,
     title: "SRS Home Food",
-    desc: "SRS Home Food is a company that specializes in selling a wide range of spices and dry food items for home cooking. Our aim is to provide our customers with high-quality products .",
+    desc: "SRS Home Food is a company that specializes in selling a wide range of spices and dry food items for home cooking. Our aim is to provide our customers with high-quality products.",
   },
   {
     img: n,
@@ -50,20 +50,24 @@ const Company = () => {
           {company.map((currElem, index) => (
             <div
               key={index}
-              className="relative card rounded-lg  cursor-pointer group shadow-xl shadow-pink-500 h-96 "
+              className="relative card rounded-lg cursor-pointer group shadow-xl shadow-pink-500 h-auto flex flex-col lg:flex-row gap-4 p-4"
             >
-              <div className="h-full relative">
+              {/* Left side - Image and title */}
+              <div className="flex-shrink-0 w-full lg:w-1/3 h-full relative">
                 <img
                   src={currElem.img}
                   alt={currElem.title}
-                  className="w-full h-full object-cover transition-transform duration-500 ease-in-out transform group-hover:translate-y-[-50%]"
+                  className="w-full h-full object-cover rounded-lg"
                 />
-                <p className="absolute text-center bottom-0 left-0 w-full text-lg font-bold text-white bg-opacity-75 bg-gray-800 p-2 transition-opacity duration-500 ease-in-out group-hover:opacity-0">
-                  {currElem.title}
-                </p>
+                {/* Title Overlay */}
+             
               </div>
-              <div className="absolute inset-0  top-48 flex bg-yellow-500 p-4 text-gray-600 opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100">
-                <p className="z-10 text-sm">{currElem.desc}</p>
+
+              {/* Right side - Description */}
+              <div className="flex-grow bg-gray-100 p-4 rounded-lg shadow-lg bg-opacity-90">
+              <p className="text-lg font-bold text-gray-900 ">{currElem.title}</p>
+               
+                <p className="text-sm text-gray-700">{currElem.desc}</p>
               </div>
             </div>
           ))}
