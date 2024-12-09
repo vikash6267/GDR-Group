@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useState } from "react";
-
+import ReactQuill from "react-quill";
+import "react-quill/dist/quill.snow.css";
 import Swal from "sweetalert2";
 import { toast } from "react-toastify";
 
@@ -8,9 +9,9 @@ const AddBlog = () => {
   const BASE_URL = process.env.REACT_APP_BASE_URL;
   const [formData, setFormData] = useState({
     title: "",
-    desc: "",
     image: null,
   });
+  const [editorHtml, setEditorHtml] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -25,6 +26,10 @@ const AddBlog = () => {
       ...formData,
       image: e.target.files[0],
     });
+  };
+
+  const handleEditorChange = (value) => {
+    setEditorHtml(value);
   };
 
   const handleSubmit = async (e) => {
@@ -42,7 +47,7 @@ const AddBlog = () => {
 
       const formDataToSend = new FormData();
       formDataToSend.append("title", formData.title);
-      formDataToSend.append("desc", formData.desc);
+      formDataToSend.append("desc", editorHtml); // Send description from ReactQuill
       formDataToSend.append("image", formData.image);
 
       const response = await axios.post(
@@ -59,15 +64,15 @@ const AddBlog = () => {
 
       if (response?.data?.success) {
         Swal.fire({
-          title: `Blog created successfully! `,
-          text: `Have a nice day!`,
+          title: "Blog created successfully!",
+          text: "Have a nice day!",
           icon: "success",
         });
         setFormData({
           title: "",
-          desc: "",
           image: null,
         });
+        setEditorHtml(""); // Reset editor content
       }
     } catch (error) {
       Swal.close();
@@ -77,23 +82,24 @@ const AddBlog = () => {
 
   return (
     <>
-      <h1 className="text-blue-600 text-center text-3xl border border-b-2 border-blue-600 pb-2">
+      <h1 className="text-blue-600 text-center text-3xl border-b-2 border-blue-600 pb-2">
         Add Blogs
       </h1>
       <form
         onSubmit={handleSubmit}
-        className="sm:grid grid-cols-1 md:grid-cols-2 md:gap-4 md:mt-20 mt-10"
+        className="flex flex-col space-y-6 mt-10 max-w-3xl mx-auto"
       >
-        <div className="mb-4">
+        {/* Title */}
+        <div>
           <label
             className="block text-gray-600 text-xl font-bold mb-2"
             htmlFor="title"
           >
-            Title : <span className="text-red-500">*</span>
+            Title: <span className="text-red-500">*</span>
           </label>
           <input
             type="text"
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-600 leading-tight focus:outline-none focus:shadow-outline h-[50px] text-2xl"
+            className="shadow appearance-none border rounded w-full py-3 px-4 text-gray-600 leading-tight focus:outline-none focus:shadow-outline text-xl"
             name="title"
             id="title"
             value={formData.title}
@@ -101,25 +107,41 @@ const AddBlog = () => {
             required
           />
         </div>
-        <div className="mb-4">
+
+        {/* Description */}
+        <div>
           <label
-            className="block text-gray-600 text-xl font-bold mb-2"
-            htmlFor="desc"
+            htmlFor="description"
+            className="block font-medium text-gray-700 text-xl mb-2"
           >
-            Description : <span className="text-red-500">*</span>
+            Description: <span className="text-red-500">*</span>
           </label>
-          <input
-            type="text"
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-600 leading-tight focus:outline-none focus:shadow-outline h-[50px] text-2xl"
-            name="desc"
-            id="desc"
-            value={formData.desc}
-            onChange={handleChange}
-            required
+          <ReactQuill
+            theme="snow"
+            value={editorHtml}
+            onChange={handleEditorChange}
+            modules={{
+              toolbar: [
+                [{ header: "1" }, { header: "2" }, { font: [] }],
+                [{ size: ["small", false, "large", "huge"] }],
+                ["bold", "italic", "underline", "strike", "blockquote"],
+                [
+                  { list: "ordered" },
+                  { list: "bullet" },
+                  { indent: "-1" },
+                  { indent: "+1" },
+                ],
+                ["clean"],
+              ],
+            }}
+            className="quill-editor h-[200px]"
           />
         </div>
 
-        <div className="mb-4">
+        <br />
+        <br />
+        {/* Image */}
+        <div>
           <label
             className="block text-gray-600 text-xl font-bold mb-2"
             htmlFor="image"
@@ -127,7 +149,7 @@ const AddBlog = () => {
             Image:
           </label>
           <input
-            className="appearance-none border rounded w-full py-2 px-3 text-gray-600 leading-tight focus:outline-none focus:shadow-outline h-[50px] text-2xl border-none"
+            className="appearance-none border rounded w-full py-3 px-4 text-gray-600 leading-tight focus:outline-none focus:shadow-outline text-xl"
             id="image"
             type="file"
             accept="image/*"
@@ -135,9 +157,10 @@ const AddBlog = () => {
           />
         </div>
 
-        <div className="flex items-center justify-between mt-5">
+        {/* Submit Button */}
+        <div className="flex justify-center">
           <button
-            className="px-8 py-4 bg-black text-white rounded-md text-sm"
+            className="px-6 py-3 bg-blue-600 text-white rounded-md text-xl hover:bg-blue-700 transition"
             type="submit"
           >
             Create Blog
