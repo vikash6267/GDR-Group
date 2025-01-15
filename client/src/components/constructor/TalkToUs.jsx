@@ -10,7 +10,7 @@ const TalkToUs = () => {
       }}
     >
       <div className="text-center p-8 bg-white bg-opacity-75 shadow-xl rounded-lg transform hover:scale-105 transition-transform duration-500 ease-in-out">
-        <h2 className="text-green-600 text-4xl font-bold mb-4">TALK TO US</h2>
+        <h6 className="text-green-600 text-4xl font-bold mb-4">TALK TO US</h6>
         <p className="text-gray-600 text-lg mb-6">
           Have any questions? We are always open to talk about your business,
           new projects, creative opportunities, and how we can help you.

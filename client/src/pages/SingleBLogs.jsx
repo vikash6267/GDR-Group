@@ -47,7 +47,7 @@ const SingleBlog = () => {
             className="flex justify-center items-center  object-cover mx-auto"
           />
           <div className="p-6">
-            <h1 className="text-3xl font-bold mb-2">{singleBlog.title}</h1>
+            <h6 className="text-3xl font-bold mb-2">{singleBlog.title}</h6>
             <br />
             <p dangerouslySetInnerHTML={{ __html: singleBlog?.desc }}></p>
 

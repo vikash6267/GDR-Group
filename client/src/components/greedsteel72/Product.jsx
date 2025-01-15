@@ -54,7 +54,7 @@ const Product = () => {
             <div className="absolute inset-0 bg-black bg-opacity-40 z-10"></div>
             {/* Overlay for Title and Subtitle */}
             <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-center p-4 z-20 transition-transform duration-500 ease-in-out group-hover:translate-x-full">
-              <h2 className="text-xl font-bold">{service.title}</h2>
+              <h6 className="text-xl font-bold">{service.title}</h6>
               <p className="text-sm">{service.subtitle}</p>
             </div>
             {/* Hidden content */}

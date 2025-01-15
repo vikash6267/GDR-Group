@@ -75,7 +75,7 @@ const ContactForm = () => {
 
   return (
     <div className=" mx-auto lg:p-8 p-2 bg-white shadow-lg rounded">
-      {/* <h2 className="text-xl font-semibold mb-4">Contact Us</h2> */}
+      {/* <h6 className="text-xl font-semibold mb-4">Contact Us</h6> */}
       <form onSubmit={handleSubmit}>
         <div className=" flex justify-between">
           <div className="mb-4">

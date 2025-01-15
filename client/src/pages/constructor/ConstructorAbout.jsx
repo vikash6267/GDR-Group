@@ -32,17 +32,17 @@ const ConstructorAbout = () => {
         />
 
         <div className="absolute flex flex-col items-center text-center">
-          <h1 className="text-4xl md:text-6xl text-white font-bold">
+          <h6 className="text-4xl md:text-6xl text-white font-bold">
             Who are we?
-          </h1>
+          </h6>
           <FaChevronDown className="text-white text-3xl mt-4 animate-bounce" />
         </div>
       </div>
       <section className="py-16 bg-white relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-green-700 mb-6">
+          <h6 className="text-4xl font-bold text-green-700 mb-6">
             GDR GROUP 72
-          </h2>
+          </h6>
           <p className="text-lg text-gray-600 leading-relaxed mb-6">
             GDR Group 72 is a group of companies that was established in 2005,
             with a primary focus on the real estate, agricultural construction,

@@ -12,9 +12,9 @@ export function Property() {
 
   return (
     <main className="py-4 overflow-hidden flex flex-col gap-2">
-      <h2 className="text-3xl mx-auto w-full text-center font-bold text-gray-600 mb-8">
+      <h6 className="text-3xl mx-auto w-full text-center font-bold text-gray-600 mb-8">
         RKS home help your to find and sell <br></br>your dream house
-      </h2>
+      </h6>
       <div className=" flex flex-col  bg-white  items-center justify-center relative overflow-hidden">
         <InfiniteMovingCards items={images} direction="left" speed="fast" />
       </div>

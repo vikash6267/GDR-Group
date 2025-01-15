@@ -22,9 +22,9 @@ const GreedSteelAbout = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl font-extrabold text-gray-600 mb-6">
+            <h6 className="text-4xl font-extrabold text-gray-600 mb-6">
               72 GDR Steel
-            </h2>
+            </h6>
             <p className="text-lg text-gray-600 mb-4">
               72 GDR Steel is a company that specializes in the production and
               distribution of high-quality steel products. The company’s main

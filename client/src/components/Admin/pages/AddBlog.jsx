@@ -82,9 +82,9 @@ const AddBlog = () => {
 
   return (
     <>
-      <h1 className="text-blue-600 text-center text-3xl border-b-2 border-blue-600 pb-2">
+      <h6 className="text-blue-600 text-center text-3xl border-b-2 border-blue-600 pb-2">
         Add Blogs
-      </h1>
+      </h6>
       <form
         onSubmit={handleSubmit}
         className="flex flex-col space-y-6 mt-10 max-w-3xl mx-auto"

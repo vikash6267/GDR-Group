@@ -106,7 +106,7 @@ function JobOpening() {
   return (
     <div className="p-6 max-w-4xl mx-auto">
       <div className="mb-6 flex justify-between items-center">
-        <h1 className="text-2xl font-bold">Job Openings</h1>
+        <h6 className="text-2xl font-bold">Job Openings</h6>
         <button
           onClick={() => setShowAddJob(!showAddJob)}
           className="bg-blue-500 text-white px-4 py-2 rounded-lg shadow hover:bg-blue-600 transition flex items-center"
@@ -127,7 +127,7 @@ function JobOpening() {
 
       {showAddJob && (
         <div className="mb-6 p-6 border border-gray-300 rounded-lg shadow-lg bg-white">
-          <h2 className="text-xl font-bold mb-4">Add Job Opening</h2>
+          <h6 className="text-xl font-bold mb-4">Add Job Opening</h6>
           <input
             type="text"
             placeholder="Job Title"

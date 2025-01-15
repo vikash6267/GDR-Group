@@ -52,9 +52,9 @@ const LiquiedButtomSection = () => {
     <section className="bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-extrabold text-gray-600">
+          <h6 className="text-3xl font-extrabold text-gray-600">
             About RRS Liquid Products
-          </h2>
+          </h6>
           <p className="mt-4 text-lg text-gray-600">
             RRS Liquid Products is a premier provider of specialized liquid
             solutions for diverse industries. Our commitment to excellence

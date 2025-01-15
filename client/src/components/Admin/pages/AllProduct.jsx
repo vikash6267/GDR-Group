@@ -38,7 +38,7 @@ const AllNews = () => {
 
   return (
     <div className="p-8  ">
-      <h1 className="text-2xl font-bold mb-4">All News</h1>
+      <h6 className="text-2xl font-bold mb-4">All News</h6>
       <input
         type="text"
         placeholder="Search news..."

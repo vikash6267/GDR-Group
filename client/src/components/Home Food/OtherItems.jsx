@@ -97,9 +97,9 @@ const ItemList = () => {
         <div className="p-6">
           {activeTab === "pulses" && (
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-blue-600">
+              <h6 className="text-2xl font-semibold mb-4 text-blue-600">
                 Types of Pulses
-              </h2>
+              </h6>
               <ul className="list-disc pl-5 space-y-2">
                 {pulses.map((pulse, index) => (
                   <li key={index} className="text-gray-600">
@@ -113,9 +113,9 @@ const ItemList = () => {
 
           {activeTab === "dryFruits" && (
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-blue-600">
+              <h6 className="text-2xl font-semibold mb-4 text-blue-600">
                 Types of Dry Fruits
-              </h2>
+              </h6>
               <ul className="list-disc pl-5 space-y-2">
                 {dryFruits.map((fruit, index) => (
                   <li key={index} className="text-gray-600">
@@ -129,9 +129,9 @@ const ItemList = () => {
 
           {activeTab === "otherItems" && (
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-blue-600">
+              <h6 className="text-2xl font-semibold mb-4 text-blue-600">
                 Other Items
-              </h2>
+              </h6>
               <ul className="list-disc pl-5 space-y-2">
                 {otherItems.map((item, index) => (
                   <li key={index} className="text-gray-600">

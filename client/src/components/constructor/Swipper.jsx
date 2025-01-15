@@ -113,9 +113,9 @@ const Slider = () => {
                 <p className="text-orange-500 text-sm font-bold mb-2">
                   {item.title}
                 </p>
-                <h2 className="text-white text-3xl md:text-5xl font-bold mb-4">
+                <h6 className="text-white text-3xl md:text-5xl font-bold mb-4">
                   {item.headline}
-                </h2>
+                </h6>
                 <p className="text-gray-200 text-lg mb-6">{item.description}</p>
                 <Link
                   to={item.buttonLink}

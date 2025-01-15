@@ -43,7 +43,7 @@ const GetBlog = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h2 className="text-2xl font-semibold mb-4">All Blogs</h2>
+      <h6 className="text-2xl font-semibold mb-4">All Blogs</h6>
       <div className="overflow-x-auto">
         <table className="min-w-full divide-y divide-gray-200">
           <thead className="bg-gray-50">

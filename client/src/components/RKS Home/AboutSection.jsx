@@ -51,9 +51,9 @@ const AboutSection = () => {
     <section className="bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-extrabold text-gray-600">
+          <h6 className="text-3xl font-extrabold text-gray-600">
             About RKS Infrabuild & Homes Pvt. Ltd.
-          </h2>
+          </h6>
           <p className="mt-4 text-lg text-gray-600">
             RKS Homes is a real estate company specializing in the sale of
             agricultural lands. We are committed to helping our clients find the

@@ -42,10 +42,10 @@ const AboutUsPage = () => {
       >
         <div className="bg-gray-100 p-6 space-y-8 bg-opacity-80">
           <section className="space-y-4">
-            <h2 className="text-2xl font-bold flex items-center">
+            <h6 className="text-2xl font-bold flex items-center">
               <MdOutlineSupervisorAccount className="text-blue-500 mr-2" /> OUR
               TEAM
-            </h2>
+            </h6>
             <p>
               Both the employees and business partners have made a major
               contribution to SRS Home Food strong foundation. We are proud to
@@ -64,10 +64,10 @@ const AboutUsPage = () => {
           </section>
 
           <section className="space-y-4">
-            <h2 className="text-2xl font-bold flex items-center">
+            <h6 className="text-2xl font-bold flex items-center">
               <FaHandsHelping className="text-green-500 mr-2" /> RESPONSIBLE:
               ENSURES PRODUCT SUPERIORITY, SAFETY & COST
-            </h2>
+            </h6>
             <p>
               Our honesty and transparency in business are always committed to
               serving our consumers with quality and timely shipment in a very
@@ -89,9 +89,9 @@ const AboutUsPage = () => {
           </section>
 
           <section className="space-y-4">
-            <h2 className="text-2xl font-bold flex items-center">
+            <h6 className="text-2xl font-bold flex items-center">
               <FaLeaf className="text-teal-500 mr-2" /> VALUES & BELIEFS
-            </h2>
+            </h6>
             <p>
               In order to ensure customers feel valued, we discover resolutions
               very precisely, pleasing customers’ needs—both existing and
@@ -113,9 +113,9 @@ const AboutUsPage = () => {
           </section>
 
           <section className="space-y-4">
-            <h2 className="text-2xl font-bold flex items-center">
+            <h6 className="text-2xl font-bold flex items-center">
               <FaGavel className="text-red-500 mr-2" /> BUSINESS ETHICS
-            </h2>
+            </h6>
             <p>
               SRS Home Food' business ethics completely incorporate
               import-export laws & guidelines and operate in a fair, legal, and
@@ -140,9 +140,9 @@ const AboutUsPage = () => {
           </section>
 
           <section className="space-y-4">
-            <h2 className="text-2xl font-bold flex items-center">
+            <h6 className="text-2xl font-bold flex items-center">
               <FaBullseye className="text-purple-500 mr-2" /> Vision
-            </h2>
+            </h6>
             <p>
               From the commencement of the company, we have always stuck to our
               principle: “-The Quality We Trust-”. Our Vision is to provide the
@@ -154,9 +154,9 @@ const AboutUsPage = () => {
           </section>
 
           <section className="space-y-4">
-            <h2 className="text-2xl font-bold flex items-center">
+            <h6 className="text-2xl font-bold flex items-center">
               <FaChartLine className="text-yellow-500 mr-2" /> Mission
-            </h2>
+            </h6>
             <p>
               We want to deliver value to the customer, be profitable, and
               establish leadership in core markets. The Group strives for

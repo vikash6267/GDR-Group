@@ -28,7 +28,7 @@ function Home() {
   return (
     <div>
       <Helmet>
-        <title>GDR Group - Home</title>
+        <title>Farmhouse and Farmland for sale in Bhopal - GDR Group 72</title>
         <meta
           name="description"
           content="GDR Group 72: A dynamic conglomerate specializing in Agriculture, Dairy, Farm Land, and Commercial Property with a mission to drive growth in rural communities through innovation and sustainability"

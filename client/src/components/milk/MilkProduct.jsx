@@ -56,9 +56,9 @@ const products = [
 const MilkProduct = () => {
   return (
     <div className="max-w-7xl mx-auto p-6">
-      <h1 className="text-3xl font-bold text-center mb-8">
+      <h6 className="text-3xl font-bold text-center mb-8">
         ठंडी, गर्मी एवं बरसात के समयानुसार एक्सपर्ट टीम द्वारा तैयार
-      </h1>
+      </h6>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {products.map((product) => (
           <div
@@ -71,9 +71,9 @@ const MilkProduct = () => {
               alt={product.title}
             />
             <div className="p-6">
-              <h2 className="font-bold text-red-700 text-xl mb-2">
+              <h6 className="font-bold text-red-700 text-xl mb-2">
                 {product.title}
-              </h2>
+              </h6>
               <h3 className="text-gray-600 text-md mb-4">{product.subtitle}</h3>
               <p className="text-gray-600 text-sm">{product.description}</p>
             </div>

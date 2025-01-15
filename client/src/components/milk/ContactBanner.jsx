@@ -5,9 +5,9 @@ const ContactBanner = () => {
     <div className="bg-yellow-500 text-white py-8 px-4 md:px-8 rounded-lg shadow-lg my-10">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between">
         <div className="md:w-1/2 mb-4 md:mb-0">
-          <h2 className="text-2xl md:text-3xl font-bold mb-2">
+          <h6 className="text-2xl md:text-3xl font-bold mb-2">
             Become a Dealer or Sub-Dealer
-          </h2>
+          </h6>
           <p className="text-lg mb-4">
             Interested in partnering with us? Contact us today!
           </p>

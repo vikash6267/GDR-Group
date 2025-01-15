@@ -31,10 +31,10 @@ const MilkAbout = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl font-extrabold text-gray-600 mb-6">
+            <h6 className="text-4xl font-extrabold text-gray-600 mb-6">
               SRS Cattle and Milk Food Company owns 2 brands – “Shree Ji 72” &
               “Shree Ji Milk Products“.
-            </h2>
+            </h6>
             <p className="text-lg text-gray-600 mb-4">
               is a manufacturer of milk products like milk, butter, clarified
               butter, cottage cheese, ice cream etc. The company was founded in

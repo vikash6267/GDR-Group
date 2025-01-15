@@ -4,9 +4,9 @@ const PriceTable = () => {
   return (
     <div className="p-4 max-w-7xl mx-auto">
       <div className="mb-8">
-        <h2 className="text-lg font-semibold mb-4">
+        <h6 className="text-lg font-semibold mb-4">
           TMT Saria 10 to 25 mm Price
-        </h2>
+        </h6>
         <table className="w-full border-collapse border border-gray-300">
           <thead>
             <tr>
@@ -47,9 +47,9 @@ const PriceTable = () => {
       </div>
 
       <div className="mb-8">
-        <h2 className="text-lg font-semibold mb-4">
+        <h6 className="text-lg font-semibold mb-4">
           TMT Saria 08 to 32 mm Price
-        </h2>
+        </h6>
         <table className="w-full border-collapse border border-gray-300">
           <thead>
             <tr>
@@ -90,7 +90,7 @@ const PriceTable = () => {
       </div>
 
       <div>
-        <h2 className="text-lg font-semibold mb-4">TMT Saria 6mm Price</h2>
+        <h6 className="text-lg font-semibold mb-4">TMT Saria 6mm Price</h6>
         <table className="w-full border-collapse border border-gray-300">
           <thead>
             <tr>

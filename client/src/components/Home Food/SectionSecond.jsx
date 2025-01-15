@@ -32,7 +32,7 @@ function SecondSection() {
                         <div className="text-5xl text-[#df794d] mb-4 mt-4">
                             {item.icon}
                         </div>
-                        <h2 className="text-xl  mb-2 text-[#33536B] font-sans">{item.title}</h2>
+                        <h6 className="text-xl  mb-2 text-[#33536B] font-sans">{item.title}</h6>
                         <p className=' text-[#5A5A5A] text-[14px]'>{item.desc}</p>
                     </div>
                 ))}

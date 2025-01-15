@@ -39,9 +39,9 @@ function GetInTouch() {
       <div className="flex flex-col lg:flex-row justify-between w-full max-w-7xl p-8 bg-white shadow-xl rounded-lg">
         {/* Left Column: Company Name and Social Media Links */}
         <div className="lg:w-1/2 lg:pr-12 mb-8 lg:mb-0">
-          <h2 className="text-gray-600 text-4xl font-extrabold mb-6">
+          <h6 className="text-gray-600 text-4xl font-extrabold mb-6">
             Get in Touch
-          </h2>
+          </h6>
           <div className="text-gray-600 text-lg">
             <p className="mb-4">Follow us on:</p>
             <ul className="flex space-x-6">
@@ -91,9 +91,9 @@ function GetInTouch() {
 
         {/* Right Column: Address and Contact Form */}
         <div className="lg:w-1/2 lg:pl-12">
-          <h2 className="text-gray-600 text-4xl font-extrabold mb-6">
+          <h6 className="text-gray-600 text-4xl font-extrabold mb-6">
             Contact Us
-          </h2>
+          </h6>
           <div className="text-gray-600 text-lg mb-8">
             <p className="mb-2">123 Example Street</p>
             <p className="mb-2">Bhopal, MP, India</p>

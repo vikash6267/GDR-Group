@@ -102,9 +102,9 @@ const RksContact = () => {
           className="w-full max-h-[85vh] object-cover"
         />
         <div className="absolute lg:bottom-6 -bottom-16 lg:left-6 p-6 bg-transparent bg-opacity-100 shadow-lg rounded-xl border border-gray-300 animate-bounce-vertical transition-transform duration-300 ease-in-out max-w-md w-full">
-          <h2 className="text-2xl font-bold mb-4 text-center text-red-700">
+          <h6 className="text-2xl font-bold mb-4 text-center text-red-700">
             Contact Us
-          </h2>
+          </h6>
           <div className="flex flex-col items-center">
             <p className="text-center mb-2 text-red-700 text-sm">
               Main Offices
@@ -126,9 +126,9 @@ const RksContact = () => {
         </div>
 
         <div className="absolute flex flex-col items-center text-center">
-          <h1 className="text-4xl md:text-6xl text-white font-bold">
+          <h6 className="text-4xl md:text-6xl text-white font-bold">
             Who are we?
-          </h1>
+          </h6>
           <FaChevronDown className="text-white text-3xl mt-4 animate-bounce" />
         </div>
       </div>
@@ -149,7 +149,7 @@ const RksContact = () => {
 
         {/* Form Section */}
         <div className="relative z-10 max-w-4xl mx-auto bg-white shadow-lg p-8 rounded-md mt-20">
-          <h2 className="text-3xl font-semibold mb-4">Get in Touch</h2>
+          <h6 className="text-3xl font-semibold mb-4">Get in Touch</h6>
           <p className="text-gray-600 mb-8">
             The point of using Lorem Ipsum is that it has more-or-less packages
             normal make a type specimen book it has survived.

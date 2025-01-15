@@ -49,9 +49,9 @@ export default function MainSection() {
           variants={containerVariants}
         >
           <motion.div className="lg:w-1/2 lg:mr-4" variants={leftItemVariants}>
-            <h1 className="text-3xl md:text-5xl font-bold text-gray-600 mb-6 text-center lg:text-left">
+            <h6 className="text-3xl md:text-5xl font-bold text-gray-600 mb-6 text-center lg:text-left">
               Explore Some RKS Homes for The Best Properties In Your Bhopal
-            </h1>
+            </h6>
             <p className="text-gray-600 mb-6 text-center lg:text-left">
               Discover premium residences that best suit your needs and
               lifestyle, from elegance to modern luxury in Bhopal.

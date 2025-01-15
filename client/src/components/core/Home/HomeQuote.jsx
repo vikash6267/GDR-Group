@@ -101,10 +101,10 @@ const HomeQuote = () => {
             }}
           >
             <div className="md:col-span-2 text-center">
-              <h2 className="text-red-600 text-xl font-bold">
+              <h6 className="text-red-600 text-xl font-bold">
                 Request a Call Back!
-              </h2>
-              <h1 className="text-3xl font-bold">General Enquiry</h1>
+              </h6>
+              <h6 className="text-3xl font-bold">General Enquiry</h6>
               <p className="text-gray-500">Not sure about your requirements?</p>
             </div>
 
@@ -193,15 +193,15 @@ const HomeQuote = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 max-w-7xl mx-auto gap-5 p-5">
         <div className="bg-yellow-500 text-center p-5 rounded">
-          <h2 className="text-2xl font-bold">1,000+</h2>
+          <h6 className="text-2xl font-bold">1,000+</h6>
           <p>Projects</p>
         </div>
         <div className="bg-green-500 text-center p-5 rounded">
-          <h2 className="text-2xl font-bold">99%</h2>
+          <h6 className="text-2xl font-bold">99%</h6>
           <p>Job Success Score</p>
         </div>
         <div className="bg-red-500 text-center p-5 rounded">
-          <h2 className="text-2xl font-bold">4.9/5.0</h2>
+          <h6 className="text-2xl font-bold">4.9/5.0</h6>
           <p>Rating</p>
         </div>
       </div>

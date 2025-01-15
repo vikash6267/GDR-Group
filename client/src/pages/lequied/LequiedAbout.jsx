@@ -22,9 +22,9 @@ const MilkAbout = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl font-extrabold text-gray-600 mb-6">
+            <h6 className="text-4xl font-extrabold text-gray-600 mb-6">
               RRS Liquid Products
-            </h2>
+            </h6>
             <p className="text-lg text-gray-600 mb-4">
               R.R.S. Liquid Products is a company that specializes in the
               production and distribution of high-quality mineral water, ice

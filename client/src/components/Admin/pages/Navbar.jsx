@@ -93,7 +93,7 @@ const Navbar = () => {
         } md:hidden`}
       >
         <div className="flex justify-between items-center mb-8 -mt-2 gap-5">
-          <h2 className="text-lg font-bold">Logo</h2>
+          <h6 className="text-lg font-bold">Logo</h6>
           <button onClick={closeSidebar} className="text-gray-600 md:hidden">
             <FaTimes className="text-2xl" />
           </button>

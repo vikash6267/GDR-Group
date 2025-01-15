@@ -47,7 +47,7 @@ function Blog() {
       <SubNavbar />
       <Navbar />
       <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold mb-4">List of Articles</h1>
+        <h6 className="text-3xl font-bold mb-4">List of Articles</h6>
         <div className="grid gap-5 md:grid-cols-2  lg:grid-cols-3 max-w-7xl mx-auto p-5 ">
           {blog.map((article, index) => (
             <Link

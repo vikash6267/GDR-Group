@@ -19,7 +19,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto p-5">
         <div className="grid lg:grid-cols-3 gap-5">
           <div className=" ">
-            <h2 className="text-xl font-semibold mb-4">About Us</h2>
+            <h6 className="text-xl font-semibold mb-4">About Us</h6>
             <hr className="my-4" />
             <p>
               GDR Group 72 is a group of companies that was established in 2005,
@@ -39,7 +39,7 @@ const Footer = () => {
           </div>
           <div className="grid  grid-cols-2 gap-8 lg:gap-10 px-5">
             <div className="">
-              <h2 className="text-xl font-semibold mb-4">Our Companies</h2>
+              <h6 className="text-xl font-semibold mb-4">Our Companies</h6>
               <hr className="my-4" />
               <ul className="grid gap-2">
                 <Link to="/construction/home">New RK Construction</Link>
@@ -56,7 +56,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="">
-              <h2 className="text-xl font-semibold mb-4">Quick Links</h2>
+              <h6 className="text-xl font-semibold mb-4">Quick Links</h6>
               <hr className="my-4" />
               <ul className="grid gap-2">
                 <Link to="/">Home</Link>
@@ -71,7 +71,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="px-5">
-            <h2 className="text-xl font-semibold mb-4">Contact Us</h2>
+            <h6 className="text-xl font-semibold mb-4">Contact Us</h6>
             <hr className="my-4" />
             <ul className="grid gap-3  ">
               <li className="flex gap-2">

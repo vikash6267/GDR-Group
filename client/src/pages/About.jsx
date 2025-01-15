@@ -40,9 +40,9 @@ const About = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl font-extrabold text-gray-600 mb-6">
+            <h6 className="text-4xl font-extrabold text-gray-600 mb-6">
               Welcome to <span className="text-blue-600">GDR Group 72</span>
-            </h2>
+            </h6>
             <p className="text-lg text-gray-600 mb-4">
               GDR Group 72 is a dynamic conglomerate engaged in diverse sectors
               including Agriculture, Dairy, Farm Land, and Commercial Property.

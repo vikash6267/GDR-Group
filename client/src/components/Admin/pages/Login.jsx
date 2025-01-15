@@ -101,7 +101,7 @@ function Login() {
 
       <div className="flex items-center justify-center h-[87vh] ">
         <div className="bg-gray-300 hover:bg-gray-200 p-8 rounded-lg shadow-lg lg:w-[25%] h-auto">
-          <h2 className="text-3xl text-center font-semibold mb-4">Login</h2>
+          <h6 className="text-3xl text-center font-semibold mb-4">Login</h6>
           <div className="border border-b-2 border-blue-600 my-3"></div>
           <form onSubmit={handleOnSubmit}>
             <div className="mb-4">

@@ -77,9 +77,9 @@ const AddSlider = () => {
 
   return (
     <>
-      <h1 className="text-blue-600 text-center text-3xl border border-b-2 border-blue-600 pb-2">
+      <h6 className="text-blue-600 text-center text-3xl border border-b-2 border-blue-600 pb-2">
         Add Slider
-      </h1>
+      </h6>
       <form
         onSubmit={handleSubmit}
         className="sm:grid grid-cols-1 md:grid-cols-2 md:gap-4 md:mt-20 mt-10"

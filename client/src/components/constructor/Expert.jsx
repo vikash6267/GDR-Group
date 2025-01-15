@@ -24,8 +24,8 @@ const experts = [
 const Expert = () => {
   return (
     <section className="text-center py-10 bg-gray-100">
-      <h2 className="text-orange-600 text-sm mb-2">ENGINEER</h2>
-      <h1 className="text-4xl font-bold mb-12">Best Construction Experts</h1>
+      <h6 className="text-orange-600 text-sm mb-2">ENGINEER</h6>
+      <h6 className="text-4xl font-bold mb-12">Best Construction Experts</h6>
       <div className="grid lg:grid-cols-3 gap-y-10 p-5 max-w-7xl mx-auto">
         {experts.map((expert, index) => (
           <div

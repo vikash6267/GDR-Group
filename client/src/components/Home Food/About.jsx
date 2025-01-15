@@ -39,9 +39,9 @@ function AboutSection() {
         <p className="text-[#e2571a] font-sans italic text-lg">
           About RKS Infrabuild & Homes Pvt. LTD.
         </p>
-        <h2 className="text-[#33536B] lg:text-4xl md:text-4xl text-2xl font-sans font-bold mt-2 uppercase">
+        <h6 className="text-[#33536B] lg:text-4xl md:text-4xl text-2xl font-sans font-bold mt-2 uppercase">
           Premier Supplier of Grains and Spices Based in Bhopal
-        </h2>
+        </h6>
         <p className="text-[#5A5A5A] mt-2 leading-relaxed text-[12px] lg:text-[14px]">
           RKS Infrabuild & Homes Pvt. LTD. is a dynamic import-export enterprise
           committed to facilitating seamless global trade. With a strong

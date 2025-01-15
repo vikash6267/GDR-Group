@@ -4,11 +4,11 @@ import { InfiniteMovingCards } from "./TestominalSlider";
 export default function TestimonialSection() {
   return (
     <div className="my-10 text-white">
-      <h2 className="text-3xl text-center font-bold text-gray-600 mb-4">
+      <h6 className="text-3xl text-center font-bold text-gray-600 mb-4">
         Over <span className="text-primary text-3xl font-black">1000+</span>{" "}
         happy <br />
         customers
-      </h2>
+      </h6>
       <div className="rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
         <InfiniteMovingCards
           items={testimonials}

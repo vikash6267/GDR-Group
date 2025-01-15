@@ -87,7 +87,7 @@ const Modal = ({ isOpen, toggleModal, onSubmit }) => {
         <div className="pt-32">
           {" "}
           {/* Padding to push form below the image */}
-          <h2 className="text-2xl font-bold mb-4">Enquiry Form</h2>
+          <h6 className="text-2xl font-bold mb-4">Enquiry Form</h6>
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
               <label className="block text-gray-600">Name</label>

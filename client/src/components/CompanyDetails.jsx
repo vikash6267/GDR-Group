@@ -5,9 +5,9 @@ const CompanyDetails = () => {
     <div className="max-w-6xl mx-auto p-6 bg-white  shadow-md rounded-lg">
       {/* Agriculture & Commercial Land */}
       <div className="mb-6 p-6 bg-green-50 hover:bg-blue-400 rounded-lg shadow-sm">
-        <h2 className="text-2xl font-extrabold text-green-800 mb-4">
+        <h6 className="text-2xl font-extrabold text-green-800 mb-4">
           Agriculture & Commercial Land
-        </h2>
+        </h6>
         <p className="text-lg text-gray-600 leading-relaxed">
           At{" "}
           <span className="font-semibold text-green-600">
@@ -20,9 +20,9 @@ const CompanyDetails = () => {
 
       {/* Construction */}
       <div className="mb-6 p-6 bg-blue-50 hover:bg-red-400 rounded-lg shadow-sm">
-        <h2 className="text-2xl font-extrabold text-blue-800 mb-4">
+        <h6 className="text-2xl font-extrabold text-blue-800 mb-4">
           Construction
-        </h2>
+        </h6>
         <p className="text-lg text-gray-600 leading-relaxed">
           <span className="font-semibold text-blue-600">
             New RK Construction{" "}
@@ -44,7 +44,7 @@ const CompanyDetails = () => {
 
       {/* Home Food */}
       <div className="mb-6 p-6 bg-red-50 hover:bg-yellow-400 rounded-lg shadow-sm">
-        <h2 className="text-2xl font-extrabold text-red-800 mb-4">Home Food</h2>
+        <h6 className="text-2xl font-extrabold text-red-800 mb-4">Home Food</h6>
         <p className="text-lg text-gray-600 leading-relaxed">
           <span className="font-semibold text-red-600">SRS Home Food</span>{" "}
           offers a wide range of home food products, including groceries,
@@ -65,9 +65,9 @@ const CompanyDetails = () => {
 
       {/* Cattle Food and Milk Products */}
       <div className="mb-6 p-6 bg-yellow-50 hover:bg-green-400 rounded-lg shadow-sm">
-        <h2 className="text-2xl font-extrabold text-yellow-800 mb-4">
+        <h6 className="text-2xl font-extrabold text-yellow-800 mb-4">
           Cattle Food & Milk Products
-        </h2>
+        </h6>
         <p className="text-lg text-gray-600 leading-relaxed">
           <span className="font-semibold text-yellow-600">
             Nirvdit All Making Products Private Limited

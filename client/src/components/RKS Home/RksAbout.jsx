@@ -37,9 +37,9 @@ const RksAbout = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl font-extrabold text-gray-600 mb-6">
+            <h6 className="text-4xl font-extrabold text-gray-600 mb-6">
               RKS Infrabuild & Homes Pvt. Ltd.{" "}
-            </h2>
+            </h6>
             <p className="text-lg text-gray-600 mb-4">
               RKS Homes is a real estate company specializing in the sale of
               agricultural lands. We are committed to helping our clients find

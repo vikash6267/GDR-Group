@@ -58,9 +58,9 @@ const WhyChooseRISI = () => {
             <div className="flex items-center">
               {section.icon}
               <div>
-                <h2 className="text-xl mb-2 text-[#33536B] font-sans">
+                <h6 className="text-xl mb-2 text-[#33536B] font-sans">
                   {section.title}
-                </h2>
+                </h6>
                 <p className="text-[#5A5A5A] text-sm lg:text-base">
                   {section.description}
                 </p>
