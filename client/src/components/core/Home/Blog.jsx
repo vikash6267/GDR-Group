@@ -22,6 +22,7 @@ import h6 from "../../../assests/home/blog/h6.jpg";
 import h7 from "../../../assests/home/blog/h7.jpg";
 import h8 from "../../../assests/home/blog/h8.jpg";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 const work = [
   {
@@ -131,8 +132,8 @@ const Blog = () => {
         onSlideChange={() => console.log("slide change")}
       >
         {blog.map((item) => (
-          <SwiperSlide key={item.id}>
-            <div className="flex flex-col items-center bg-white shadow-lg rounded-lg overflow-hidden">
+          <SwiperSlide key={item._id}>
+            <Link to={`/news/${item._id}`} className="flex flex-col items-center bg-white shadow-lg rounded-lg overflow-hidden">
               <img
                 src={item.image}
                 alt="Service"
@@ -146,7 +147,7 @@ const Blog = () => {
 </span>
                 </div>
               </div>
-            </div>
+            </Link>
           </SwiperSlide>
         ))}
       </Swiper>
