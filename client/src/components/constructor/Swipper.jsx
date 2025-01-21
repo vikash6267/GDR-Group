@@ -17,6 +17,8 @@ import "swiper/css/effect-fade";
 import { Link } from "react-router-dom";
 
 import image2 from "../../assests/constructor/c2.png";
+import i1 from "../../assests/swipper/1.jpeg"
+import i2 from "../../assests/swipper/2.jpg"
 
 const Slider = () => {
   const [textVisible, setTextVisible] = useState(false);
@@ -30,7 +32,7 @@ const Slider = () => {
     {
       id: 1,
       image:
-        "https://i.pinimg.com/originals/94/41/f2/9441f2efd20b16f02e73b25b43181a8c.jpg",
+       i1,
       title: "Your Vision. Our Mission.",
       headline: "We Help To Build Your Dream",
       description:
@@ -41,7 +43,7 @@ const Slider = () => {
     {
       id: 2,
       image:
-        "https://wallpapers.com/images/hd/real-estate-digital-art-0kmi22tcj2x60lim.jpg",
+       i2,
       title: "Innovative Solutions",
       headline: "Building a Brighter Future",
       description:
