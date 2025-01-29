@@ -17,7 +17,7 @@ const createContactCtrl = async (req, res) => {
         }
 
         const emailRes = await mailSender(
-            "vikasmaheshwari6267@gmail.com",
+            "rkshomes30@gmail.com",
             "New contact form details",
             contactUsEmail(name, email, phone, subject, message)
         )
@@ -52,7 +52,7 @@ const createEnquiryCtrl = async (req, res) => {
         }
 
         const emailRes = await mailSender(
-            "vikasmaheshwari6267@gmail.com",
+            "rkshomes30@gmail.com",
             "New Enquiry",
             enquiryEmail(name, companyName, product, quantity, email, contactNumber, country, state, city, address, phoneCode)
         )
@@ -85,7 +85,7 @@ const getQuotes = async (req, res) => {
         const { name, email, mobile, service, location, message } = req.body;
 
         const emailRes = await mailSender(
-            "vikasmaheshwari6267@gmail.com",
+            "rkshomes30@gmail.com",
             "Your Data send successfully",
             getQuoteEmail(name, email, mobile, service, location, message)
         );
